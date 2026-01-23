@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TL431AIDBZR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TL431AIDBZR" (!) = "", "SOT95P237X112-3N", "SOT23 (3-Pin)", "595-TL431AIDBZR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL431AIDBZR?qs=odmYgEirbww5TG7DvnasYA%3D%3D", "1% Accuracy Adjustable Precision Shunt Regulator", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100034171.pdf", "1.12 mm"
+END_PART
+
+END.

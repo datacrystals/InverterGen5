@@ -1,0 +1,16 @@
+.NSD15-12S12 :1 ;Isolated DC/DC Converters 15W 12V/1.25A W/EMI FILTER
+NSD1512S12
+*STM PS
+*NGS
+*PLB 1="+VIN" 2="-VIN" 4="CONTROL" 6="+VOUT" 7="-VOUT" 8="TRIM"
+*MXP 6
+*DFN NSD15-12S12
+~!Mouser Part Number (709-NSD15-12S12)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/MEAN-WELL/NSD15-12S12?qs=l0g2inPJSHOlwI9uYxJDvg%3D%3D)
+~!Manufacturer_Name (Mean Well)
+~!Manufacturer_Part_Number (NSD15-12S12)
+~!Link Datasheet (https://www.meanwellusa.com/webapp/product/search.aspx?prod=NSD15-S)
+~!Height (9.82mm)
+~!3D_Model (NSD15-12S12)
+NSD15-12S12
+1.1!U 2.1!U 4.1!U 6.1!U 7.1!U 8.1!U 

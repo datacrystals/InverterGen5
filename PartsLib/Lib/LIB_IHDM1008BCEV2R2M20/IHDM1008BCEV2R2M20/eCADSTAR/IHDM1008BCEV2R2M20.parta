@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_16341156"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-02-03-06:24:14)
+    (utime 2025-02-03-06:24:14)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "IHDM1008BCEV2R2M20")
+)
+
+
+(pinAssign "ECS_16341156"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-02-03-06:24:14)
+    (utime 2025-02-03-06:24:14)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_16341156")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "IHDM1008BCEV2R2M20")
+)
+
+
+(part "IHDM1008BCEV2R2M20"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-02-03-06:24:14)
+    (utime 2025-02-03-06:24:14)
+    (packageRef "IHDM1008BCEV2R2M20")
+    (pinAssignRef "ECS_16341156")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "2.2 H Unshielded Drum Core, Wirewound Inductor 63 A 0.7mOhm Max Vertical, 2 PC Pin , 69MHz , -40C ~ 180C")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "IHDM1008BCEV2R2M20")
+    (property "Mouser_Part_Number" "70-IHDM1008BCV2R2M20")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/IHDM1008BCEV2R2M20?qs=XAiT9M5g4x%252Bqlz3WIccdng%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.vishay.com/docs/34522/ihdm-1008bc-x0.pdf")
+    (property "compAreaTopHeight" 22.75)
+)
+
+

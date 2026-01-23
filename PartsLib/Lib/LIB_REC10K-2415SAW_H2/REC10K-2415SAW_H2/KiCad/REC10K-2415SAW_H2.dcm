@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP REC10K-2415SAW_H2
+D 10W DC/DC-Converter 'ECONOLINE' 1"x1" 1.6kV reg 4:1
+K
+F https://recom-power.com/pdf/Econoline/REC10K-AW.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BSS138AKM_QYL'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "BSS138AKM-QYL" (!) = "", "BSS138AKMQYL", "Other", "771-BSS138AKM-QYL", "https://www.mouser.co.uk/ProductDetail/Nexperia/BSS138AKM-QYL?qs=wT7LY0lnAe1Y9Jh16X3Z%2Fg%3D%3D", "BSS138AKM-Q - 60 V, N-channel Trench MOSFET", "https://assets.nexperia.com/documents/data-sheet/BSS138AKM-Q.pdf", "0.5 mm"
+END_PART
+
+END.

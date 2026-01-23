@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=VS-30CDU06HM3/I
+PartCategory=Diode
+PackageCategory=Other
+PinCount=3
+Version=1.3
+Released=2020-01-05 12:36:09
+Downloaded=2025-02-03 01:36:47
+3D=Y

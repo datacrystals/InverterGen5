@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SLPX331M200A1P3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-03-20-11:50:54)
+    (mountForm default
+        (footprintRef "CAPPRD1000W190D2250H2700")
+        (spec "System")
+    )
+)

@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "UVY1E102MPD1TD"
+   (description "Cap Aluminum Lytic 1000uF 25V 20% (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo")
+   (family "CAP")
+   (package "CAPPRD500W60D1025H1750")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf")
+   (attribute "Geometry.Height" "17.5mm")
+   (attribute "Mouser Part Number" "647-UVY1E102MPD1TD")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D")
+   (attribute "Manufacturer_Name" "Nichicon")
+   (attribute "Manufacturer_Part_Number" "UVY1E102MPD1TD")
+   (gate
+    (symbol "UVY1E102MPD1TD")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "UVY1E102MPD1TD"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100) (pt 230 -100) (pt 230 100) (pt 200 100) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 180 50) (pt 140 50))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 70) (pt 160 30))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 0) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 100) (pt 300 -100) (pt 270 -100) (pt 270 100) (pt 300 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CAPPRD500W60D1025H1750"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (circle
+      (pt 8.125 0) (pt -3.125 0)
+     )
+    )
+   )
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt 7.625 0) (pt -2.625 0)
+     )
+    )
+   )
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (circle
+      (pt 7.625 0) (pt -2.625 0)
+     )
+    )
+   )
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 5 0) (padstack 0))
+   (padstack 0
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (round 1.2))
+    (pad (layer INNER) (round 1.2))
+    (pad (layer BCOP) (round 1.2))
+   )
+   (padstack 1
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (square 1.2))
+    (pad (layer INNER) (round 1.2))
+    (pad (layer BCOP) (square 1.2))
+   )
+   (model "UVY1E102MPD1TD.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

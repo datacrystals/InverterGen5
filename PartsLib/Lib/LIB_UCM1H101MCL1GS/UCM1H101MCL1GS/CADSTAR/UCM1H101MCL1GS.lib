@@ -1,0 +1,16 @@
+.UCM1H101MCL1GS :1 ;Nichicon 100uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 6.3 (Dia.) x 7.7mm
+CAPAE660X800N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN UCM1H101MCL1GS
+~!Mouser Part Number (647-UCM1H101MCL1GS)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H101MCL1GS?qs=DSgADHjnLTkk%252B%2Fewo0WoDQ%3D%3D)
+~!Manufacturer_Name (Nichicon)
+~!Manufacturer_Part_Number (UCM1H101MCL1GS)
+~!Link Datasheet (http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf)
+~!Height (8mm)
+~!3D_Model (UCM1H101MCL1GS)
+UCM1H101MCL1GS
+1.1!U 2.1!U 

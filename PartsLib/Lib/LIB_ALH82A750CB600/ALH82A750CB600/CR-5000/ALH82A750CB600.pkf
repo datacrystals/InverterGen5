@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ALH82A750CB600"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ALH82A750CB600")
+        (spec "default")
+    )
+)

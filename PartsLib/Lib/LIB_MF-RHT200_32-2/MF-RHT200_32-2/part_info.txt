@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=MF-RHT200/32-2
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2019-09-11 09:58:34
+Downloaded=2025-12-17 17:21:42
+3D=Y

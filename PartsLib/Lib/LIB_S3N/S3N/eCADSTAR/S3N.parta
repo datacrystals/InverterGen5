@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_894612"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-02-17-12:50:40)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "S3N")
+)
+
+
+(pinAssign "ECS_894612"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-02-17-12:50:40)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_894612")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "S3N")
+)
+
+
+(part "S3N"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-02-17-12:50:40)
+    (utime 2025-01-22-16:53:39)
+    (packageRef "S3N")
+    (pinAssignRef "ECS_894612")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Glass-Passivated Junction.; High Breakdown Voltage Rating; Low-Profile Package; UL Flammability Classification: 94V-0")
+    (property "Mouser_Part_Number" "512-S3N")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/S3N?qs=1e7cUg5%2FiX9vmmrP5FC5Aw%3D%3D")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "S3N")
+    (property "Datasheet_Link" "https://www.onsemi.com/pub/Collateral/S3N-D.PDF")
+    (property "compAreaTopHeight" 2.65)
+)
+
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/473758/1553794/2.50/2/3/Capacitor Polarised/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r350_185" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="72.83464566929" height="137.79527559055" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="80.708661417322" height="145.66929133858" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="72.83464566929" height="137.79527559055" />
+  </padstyle>
+  <footprint name="CAPAE660X800N" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r350_185" originx="-104.33070866142" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="r350_185" originx="104.33070866142" originy="0" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-192.91338582677" originy="153.54330708661" endx="192.91338582677" endy="153.54330708661" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="192.91338582677" originy="153.54330708661" endx="192.91338582677" endy="-153.54330708661" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="192.91338582677" originy="-153.54330708661" endx="-192.91338582677" endy="-153.54330708661" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-192.91338582677" originy="-153.54330708661" endx="-192.91338582677" endy="153.54330708661" width="1.9685039370079" />
+    <line layer="TOP_ASSEMBLY" originx="129.92125984252" originy="129.92125984252" endx="-64.960629921259" endy="129.92125984252" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-64.960629921259" originy="129.92125984252" endx="-129.92125984252" endy="64.960629921259" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-129.92125984252" originy="64.960629921259" endx="-129.92125984252" endy="-64.960629921259" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-129.92125984252" originy="-64.960629921259" endx="-64.960629921259" endy="-129.92125984252" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-64.960629921259" originy="-129.92125984252" endx="129.92125984252" endy="-129.92125984252" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="129.92125984252" originy="-129.92125984252" endx="129.92125984252" endy="129.92125984252" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-173.22834645669" originy="129.92125984252" endx="129.92125984252" endy="129.92125984252" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-64.960629921259" originy="-129.92125984252" endx="129.92125984252" endy="-129.92125984252" width="7.8740157480314" />
+  </footprint>
+  <symbol name="UCM1H101MCL1GS" originx="0" originy="0">
+    <line originx="200" originy="100" endx="200" endy="-100" width="0" />
+    <line originx="230" originy="-100" endx="200" endy="-100" width="0" />
+    <line originx="230" originy="-100" endx="230" endy="100" width="0" />
+    <line originx="200" originy="100" endx="230" endy="100" width="0" />
+    <line originx="180" originy="50" endx="140" endy="50" width="0" />
+    <line originx="160" originy="70" endx="160" endy="30" width="0" />
+    <line originx="100" originy="0" endx="200" endy="0" width="0" />
+    <line originx="300" originy="0" endx="400" endy="0" width="0" />
+    <sympin number="1" originx="100" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-10" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="+" />
+      <text name="pindes" originx="0" originy="10" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="400" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="500" originy="-10" style="Default" rotation="0" justify="upperright" flipped="False" hidden="True" data="-" />
+      <text name="pindes" originx="500" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <polygon type="polygon">
+      <point x="300" y="100" />
+      <point x="300" y="-100" />
+      <point x="270" y="-100" />
+      <point x="270" y="100" />
+    </polygon>
+  </symbol>
+  <component name="UCM1H101MCL1GS" designatorprefix="C" height="314.96062992126" footprint="CAPAE660X800N">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="+" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="-" />
+    <attached_symbol gate="1" name="UCM1H101MCL1GS" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Nichicon 100uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 6.3 (Dia.) x 7.7mm" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="647-UCM1H101MCL1GS" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H101MCL1GS?qs=DSgADHjnLTkk%252B%2Fewo0WoDQ%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Nichicon" />
+    <text name="Manufacturer_Part_Number" originx="350" originy="150" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="UCM1H101MCL1GS" />
+  </component>
+</quadcept_library>

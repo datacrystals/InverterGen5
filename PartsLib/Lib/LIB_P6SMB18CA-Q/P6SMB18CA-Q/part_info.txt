@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=P6SMB18CA-Q
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Diodes Moulded Non Polarised
+PinCount=2
+Version=3.1
+Released=2020-05-15 08:20:12
+Downloaded=2025-02-05 06:54:34
+3D=Y

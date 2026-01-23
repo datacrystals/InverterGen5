@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RC2512JK-071ML
+#/17159803/1553794/2.50/2/3/Resistor
+DEF RC2512JK-071ML R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RC2512JK-071ML" 550 150 50 H V L CNN
+F2 "RESC6431X65N" 550 50 50 H I L CNN
+F3 "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf" 550 -50 50 H I L CNN
+F4 "1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film" 550 -150 50 H I L CNN "Description"
+F5 "0.65" 550 -250 50 H I L CNN "Height"
+F6 "603-RC2512JK-071ML" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/YAGEO/RC2512JK-071ML?qs=Fz%2FrpjPuTcGzVNzRy4mnPw%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "YAGEO" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "RC2512JK-071ML" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#End Library

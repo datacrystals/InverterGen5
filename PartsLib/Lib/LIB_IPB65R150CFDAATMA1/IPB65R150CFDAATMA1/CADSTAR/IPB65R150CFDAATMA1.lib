@@ -1,0 +1,15 @@
+.IPB65R150CFDAATMA1 :1 ;Trans MOSFET N-CH 650V 22.4A Automotive 3-Pin(2+Tab) D2PAK T/R
+IPB65R150CFDAATMA1
+*STM Q
+*NGS
+*PLB 1="G" 2="D" 3="S"
+*MXP 3
+*DFN IPB65R150CFDAATMA1
+~!Mouser Part Number (726-IPB65R150CFDAATM)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=726-IPB65R150CFDAATM)
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (IPB65R150CFDAATMA1)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/IPB65R150CFDAATMA1.pdf)
+~!Height (4.82mm)
+IPB65R150CFDAATMA1
+1.1!U 2.1!U 3.1!U 

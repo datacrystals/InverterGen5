@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "BSS138AKMQYL"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "BSS138AKMQYL")
+        (spec "default")
+    )
+)

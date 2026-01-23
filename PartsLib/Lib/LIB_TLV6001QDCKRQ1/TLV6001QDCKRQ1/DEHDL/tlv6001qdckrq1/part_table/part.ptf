@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLV6001QDCKRQ1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TLV6001QDCKRQ1" (!) = "", "SOT65P210X110-5N", "SOT23 (5-Pin)", "595-TLV6001QDCKRQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV6001QDCKRQ1?qs=qSfuJ%252Bfl%2Fd4YmnuAK2Ksyg%3D%3D", "Low-Power, RRIO, 1-MHz, Operational Amplifier for Cost-Sensitive Systems", "http://www.ti.com/lit/gpn/tlv6001-q1", "1.1 mm"
+END_PART
+
+END.

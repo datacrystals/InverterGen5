@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ACS772ECB200BPFFT"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ACS772ECB200BPFFT")
+        (spec "default")
+    )
+)

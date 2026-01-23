@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=1.5SMC530A
+PartCategory=TVS Diode (Uni-directional)
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=1.1
+Released=2023-04-04 04:22:30
+Downloaded=2025-04-14 03:02:44
+3D=Y

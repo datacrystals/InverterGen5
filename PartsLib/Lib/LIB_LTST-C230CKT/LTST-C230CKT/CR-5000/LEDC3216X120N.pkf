@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LEDC3216X120N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LEDC3216X120N")
+        (spec "default")
+    )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1.5SMC530A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "1.5SMC530A" (!) = "", "DIOM7959X262N", "Diodes Moulded", "576-1.5SMC530A", "https://www.mouser.co.uk/ProductDetail/Littelfuse/1.5SMC530A?qs=HR2RnyOI4E5fyiC%252BOaav6Q%3D%3D", "ESD Suppressors / TVS Diodes 1.5kW 530V 5% Uni-Directional", "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=fca4a2fb-129a-4d31-849b-1393b105dcb5&filename=littelfuse-tvs-diode-1-5smc-datasheet", "2.62 mm"
+END_PART
+
+END.

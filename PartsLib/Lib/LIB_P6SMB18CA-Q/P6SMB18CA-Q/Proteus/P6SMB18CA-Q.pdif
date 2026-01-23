@@ -1,0 +1,114 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "P6SMB18CA-Q"
+   (description "P6SMB-Q Transient Voltage Suppressor Diode Series, Bi-Directional")
+   (family "DIO")
+   (package "DIONM5443X244N")
+   (attribute "Datasheet Link" "https://www.bourns.com/docs/product-datasheets/p6smb-q.pdf?sfvrsn=a8c47bf6_59")
+   (attribute "Geometry.Height" "2.44mm")
+   (attribute "Mouser Part Number" "652-P6SMB18CA-Q")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/P6SMB18CA-Q?qs=%252B6g0mu59x7J8pA%252B%2FYZXG8Q%3D%3D")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "P6SMB18CA-Q")
+   (gate
+    (symbol "P6SMB18CA-Q")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "P6SMB18CA-Q"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 200 -100) (pt 200 100) (pt 400 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 600 -100) (pt 600 100) (pt 400 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -80) (pt 400 80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 360 100) (pt 400 80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -80) (pt 440 -100))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIONM5443X244N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.55 2.535)
+      (pt 3.55 2.535)
+      (pt 3.55 -2.535)
+      (pt -3.55 -2.535)
+      (pt -3.55 2.535))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.7 2.158)
+      (pt 2.7 2.158)
+      (pt 2.7 -2.158)
+      (pt -2.7 -2.158)
+      (pt -2.7 2.158))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.7 2.158)
+      (pt -2.7 2.158))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.7 -2.158)
+      (pt 2.7 -2.158))))
+   (leg 1 (pt -2.2 0) (padstack 0))
+   (leg 2 (pt 2.2 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.15 2.2 0 0 0))
+   )
+   (model "P6SMB18CA-Q.stp"
+    (euler 90 0 0)
+    (offset 0 0 1.309999942779541)
+   )
+  )
+ )
+)

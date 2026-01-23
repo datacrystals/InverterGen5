@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ISO6740FQDWRQ1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "ISO6740FQDWRQ1" (!) = "", "SOIC127P1030X265-16N", "Small Outline Packages", "595-ISO6740FQDWRQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO6740FQDWRQ1?qs=aP1CjGhiNiFi0hvB5PXWVQ%3D%3D", "Automotive, general-purpose, quad-channel, 4/0 digital isolator", "https://www.ti.com/lit/gpn/iso6740-q1", "2.65 mm"
+END_PART
+
+END.

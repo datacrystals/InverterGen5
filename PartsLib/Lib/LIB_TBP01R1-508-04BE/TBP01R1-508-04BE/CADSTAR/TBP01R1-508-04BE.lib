@@ -1,0 +1,16 @@
+.TBP01R1-508-04BE :1 ;2~24 Poles, Pluggable, Receptacle, Horizontal, 5.08 Pitch, Terminal Block Connector
+TBP01R150804BE
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN TBP01R1-508-04BE
+~!Mouser Part Number (490-TBP01R1-508-04BE)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Same-Sky/TBP01R1-508-04BE?qs=PzGy0jfpSMtbuigPwCNi2Q%3D%3D)
+~!Manufacturer_Name (Same Sky)
+~!Manufacturer_Part_Number (TBP01R1-508-04BE)
+~!Link Datasheet (https://www.sameskydevices.com/product/resource/supplyframepdf/tbp01r1-508.pdf)
+~!Height (8.9mm)
+~!3D_Model (TBP01R1-508-04BE)
+TBP01R1-508-04BE
+1.1!U 2.1!U 3.1!U 4.1!U 

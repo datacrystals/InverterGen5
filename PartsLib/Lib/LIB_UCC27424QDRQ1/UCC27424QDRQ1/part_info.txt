@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=UCC27424QDRQ1
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2021-12-28 06:26:07
+Downloaded=2025-02-03 05:44:02
+3D=Y

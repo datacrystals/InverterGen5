@@ -1,0 +1,9 @@
+Manufacturer=Wakefield Thermal
+PartNumber=677-15ABPE
+PartCategory=Hardware
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2021-09-19 14:38:23
+Downloaded=2025-03-25 19:36:25
+3D=Y

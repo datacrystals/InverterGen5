@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "C4AQNBW5200M3LJ"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-02-06-09:42:08)
+    (mountForm default
+        (footprintRef "C4AQNBW5200M3LJ")
+        (spec "System")
+    )
+)

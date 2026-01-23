@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=ALH82A750CB600
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=1.5
+Released=2024-08-08 10:44:52
+Downloaded=2025-02-03 02:07:54
+3D=Y

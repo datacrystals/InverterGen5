@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DE09-PA-M1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-02-21-14:44:48)
+    (mountForm default
+        (footprintRef "DE09PAM1")
+        (spec "System")
+    )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MBRA340T3G'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "MBRA340T3G" (!) = "", "DIOM5226X220N", "Diodes Moulded", "863-MBRA340T3G", "https://www.mouser.co.uk/ProductDetail/onsemi/MBRA340T3G?qs=3JMERSakebq0pjb145uRLw%3D%3D", "Compact Surface Mountable Package with J-Bent Leads; Rectangular Package for Automated Handling; Highly Stable Oxide Passivated Junction; Very Low Forward Voltage Drop; Guardring for Stress Protection; All External Surfaces are Corrosion Resistant and Terminal Leads are Readily Solderable; Cathode Lead Indicated by polarity Band; ESD Ratings, Machine Model = C, Human Body Model = 3B; Device Meets MSL 1 Requirements; AEC-Q101 Qualified and PPAP Capable; NRVBA Prefix for Automotive and Other Applications Requ", "https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF", "2.2 mm"
+END_PART
+
+END.

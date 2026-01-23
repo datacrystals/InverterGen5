@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP2515-e/ST
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=20
+Version=4.1
+Released=2015-04-16 09:48:08
+Downloaded=2025-02-03 11:08:37
+3D=Y

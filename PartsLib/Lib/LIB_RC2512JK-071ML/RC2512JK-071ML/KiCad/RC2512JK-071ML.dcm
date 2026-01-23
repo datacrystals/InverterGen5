@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RC2512JK-071ML
+D 1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film
+K
+F https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf
+$ENDCMP
+#
+#End Doc Library

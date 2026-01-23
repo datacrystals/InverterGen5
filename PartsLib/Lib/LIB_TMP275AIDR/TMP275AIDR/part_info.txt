@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TMP275AIDR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2019-12-31 16:59:18
+Downloaded=2025-03-27 17:37:29
+3D=Y

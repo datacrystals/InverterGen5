@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N5956BRLG
+D Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Surge Rating of 98 Watts @ 1 ms; Maximum Limits Guaranteed On Up To Six Electrical Parameters; Package No Larger Than the Conventional 1 Watt Package Mechanical Characteristics: CASE: Void free, transfer-molded, thermosetting plastic FINISH: All external surfaces are corrosion resistant and leads are readily solderable MAXIMUM LEAD TEMPERATURE FOR SOLDERING PURPOSES:230C, 1/16, from the case for 10 seconds POLARITY: 
+K
+F https://www.onsemi.com/pub/Collateral/1N5913B-D.PDF
+$ENDCMP
+#
+#End Doc Library

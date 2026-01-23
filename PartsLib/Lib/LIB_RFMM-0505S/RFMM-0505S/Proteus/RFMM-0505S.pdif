@@ -1,0 +1,181 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RFMM-0505S"
+   (description "Isolated DC/DC Converters 1W 5Vin 5Vout 200mA SIP7")
+   (family "ANA")
+   (package "RFMM0505S")
+   (attribute "Datasheet Link" "https://www.recom-power.com/pdf/Econoline/RFMM.pdf")
+   (attribute "Geometry.Height" "10.7mm")
+   (attribute "Mouser Part Number" "919-RFMM-0505S")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RFMM-0505S?qs=lYGu3FyN48cLA%2FDlNgurmw%3D%3D")
+   (attribute "Manufacturer_Name" "RECOM Power")
+   (attribute "Manufacturer_Part_Number" "RFMM-0505S")
+   (gate
+    (symbol "RFMM-0505S")
+    (pin "+VIN" 1 PS)
+    (pin "-VIN" 2 PS)
+    (pin "-VOUT" 5 PS)
+    (pin "+VOUT" 7 PS)
+   )
+  )
+  (symbol "RFMM-0505S"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RFMM0505S"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2 -5.78)
+      (pt 17.65 -5.78)
+      (pt 17.65 1.27)
+      (pt -2 1.27)
+      (pt -2 -5.78))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.5 1.27)
+      (pt -2 1.27)
+      (pt -2 1.27)
+      (pt -1.5 1.27)
+      (pt -1.5 1.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 -5.78)
+      (pt 17.65 -5.78)
+      (pt 17.65 -5.78)
+      (pt -2 -5.78)
+      (pt -2 -5.78))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 17.65 1.27)
+      (pt 16.75 1.27)
+      (pt 16.75 1.27)
+      (pt 17.65 1.27)
+      (pt 17.65 1.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 13.75 1.27)
+      (pt 11.75 1.27)
+      (pt 11.75 1.27)
+      (pt 13.75 1.27)
+      (pt 13.75 1.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 8.75 1.27)
+      (pt 4 1.27)
+      (pt 4 1.27)
+      (pt 8.75 1.27)
+      (pt 8.75 1.27))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3 3.5)
+      (pt 18.65 3.5)
+      (pt 18.65 -6.78)
+      (pt -3 -6.78)
+      (pt -3 3.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 1.27)
+      (pt -2 1.27)
+      (pt -2 -5.78)
+      (pt -2 -5.78)
+      (pt -2 1.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 17.65 -5.78)
+      (pt 17.65 -5.78)
+      (pt 17.65 1.27)
+      (pt 17.65 1.27)
+      (pt 17.65 -5.78))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 2.5)
+      (arc (pt 0.000 2.500) (pt -0.050 2.400) (pt 0.050 2.500) (start 180.0) (sweep 90.0))
+      (pt 0 2.4)
+      (arc (pt 0.000 2.400) (pt -0.050 2.400) (pt 0.050 2.500) (start 180.0) (sweep -90.0))
+      (pt 0 2.5)
+      (arc (pt 0.000 2.500) (pt -0.050 2.400) (pt 0.050 2.500) (start 180.0) (sweep 90.0))
+      (pt 0 2.4))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg 5 (pt 10.160 0.000) (padstack 0))
+   (leg 7 (pt 15.240 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.15)
+    (plated true)
+    (pad (layer TCOP) (round 1.725))
+    (pad (layer INNER) (round 1.725))
+    (pad (layer BCOP) (round 1.725))
+   )
+   (model "RFMM-0505S.stp"
+    (euler 90 0 0)
+    (offset 7.829999923706055 -2.119999885559082 0.7300000190734863)
+   )
+  )
+ )
+)

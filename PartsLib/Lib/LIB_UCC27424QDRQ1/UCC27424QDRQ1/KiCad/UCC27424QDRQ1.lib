@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model UCC27424QDRQ1
+#/752232/1553794/2.50/8/3/Integrated Circuit
+DEF UCC27424QDRQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "UCC27424QDRQ1" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/ucc27424-q1" 950 0 50 H I L CNN
+F4 "Automotive Dual 4A High Speed Low-Side MOSFET Driver With Enable" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "595-UCC27424QDRQ1" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27424QDRQ1?qs=3WadRV20yGwTLMr0pUhVuw%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "UCC27424QDRQ1" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ENBA 1 0 0 200 R 50 50 0 0 P
+X INA 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X INB 4 0 -300 200 R 50 50 0 0 P
+X ENBB 8 1100 0 200 L 50 50 0 0 P
+X OUTA 7 1100 -100 200 L 50 50 0 0 P
+X VDD 6 1100 -200 200 L 50 50 0 0 P
+X OUTB 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

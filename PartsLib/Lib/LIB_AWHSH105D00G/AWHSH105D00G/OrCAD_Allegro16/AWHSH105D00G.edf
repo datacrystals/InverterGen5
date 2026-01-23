@@ -1,0 +1,127 @@
+
+(EDIF
+  (rename &AWHSH105D00G "AWHSH105D00G")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 12 15 17 41 21)
+      (dataOrigin "17861032/1553794/2.50/5/4/Relay or Contactor")
+      (program "SamacSys ECAD Model AWHSH105D00G"
+        (version "1.1"))))
+  (library
+  (rename &AWHSH105D00G "AWHSH105D00G")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &AWHSH105D00G "AWHSH105D00G")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "K")
+          (property (rename PACKAGENAME "PackageName") (string "AWHSH105D00G"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "AWHSH105D00G"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "523-AWHSH105D00G"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AWHSH105D00G?qs=rSMjJ%252B1ewcT7jFUGTuCYSw%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Amphenol"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "AWHSH105D00G"))
+          (property (rename &Description "Description") (string "General Purpose Relays Commercial RelayRated Carrying Current :15AType of Sealing : Sealed and Waterproof TypeNumber of pole : one poleCoil Voltage : 5VCoil Type : Standard DC CoilContact Form : Form C"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://g.componentsearchengine.com/Datasheets/0/17861032.pdf"))
+          (property (rename &Height "Height") (string "15.3 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "AWHSH105D00G"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &COIL_1 "COIL_1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &NO "NO")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &NC "NC")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &COIL_2 "COIL_2")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &COM "COM")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &COIL_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &NO (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &NC (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &COIL_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -100) (pt 1100 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -100))))
+            )
+            (portImplementation
+              (name &COM (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -200) (pt 1100 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 900 0)
+                  (pt 900 -400)
+                  (pt 0 -400)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 950 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 950 30))))
+          )
+        )
+      )
+    )
+  )
+)

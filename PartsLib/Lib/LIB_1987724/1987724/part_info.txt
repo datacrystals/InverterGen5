@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1987724
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=4.2
+Released=2020-11-30 12:14:56
+Downloaded=2025-02-02 23:00:06
+3D=Y

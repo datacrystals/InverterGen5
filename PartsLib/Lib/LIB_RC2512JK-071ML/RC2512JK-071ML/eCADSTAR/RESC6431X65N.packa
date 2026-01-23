@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RC2512JK-071ML"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-07-14-11:03:48)
+    (mountForm default
+        (footprintRef "RESC6431X65N")
+        (spec "System")
+    )
+)

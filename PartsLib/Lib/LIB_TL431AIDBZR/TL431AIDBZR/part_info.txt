@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TL431AIDBZR
+PartCategory=Undefined or Miscellaneous
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=1.1
+Released=2019-06-10 09:31:16
+Downloaded=2025-02-03 03:57:26
+3D=Y

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NSD15-12S12"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-08-11-11:25:57)
+    (mountForm default
+        (footprintRef "NSD1512S12")
+        (spec "System")
+    )
+)

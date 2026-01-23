@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'UCC27424QDRQ1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "UCC27424QDRQ1" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "595-UCC27424QDRQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27424QDRQ1?qs=3WadRV20yGwTLMr0pUhVuw%3D%3D", "Automotive Dual 4A High Speed Low-Side MOSFET Driver With Enable", "http://www.ti.com/lit/gpn/ucc27424-q1", "1.75 mm"
+END_PART
+
+END.

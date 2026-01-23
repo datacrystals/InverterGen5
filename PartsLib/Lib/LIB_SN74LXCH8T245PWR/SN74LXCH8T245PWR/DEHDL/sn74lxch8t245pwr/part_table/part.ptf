@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74LXCH8T245PWR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "SN74LXCH8T245PWR" (!) = "", "SOP65P640X120-24N", "Small Outline Packages", "595-SN74LXCH8T245PWR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LXCH8T245PWR?qs=DRkmTr78QAR5S8jD99cT9A%3D%3D", "Translation - Voltage Levels 8-bit dual-supply bus transceiver with configurable voltage translation and 3-state outputs 24-TSSOP -40 to 125", "https://www.ti.com/lit/ds/symlink/sn74lxch8t245.pdf?ts=1618826087506&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74LXCH8T245%253FkeyMatch%253DSN74LXCH8T245PWR%2526tisearch%253Dsearch-everything", "1.2 mm"
+END_PART
+
+END.

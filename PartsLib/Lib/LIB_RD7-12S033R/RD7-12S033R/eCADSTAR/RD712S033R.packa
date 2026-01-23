@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RD7-12S033R"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-10-19-15:20:23)
+    (mountForm default
+        (footprintRef "RD712S033R")
+        (spec "System")
+    )
+)

@@ -1,0 +1,16 @@
+.TJA1050T_CM_118 :1 ;NXP - TJA1050T/CM,118 - CAN TRANSCEIVER, 1TX/RX, SOIC-8
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="TXD" 2="GND" 3="VCC" 4="RXD" 5="VREF" 6="CANL" 7="CANH" 8="S"
+*MXP 8
+*DFN TJA1050T_CM_118
+~!Mouser Part Number (771-TJA1050T/CM118)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/TJA1050T-CM118?qs=5XOdhvmYM0NFFspw0VP5sA%3D%3D)
+~!Manufacturer_Name (NXP)
+~!Manufacturer_Part_Number (TJA1050T/CM,118)
+~!Link Datasheet (http://www.nxp.com/docs/en/data-sheet/TJA1050.pdf)
+~!Height (1.75mm)
+~!3D_Model (TJA1050T_CM,118)
+TJA1050T_CM_118
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

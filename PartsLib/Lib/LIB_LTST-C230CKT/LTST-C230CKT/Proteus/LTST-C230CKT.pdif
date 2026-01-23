@@ -1,0 +1,128 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LTST-C230CKT"
+   (description "Standard LEDs - SMD Red Clear 638nm")
+   (family "DIO")
+   (package "LEDC3216X120N")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "1.2mm")
+   (attribute "Mouser Part Number" "859-LTST-C230CKT")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C230CKT?qs=Ajas4iFhtucdJAOTHdHdqw%3D%3D")
+   (attribute "Manufacturer_Name" "Lite-On")
+   (attribute "Manufacturer_Part_Number" "LTST-C230CKT")
+   (gate
+    (symbol "LTST-C230CKT")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "LTST-C230CKT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 250 100) (pt 150 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 350 100) (pt 250 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 210 170) (pt 180 140) (pt 150 200) (pt 210 170))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 310 170) (pt 280 140) (pt 250 200) (pt 310 170))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 10 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 10 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LEDC3216X120N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.45 1.325)
+      (pt 2.45 1.325)
+      (pt 2.45 -1.325)
+      (pt -2.45 -1.325)
+      (pt -2.45 1.325))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.6 0.8)
+      (pt 1.6 0.8)
+      (pt 1.6 -0.8)
+      (pt -1.6 -0.8)
+      (pt -1.6 0.8))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.6 0.267)
+      (pt -1.067 0.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.5 1.225)
+      (pt -2.35 1.225)
+      (pt -2.35 -1.225)
+      (pt 1.5 -1.225))))
+   (leg 1 (pt -1.5 0) (padstack 0))
+   (leg 2 (pt 1.5 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1 1.75 0 0 90))
+   )
+   (model "LTST-C230CKT.stp"
+    (euler 90 0 0)
+    (offset -0.029999999329447746 0 0)
+   )
+  )
+ )
+)

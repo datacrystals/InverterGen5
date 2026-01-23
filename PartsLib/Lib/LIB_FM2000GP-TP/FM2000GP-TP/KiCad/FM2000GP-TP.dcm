@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FM2000GP-TP
+D Fast Recovery Rectifiers
+K
+F https://www.mccsemi.com/pdf/Products/FM2000GP(SMA).pdf
+$ENDCMP
+#
+#End Doc Library

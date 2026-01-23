@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TJA1050T_CM_118'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "TJA1050T/CM,118" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "771-TJA1050T/CM118", "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/TJA1050T-CM118?qs=5XOdhvmYM0NFFspw0VP5sA%3D%3D", "NXP - TJA1050T/CM,118 - CAN TRANSCEIVER, 1TX/RX, SOIC-8", "http://www.nxp.com/docs/en/data-sheet/TJA1050.pdf", "1.75 mm"
+END_PART
+
+END.

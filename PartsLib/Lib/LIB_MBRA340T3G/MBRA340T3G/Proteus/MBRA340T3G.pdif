@@ -1,0 +1,117 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MBRA340T3G"
+   (description "Compact Surface Mountable Package with J-Bent Leads; Rectangular Package for Automated Handling; Highly Stable Oxide Passivated Junction; Very Low Forward Voltage Drop; Guardring for Stress Protection; All External Surfaces are Corrosion Resistant and Terminal Leads are Readily Solderable; Cathode Lead Indicated by polarity Band; ESD Ratings, Machine Model = C, Human Body Model = 3B; Device Meets MSL 1 Requirements; AEC-Q101 Qualified and PPAP Capable; NRVBA Prefix for Automotive and Other Applications Requ")
+   (family "DIO")
+   (package "DIOM5226X220N")
+   (attribute "Datasheet Link" "https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF")
+   (attribute "Geometry.Height" "2.2mm")
+   (attribute "Mouser Part Number" "863-MBRA340T3G")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MBRA340T3G?qs=3JMERSakebq0pjb145uRLw%3D%3D")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "MBRA340T3G")
+   (gate
+    (symbol "MBRA340T3G")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "MBRA340T3G"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIOM5226X220N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.55 1.71)
+      (pt 3.55 1.71)
+      (pt 3.55 -1.71)
+      (pt -3.55 -1.71)
+      (pt -3.55 1.71))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.605 1.302)
+      (pt 2.605 1.302)
+      (pt 2.605 -1.302)
+      (pt -2.605 -1.302)
+      (pt -2.605 1.302))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.605 0.528)
+      (pt -1.83 1.302))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.605 1.302)
+      (pt -2.925 1.302))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.605 -1.302)
+      (pt 2.605 -1.302))))
+   (leg 1 (pt -2.15 0) (padstack 0))
+   (leg 2 (pt 2.15 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.55 2.3 0 0 0))
+   )
+   (model "MBRA340T3G.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1SMB5956BT3G
+D Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi
+K
+F https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,150 @@
+
+(EDIF
+  (rename &1SMB5956BT3G "1SMB5956BT3G")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 04 26 19 15 25)
+      (dataOrigin "410632/1553794/2.50/2/2/Zener Diode")
+      (program "SamacSys ECAD Model 1SMB5956BT3G"
+        (version "2.3"))))
+  (library
+  (rename &1SMB5956BT3G "1SMB5956BT3G")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &1SMB5956BT3G "1SMB5956BT3G")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Z")
+          (property (rename PACKAGENAME "PackageName") (string "1SMB5956BT3G"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "DIOM5436X247N"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "863-1SMB5956BT3G"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "onsemi"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "1SMB5956BT3G"))
+          (property (rename &Description "Description") (string "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF"))
+          (property (rename &Height "Height") (string "2.47 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "1SMB5956BT3G"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &K "K")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &A "A")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &K)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -100 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -100 -100))))
+            )
+            (portImplementation
+              (name &A)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -100) (pt 500 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 100 -20)
+                  (pt 100 -180)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 100 -20)
+                  (pt 140 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 60 -200)
+                  (pt 100 -180)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 -100)
+                  (pt 100 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 400 -100)
+                  (pt 300 -100)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 100 -100)
+                  (pt 300 0)
+                  (pt 300 -200)
+                  (pt 100 -100)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 300 180))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 300 80))))
+          )
+        )
+      )
+    )
+  )
+)

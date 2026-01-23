@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MMSZ5231B-TP
+D Zener Diodes
+K
+F https://mccsemi.com/pdf/Products/MMSZ5221-MMSZ5267(SOD-123).pdf
+$ENDCMP
+#
+#End Doc Library

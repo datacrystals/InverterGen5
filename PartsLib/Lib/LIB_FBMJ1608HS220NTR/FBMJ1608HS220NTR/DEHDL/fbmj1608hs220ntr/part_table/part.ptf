@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FBMJ1608HS220NTR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TAIYO YUDEN", "FBMJ1608HS220NTR" (!) = "", "BEADC1608X100N", "Ferrite Bead Chip", "963-FBMJ1608HS220NTR", "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/FBMJ1608HS220NTR?qs=qEEMd6hQM8XfqBRLulOo%2FQ%3D%3D", "TAIYO YUDEN - FBMJ1608HS220NTR - FERRITE BEAD, 22 OHM, 7.5A, 0603", "", "1 mm"
+END_PART
+
+END.

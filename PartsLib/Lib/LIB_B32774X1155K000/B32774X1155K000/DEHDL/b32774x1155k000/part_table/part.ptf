@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B32774X1155K000'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TDK", "B32774X1155K000" (!) = "", "B32774X_(31.5_x_12.5)", "Other", "871-B32774X1155K000", "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X1155K000?qs=RcG8xmE7yp0YFv1F2F1e3g%3D%3D", "Metallized Polypropylene Capacitors (MKP/MFP), 1.5uF, 1200V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)", "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf"
+END_PART
+
+END.

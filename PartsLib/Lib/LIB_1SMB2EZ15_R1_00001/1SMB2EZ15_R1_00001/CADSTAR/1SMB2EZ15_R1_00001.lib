@@ -1,0 +1,16 @@
+.1SMB2EZ15_R1_00001 :1 ;Zener Diode 15 V 2 W +/-5% Surface Mount SMB (DO-214AA)
+"1SMB2EZ15_R1_00001"
+*STM Z
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN 1SMB2EZ15_R1_00001
+~!Mouser Part Number (241-1SMB2EZ15R100001)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panjit/1SMB2EZ15_R1_00001?qs=sPbYRqrBIVlScXzJBeNObw%3D%3D)
+~!Manufacturer_Name (PANJIT)
+~!Manufacturer_Part_Number (1SMB2EZ15_R1_00001)
+~!Link Datasheet (https://www.panjit.com.tw/upload/datasheet/1SMB2EZ6.8_SERIES.pdf)
+~!Height (2.44mm)
+~!3D_Model (1SMB2EZ15_R1_00001)
+"1SMB2EZ15_R1_00001"
+1.1!U 2.1!U 

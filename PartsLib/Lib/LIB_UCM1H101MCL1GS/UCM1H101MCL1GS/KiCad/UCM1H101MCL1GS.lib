@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model UCM1H101MCL1GS
+#/473758/1553794/2.50/2/3/Capacitor Polarised
+DEF UCM1H101MCL1GS C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "UCM1H101MCL1GS" 350 150 50 H V L CNN
+F2 "CAPAE660X800N" 350 50 50 H I L CNN
+F3 "http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf" 350 -50 50 H I L CNN
+F4 "Nichicon 100uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 6.3 (Dia.) x 7.7mm" 350 -150 50 H I L CNN "Description"
+F5 "8" 350 -250 50 H I L CNN "Height"
+F6 "647-UCM1H101MCL1GS" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H101MCL1GS?qs=DSgADHjnLTkk%252B%2Fewo0WoDQ%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Nichicon" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "UCM1H101MCL1GS" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

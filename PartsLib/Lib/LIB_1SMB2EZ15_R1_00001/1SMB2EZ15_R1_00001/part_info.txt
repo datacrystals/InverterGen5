@@ -1,0 +1,9 @@
+Manufacturer=PANJIT
+PartNumber=1SMB2EZ15_R1_00001
+PartCategory=Zener Diode
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2023-03-10 09:55:25
+Downloaded=2025-02-02 23:58:22
+3D=Y

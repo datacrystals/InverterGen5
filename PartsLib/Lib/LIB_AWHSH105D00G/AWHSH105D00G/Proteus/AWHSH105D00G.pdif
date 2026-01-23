@@ -1,0 +1,146 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AWHSH105D00G"
+   (description "General Purpose Relays Commercial RelayRated Carrying Current :15AType of Sealing : Sealed and Waterproof TypeNumber of pole : one poleCoil Voltage : 5VCoil Type : Standard DC CoilContact Form : Form C")
+   (family "RLY")
+   (package "AWHSH105D00G")
+   (attribute "Datasheet Link" "https://g.componentsearchengine.com/Datasheets/0/17861032.pdf")
+   (attribute "Geometry.Height" "15.3mm")
+   (attribute "Mouser Part Number" "523-AWHSH105D00G")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AWHSH105D00G?qs=rSMjJ%252B1ewcT7jFUGTuCYSw%3D%3D")
+   (attribute "Manufacturer_Name" "Amphenol")
+   (attribute "Manufacturer_Part_Number" "AWHSH105D00G")
+   (gate
+    (symbol "AWHSH105D00G")
+    (pin "COIL_1" 1 PS)
+    (pin "NO" 2 PS)
+    (pin "NC" 3 NC)
+    (pin "COIL_2" 4 PS)
+    (pin "COM" 5 PS)
+   )
+  )
+  (symbol "AWHSH105D00G"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "AWHSH105D00G"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.4 -1.7)
+      (pt 15.6 -1.7)
+      (pt 15.6 13.7)
+      (pt -3.4 13.7)
+      (pt -3.4 -1.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.4 -1.7)
+      (pt 15.6 -1.7)
+      (pt 15.6 13.7)
+      (pt -3.4 13.7)
+      (pt -3.4 -1.7))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.4 14.7)
+      (pt 16.6 14.7)
+      (pt 16.6 -2.7)
+      (pt -4.4 -2.7)
+      (pt -4.4 14.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4 0)
+      (arc (pt -4.000 0.000) (pt -4.000 -0.050) (pt -3.900 0.050) (start 180.0) (sweep -180.0))
+      (pt -3.9 0)
+      (arc (pt -3.900 0.000) (pt -4.000 -0.050) (pt -3.900 0.050) (start 180.0) (sweep .0))
+      (pt -4 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 12.200 0.000) (padstack 0))
+   (leg 3 (pt 12.200 12.000) (padstack 3))
+   (leg 4 (pt 0.000 12.000) (padstack 4))
+   (leg 5 (pt -2.000 6.000) (padstack 0))
+   (padstack 0
+    (hole 1.3)
+    (plated true)
+    (pad (layer TCOP) (round 1.950))
+    (pad (layer INNER) (round 1.950))
+    (pad (layer BCOP) (round 1.950))
+   )
+   (padstack 1
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (square 1.500))
+   )
+   (padstack 3
+    (hole 1.3)
+    (plated true)
+    (pad (layer TCOP) (round 1.950))
+    (pad (layer INNER) (round 1.950))
+    (pad (layer BCOP) (round 1.950))
+   )
+   (padstack 4
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (model "AWHSH105D00G.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

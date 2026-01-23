@@ -1,0 +1,16 @@
+.ADUM4136BRWZ :1 ;Analog Devices ADUM4136BRWZ Isolated Gate Driver MOSFET Power Driver, 4A 16-Pin, SOIC
+SOIC127P1032X265-16N
+*STM IC
+*NGS
+*PLB 1="VI+" 2="VI-" 3="VDD1" 4="VSS1_1" 5="'RESET'" 6="'FAULT'" 7="READY" 8="VSS1_2" 9="VSS2_1" 10="VSS2_2" 11="VOUT" 12="VDD2_1" 13="VDD2_2" 14="DESAT" 15="VSS2_3" 16="GND2"
+*MXP 16
+*DFN ADUM4136BRWZ
+~!Mouser Part Number (584-ADUM4136BRWZ)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADUM4136BRWZ?qs=k%252BwXAfPrzCnA9iFf%252BwzfLg%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (ADUM4136BRWZ)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/DKDS-11/217546.pdf)
+~!Height (2.65mm)
+~!3D_Model (ADUM4136BRWZ)
+ADUM4136BRWZ
+1.1!I 2.1!I 3.1!P 4.1!G 5.1!I 6.1!Y 7.1!Y 8.1!G 16.1!G 15.1!G 14.1!I 13.1!P 12.1!P 11.1!Y 10.1!G 9.1!G 

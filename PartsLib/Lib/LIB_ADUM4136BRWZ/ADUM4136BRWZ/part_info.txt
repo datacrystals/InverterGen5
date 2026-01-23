@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=ADUM4136BRWZ
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2022-03-23 09:16:53
+Downloaded=2025-12-12 06:34:51
+3D=Y

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RFMM-0505S"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-07-03-10:24:32)
+    (mountForm default
+        (footprintRef "RFMM0505S")
+        (spec "System")
+    )
+)

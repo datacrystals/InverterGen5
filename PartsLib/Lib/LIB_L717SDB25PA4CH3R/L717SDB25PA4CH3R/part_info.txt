@@ -1,0 +1,9 @@
+Manufacturer=Amphenol Communications Solutions
+PartNumber=L717SDB25PA4CH3R
+PartCategory=Connector
+PackageCategory=Other
+PinCount=27
+Version=11.4
+Released=2020-02-20 09:45:32
+Downloaded=2025-04-22 20:56:08
+3D=Y

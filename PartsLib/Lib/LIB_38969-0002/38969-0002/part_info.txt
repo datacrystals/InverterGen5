@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=38969-0002
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.3
+Released=2020-01-28 14:49:29
+Downloaded=2025-03-22 17:29:23
+3D=Y

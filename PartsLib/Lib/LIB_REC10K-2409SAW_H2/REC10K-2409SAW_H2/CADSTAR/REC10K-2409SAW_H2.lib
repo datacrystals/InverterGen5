@@ -1,0 +1,16 @@
+.REC10K-2409SAW_H2 :1 ;10W DC/DC-Converter 'ECONOLINE' 1"x1" 1.6kV reg 4:1
+REC10K-AW
+*STM PS
+*NGS
+*PLB 1="+VIN" 2="-VIN" 3="CTRL" 4="-VOUT" 5="TRIM" 6="+VOUT"
+*MXP 6
+*DFN REC10K-2409SAW_H2
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (RECOM Power)
+~!Manufacturer_Part_Number (REC10K-2409SAW/H2)
+~!Link Datasheet (https://recom-power.com/pdf/Econoline/REC10K-AW.pdf)
+~!Height (10.7mm)
+~!3D_Model (REC10K-2409SAW_H2)
+REC10K-2409SAW_H2
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

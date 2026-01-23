@@ -1,0 +1,16 @@
+.5442251 :1 ;Fixed Terminal Blocks BC-350X9- 3 GN 3.5 MM PITCH
+"5442251"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN 5442251
+~!Mouser Part Number (651-5442251)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/5442251?qs=9Y9qB%2FCsC3kmzTCxovpQiw%3D%3D)
+~!Manufacturer_Name (Phoenix Contact)
+~!Manufacturer_Part_Number (5442251)
+~!Link Datasheet (https://www.phoenixcontact.com/en-gb/products/printed-circuit-board-terminal-bc-350x9-3-gn-5442251)
+~!Height (8.65mm)
+~!3D_Model (5442251)
+"5442251"
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADUM4136BRWZ'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "ADUM4136BRWZ" (!) = "", "SOIC127P1032X265-16N", "Small Outline Packages", "584-ADUM4136BRWZ", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADUM4136BRWZ?qs=k%252BwXAfPrzCnA9iFf%252BwzfLg%3D%3D", "Analog Devices ADUM4136BRWZ Isolated Gate Driver MOSFET Power Driver, 4A 16-Pin, SOIC", "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-11/217546.pdf", "2.65 mm"
+END_PART
+
+END.

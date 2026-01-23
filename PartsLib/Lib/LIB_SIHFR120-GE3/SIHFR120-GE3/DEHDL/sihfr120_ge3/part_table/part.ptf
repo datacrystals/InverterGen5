@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SIHFR120_GE3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "SIHFR120-GE3" (!) = "", "SIHFR120GE3", "Other", "78-SIHFR120-GE3", "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SIHFR120-GE3?qs=FfLXECYddQTykmVhSg2%2FTQ%3D%3D", "MOSFET 100V N-CH", "https://www.mouser.in/datasheet/2/427/91266-1768752.pdf", "2.38 mm"
+END_PART
+
+END.

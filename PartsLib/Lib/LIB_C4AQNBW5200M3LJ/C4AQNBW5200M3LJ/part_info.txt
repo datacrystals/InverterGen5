@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=C4AQNBW5200M3LJ
+PartCategory=Capacitor (4-Pin)
+PackageCategory=Other
+PinCount=4
+Version=2.5
+Released=2024-02-06 09:42:08
+Downloaded=2025-04-22 03:39:19
+3D=Y

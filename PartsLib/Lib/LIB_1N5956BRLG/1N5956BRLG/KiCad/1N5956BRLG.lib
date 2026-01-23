@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1N5956BRLG
+#/2748805/1553794/2.50/2/2/Zener Diode
+DEF 1N5956BRLG Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L CNN
+F1 "1N5956BRLG" 400 250 50 H V L CNN
+F2 "DIOAD1405W86L465D235" 400 150 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/1N5913B-D.PDF" 400 50 50 H I L CNN
+F4 "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Surge Rating of 98 Watts @ 1 ms; Maximum Limits Guaranteed On Up To Six Electrical Parameters; Package No Larger Than the Conventional 1 Watt Package Mechanical Characteristics: CASE: Void free, transfer-molded, thermosetting plastic FINISH: All external surfaces are corrosion resistant and leads are readily solderable MAXIMUM LEAD TEMPERATURE FOR SOLDERING PURPOSES:230C, 1/16, from the case for 10 seconds POLARITY: " 400 -50 50 H I L CNN "Description"
+F5 "" 400 -150 50 H I L CNN "Height"
+F6 "863-1N5956BRLG" 400 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/onsemi/1N5956BRLG?qs=y2kkmE52mdPMXQTkwwt%252Bow%3D%3D" 400 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "onsemi" 400 -450 50 H I L CNN "Manufacturer_Name"
+F9 "1N5956BRLG" 400 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library

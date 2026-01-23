@@ -1,0 +1,144 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BSS138AKM-QYL"
+   (description "BSS138AKM-Q - 60 V, N-channel Trench MOSFET")
+   (family "TRX")
+   (package "BSS138AKMQYL")
+   (attribute "Datasheet Link" "https://assets.nexperia.com/documents/data-sheet/BSS138AKM-Q.pdf")
+   (attribute "Geometry.Height" "0.5mm")
+   (attribute "Mouser Part Number" "771-BSS138AKM-QYL")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BSS138AKM-QYL?qs=wT7LY0lnAe1Y9Jh16X3Z%2Fg%3D%3D")
+   (attribute "Manufacturer_Name" "Nexperia")
+   (attribute "Manufacturer_Part_Number" "BSS138AKM-QYL")
+   (gate
+    (symbol "BSS138AKM-QYL")
+    (pin "G" 1 PS)
+    (pin "D" 3 PS)
+    (pin "S" 2 PS)
+   )
+  )
+  (symbol "BSS138AKM-QYL"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 100) (pt 100 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 300 300))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0) (pt 200 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 230 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 230 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 220) (pt 230 180))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 -20) (pt 230 20))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 80) (pt 230 120))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 230 100) (pt 270 120) (pt 270 80) (pt 230 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 80 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 400) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 -200) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "BSS138AKMQYL"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.492 0.293)
+      (pt 0.492 0.293)
+      (pt 0.492 -0.293)
+      (pt -0.492 -0.293)
+      (pt -0.492 0.293))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.55 1.35)
+      (pt 1.55 1.35)
+      (pt 1.55 -1.35)
+      (pt -1.55 -1.35)
+      (pt -1.55 1.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 0.225)
+      (arc (pt -1.000 0.225) (pt -1.100 0.175) (pt -1.000 0.275) (start 180.0) (sweep .0))
+      (pt -1.1 0.225)
+      (arc (pt -1.100 0.225) (pt -1.100 0.175) (pt -1.000 0.275) (start 180.0) (sweep 180.0))
+      (pt -1 0.225))))
+   (leg 1 (pt -0.350 0.225) (padstack 0))
+   (leg 2 (pt -0.350 -0.225) (padstack 0))
+   (leg 3 (pt 0.350 0.000) (padstack 3))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.250 0.400 0 0 0.000))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 0.700 0 0 90.000))
+   )
+   (model "BSS138AKM-QYL.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

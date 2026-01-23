@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCD57084DR2G
+D High Peak Output Current (+7 A/-7 A); Short Propagation Delays with Accurate Matching; High Transient & Electromagnetic Immunity; 2.5 KVrms On-Chip Galvanic Isolation; Wide Bias Voltage Ranges and Input Voltage Range
+K
+F https://www.onsemi.com/pub/Collateral/NCD57084-D.PDF
+$ENDCMP
+#
+#End Doc Library

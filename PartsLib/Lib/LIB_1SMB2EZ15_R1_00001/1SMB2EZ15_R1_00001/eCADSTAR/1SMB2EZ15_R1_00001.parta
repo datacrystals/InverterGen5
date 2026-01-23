@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_13729971"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-10-09:55:25)
+    (utime 2023-03-11-06:26:31)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "1SMB2EZ15_R1_00001")
+)
+
+
+(pinAssign "ECS_13729971"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-10-09:55:25)
+    (utime 2023-03-11-06:26:31)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_13729971")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1SMB2EZ15_R1_00001")
+)
+
+
+(part "1SMB2EZ15_R1_00001"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-10-09:55:25)
+    (utime 2023-03-11-06:26:31)
+    (packageRef "1SMB2EZ15_R1_00001")
+    (pinAssignRef "ECS_13729971")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "Z")
+    (property "description" "Zener Diode 15 V 2 W +/-5% Surface Mount SMB (DO-214AA)")
+    (property "Mouser_Part_Number" "241-1SMB2EZ15R100001")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/1SMB2EZ15_R1_00001?qs=sPbYRqrBIVlScXzJBeNObw%3D%3D")
+    (property "Manufacturer_Name" "PANJIT")
+    (property "Manufacturer_Part_Number" "1SMB2EZ15_R1_00001")
+    (property "Datasheet_Link" "https://www.panjit.com.tw/upload/datasheet/1SMB2EZ6.8_SERIES.pdf")
+    (property "compAreaTopHeight" 2.44)
+)
+
+

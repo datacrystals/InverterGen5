@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L717SDB25PA4CH3R
+D Dsub, Stamped Signal 3A, Right Angle PCB Through Hole, FP=8.08mm (0.318in), Row Pitch 2.84mm, 25 Pin, Flash Gold, Bright Tin Shell+Grounding Dimples, M3 Rear Insert, Ground Tab with Boardlock
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/l717sdxxxpa4ch3r.pdf
+$ENDCMP
+#
+#End Doc Library

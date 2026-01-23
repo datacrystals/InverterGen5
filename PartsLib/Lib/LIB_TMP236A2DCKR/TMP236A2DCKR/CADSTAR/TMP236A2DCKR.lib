@@ -1,0 +1,16 @@
+.TMP236A2DCKR :1 ;+/-2.5C analog output temperature sensor, with 19.5mV/C gain
+SOT65P210X110-5N
+*STM IC
+*NGS
+*PLB 1="NC_1" 2="GND" 3="VOUT" 4="VDD" 5="NC_2"
+*MXP 5
+*DFN TMP236A2DCKR
+~!Mouser Part Number (595-TMP236A2DCKR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMP236A2DCKR?qs=%252BEew9%252B0nqrAE5COBF10gEQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TMP236A2DCKR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tmp236)
+~!Height (1.1mm)
+~!3D_Model (TMP236A2DCKR)
+TMP236A2DCKR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

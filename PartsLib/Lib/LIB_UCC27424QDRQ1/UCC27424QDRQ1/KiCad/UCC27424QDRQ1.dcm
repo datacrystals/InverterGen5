@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UCC27424QDRQ1
+D Automotive Dual 4A High Speed Low-Side MOSFET Driver With Enable
+K
+F http://www.ti.com/lit/gpn/ucc27424-q1
+$ENDCMP
+#
+#End Doc Library

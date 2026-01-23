@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX22530AWE+
+D Field-Side Self-Powered, 4-Channel, 12-bit, Isolated ADC
+K
+F https://www.analog.com/MAX22530/datasheet
+$ENDCMP
+#
+#End Doc Library

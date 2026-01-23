@@ -1,0 +1,268 @@
+(footprint "FZ400R12KE4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -22.5 -9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "27e54675-0d32-4df5-b5bd-a47ffdb87b21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FZ400R12KE4"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb730005-2345-42ef-b9b1-d44afafe9983")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a7d1e2e-9c05-4ab3-877a-b829e5350f02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b11ed6a9-b557-4837-882e-5ed9cedf3f14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -65 -12.5)
+		(end 40 32.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a3f16700-8f5f-4111-8d55-b0f9db6b80ac")
+	)
+	(fp_circle
+		(center -44 0)
+		(end -34 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "1bd73595-e332-4bea-9e27-faf81de4f916")
+	)
+	(fp_circle
+		(center -20 20)
+		(end -10 20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "d9fa06ed-8d73-44c0-b4e6-1cb14b39d93a")
+	)
+	(fp_rect
+		(start -65 -12.5)
+		(end 40 32.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "d9d5f1c7-ced3-41e6-8d4d-b0aa50f0d072")
+	)
+	(fp_poly
+		(pts
+			(xy -65 -13) (xy -33 -13) (xy -33 8) (xy -10 8) (xy -10 -12) (xy 40 -12) (xy 40 12) (xy -7 12) (xy -7 32)
+			(xy -41 32) (xy -41 12) (xy -65 12)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8ae79b1c-374e-4a1e-a400-0c6a89c48c0a")
+	)
+	(fp_text user "GATE"
+		(at -35 28 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "09bdca23-96fd-4389-8128-b6ac912e4340")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "EMITTER"
+		(at -59 8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2b8a2473-70e4-403a-8646-731f68d50307")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "EMITTER"
+		(at 0 11 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "33d585d4-c320-4400-a399-b81c8f5394f4")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "COLLECTOR"
+		(at 29 11 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "46a3a39a-6548-44af-89bc-f8480b4d9144")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "FZ400R12KE4, 1200V, 400A IGBT"
+		(at -23 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7385e500-50ca-4e1a-b4eb-79cd078c6bc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -22.5 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6e4969a3-0a36-48ab-90b2-6ff52688a04c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text_box "MOUNTING INSTRUCTIONS:\n\nSOLDER WIRE WITH RING CRIMP TO PAD, USE SCREWDRIVER TO ATTACH RING CRIMP TO MODULE\n\nTIGHTEN TO 2 NEWTON-METERS"
+		(start -63 13)
+		(end -41 29)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.SilkS")
+		(uuid "7fc1ee4e-78c2-4d66-a178-1954828f034c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 29 0)
+		(size 16 20)
+		(drill 6.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.0625)
+		(thermal_bridge_angle 45)
+		(uuid "84525f76-fdd5-432b-b71f-66b6b40eb5af")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 16 20)
+		(drill 6.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.0625)
+		(thermal_bridge_angle 45)
+		(uuid "7591c0e9-19de-4893-bb7d-8b260bb9621c")
+	)
+	(pad "3" thru_hole roundrect
+		(at -35 20 90)
+		(size 14 8)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.0625)
+		(thermal_bridge_angle 45)
+		(uuid "7d9c304b-b20a-4bf2-84d7-ea176d365f21")
+	)
+	(pad "5" thru_hole roundrect
+		(at -59 0 90)
+		(size 14 8)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.0625)
+		(thermal_bridge_angle 45)
+		(uuid "f35707fc-2dfb-4ee2-86f1-428886e501cc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PartsLib/3D/FZ400R12KE4.stp"
+		(offset
+			(xyz 0 0 -38.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

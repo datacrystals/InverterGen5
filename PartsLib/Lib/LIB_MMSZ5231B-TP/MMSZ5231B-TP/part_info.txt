@@ -1,0 +1,9 @@
+Manufacturer=MCC
+PartNumber=MMSZ5231B-TP
+PartCategory=Zener Diode
+PackageCategory=Small Outline Diode
+PinCount=2
+Version=7.1
+Released=2021-01-11 10:23:12
+Downloaded=2025-02-04 02:51:33
+3D=Y

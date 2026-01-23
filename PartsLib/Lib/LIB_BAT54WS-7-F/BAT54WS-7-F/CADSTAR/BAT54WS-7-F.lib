@@ -1,0 +1,16 @@
+.BAT54WS-7-F :1 ;Diodes Inc BAT54WS-7-F, SMT Schottky Switching Diode, 30V 200mA, 5ns, 2-Pin SOD-323
+SOD2513X120N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN BAT54WS-7-F
+~!Mouser Part Number (621-BAT54WS-F)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BAT54WS-7-F?qs=BJo294706GxanB6a%2FKrrdw%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (BAT54WS-7-F)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/BAT54WS.pdf)
+~!Height (1.2mm)
+~!3D_Model (BAT54WS-7-F)
+BAT54WS-7-F
+1.1!U 2.1!U 

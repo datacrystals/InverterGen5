@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/254055/1553794/2.50/38/3/Integrated Circuit/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;16-Bit, 500kSPS, 8-Ch SAR ADC With Bipolar Inputs Using 5V Supply and Low-Drift VREF&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOP50P640X120-38M">
+<description>&lt;b&gt;DBT&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.038" y="4.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="2" x="-3.038" y="4" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="3" x="-3.038" y="3.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="4" x="-3.038" y="3" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="5" x="-3.038" y="2.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="6" x="-3.038" y="2" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="7" x="-3.038" y="1.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="8" x="-3.038" y="1" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="9" x="-3.038" y="0.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="10" x="-3.038" y="0" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="11" x="-3.038" y="-0.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="12" x="-3.038" y="-1" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="13" x="-3.038" y="-1.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="14" x="-3.038" y="-2" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="15" x="-3.038" y="-2.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="16" x="-3.038" y="-3" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="17" x="-3.038" y="-3.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="18" x="-3.038" y="-4" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="19" x="-3.038" y="-4.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="20" x="3.038" y="-4.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="21" x="3.038" y="-4" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="22" x="3.038" y="-3.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="23" x="3.038" y="-3" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="24" x="3.038" y="-2.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="25" x="3.038" y="-2" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="26" x="3.038" y="-1.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="27" x="3.038" y="-1" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="28" x="3.038" y="-0.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="29" x="3.038" y="0" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="30" x="3.038" y="0.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="31" x="3.038" y="1" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="32" x="3.038" y="1.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="33" x="3.038" y="2" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="34" x="3.038" y="2.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="35" x="3.038" y="3" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="36" x="3.038" y="3.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="37" x="3.038" y="4" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<smd name="38" x="3.038" y="4.5" dx="1.675" dy="0.3" layer="1" rot="R0"/>
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-4.375" y1="5.4" x2="4.375" y2="5.4" width="0.05" layer="51"/>
+<wire x1="4.375" y1="5.4" x2="4.375" y2="-5.4" width="0.05" layer="51"/>
+<wire x1="4.375" y1="-5.4" x2="-4.375" y2="-5.4" width="0.05" layer="51"/>
+<wire x1="-4.375" y1="-5.4" x2="-4.375" y2="5.4" width="0.05" layer="51"/>
+<wire x1="-2.2" y1="4.85" x2="2.2" y2="4.85" width="0.1" layer="51"/>
+<wire x1="2.2" y1="4.85" x2="2.2" y2="-4.85" width="0.1" layer="51"/>
+<wire x1="2.2" y1="-4.85" x2="-2.2" y2="-4.85" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="-4.85" x2="-2.2" y2="4.85" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="4.35" x2="-1.7" y2="4.85" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="4.85" x2="1.85" y2="4.85" width="0.2" layer="21"/>
+<wire x1="1.85" y1="4.85" x2="1.85" y2="-4.85" width="0.2" layer="21"/>
+<wire x1="1.85" y1="-4.85" x2="-1.85" y2="-4.85" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="-4.85" x2="-1.85" y2="4.85" width="0.2" layer="21"/>
+<wire x1="-3.875" y1="5" x2="-2.2" y2="5" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ADS8688AIDBT">
+<wire x1="5.08" y1="2.54" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-48.26" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-48.26" x2="5.08" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-48.26" width="0.254" layer="94"/>
+<text x="34.29" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="34.29" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="SDI" x="0" y="0" length="middle" direction="io" rot="R0"/>
+<pin name="!RST!/!PD" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="DAISY" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="!REFSEL" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="REFIO" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="REFGND" x="0" y="-12.7" length="middle" direction="io" rot="R0"/>
+<pin name="REFCAP" x="0" y="-15.24" length="middle" direction="io" rot="R0"/>
+<pin name="AGND_1" x="0" y="-17.78" length="middle" direction="io" rot="R0"/>
+<pin name="AVDD_1" x="0" y="-20.32" length="middle" direction="io" rot="R0"/>
+<pin name="AUX_IN" x="0" y="-22.86" length="middle" direction="io" rot="R0"/>
+<pin name="AUX_GND" x="0" y="-25.4" length="middle" direction="io" rot="R0"/>
+<pin name="AIN_6P" x="0" y="-27.94" length="middle" direction="io" rot="R0"/>
+<pin name="AIN_6GND" x="0" y="-30.48" length="middle" direction="io" rot="R0"/>
+<pin name="AIN_7P" x="0" y="-33.02" length="middle" direction="io" rot="R0"/>
+<pin name="AIN_7GND" x="0" y="-35.56" length="middle" direction="io" rot="R0"/>
+<pin name="AIN_0P" x="0" y="-38.1" length="middle" direction="io" rot="R0"/>
+<pin name="AIN_0GND" x="0" y="-40.64" length="middle" direction="io" rot="R0"/>
+<pin name="AIN_1P" x="0" y="-43.18" length="middle" direction="io" rot="R0"/>
+<pin name="AIN_1GND" x="0" y="-45.72" length="middle" direction="io" rot="R0"/>
+<pin name="!CS" x="38.1" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="SCLK" x="38.1" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="SDO" x="38.1" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="ALARM" x="38.1" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="DVDD" x="38.1" y="-10.16" length="middle" direction="io" rot="R180"/>
+<pin name="DGND" x="38.1" y="-12.7" length="middle" direction="io" rot="R180"/>
+<pin name="AGND_5" x="38.1" y="-15.24" length="middle" direction="io" rot="R180"/>
+<pin name="AGND_4" x="38.1" y="-17.78" length="middle" direction="io" rot="R180"/>
+<pin name="AVDD_2" x="38.1" y="-20.32" length="middle" direction="io" rot="R180"/>
+<pin name="AGND_3" x="38.1" y="-22.86" length="middle" direction="io" rot="R180"/>
+<pin name="AGND_2" x="38.1" y="-25.4" length="middle" direction="io" rot="R180"/>
+<pin name="AIN_5P" x="38.1" y="-27.94" length="middle" direction="io" rot="R180"/>
+<pin name="AIN_5GND" x="38.1" y="-30.48" length="middle" direction="io" rot="R180"/>
+<pin name="AIN_4P" x="38.1" y="-33.02" length="middle" direction="io" rot="R180"/>
+<pin name="AIN_4GND" x="38.1" y="-35.56" length="middle" direction="io" rot="R180"/>
+<pin name="AIN_3P" x="38.1" y="-38.1" length="middle" direction="io" rot="R180"/>
+<pin name="AIN_3GND" x="38.1" y="-40.64" length="middle" direction="io" rot="R180"/>
+<pin name="AIN_2P" x="38.1" y="-43.18" length="middle" direction="io" rot="R180"/>
+<pin name="AIN2_GND" x="38.1" y="-45.72" length="middle" direction="io" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ADS8688AIDBT" prefix="IC">
+<description>&lt;b&gt;16-Bit, 500kSPS, 8-Ch SAR ADC With Bipolar Inputs Using 5V Supply and Low-Drift VREF&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/gpn/ads8688a"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ADS8688AIDBT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP50P640X120-38M">
+<connects>
+<connect gate="G$1" pin="SDI" pad="1"/>
+<connect gate="G$1" pin="!RST!/!PD" pad="2"/>
+<connect gate="G$1" pin="DAISY" pad="3"/>
+<connect gate="G$1" pin="!REFSEL" pad="4"/>
+<connect gate="G$1" pin="REFIO" pad="5"/>
+<connect gate="G$1" pin="REFGND" pad="6"/>
+<connect gate="G$1" pin="REFCAP" pad="7"/>
+<connect gate="G$1" pin="AGND_1" pad="8"/>
+<connect gate="G$1" pin="AVDD_1" pad="9"/>
+<connect gate="G$1" pin="AUX_IN" pad="10"/>
+<connect gate="G$1" pin="AUX_GND" pad="11"/>
+<connect gate="G$1" pin="AIN_6P" pad="12"/>
+<connect gate="G$1" pin="AIN_6GND" pad="13"/>
+<connect gate="G$1" pin="AIN_7P" pad="14"/>
+<connect gate="G$1" pin="AIN_7GND" pad="15"/>
+<connect gate="G$1" pin="AIN_0P" pad="16"/>
+<connect gate="G$1" pin="AIN_0GND" pad="17"/>
+<connect gate="G$1" pin="AIN_1P" pad="18"/>
+<connect gate="G$1" pin="AIN_1GND" pad="19"/>
+<connect gate="G$1" pin="AIN2_GND" pad="20"/>
+<connect gate="G$1" pin="AIN_2P" pad="21"/>
+<connect gate="G$1" pin="AIN_3GND" pad="22"/>
+<connect gate="G$1" pin="AIN_3P" pad="23"/>
+<connect gate="G$1" pin="AIN_4GND" pad="24"/>
+<connect gate="G$1" pin="AIN_4P" pad="25"/>
+<connect gate="G$1" pin="AIN_5GND" pad="26"/>
+<connect gate="G$1" pin="AIN_5P" pad="27"/>
+<connect gate="G$1" pin="AGND_2" pad="28"/>
+<connect gate="G$1" pin="AGND_3" pad="29"/>
+<connect gate="G$1" pin="AVDD_2" pad="30"/>
+<connect gate="G$1" pin="AGND_4" pad="31"/>
+<connect gate="G$1" pin="AGND_5" pad="32"/>
+<connect gate="G$1" pin="DGND" pad="33"/>
+<connect gate="G$1" pin="DVDD" pad="34"/>
+<connect gate="G$1" pin="ALARM" pad="35"/>
+<connect gate="G$1" pin="SDO" pad="36"/>
+<connect gate="G$1" pin="SCLK" pad="37"/>
+<connect gate="G$1" pin="!CS" pad="38"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Mouser_Part_Number" value="595-ADS8688AIDBT" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS8688AIDBT?qs=xufs61hA5MZv%2F46DP%252BYoHw%3D%3D" constant="no"/>
+<attribute name="Manufacturer_Name" value="Texas Instruments" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="ADS8688AIDBT" constant="no"/>
+<attribute name="Description" value="16-Bit, 500kSPS, 8-Ch SAR ADC With Bipolar Inputs Using 5V Supply and Low-Drift VREF" constant="no"/>
+<attribute name="Height" value="1.2mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

@@ -1,0 +1,13 @@
+Manufacturer=Phoenix Contact
+PartNumber=5442251
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=2.1
+Released=2019-09-16 10:23:36
+<<<<<<< HEAD
+Downloaded=2025-03-21 12:04:08
+=======
+Downloaded=2025-03-25 06:06:29
+>>>>>>> 60e74c53b8cb9976eb4cbde9b403d6acb5660678
+3D=Y

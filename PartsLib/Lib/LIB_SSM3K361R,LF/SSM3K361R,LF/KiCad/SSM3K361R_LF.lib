@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SSM3K361R,LF
+#/981772/1553794/2.50/3/3/MOSFET (N-Channel)
+DEF SSM3K361R,LF Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "SSM3K361R,LF" 450 50 50 H V L CNN
+F2 "SOT95P240X88-3N" 450 -50 50 H I L CNN
+F3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=36685&prodName=SSM3K361R" 450 -150 50 H I L CNN
+F4 "Silicon N-channel MOS Power Management Switches DC-DC Converters" 450 -250 50 H I L CNN "Description"
+F5 "0.88" 450 -350 50 H I L CNN "Height"
+F6 "757-SSM3K361RLF" 450 -450 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3K361RLF?qs=kdd6aVn74hzchJRi%252BUbybA%3D%3D" 450 -550 50 H I L CNN "Mouser Price/Stock"
+F8 "Toshiba" 450 -650 50 H I L CNN "Manufacturer_Name"
+F9 "SSM3K361R,LF" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

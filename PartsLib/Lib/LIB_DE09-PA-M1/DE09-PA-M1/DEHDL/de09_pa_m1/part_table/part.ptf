@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DE09_PA_M1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Adam Tech", "DE09-PA-M1" (!) = "", "DE09PAM1", "Other", "737-DE09-PA-M1", "https://www.mouser.co.uk/ProductDetail/Adam-Tech/DE09-PA-M1?qs=HoCaDK9Nz5dJl%252BJp%252BOux4g%3D%3D", "9 Position D-Sub Plug, Male Pins Connector , UL94 V-0 , 250VAC  , -65C ~ 125C", "https://app.adam-tech.com/products/download/data_sheet/198632/dxxx-pa-m1-data-sheet.pdf", "12.4714 mm"
+END_PART
+
+END.

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "1SMB2EZ15_R1_00001"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "1SMB2EZ15_R1_00001")
+        (spec "default")
+    )
+)

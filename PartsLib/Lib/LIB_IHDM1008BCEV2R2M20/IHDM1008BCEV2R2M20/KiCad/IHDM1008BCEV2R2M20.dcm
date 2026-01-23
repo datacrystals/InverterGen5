@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IHDM1008BCEV2R2M20
+D 2.2 H Unshielded Drum Core, Wirewound Inductor 63 A 0.7mOhm Max Vertical, 2 PC Pin , 69MHz , -40C ~ 180C
+K
+F https://www.vishay.com/docs/34522/ihdm-1008bc-x0.pdf
+$ENDCMP
+#
+#End Doc Library

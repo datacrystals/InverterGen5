@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "1N5956BRLG"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-01-01-10:36:37)
+    (mountForm default
+        (footprintRef "DIOAD1405W86L465D235")
+        (spec "System")
+    )
+)

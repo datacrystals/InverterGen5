@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_15644057"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-12-29-16:24:20)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 3) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SIHFR120-GE3")
+)
+
+
+(pinAssign "ECS_15644057"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-12-29-16:24:20)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_15644057")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SIHFR120-GE3")
+)
+
+
+(part "SIHFR120-GE3"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-12-29-16:24:20)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "SIHFR120-GE3")
+    (pinAssignRef "ECS_15644057")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "MOSFET 100V N-CH")
+    (property "Mouser_Part_Number" "78-SIHFR120-GE3")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SIHFR120-GE3?qs=FfLXECYddQTykmVhSg2%2FTQ%3D%3D")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "SIHFR120-GE3")
+    (property "Datasheet_Link" "https://www.mouser.in/datasheet/2/427/91266-1768752.pdf")
+    (property "compAreaTopHeight" 2.38)
+)
+
+

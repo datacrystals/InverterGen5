@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TLV6001QDCKRQ1
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2020-11-16 07:33:55
+Downloaded=2025-04-14 23:21:19
+3D=Y

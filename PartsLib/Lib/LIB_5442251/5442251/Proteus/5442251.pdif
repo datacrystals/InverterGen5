@@ -1,0 +1,110 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "5442251"
+   (description "Fixed Terminal Blocks BC-350X9- 3 GN 3.5 MM PITCH")
+   (family "CON")
+   (package "5442251")
+   (attribute "Datasheet Link" "https://www.phoenixcontact.com/en-gb/products/printed-circuit-board-terminal-bc-350x9-3-gn-5442251")
+   (attribute "Geometry.Height" "8.65mm")
+   (attribute "Mouser Part Number" "651-5442251")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/5442251?qs=9Y9qB%2FCsC3kmzTCxovpQiw%3D%3D")
+   (attribute "Manufacturer_Name" "Phoenix Contact")
+   (attribute "Manufacturer_Part_Number" "5442251")
+   (gate
+    (symbol "5442251")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "5442251"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "5442251"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2 -3.6)
+      (pt 9 -3.6)
+      (pt 9 3.7)
+      (pt -2 3.7)
+      (pt -2 -3.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 -3.6)
+      (pt 9 -3.6)
+      (pt 9 3.7)
+      (pt -2 3.7)
+      (pt -2 -3.6))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3 4.7)
+      (pt 10 4.7)
+      (pt 10 -4.6)
+      (pt -3 -4.6)
+      (pt -3 4.7))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 3.500 0.000) (padstack 0))
+   (leg 3 (pt 7.000 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (round 1.650))
+    (pad (layer INNER) (round 1.650))
+    (pad (layer BCOP) (round 1.650))
+   )
+   (padstack 1
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (square 1.650))
+    (pad (layer INNER) (round 1.650))
+    (pad (layer BCOP) (square 1.650))
+   )
+   (model "5442251.stp"
+    (euler 0 0 0)
+    (offset -2.009999990463257 -3.5899999141693115 -0.03999999910593033)
+   )
+  )
+ )
+)

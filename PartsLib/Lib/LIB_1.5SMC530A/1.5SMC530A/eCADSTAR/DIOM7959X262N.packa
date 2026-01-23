@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "1_5SMC530A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-07-27-04:11:32)
+    (mountForm default
+        (footprintRef "DIOM7959X262N")
+        (spec "System")
+    )
+)

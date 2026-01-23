@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=TBP02R2W-381-06BE
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=4.2
+Released=2019-08-31 22:38:38
+Downloaded=2026-01-23 03:37:28
+3D=Y

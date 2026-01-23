@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SZMMSZ4678T1G
+#/792555/1553794/2.50/2/2/Zener Diode
+DEF SZMMSZ4678T1G Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L CNN
+F1 "SZMMSZ4678T1G" 400 250 50 H V L CNN
+F2 "SOD3716X135N" 400 150 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/MMSZ4678T1-D.PDF" 400 50 50 H I L CNN
+F4 "500 mW Rating on FR-4 or FR-5 Board; Wide Zener Reverse Voltage Range - 1.8 V to 43 V; Package Designed for Optimal Automated Board Assembly; Small Package Size for High Density Applications; ESD Rating of Class 3 (exceeding 16 kV) per the Human Body Model Mechanical Characteristics:; CASE: Void-free, transfer-molded, thermosetting plastic case; FINISH: Corrosion resistant finish, easily solderable; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260?C for 10 Seconds; POLARITY: Cathode indicated by polarit" 400 -50 50 H I L CNN "Description"
+F5 "1.35" 400 -150 50 H I L CNN "Height"
+F6 "863-SZMMSZ4678T1G" 400 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/onsemi/SZMMSZ4678T1G?qs=PJJcWtbOkNWoCp4u9L439w%3D%3D" 400 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "onsemi" 400 -450 50 H I L CNN "Manufacturer_Name"
+F9 "SZMMSZ4678T1G" 400 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library

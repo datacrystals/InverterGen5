@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UCC28221D
+D Dual Interleaved PWM Controller with Programmable Max Duty Cycle
+K
+F http://www.ti.com/lit/gpn/ucc28221
+$ENDCMP
+#
+#End Doc Library

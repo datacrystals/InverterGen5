@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DRDNB21D-7"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-03-22-07:19:07)
+    (mountForm default
+        (footprintRef "SOT65P210X110-6N")
+        (spec "System")
+    )
+)

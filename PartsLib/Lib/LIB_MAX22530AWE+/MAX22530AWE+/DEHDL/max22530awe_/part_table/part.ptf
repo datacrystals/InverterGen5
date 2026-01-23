@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX22530AWE_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "MAX22530AWE+" (!) = "", "SOIC127P1032X265-16N", "Small Outline Packages", "700-MAX22530AWE+", "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX22530AWE%2b?qs=DRkmTr78QASxug5yEXUKBg%3D%3D", "Field-Side Self-Powered, 4-Channel, 12-bit, Isolated ADC", "https://www.analog.com/MAX22530/datasheet", "2.65 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TBP02R1_381_02BE'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Same Sky", "TBP02R1-381-02BE" (!) = "", "TBP02R138102BE", "Other", "490-TBP02R1-381-02BE", "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP02R1-381-02BE?qs=PzGy0jfpSMuDSg0nR5k9Yg%3D%3D", "2~24 Poles, Pluggable,Receptacle, Horizontal, 3.81 Pitch, Terminal Block Connector", "https://www.sameskydevices.com/product/resource/supplyframepdf/tbp02r1-381.pdf", "7.2 mm"
+END_PART
+
+END.

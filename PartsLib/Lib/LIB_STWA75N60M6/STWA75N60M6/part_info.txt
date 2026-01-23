@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STWA75N60M6
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=2.1
+Released=2022-09-06 17:15:24
+Downloaded=2025-03-25 19:20:49
+3D=Y

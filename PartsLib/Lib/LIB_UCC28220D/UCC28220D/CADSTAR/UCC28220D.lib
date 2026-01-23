@@ -1,0 +1,16 @@
+.UCC28220D :1 ;Dual Interleaved PWM Controller with Programmable Max Duty Cycle
+UCC28220D
+*STM IC
+*NGS
+*PLB 1="LINEOV" 2="LINEHYS" 3="VDD" 4="CS1" 5="SLOPE" 6="CS2" 7="SS" 8="CTRL" 9="DISCHG" 10="CHG" 11="GND" 12="OUT2" 13="OUT1" 14="REF" 15="LINEUV" 16="NC"
+*MXP 16
+*DFN UCC28220D
+~!Mouser Part Number (595-UCC28220D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC28220D/?qs=eJkN62t4xTVBY%2FGqaPYojw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (UCC28220D)
+~!Link Datasheet (http://www.ti.com/lit/gpn/ucc28220)
+~!Height (1.75mm)
+~!3D_Model (UCC28220D)
+UCC28220D
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMP236A2DCKR
+D +/-2.5C analog output temperature sensor, with 19.5mV/C gain
+K
+F http://www.ti.com/lit/gpn/tmp236
+$ENDCMP
+#
+#End Doc Library

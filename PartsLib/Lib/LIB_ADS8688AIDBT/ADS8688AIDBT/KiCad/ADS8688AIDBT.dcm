@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS8688AIDBT
+D 16-Bit, 500kSPS, 8-Ch SAR ADC With Bipolar Inputs Using 5V Supply and Low-Drift VREF
+K
+F http://www.ti.com/lit/gpn/ads8688a
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,16 @@
+.SLPX331M200A1P3 :1 ;Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C
+CAPPRD1000W190D2250H2700
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN SLPX331M200A1P3
+~!Mouser Part Number (598-SLPX331M200A1P3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D)
+~!Manufacturer_Name (Cornell Dubilier)
+~!Manufacturer_Part_Number (SLPX331M200A1P3)
+~!Link Datasheet (https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics)
+~!Height (27mm)
+~!3D_Model (SLPX331M200A1P3)
+SLPX331M200A1P3
+1.1!U 2.1!U 

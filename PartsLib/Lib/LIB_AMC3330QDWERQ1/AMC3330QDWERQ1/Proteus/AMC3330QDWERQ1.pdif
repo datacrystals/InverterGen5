@@ -1,0 +1,192 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AMC3330QDWERQ1"
+   (description "Isolation Amplifiers Automotive +/-1-V input, precision reinforced isolated amplifier with integrated DC/DC converter 16-SOIC -40 to 125")
+   (family "ANA")
+   (package "SOIC127P1030X265-16N")
+   (attribute "Datasheet Link" "https://www.ti.com/lit/ds/symlink/amc3330.pdf?ts=1605812770714&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253DAMC3330DWE")
+   (attribute "Geometry.Height" "2.65mm")
+   (attribute "Mouser Part Number" "595-AMC3330QDWERQ1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/AMC3330QDWERQ1?qs=81r%252BiQLm7BThq9fK1XpIYg%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "AMC3330QDWERQ1")
+   (gate
+    (symbol "AMC3330QDWERQ1")
+    (pin "DCDC_OUT" 1 PP)
+    (pin "DCDC_HGND" 2 PP)
+    (pin "HLDO_IN" 3 PP)
+    (pin "NC" 4 NC)
+    (pin "HLDO_OUT" 5 PP)
+    (pin "INP" 6 IP)
+    (pin "INN" 7 IP)
+    (pin "HGND" 8 PP)
+    (pin "DCDC_IN" 16 PP)
+    (pin "DCDC_GND" 15 PP)
+    (pin "DIAG" 14 OP)
+    (pin "LDO_OUT" 13 PP)
+    (pin "VDD" 12 PP)
+    (pin "OUTP" 11 OP)
+    (pin "OUTN" 10 OP)
+    (pin "GND" 9 PP)
+   )
+  )
+  (symbol "AMC3330QDWERQ1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1400 100) (pt 1400 -800) (pt 200 -800) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -700) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOIC127P1030X265-16N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -5.95 5.5)
+      (pt 5.95 5.5)
+      (pt 5.95 -5.5)
+      (pt -5.95 -5.5)
+      (pt -5.95 5.5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.75 5.15)
+      (pt 3.75 5.15)
+      (pt 3.75 -5.15)
+      (pt -3.75 -5.15)
+      (pt -3.75 5.15))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.75 3.88)
+      (pt -2.48 5.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.4 5.15)
+      (pt 3.4 5.15)
+      (pt 3.4 -5.15)
+      (pt -3.4 -5.15)
+      (pt -3.4 5.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.7 5.12)
+      (pt -3.75 5.12))))
+   (leg 1 (pt -4.725 4.445) (padstack 0))
+   (leg 2 (pt -4.725 3.175) (padstack 0))
+   (leg 3 (pt -4.725 1.905) (padstack 0))
+   (leg 4 (pt -4.725 0.635) (padstack 0))
+   (leg 5 (pt -4.725 -0.635) (padstack 0))
+   (leg 6 (pt -4.725 -1.905) (padstack 0))
+   (leg 7 (pt -4.725 -3.175) (padstack 0))
+   (leg 8 (pt -4.725 -4.445) (padstack 0))
+   (leg 9 (pt 4.725 -4.445) (padstack 0))
+   (leg 10 (pt 4.725 -3.175) (padstack 0))
+   (leg 11 (pt 4.725 -1.905) (padstack 0))
+   (leg 12 (pt 4.725 -0.635) (padstack 0))
+   (leg 13 (pt 4.725 0.635) (padstack 0))
+   (leg 14 (pt 4.725 1.905) (padstack 0))
+   (leg 15 (pt 4.725 3.175) (padstack 0))
+   (leg 16 (pt 4.725 4.445) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.65 1.95 0 0 0))
+   )
+   (model "AMC3330QDWERQ1.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

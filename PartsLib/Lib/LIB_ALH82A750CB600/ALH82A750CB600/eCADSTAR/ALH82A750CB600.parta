@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_18521389"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-08-08-10:44:52)
+    (utime 2024-08-08-10:44:52)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "ALH82A750CB600")
+)
+
+
+(pinAssign "ECS_18521389"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-08-08-10:44:52)
+    (utime 2024-08-08-10:44:52)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_18521389")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ALH82A750CB600")
+)
+
+
+(part "ALH82A750CB600"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-08-08-10:44:52)
+    (utime 2024-08-08-10:44:52)
+    (packageRef "ALH82A750CB600")
+    (pinAssignRef "ECS_18521389")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C")
+    (property "Mouser_Part_Number" "80-ALH82A750CB600")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D")
+    (property "Manufacturer_Name" "KEMET")
+    (property "Manufacturer_Part_Number" "ALH82A750CB600")
+    (property "Datasheet_Link" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600")
+    (property "compAreaTopHeight" 32)
+)
+
+

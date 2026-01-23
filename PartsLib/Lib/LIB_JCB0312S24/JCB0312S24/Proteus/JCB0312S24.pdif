@@ -1,0 +1,174 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "JCB0312S24"
+   (description "Isolated Module DC DC Converter 1 Output 24V 125mA 9V - 18V Input")
+   (family "ANA")
+   (package "JCB0312S24")
+   (attribute "Datasheet Link" "https://www.xppower.com/portals/0/pdfs/SF_JCB.pdf")
+   (attribute "Geometry.Height" "10.66mm")
+   (attribute "Mouser Part Number" "209-JCB0312S24")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/XP-Power/JCB0312S24?qs=w%2Fv1CP2dgqougWRJ%2F3pg2Q%3D%3D")
+   (attribute "Manufacturer_Name" "XP POWER")
+   (attribute "Manufacturer_Part_Number" "JCB0312S24")
+   (gate
+    (symbol "JCB0312S24")
+    (pin "+VIN_1" 1 PS)
+    (pin "N.C._1" 2 PS)
+    (pin "N.C._2" 3 PS)
+    (pin "-VOUT_1" 10 PS)
+    (pin "+VOUT_1" 11 PS)
+    (pin "-VIN_1" 12 PS)
+    (pin "-VIN_2" 13 PS)
+    (pin "+VOUT_2" 14 PS)
+    (pin "-VOUT_2" 15 PS)
+    (pin "N.C._3" 22 PS)
+    (pin "N.C._4" 23 PS)
+    (pin "+VIN_2" 24 PS)
+   )
+  )
+  (symbol "JCB0312S24"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1200 100) (pt 1200 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "JCB0312S24"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.905 -2.54)
+      (pt 29.845 -2.54)
+      (pt 29.845 17.78)
+      (pt -1.905 17.78)
+      (pt -1.905 -2.54))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.905 -2.54)
+      (pt 29.845 -2.54)
+      (pt 29.845 17.78)
+      (pt -1.905 17.78)
+      (pt -1.905 -2.54))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.905 -3.54)
+      (pt 30.845 -3.54)
+      (pt 30.845 18.78)
+      (pt -2.905 18.78)
+      (pt -2.905 -3.54))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.4 0)
+      (arc (pt -2.400 0.000) (pt -2.500 0.050) (pt -2.400 -0.050) (start 180.0) (sweep .0))
+      (pt -2.5 0)
+      (arc (pt -2.500 0.000) (pt -2.500 0.050) (pt -2.400 -0.050) (start 180.0) (sweep 180.0))
+      (pt -2.4 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg 3 (pt 5.080 0.000) (padstack 0))
+   (leg 10 (pt 22.860 0.000) (padstack 0))
+   (leg 11 (pt 25.400 0.000) (padstack 0))
+   (leg 12 (pt 27.940 0.000) (padstack 0))
+   (leg 13 (pt 27.940 15.240) (padstack 0))
+   (leg 14 (pt 25.400 15.240) (padstack 0))
+   (leg 15 (pt 22.860 15.240) (padstack 0))
+   (leg 22 (pt 5.080 15.240) (padstack 0))
+   (leg 23 (pt 2.540 15.240) (padstack 0))
+   (leg 24 (pt 0.000 15.240) (padstack 0))
+   (padstack 0
+    (hole 0.76)
+    (plated true)
+    (pad (layer TCOP) (round 1.303))
+    (pad (layer INNER) (round 1.303))
+    (pad (layer BCOP) (round 1.303))
+   )
+   (padstack 1
+    (hole 0.76)
+    (plated true)
+    (pad (layer TCOP) (square 1.303))
+    (pad (layer INNER) (round 1.303))
+    (pad (layer BCOP) (square 1.303))
+   )
+   (model "JCB0312S24.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

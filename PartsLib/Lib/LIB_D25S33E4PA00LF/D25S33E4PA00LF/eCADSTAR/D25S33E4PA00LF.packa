@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "D25S33E4PA00LF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-01-05-17:26:09)
+    (mountForm default
+        (footprintRef "D25S33E4PA00LF")
+        (spec "System")
+    )
+)

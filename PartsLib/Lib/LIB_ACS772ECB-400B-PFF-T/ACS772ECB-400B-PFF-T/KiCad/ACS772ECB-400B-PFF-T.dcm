@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACS772ECB-400B-PFF-T
+D 200kHz, 1.5% Max Tolerance, 100  Internal Resistance Module-alternative Current Sensor for High Current and High Voltage Applications
+K
+F https://www.mouser.co.uk/datasheet/2/1115/ACS772_Datasheet-3074305.pdf
+$ENDCMP
+#
+#End Doc Library

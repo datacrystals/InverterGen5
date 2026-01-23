@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TJA1050T_CM_118"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-05-21-16:16:08)
+    (mountForm default
+        (footprintRef "SOIC127P600X175-8N")
+        (spec "System")
+    )
+)

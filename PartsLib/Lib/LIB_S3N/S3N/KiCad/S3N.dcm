@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP S3N
+D Glass-Passivated Junction.; High Breakdown Voltage Rating; Low-Profile Package; UL Flammability Classification: 94V-0
+K
+F https://www.onsemi.com/pub/Collateral/S3N-D.PDF
+$ENDCMP
+#
+#End Doc Library

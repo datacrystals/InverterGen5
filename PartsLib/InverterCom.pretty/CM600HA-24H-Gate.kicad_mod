@@ -1,0 +1,172 @@
+(footprint "CM600HA-24H-Gate"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -21.5 -60 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "03605e6e-be92-4d47-abbc-e7a7e447b1be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "CM600HA-24H IGBT"
+		(at -21.5 -58.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dd3a41d7-b61a-44b5-955f-6f4234a06eed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3b49259-a9e5-4da8-89f4-9528398a1692")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0596b71-e11d-4418-9191-6ca5c5a9ad8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -22 -61.5)
+		(end 14 9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1ad4f0a4-a82b-4a9a-ad06-12d800318dbc")
+	)
+	(fp_rect
+		(start 5.5 -39)
+		(end 14 -3.5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "468424ce-c487-4da8-92ca-3534d10d449d")
+	)
+	(fp_text user "GATE"
+		(at 0 -9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "394b4719-455a-4601-acb0-68be1d2617a1")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+		)
+	)
+	(fp_text user "COLLECTOR"
+		(at 5.5 -48.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4de72d12-5d92-41fd-902b-3c4dafda92a1")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+		)
+	)
+	(fp_text user "EMITTER"
+		(at -12.5 -33.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7314931f-7dbf-4091-a817-b543d1fa0d73")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -21.5 -57 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "54c684a3-e03a-47cb-9953-84960b73e8b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 5 -55 90)
+		(size 10 15)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "6e427c7d-e0e0-4fde-ad0c-260ad9cbc812")
+	)
+	(pad "2" thru_hole roundrect
+		(at -13 -40 90)
+		(size 10 15)
+		(drill 4.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "5464dc4e-c365-4677-ba97-3d80776462c9")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 0)
+		(size 10 15)
+		(drill 4.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "839f51d7-e4c6-416f-814d-7ffd982bb344")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PartsLib/3D/CM600HA-24H.stp"
+		(offset
+			(xyz -32 -18.5 -27)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

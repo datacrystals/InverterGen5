@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SIHFR120-GE3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-12-29-16:24:20)
+    (mountForm default
+        (footprintRef "SIHFR120GE3")
+        (spec "System")
+    )
+)

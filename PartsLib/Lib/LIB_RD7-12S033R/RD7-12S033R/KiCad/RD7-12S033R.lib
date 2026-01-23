@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RD7-12S033R
+#/20037583/1553794/2.50/6/3/Power Supply
+DEF RD7-12S033R PS 0 30 Y Y 1 F N
+F0 "PS" 2650 300 50 H V L CNN
+F1 "RD7-12S033R" 2650 200 50 H V L CNN
+F2 "RD712S033R" 2650 100 50 H I L CNN
+F3 "https://app.adam-tech.com/products/download/data_sheet/247025/rd7-12s033r-data-sheet.pdf" 2650 0 50 H I L CNN
+F4 "Isolated DC/DC Converters - Through Hole DC-DC Converter, Isolated Module, Single Output, 9V-18VDC Input, 3.3VDC, 3W" 2650 -100 50 H I L CNN "Description"
+F5 "11.6" 2650 -200 50 H I L CNN "Height"
+F6 "" 2650 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 2650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Adam Tech" 2650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RD7-12S033R" 2650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X -VIN 1 0 0 200 R 50 50 0 0 P
+X +VIN 2 0 -100 200 R 50 50 0 0 P
+X CTRL-CONTROL_INPUT_CAN_(CAN_BE_LEFT_OPEN) 3 0 -200 200 R 50 50 0 0 P
+X +VOUT 6 0 -300 200 R 50 50 0 0 P
+X -VOUT 7 0 -400 200 R 50 50 0 0 P
+X NC 8 0 -500 200 R 50 50 0 0 N
+P 5 0 1 6 200 100 2600 100 2600 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

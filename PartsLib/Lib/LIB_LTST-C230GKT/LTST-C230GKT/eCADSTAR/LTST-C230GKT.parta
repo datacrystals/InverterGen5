@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_470258"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-08-08-10:50:26)
+    (utime 2024-07-10-07:44:10)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "LTST-C230GKT")
+)
+
+
+(pinAssign "ECS_470258"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-08-08-10:50:26)
+    (utime 2024-07-10-07:44:10)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_470258")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "LTST-C230GKT")
+)
+
+
+(part "LTST-C230GKT"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-08-08-10:50:26)
+    (utime 2024-07-10-07:44:10)
+    (packageRef "LTST-C230GKT")
+    (pinAssignRef "ECS_470258")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "Lite-On LTST-C230GKT Green LED, 569 nm, 3016 (1206), Rectangle Lens SMD Package")
+    (property "Mouser_Part_Number" "859-LTST-C230GKT")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C230GKT?qs=7ZnIBiPc9DrbEstVFO1DAg%3D%3D")
+    (property "Manufacturer_Name" "Lite-On")
+    (property "Manufacturer_Part_Number" "LTST-C230GKT")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 1.2)
+)
+
+

@@ -1,0 +1,16 @@
+.1N5956BRLG :1 ;Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Surge Rating of 98 Watts @ 1 ms; Maximum Limits Guaranteed On Up To Six Electrical Parameters; Package No Larger Than the Conventional 1 Watt Package Mechanical Characteristics: CASE: Void free, transfer-molded, thermosetting plastic FINISH: All external surfaces are corrosion resistant and leads are readily solderable MAXIMUM LEAD TEMPERATURE FOR SOLDERING PURPOSES:230C, 1/16, from the case for 10 seconds POLARITY: 
+DIOAD1405W86L465D235
+*STM Z
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN 1N5956BRLG
+~!Mouser Part Number (863-1N5956BRLG)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi/1N5956BRLG?qs=y2kkmE52mdPMXQTkwwt%252Bow%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (1N5956BRLG)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/1N5913B-D.PDF)
+~!Height (-)
+~!3D_Model (1N5956BRLG)
+"1N5956BRLG"
+1.1!U 2.1!U 

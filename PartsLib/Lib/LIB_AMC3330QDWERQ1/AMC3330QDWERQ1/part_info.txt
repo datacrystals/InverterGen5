@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=AMC3330QDWERQ1
+PartCategory=Attenuator or Isolator
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2021-06-12 06:31:40
+Downloaded=2025-04-14 22:51:45
+3D=Y

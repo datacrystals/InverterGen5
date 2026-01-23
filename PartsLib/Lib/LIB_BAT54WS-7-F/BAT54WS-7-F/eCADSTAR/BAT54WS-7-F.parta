@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_304747"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-11-27-11:19:45)
+    (utime 2024-03-18-13:06:02)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BAT54WS-7-F")
+)
+
+
+(pinAssign "ECS_304747"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-11-27-11:19:45)
+    (utime 2024-03-18-13:06:02)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_304747")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BAT54WS-7-F")
+)
+
+
+(part "BAT54WS-7-F"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-11-27-11:19:45)
+    (utime 2024-03-18-13:06:02)
+    (packageRef "BAT54WS-7-F")
+    (pinAssignRef "ECS_304747")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Diodes Inc BAT54WS-7-F, SMT Schottky Switching Diode, 30V 200mA, 5ns, 2-Pin SOD-323")
+    (property "Mouser_Part_Number" "621-BAT54WS-F")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BAT54WS-7-F?qs=BJo294706GxanB6a%2FKrrdw%3D%3D")
+    (property "Manufacturer_Name" "Diodes Incorporated")
+    (property "Manufacturer_Part_Number" "BAT54WS-7-F")
+    (property "Datasheet_Link" "https://www.diodes.com//assets/Datasheets/BAT54WS.pdf")
+    (property "compAreaTopHeight" 1.2)
+)
+
+

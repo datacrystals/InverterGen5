@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_171018"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-11-03-12:30:39)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MBRA340T3G")
+)
+
+
+(pinAssign "ECS_171018"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-11-03-12:30:39)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_171018")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MBRA340T3G")
+)
+
+
+(part "MBRA340T3G"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-11-03-12:30:39)
+    (utime 2025-01-22-16:53:39)
+    (packageRef "MBRA340T3G")
+    (pinAssignRef "ECS_171018")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Compact Surface Mountable Package with J-Bent Leads; Rectangular Package for Automated Handling; Highly Stable Oxide Passivated Junction; Very Low Forward Voltage Drop; Guardring for Stress Protection; All External Surfaces are Corrosion Resistant and Terminal Leads are Readily Solderable; Cathode Lead Indicated by polarity Band; ESD Ratings, Machine Model = C, Human Body Model = 3B; Device Meets MSL 1 Requirements; AEC-Q101 Qualified and PPAP Capable; NRVBA Prefix for Automotive and Other Applications Requ")
+    (property "Mouser_Part_Number" "863-MBRA340T3G")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MBRA340T3G?qs=3JMERSakebq0pjb145uRLw%3D%3D")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "MBRA340T3G")
+    (property "Datasheet_Link" "https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF")
+    (property "compAreaTopHeight" 2.2)
+)
+
+

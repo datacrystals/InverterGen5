@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ALH82A750CB600
+D 75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C
+K
+F https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600
+$ENDCMP
+#
+#End Doc Library

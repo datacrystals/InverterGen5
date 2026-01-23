@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 5-106505-2
+#/376619/1553794/2.50/9/2/Connector
+DEF 5-106505-2 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "5-106505-2" 650 200 50 H V L CNN
+F2 "5-106505-2_3" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82068_AMPLIMITE_Right-Angle_Posted_Conn&DocType=Catalog%20Section&DocLang=English&PartCntxt=5-106505-2&DocFormat=pdf" 650 0 50 H I L CNN
+F4 "Body Features: Primary Product Color Black | Shell Plating Material Tin | Connector Profile Standard | Configuration Features: PCB Mount Orientation Right Angle | Number of Positions 9 | Number of Rows 2 | Contact Features: Contact Mating Area Plating Material Gold | Contact Mating Area Plating Material Thickness .76 MICM | Contact Shape & Form Round | Contact Mating Area Plating Material Gold Flash over Palladium Nickel | Contact Current Rating (Max) 6 AMP | Contact Base Material Phosphor Bronze | PCB Cont" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "571-5-106505-2" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-106505-2?qs=MQMItlSumdeqtmm5RcerVg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "5-106505-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 800 0 200 L 50 50 0 0 P
+X 7 7 800 -100 200 L 50 50 0 0 P
+X 8 8 800 -200 200 L 50 50 0 0 P
+X 9 9 800 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

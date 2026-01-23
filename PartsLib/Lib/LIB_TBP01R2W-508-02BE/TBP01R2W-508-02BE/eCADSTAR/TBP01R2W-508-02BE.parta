@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_2326858"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-08-31-22:39:52)
+    (utime 2025-12-28-22:50:15)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "TBP01R2W-508-02BE")
+)
+
+
+(pinAssign "ECS_2326858"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-08-31-22:39:52)
+    (utime 2025-12-28-22:50:15)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_2326858")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TBP01R2W-508-02BE")
+)
+
+
+(part "TBP01R2W-508-02BE"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-08-31-22:39:52)
+    (utime 2025-12-28-22:50:15)
+    (packageRef "TBP01R2W-508-02BE")
+    (pinAssignRef "ECS_2326858")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "TBP01R2W-508 Series - 2~24 Poles, Pluggable, Receptacle, Vertical 5.08 Pitch, Terminal Block Connector")
+    (property "Mouser_Part_Number" "490-TBP01R2W-50802BE")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R2W-508-02BE?qs=PzGy0jfpSMv0R3n6%2FsgXSg%3D%3D")
+    (property "Manufacturer_Name" "Same Sky")
+    (property "Manufacturer_Part_Number" "TBP01R2W-508-02BE")
+    (property "Datasheet_Link" "https://www.sameskydevices.com/product/resource/tbp01r2w-508.pdf")
+    (property "compAreaTopHeight" 12.4)
+)
+
+

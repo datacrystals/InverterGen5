@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AWHSH105D00G'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol", "AWHSH105D00G" (!) = "", "AWHSH105D00G", "Other", "523-AWHSH105D00G", "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AWHSH105D00G?qs=rSMjJ%252B1ewcT7jFUGTuCYSw%3D%3D", "General Purpose Relays Commercial RelayRated Carrying Current :15AType of Sealing : Sealed and Waterproof TypeNumber of pole : one poleCoil Voltage : 5VCoil Type : Standard DC CoilContact Form : Form C", "https://g.componentsearchengine.com/Datasheets/0/17861032.pdf", "15.3 mm"
+END_PART
+
+END.

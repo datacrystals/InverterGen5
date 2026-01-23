@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RFMM0505S"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RFMM0505S")
+        (spec "default")
+    )
+)

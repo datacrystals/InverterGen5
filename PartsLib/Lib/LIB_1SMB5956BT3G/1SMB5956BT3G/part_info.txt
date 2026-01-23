@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=1SMB5956BT3G
+PartCategory=Zener Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=2.3
+Released=2017-05-04 08:31:21
+Downloaded=2025-04-26 19:15:25
+3D=Y

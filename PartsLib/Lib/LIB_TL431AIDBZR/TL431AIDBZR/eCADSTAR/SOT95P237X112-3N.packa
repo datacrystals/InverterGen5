@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TL431AIDBZR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-06-10-09:31:16)
+    (mountForm default
+        (footprintRef "SOT95P237X112-3N")
+        (spec "System")
+    )
+)

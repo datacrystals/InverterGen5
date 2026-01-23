@@ -1,0 +1,9 @@
+Manufacturer=Cornell Dubilier
+PartNumber=SLPX331M200A1P3
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor, Polarized Radial Diameter
+PinCount=2
+Version=1.1
+Released=2022-05-23 06:31:43
+Downloaded=2025-02-03 01:02:19
+3D=Y

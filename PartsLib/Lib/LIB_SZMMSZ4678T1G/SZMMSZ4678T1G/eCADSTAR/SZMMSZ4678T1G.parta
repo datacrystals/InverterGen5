@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_792555"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-12-07-12:53:58)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SZMMSZ4678T1G")
+)
+
+
+(pinAssign "ECS_792555"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-12-07-12:53:58)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_792555")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SZMMSZ4678T1G")
+)
+
+
+(part "SZMMSZ4678T1G"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-12-07-12:53:58)
+    (utime 2025-01-22-16:53:39)
+    (packageRef "SZMMSZ4678T1G")
+    (pinAssignRef "ECS_792555")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "Z")
+    (property "description" "500 mW Rating on FR-4 or FR-5 Board; Wide Zener Reverse Voltage Range - 1.8 V to 43 V; Package Designed for Optimal Automated Board Assembly; Small Package Size for High Density Applications; ESD Rating of Class 3 (exceeding 16 kV) per the Human Body Model Mechanical Characteristics:; CASE: Void-free, transfer-molded, thermosetting plastic case; FINISH: Corrosion resistant finish, easily solderable; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260?C for 10 Seconds; POLARITY: Cathode indicated by polarit")
+    (property "Mouser_Part_Number" "863-SZMMSZ4678T1G")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/SZMMSZ4678T1G?qs=PJJcWtbOkNWoCp4u9L439w%3D%3D")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "SZMMSZ4678T1G")
+    (property "Datasheet_Link" "https://www.onsemi.com/pub/Collateral/MMSZ4678T1-D.PDF")
+    (property "compAreaTopHeight" 1.35)
+)
+
+

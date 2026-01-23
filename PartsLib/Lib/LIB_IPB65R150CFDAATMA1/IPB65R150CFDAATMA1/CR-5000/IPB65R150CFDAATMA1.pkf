@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "IPB65R150CFDAATMA1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "IPB65R150CFDAATMA1")
+        (spec "default")
+    )
+)

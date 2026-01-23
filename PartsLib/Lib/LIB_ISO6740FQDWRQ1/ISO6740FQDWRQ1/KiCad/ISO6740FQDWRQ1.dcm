@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISO6740FQDWRQ1
+D Automotive, general-purpose, quad-channel, 4/0 digital isolator
+K
+F https://www.ti.com/lit/gpn/iso6740-q1
+$ENDCMP
+#
+#End Doc Library

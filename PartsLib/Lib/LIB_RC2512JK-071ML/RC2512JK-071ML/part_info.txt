@@ -1,0 +1,9 @@
+Manufacturer=YAGEO
+PartNumber=RC2512JK-071ML
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2024-09-04 04:28:12
+Downloaded=2025-02-03 01:09:21
+3D=Y

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "1SMB2EZ15_R1_00001"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-03-10-09:55:25)
+    (mountForm default
+        (footprintRef "1SMB2EZ15_R1_00001")
+        (spec "System")
+    )
+)

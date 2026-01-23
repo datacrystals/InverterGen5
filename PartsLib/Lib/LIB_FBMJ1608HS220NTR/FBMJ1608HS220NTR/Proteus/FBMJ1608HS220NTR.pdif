@@ -1,0 +1,91 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "FBMJ1608HS220NTR"
+   (description "TAIYO YUDEN - FBMJ1608HS220NTR - FERRITE BEAD, 22 OHM, 7.5A, 0603")
+   (family "ANA")
+   (package "BEADC1608X100N")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Mouser Part Number" "963-FBMJ1608HS220NTR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/FBMJ1608HS220NTR?qs=qEEMd6hQM8XfqBRLulOo%2FQ%3D%3D")
+   (attribute "Manufacturer_Name" "TAIYO YUDEN")
+   (attribute "Manufacturer_Part_Number" "FBMJ1608HS220NTR")
+   (gate
+    (symbol "FBMJ1608HS220NTR")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "FBMJ1608HS220NTR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "BEADC1608X100N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.525 0.75)
+      (pt 1.525 0.75)
+      (pt 1.525 -0.75)
+      (pt -1.525 -0.75)
+      (pt -1.525 0.75))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.8 0.4)
+      (pt 0.8 0.4)
+      (pt 0.8 -0.4)
+      (pt -0.8 -0.4)
+      (pt -0.8 0.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 0.3)
+      (pt 0 -0.3))))
+   (leg 1 (pt -0.8 0) (padstack 0))
+   (leg 2 (pt 0.8 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.95 1 0 0 90))
+   )
+   (model "FBMJ1608HS220NTR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

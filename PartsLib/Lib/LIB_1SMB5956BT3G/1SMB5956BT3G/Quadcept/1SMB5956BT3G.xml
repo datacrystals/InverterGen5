@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/410632/1553794/2.50/2/2/Zener Diode/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r225_215" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="84.645669291338" height="88.582677165353" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="92.519685039369" height="96.456692913385" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="84.645669291338" height="88.582677165353" />
+  </padstyle>
+  <footprint name="DIOM5436X247N" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r225_215" originx="-86.614173228345" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="r225_215" originx="86.614173228345" originy="0" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-140.74803149606" originy="87.598425196849" endx="140.74803149606" endy="87.598425196849" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="140.74803149606" originy="87.598425196849" endx="140.74803149606" endy="-87.598425196849" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="140.74803149606" originy="-87.598425196849" endx="-140.74803149606" endy="-87.598425196849" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-140.74803149606" originy="-87.598425196849" endx="-140.74803149606" endy="87.598425196849" width="1.9685039370079" />
+    <line layer="TOP_ASSEMBLY" originx="-106.3779527559" originy="71.338582677164" endx="106.3779527559" endy="71.338582677164" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="106.3779527559" originy="71.338582677164" endx="106.3779527559" endy="-71.338582677164" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="106.3779527559" originy="-71.338582677164" endx="-106.3779527559" endy="-71.338582677164" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-106.3779527559" originy="-71.338582677164" endx="-106.3779527559" endy="71.338582677164" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-106.3779527559" originy="29.055118110236" endx="-64.094488188976" endy="71.338582677164" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="106.3779527559" originy="71.338582677164" endx="-128.93700787401" endy="71.338582677164" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-106.3779527559" originy="-71.338582677164" endx="106.3779527559" endy="-71.338582677164" width="7.8740157480314" />
+  </footprint>
+  <symbol name="1SMB5956BT3G" originx="0" originy="0">
+    <line originx="200" originy="80" endx="200" endy="-80" width="0" />
+    <line originx="200" originy="80" endx="240" endy="100" width="0" />
+    <line originx="160" originy="-100" endx="200" endy="-80" width="0" />
+    <line originx="100" originy="0" endx="200" endy="0" width="0" />
+    <line originx="500" originy="0" endx="400" endy="0" width="0" />
+    <sympin number="1" originx="100" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="140" originy="10" style="Default" rotation="0" justify="left" flipped="False" hidden="True" data="K" />
+      <text name="pindes" originx="60" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="500" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="460" originy="10" style="Default" rotation="0" justify="right" flipped="False" hidden="True" data="A" />
+      <text name="pindes" originx="540" originy="10" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <polygon type="polygon">
+      <point x="200" y="0" />
+      <point x="400" y="100" />
+      <point x="400" y="-100" />
+    </polygon>
+  </symbol>
+  <component name="1SMB5956BT3G" designatorprefix="Z" height="97.244094488188" footprint="DIOM5436X247N">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="K" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="A" />
+    <attached_symbol gate="1" name="1SMB5956BT3G" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (&gt;16 KV) per Human Body Model; Flat Handling Surface for Accurate Placement; Package Design for Top Side or Bottom Circuit Board Mounting Mechanical Characteristics:; CASE: Void-free, transfer-molded plastic; FINISH: All external surfaces are corrosion resistant with readily solderable leads; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 seconds; LEADS: Modified L-Bend providing more contact area to bond pads; POLARITY: Cathode indi" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="863-1SMB5956BT3G" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/onsemi/1SMB5956BT3G?qs=vLkC5FC1VN8ys0xTgSgReQ%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="onsemi" />
+    <text name="Manufacturer_Part_Number" originx="400" originy="250" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="1SMB5956BT3G" />
+  </component>
+</quadcept_library>

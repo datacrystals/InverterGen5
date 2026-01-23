@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_19374512"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-04-04-04:52:40)
+    (utime 2024-04-04-04:52:40)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 3) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BSS138AKM-QYL")
+)
+
+
+(pinAssign "ECS_19374512"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-04-04-04:52:40)
+    (utime 2024-04-04-04:52:40)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_19374512")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BSS138AKM-QYL")
+)
+
+
+(part "BSS138AKM-QYL"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-04-04-04:52:40)
+    (utime 2024-04-04-04:52:40)
+    (packageRef "BSS138AKM-QYL")
+    (pinAssignRef "ECS_19374512")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "BSS138AKM-Q - 60 V, N-channel Trench MOSFET")
+    (property "Mouser_Part_Number" "771-BSS138AKM-QYL")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BSS138AKM-QYL?qs=wT7LY0lnAe1Y9Jh16X3Z%2Fg%3D%3D")
+    (property "Manufacturer_Name" "Nexperia")
+    (property "Manufacturer_Part_Number" "BSS138AKM-QYL")
+    (property "Datasheet_Link" "https://assets.nexperia.com/documents/data-sheet/BSS138AKM-Q.pdf")
+    (property "compAreaTopHeight" 0.5)
+)
+
+

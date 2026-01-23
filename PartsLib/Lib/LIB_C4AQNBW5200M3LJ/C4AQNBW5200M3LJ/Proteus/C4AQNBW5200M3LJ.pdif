@@ -1,0 +1,146 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "C4AQNBW5200M3LJ"
+   (description "C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm")
+   (family "ANA")
+   (package "C4AQNBW5200M3LJ")
+   (attribute "Datasheet Link" "https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ")
+   (attribute "Geometry.Height" "45.2mm")
+   (attribute "Mouser Part Number" "80-C4AQNBW5200M3LJ")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D")
+   (attribute "Manufacturer_Name" "KEMET")
+   (attribute "Manufacturer_Part_Number" "C4AQNBW5200M3LJ")
+   (gate
+    (symbol "C4AQNBW5200M3LJ")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "C4AQNBW5200M3LJ"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 280 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 50) (pt 100 -50))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 50) (pt 400 -50))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 50) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 500 50) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 -50) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 500 -50) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "C4AQNBW5200M3LJ"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.25 25.15)
+      (pt 39.75 25.15)
+      (pt 39.75 -4.85)
+      (pt -2.25 -4.85)
+      (pt -2.25 25.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.25 25.15)
+      (pt 39.75 25.15)
+      (pt 39.75 -4.85)
+      (pt -2.25 -4.85)
+      (pt -2.25 25.15))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.25 26.15)
+      (pt 40.75 26.15)
+      (pt 40.75 -5.85)
+      (pt -3.25 -5.85)
+      (pt -3.25 26.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.8 0)
+      (arc (pt -2.800 0.000) (pt -2.800 -0.050) (pt -2.700 0.050) (start 180.0) (sweep -180.0))
+      (pt -2.7 0)
+      (arc (pt -2.700 0.000) (pt -2.800 -0.050) (pt -2.700 0.050) (start 180.0) (sweep .0))
+      (pt -2.8 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 37.500 0.000) (padstack 0))
+   (leg 3 (pt 0.000 20.300) (padstack 0))
+   (leg 4 (pt 37.500 20.300) (padstack 0))
+   (padstack 0
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (round 2.100))
+    (pad (layer INNER) (round 2.100))
+    (pad (layer BCOP) (round 2.100))
+   )
+   (padstack 1
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (square 2.100))
+    (pad (layer INNER) (round 2.100))
+    (pad (layer BCOP) (square 2.100))
+   )
+   (model "C4AQNBW5200M3LJ.stp"
+    (euler 90 0 0)
+    (offset -2.549999952316284 25.350000381469727 0)
+   )
+  )
+ )
+)

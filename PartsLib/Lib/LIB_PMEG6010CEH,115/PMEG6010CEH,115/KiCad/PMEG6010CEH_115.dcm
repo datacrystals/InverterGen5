@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PMEG6010CEH,115
+D Schottky Diodes & Rectifiers SCHOTTKY 60V 1A
+K
+F https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf
+$ENDCMP
+#
+#End Doc Library

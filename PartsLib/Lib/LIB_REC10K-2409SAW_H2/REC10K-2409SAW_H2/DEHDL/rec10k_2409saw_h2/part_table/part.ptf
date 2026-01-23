@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'REC10K_2409SAW_H2'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "RECOM Power", "REC10K-2409SAW/H2" (!) = "", "REC10K-AW", "Other", "", "", "10W DC/DC-Converter 'ECONOLINE' 1"x1" 1.6kV reg 4:1", "https://recom-power.com/pdf/Econoline/REC10K-AW.pdf", "10.7 mm"
+END_PART
+
+END.

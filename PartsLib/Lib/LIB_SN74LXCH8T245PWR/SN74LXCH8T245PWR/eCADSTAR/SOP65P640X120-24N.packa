@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SN74LXCH8T245PWR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-07-29-13:40:53)
+    (mountForm default
+        (footprintRef "SOP65P640X120-24N")
+        (spec "System")
+    )
+)

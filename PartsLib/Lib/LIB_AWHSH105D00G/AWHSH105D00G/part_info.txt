@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=AWHSH105D00G
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=5
+Version=1.1
+Released=2023-04-15 09:30:30
+Downloaded=2025-12-15 17:41:21
+3D=Y

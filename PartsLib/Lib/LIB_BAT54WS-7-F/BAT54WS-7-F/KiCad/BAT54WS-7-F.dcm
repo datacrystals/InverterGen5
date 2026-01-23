@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAT54WS-7-F
+D Diodes Inc BAT54WS-7-F, SMT Schottky Switching Diode, 30V 200mA, 5ns, 2-Pin SOD-323
+K
+F https://www.diodes.com//assets/Datasheets/BAT54WS.pdf
+$ENDCMP
+#
+#End Doc Library

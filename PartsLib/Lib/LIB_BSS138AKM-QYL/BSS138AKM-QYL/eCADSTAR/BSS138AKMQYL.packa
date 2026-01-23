@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BSS138AKM-QYL"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-04-04-04:52:40)
+    (mountForm default
+        (footprintRef "BSS138AKMQYL")
+        (spec "System")
+    )
+)

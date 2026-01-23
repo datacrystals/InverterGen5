@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1SMB2EZ15_R1_00001
+#/13729971/1553794/2.50/2/3/Zener Diode
+DEF 1SMB2EZ15_R1_00001 Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L CNN
+F1 "1SMB2EZ15_R1_00001" 400 250 50 H V L CNN
+F2 "1SMB2EZ15_R1_00001" 400 150 50 H I L CNN
+F3 "https://www.panjit.com.tw/upload/datasheet/1SMB2EZ6.8_SERIES.pdf" 400 50 50 H I L CNN
+F4 "Zener Diode 15 V 2 W +/-5% Surface Mount SMB (DO-214AA)" 400 -50 50 H I L CNN "Description"
+F5 "2.44" 400 -150 50 H I L CNN "Height"
+F6 "241-1SMB2EZ15R100001" 400 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panjit/1SMB2EZ15_R1_00001?qs=sPbYRqrBIVlScXzJBeNObw%3D%3D" 400 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "PANJIT" 400 -450 50 H I L CNN "Manufacturer_Name"
+F9 "1SMB2EZ15_R1_00001" 400 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library

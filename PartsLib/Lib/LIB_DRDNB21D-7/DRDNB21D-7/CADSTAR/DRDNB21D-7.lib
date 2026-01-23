@@ -1,0 +1,16 @@
+.DRDNB21D-7 :1 ;Diodes Inc, DRDNB21D-7, Dual NPN Digital Transistor, 100 mA 50 V, 6-Pin SOT-363
+SOT65P210X110-6N
+*STM IC
+*NGS
+*PLB 1="C1/A1" 2="E1/E2" 3="C2/A2" 4="B2" 5="K1/K2" 6="B1"
+*MXP 6
+*DFN DRDNB21D-7
+~!Mouser Part Number (621-DRDNB21D-7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DRDNB21D-7?qs=mQbszxtPdlPuLejzjzn%2Fng%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (DRDNB21D-7)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/ds30756.pdf)
+~!Height (1.1mm)
+~!3D_Model (DRDNB21D-7)
+DRDNB21D-7
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

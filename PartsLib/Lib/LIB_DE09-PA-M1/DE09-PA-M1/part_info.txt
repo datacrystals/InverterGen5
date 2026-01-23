@@ -1,0 +1,9 @@
+Manufacturer=Adam Tech
+PartNumber=DE09-PA-M1
+PartCategory=Connector
+PackageCategory=Other
+PinCount=9
+Version=1.4
+Released=2025-02-21 14:44:48
+Downloaded=2025-04-02 06:23:19
+3D=Y

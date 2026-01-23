@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACT45B-101-2P-TL003
+D Common Mode Filters / Chokes, |Z|=5800 at 10MHz, L x W x T :
+K
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_automotive_signal_act45b_en.pdf
+$ENDCMP
+#
+#End Doc Library

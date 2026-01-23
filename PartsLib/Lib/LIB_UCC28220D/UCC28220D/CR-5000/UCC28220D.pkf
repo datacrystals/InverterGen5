@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "UCC28220D"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "UCC28220D")
+        (spec "default")
+    )
+)

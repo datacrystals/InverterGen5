@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_1603646"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-04-27-10:49:09)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "IPB65R150CFDAATMA1")
+)
+
+
+(pinAssign "ECS_1603646"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-04-27-10:49:09)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1603646")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "IPB65R150CFDAATMA1")
+)
+
+
+(part "IPB65R150CFDAATMA1"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-04-27-10:49:09)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "IPB65R150CFDAATMA1")
+    (pinAssignRef "ECS_1603646")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "Trans MOSFET N-CH 650V 22.4A Automotive 3-Pin(2+Tab) D2PAK T/R")
+    (property "Mouser_Part_Number" "726-IPB65R150CFDAATM")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=726-IPB65R150CFDAATM")
+    (property "Manufacturer_Name" "Infineon")
+    (property "Manufacturer_Part_Number" "IPB65R150CFDAATMA1")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/1/IPB65R150CFDAATMA1.pdf")
+    (property "compAreaTopHeight" 4.82)
+)
+
+

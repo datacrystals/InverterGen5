@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_1753692"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-06-11-11:21:26)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "FBMJ1608HS220NTR")
+)
+
+
+(pinAssign "ECS_1753692"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-06-11-11:21:26)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1753692")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "FBMJ1608HS220NTR")
+)
+
+
+(part "FBMJ1608HS220NTR"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-06-11-11:21:26)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "FBMJ1608HS220NTR")
+    (pinAssignRef "ECS_1753692")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "FB")
+    (property "description" "TAIYO YUDEN - FBMJ1608HS220NTR - FERRITE BEAD, 22 OHM, 7.5A, 0603")
+    (property "Mouser_Part_Number" "963-FBMJ1608HS220NTR")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/FBMJ1608HS220NTR?qs=qEEMd6hQM8XfqBRLulOo%2FQ%3D%3D")
+    (property "Manufacturer_Name" "TAIYO YUDEN")
+    (property "Manufacturer_Part_Number" "FBMJ1608HS220NTR")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 1)
+)
+
+

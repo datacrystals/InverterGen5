@@ -1,0 +1,344 @@
+
+(EDIF
+  (rename &D25S33E4PA00LF "D25S33E4PA00LF")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 04 22 21 00 11)
+      (dataOrigin "18758468/1553794/2.50/27/2/Connector")
+      (program "SamacSys ECAD Model D25S33E4PA00LF"
+        (version "2.4"))))
+  (library
+  (rename &D25S33E4PA00LF "D25S33E4PA00LF")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &D25S33E4PA00LF "D25S33E4PA00LF")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename PACKAGENAME "PackageName") (string "D25S33E4PA00LF"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "D25S33E4PA00LF"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string ""))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string ""))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Amphenol Communications Solutions"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "D25S33E4PA00LF"))
+          (property (rename &Description "Description") (string "D-SUB STANDARD BOARD MOUNT CONNECTORS"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c01-8646-0010.pdf"))
+          (property (rename &Height "Height") (string "12.96 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "D25S33E4PA00LF"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &3 "3")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &4 "4")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &5 "5")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &6 "6")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &7 "7")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &8 "8")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (port
+            (rename &9 "9")
+            (designator "9")
+            (property (rename ORDER "Order") (string "8") (owner "OrCAD"))
+          )
+          (port
+            (rename &10 "10")
+            (designator "10")
+            (property (rename ORDER "Order") (string "9") (owner "OrCAD"))
+          )
+          (port
+            (rename &11 "11")
+            (designator "11")
+            (property (rename ORDER "Order") (string "10") (owner "OrCAD"))
+          )
+          (port
+            (rename &12 "12")
+            (designator "12")
+            (property (rename ORDER "Order") (string "11") (owner "OrCAD"))
+          )
+          (port
+            (rename &13 "13")
+            (designator "13")
+            (property (rename ORDER "Order") (string "12") (owner "OrCAD"))
+          )
+          (port
+            (rename &14 "14")
+            (designator "14")
+            (property (rename ORDER "Order") (string "13") (owner "OrCAD"))
+          )
+          (port
+            (rename &15 "15")
+            (designator "15")
+            (property (rename ORDER "Order") (string "14") (owner "OrCAD"))
+          )
+          (port
+            (rename &16 "16")
+            (designator "16")
+            (property (rename ORDER "Order") (string "15") (owner "OrCAD"))
+          )
+          (port
+            (rename &17 "17")
+            (designator "17")
+            (property (rename ORDER "Order") (string "16") (owner "OrCAD"))
+          )
+          (port
+            (rename &18 "18")
+            (designator "18")
+            (property (rename ORDER "Order") (string "17") (owner "OrCAD"))
+          )
+          (port
+            (rename &19 "19")
+            (designator "19")
+            (property (rename ORDER "Order") (string "18") (owner "OrCAD"))
+          )
+          (port
+            (rename &20 "20")
+            (designator "20")
+            (property (rename ORDER "Order") (string "19") (owner "OrCAD"))
+          )
+          (port
+            (rename &21 "21")
+            (designator "21")
+            (property (rename ORDER "Order") (string "20") (owner "OrCAD"))
+          )
+          (port
+            (rename &22 "22")
+            (designator "22")
+            (property (rename ORDER "Order") (string "21") (owner "OrCAD"))
+          )
+          (port
+            (rename &23 "23")
+            (designator "23")
+            (property (rename ORDER "Order") (string "22") (owner "OrCAD"))
+          )
+          (port
+            (rename &24 "24")
+            (designator "24")
+            (property (rename ORDER "Order") (string "23") (owner "OrCAD"))
+          )
+          (port
+            (rename &25 "25")
+            (designator "25")
+            (property (rename ORDER "Order") (string "24") (owner "OrCAD"))
+          )
+          (port
+            (rename &MH1 "MH1")
+            (designator "MH1")
+            (property (rename ORDER "Order") (string "25") (owner "OrCAD"))
+          )
+          (port
+            (rename &MH2 "MH2")
+            (designator "MH2")
+            (property (rename ORDER "Order") (string "26") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1 (display PINNAME))
+              (figure PIN (path (pointList (pt 1300 200) (pt 1300 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 1300 200))))
+            )
+            (portImplementation
+              (name &2 (display PINNAME))
+              (figure PIN (path (pointList (pt 1200 200) (pt 1200 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 1200 200))))
+            )
+            (portImplementation
+              (name &3 (display PINNAME))
+              (figure PIN (path (pointList (pt 1100 200) (pt 1100 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 200))))
+            )
+            (portImplementation
+              (name &4 (display PINNAME))
+              (figure PIN (path (pointList (pt 1000 200) (pt 1000 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 200))))
+            )
+            (portImplementation
+              (name &5 (display PINNAME))
+              (figure PIN (path (pointList (pt 900 200) (pt 900 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 900 200))))
+            )
+            (portImplementation
+              (name &6 (display PINNAME))
+              (figure PIN (path (pointList (pt 800 200) (pt 800 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 200))))
+            )
+            (portImplementation
+              (name &7 (display PINNAME))
+              (figure PIN (path (pointList (pt 700 200) (pt 700 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 200))))
+            )
+            (portImplementation
+              (name &8 (display PINNAME))
+              (figure PIN (path (pointList (pt 600 200) (pt 600 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 200))))
+            )
+            (portImplementation
+              (name &9 (display PINNAME))
+              (figure PIN (path (pointList (pt 500 200) (pt 500 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 200))))
+            )
+            (portImplementation
+              (name &10 (display PINNAME))
+              (figure PIN (path (pointList (pt 400 200) (pt 400 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 200))))
+            )
+            (portImplementation
+              (name &11 (display PINNAME))
+              (figure PIN (path (pointList (pt 300 200) (pt 300 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 200))))
+            )
+            (portImplementation
+              (name &12 (display PINNAME))
+              (figure PIN (path (pointList (pt 200 200) (pt 200 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 200))))
+            )
+            (portImplementation
+              (name &13 (display PINNAME))
+              (figure PIN (path (pointList (pt 100 200) (pt 100 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 100 200))))
+            )
+            (portImplementation
+              (name &14 (display PINNAME))
+              (figure PIN (path (pointList (pt 1200 -800) (pt 1200 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 1200 -800))))
+            )
+            (portImplementation
+              (name &15 (display PINNAME))
+              (figure PIN (path (pointList (pt 1100 -800) (pt 1100 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -800))))
+            )
+            (portImplementation
+              (name &16 (display PINNAME))
+              (figure PIN (path (pointList (pt 1000 -800) (pt 1000 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -800))))
+            )
+            (portImplementation
+              (name &17 (display PINNAME))
+              (figure PIN (path (pointList (pt 900 -800) (pt 900 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 900 -800))))
+            )
+            (portImplementation
+              (name &18 (display PINNAME))
+              (figure PIN (path (pointList (pt 800 -800) (pt 800 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 -800))))
+            )
+            (portImplementation
+              (name &19 (display PINNAME))
+              (figure PIN (path (pointList (pt 700 -800) (pt 700 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 -800))))
+            )
+            (portImplementation
+              (name &20 (display PINNAME))
+              (figure PIN (path (pointList (pt 600 -800) (pt 600 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -800))))
+            )
+            (portImplementation
+              (name &21 (display PINNAME))
+              (figure PIN (path (pointList (pt 500 -800) (pt 500 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -800))))
+            )
+            (portImplementation
+              (name &22 (display PINNAME))
+              (figure PIN (path (pointList (pt 400 -800) (pt 400 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 -800))))
+            )
+            (portImplementation
+              (name &23 (display PINNAME))
+              (figure PIN (path (pointList (pt 300 -800) (pt 300 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 -800))))
+            )
+            (portImplementation
+              (name &24 (display PINNAME))
+              (figure PIN (path (pointList (pt 200 -800) (pt 200 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 -800))))
+            )
+            (portImplementation
+              (name &25 (display PINNAME))
+              (figure PIN (path (pointList (pt 100 -800) (pt 100 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 100 -800))))
+            )
+            (portImplementation
+              (name &MH1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &MH2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1400 -300) (pt 1600 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 1600 -300))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1400 0)
+                  (pt 1400 -600)
+                  (pt 0 -600)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1450 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1450 30))))
+          )
+        )
+      )
+    )
+  )
+)

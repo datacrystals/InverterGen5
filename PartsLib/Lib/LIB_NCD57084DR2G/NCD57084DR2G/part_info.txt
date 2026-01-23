@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=NCD57084DR2G
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2022-02-26 06:08:50
+Downloaded=2025-12-11 08:19:15
+3D=Y

@@ -1,0 +1,16 @@
+.LTST-C230CKT :1 ;Standard LEDs - SMD Red Clear 638nm
+LEDC3216X120N
+*STM LED
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN LTST-C230CKT
+~!Mouser Part Number (859-LTST-C230CKT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C230CKT?qs=Ajas4iFhtucdJAOTHdHdqw%3D%3D)
+~!Manufacturer_Name (Lite-On)
+~!Manufacturer_Part_Number (LTST-C230CKT)
+~!Link Datasheet (-)
+~!Height (1.2mm)
+~!3D_Model (LTST-C230CKT)
+LTST-C230CKT
+1.1!U 2.1!U 

@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_1866743"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-09-16-10:23:36)
+    (utime 2024-12-16-15:05:12)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "5442251")
+)
+
+
+(pinAssign "ECS_1866743"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-09-16-10:23:36)
+    (utime 2024-12-16-15:05:12)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1866743")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "5442251")
+)
+
+
+(part "5442251"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-09-16-10:23:36)
+    (utime 2024-12-16-15:05:12)
+    (packageRef "5442251")
+    (pinAssignRef "ECS_1866743")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Fixed Terminal Blocks BC-350X9- 3 GN 3.5 MM PITCH")
+    (property "Mouser_Part_Number" "651-5442251")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/5442251?qs=9Y9qB%2FCsC3kmzTCxovpQiw%3D%3D")
+    (property "Manufacturer_Name" "Phoenix Contact")
+    (property "Manufacturer_Part_Number" "5442251")
+    (property "Datasheet_Link" "https://www.phoenixcontact.com/en-gb/products/printed-circuit-board-terminal-bc-350x9-3-gn-5442251")
+    (property "compAreaTopHeight" 8.65)
+)
+
+

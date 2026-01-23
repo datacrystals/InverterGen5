@@ -1,0 +1,123 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "B32774X1155K000"
+   (description "Metallized Polypropylene Capacitors (MKP/MFP), 1.5uF, 1200V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)")
+   (family "CAP")
+   (package "B32774X_(31.5_x_12.5)")
+   (attribute "Datasheet Link" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf")
+   (attribute "Mouser Part Number" "871-B32774X1155K000")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X1155K000?qs=RcG8xmE7yp0YFv1F2F1e3g%3D%3D")
+   (attribute "Manufacturer_Name" "TDK")
+   (attribute "Manufacturer_Part_Number" "B32774X1155K000")
+   (gate
+    (symbol "B32774X1155K000")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "B32774X1155K000"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "B32774X_(31.5_x_12.5)"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2 6.25)
+      (pt 29.5 6.25)
+      (pt 29.5 -6.25)
+      (pt -2 -6.25)
+      (pt -2 6.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 6.25)
+      (pt 29.5 6.25)
+      (pt 29.5 -6.25)
+      (pt -2 -6.25)
+      (pt -2 6.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -2.4 0) (pt -2.3 0)
+     )
+    )
+   )
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.25 7.25)
+      (pt 30.5 7.25)
+      (pt 30.5 -7.25)
+      (pt -3.25 -7.25)
+      (pt -3.25 7.25))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 27.5 0) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.5))
+    (pad (layer INNER) (round 1.5))
+    (pad (layer BCOP) (round 1.5))
+   )
+   (padstack 1
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.5))
+    (pad (layer INNER) (round 1.5))
+    (pad (layer BCOP) (square 1.5))
+   )
+   (model "B32774X1155K000.stp"
+    (euler 90 0 0)
+    (offset 13.800000190734863 0 11.59000015258789)
+   )
+  )
+ )
+)

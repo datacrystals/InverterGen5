@@ -1,0 +1,16 @@
+.DE09-PA-M1 :1 ;9 Position D-Sub Plug, Male Pins Connector , UL94 V-0 , 250VAC  , -65C ~ 125C
+DE09PAM1
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="9"
+*MXP 9
+*DFN DE09-PA-M1
+~!Mouser Part Number (737-DE09-PA-M1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Adam-Tech/DE09-PA-M1?qs=HoCaDK9Nz5dJl%252BJp%252BOux4g%3D%3D)
+~!Manufacturer_Name (Adam Tech)
+~!Manufacturer_Part_Number (DE09-PA-M1)
+~!Link Datasheet (https://app.adam-tech.com/products/download/data_sheet/198632/dxxx-pa-m1-data-sheet.pdf)
+~!Height (12.4714mm)
+~!3D_Model (DE09-PA-M1)
+DE09-PA-M1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "REC10K-AW"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "REC10K-AW")
+        (spec "default")
+    )
+)

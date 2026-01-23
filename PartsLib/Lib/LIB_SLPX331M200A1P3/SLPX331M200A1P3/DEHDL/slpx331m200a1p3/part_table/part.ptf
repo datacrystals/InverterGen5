@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SLPX331M200A1P3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Cornell Dubilier", "SLPX331M200A1P3" (!) = "", "CAPPRD1000W190D2250H2700", "Capacitor, Polarized Radial Diameter", "598-SLPX331M200A1P3", "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D", "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C", "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics", "27 mm"
+END_PART
+
+END.

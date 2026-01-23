@@ -1,0 +1,16 @@
+.TLV6001QDCKRQ1 :1 ;Low-Power, RRIO, 1-MHz, Operational Amplifier for Cost-Sensitive Systems
+SOT65P210X110-5N
+*STM IC
+*NGS
+*PLB 1="+IN" 2="V-" 3="-IN" 4="OUT" 5="V+"
+*MXP 5
+*DFN TLV6001QDCKRQ1
+~!Mouser Part Number (595-TLV6001QDCKRQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV6001QDCKRQ1?qs=qSfuJ%252Bfl%2Fd4YmnuAK2Ksyg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TLV6001QDCKRQ1)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tlv6001-q1)
+~!Height (1.1mm)
+~!3D_Model (TLV6001QDCKRQ1)
+TLV6001QDCKRQ1
+1.1!I 2.1!G 3.1!I 4.1!I 5.1!P 

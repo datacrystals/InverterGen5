@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ALH82A750CB600"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-08-08-10:44:52)
+    (mountForm default
+        (footprintRef "ALH82A750CB600")
+        (spec "System")
+    )
+)

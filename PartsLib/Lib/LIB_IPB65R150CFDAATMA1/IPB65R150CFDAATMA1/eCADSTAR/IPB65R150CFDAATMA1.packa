@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "IPB65R150CFDAATMA1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-04-27-10:49:09)
+    (mountForm default
+        (footprintRef "IPB65R150CFDAATMA1")
+        (spec "System")
+    )
+)

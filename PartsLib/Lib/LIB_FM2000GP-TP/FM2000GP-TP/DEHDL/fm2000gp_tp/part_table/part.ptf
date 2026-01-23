@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FM2000GP_TP'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "MCC", "FM2000GP-TP" (!) = "", "DIOM5226X244N", "Diodes Moulded", "833-FM2000GP-TP", "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/FM2000GP-TP?qs=y6ZabgHbY%252BxF9Taq4zonHw%3D%3D", "Fast Recovery Rectifiers", "https://www.mccsemi.com/pdf/Products/FM2000GP(SMA).pdf", "2.44 mm"
+END_PART
+
+END.

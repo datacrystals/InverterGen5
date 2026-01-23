@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ISO6740FQDWRQ1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-04-26-07:35:08)
+    (mountForm default
+        (footprintRef "SOIC127P1030X265-16N")
+        (spec "System")
+    )
+)

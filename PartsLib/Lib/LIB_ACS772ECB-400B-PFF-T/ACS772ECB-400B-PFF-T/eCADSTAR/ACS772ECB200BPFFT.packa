@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ACS772ECB-400B-PFF-T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-11-01-13:01:41)
+    (mountForm default
+        (footprintRef "ACS772ECB200BPFFT")
+        (spec "System")
+    )
+)

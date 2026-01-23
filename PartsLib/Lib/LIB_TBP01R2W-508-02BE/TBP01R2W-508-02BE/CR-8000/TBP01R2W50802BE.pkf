@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TBP01R2W50802BE"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TBP01R2W50802BE")
+        (spec "default")
+    )
+)

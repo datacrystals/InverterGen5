@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B32652A0104K000"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-10-07-16:26:09)
+    (mountForm default
+        (footprintRef "B32652__18_x_9_")
+        (spec "System")
+    )
+)

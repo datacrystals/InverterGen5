@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "S3N"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-06-22-02:40:16)
+    (mountForm default
+        (footprintRef "DIOM8059X265N")
+        (spec "System")
+    )
+)

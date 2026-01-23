@@ -1,0 +1,128 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "REC10K-2409SAW_H2"
+   (description "10W DC/DC-Converter \'ECONOLINE\' 1\"x1\" 1.6kV reg 4:1")
+   (family "ANA")
+   (package "REC10K-AW")
+   (attribute "Datasheet Link" "https://recom-power.com/pdf/Econoline/REC10K-AW.pdf")
+   (attribute "Geometry.Height" "10.7mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "RECOM Power")
+   (attribute "Manufacturer_Part_Number" "REC10K-2409SAW/H2")
+   (gate
+    (symbol "REC10K-2409SAW_H2")
+    (pin "+VIN" 1 PS)
+    (pin "-VIN" 2 PS)
+    (pin "CTRL" 3 PS)
+    (pin "-VOUT" 4 PS)
+    (pin "TRIM" 5 PS)
+    (pin "+VOUT" 6 PS)
+   )
+  )
+  (symbol "REC10K-2409SAW_H2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "REC10K-AW"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -12.7 12.7)
+      (pt 12.7 12.7)
+      (pt 12.7 -12.7)
+      (pt -12.7 -12.7)
+      (pt -12.7 12.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -12.7 12.7)
+      (pt 12.7 12.7)
+      (pt 12.7 -12.7)
+      (pt -12.7 -12.7)
+      (pt -12.7 12.7))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -13.7 13.7)
+      (pt 13.7 13.7)
+      (pt 13.7 -13.7)
+      (pt -13.7 -13.7)
+      (pt -13.7 13.7))))
+   (leg 1 (pt -10.160 -2.540) (padstack 1))
+   (leg 2 (pt -10.160 2.540) (padstack 0))
+   (leg 3 (pt -10.160 10.160) (padstack 0))
+   (leg 4 (pt 10.160 10.160) (padstack 0))
+   (leg 5 (pt 10.160 0.000) (padstack 0))
+   (leg 6 (pt 10.160 -10.160) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (padstack 1
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (square 1.500))
+   )
+   (model "REC10K-2409SAW_H2.stp"
+    (euler -90 0 0)
+    (offset 0 0 0.3100000023841858)
+   )
+  )
+ )
+)

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/18521389/1553794/2.50/2/3/Capacitor/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="s300_h200" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="78.740157480314">
+    <padshape layer="TOP" shape="square" width="118.11023622047" height="118.11023622047" />
+    <padshape layer="TOP_SOLDER_MASK" shape="square" width="125.9842519685" height="125.9842519685" />
+    <padshape layer="INNER" shape="square" width="118.11023622047" height="118.11023622047" />
+    <padshape layer="BOTTOM" shape="square" width="118.11023622047" height="118.11023622047" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="square" width="125.9842519685" height="125.9842519685" />
+  </padstyle>
+  <padstyle name="c300_h200" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="78.740157480314">
+    <padshape layer="TOP" shape="round" width="118.11023622047" height="118.11023622047" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="125.9842519685" height="125.9842519685" />
+    <padshape layer="INNER" shape="round" width="118.11023622047" height="118.11023622047" />
+    <padshape layer="BOTTOM" shape="round" width="118.11023622047" height="118.11023622047" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="125.9842519685" height="125.9842519685" />
+  </padstyle>
+  <footprint name="ALH82A750CB600" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="s300_h200" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c300_h200" originx="393.70078740157" originy="0" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-433.07086614173" originy="629.92125984251" endx="826.7716535433" endy="629.92125984251" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="826.7716535433" originy="629.92125984251" endx="826.7716535433" endy="-629.92125984251" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="826.7716535433" originy="-629.92125984251" endx="-433.07086614173" endy="-629.92125984251" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-433.07086614173" originy="-629.92125984251" endx="-433.07086614173" endy="629.92125984251" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-393.70078740157" originy="0" endx="-393.70078740157" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_ASSEMBLY" originx="196.85039370078" originy="0" startangle="-180.0" sweepangle="180.0" radius="590.55118110236" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="787.40157480314" originy="0" endx="787.40157480314" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_ASSEMBLY" originx="196.85039370078" originy="0" startangle=".0" sweepangle="180.0" radius="590.55118110236" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-393.70078740157" originy="0" endx="-393.70078740157" endy="0" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="196.85039370078" originy="0" startangle="-180.0" sweepangle="180.0" radius="590.55118110236" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="787.40157480314" originy="0" endx="787.40157480314" endy="0" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="196.85039370078" originy="0" startangle=".0" sweepangle="180.0" radius="590.55118110236" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-417.32283464566" originy="0" endx="-417.32283464566" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-415.35433070866" originy="0" startangle="180.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-413.38582677165" originy="0" endx="-413.38582677165" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-415.35433070866" originy="0" startangle=".0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+  </footprint>
+  <symbol name="ALH82A750CB600" originx="0" originy="0">
+    <line originx="220" originy="100" endx="220" endy="-100" width="0" />
+    <line originx="280" originy="100" endx="280" endy="-100" width="0" />
+    <line originx="200" originy="0" endx="220" endy="0" width="0" />
+    <line originx="280" originy="0" endx="300" endy="0" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-10" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="1" />
+      <text name="pindes" originx="0" originy="10" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="300" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="500" originy="-10" style="Default" rotation="0" justify="upperright" flipped="False" hidden="True" data="2" />
+      <text name="pindes" originx="500" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+  </symbol>
+  <component name="ALH82A750CB600" designatorprefix="C" height="1259.842519685" footprint="ALH82A750CB600">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="2" />
+    <attached_symbol gate="1" name="ALH82A750CB600" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="80-ALH82A750CB600" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="KEMET" />
+    <text name="Manufacturer_Part_Number" originx="350" originy="150" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="ALH82A750CB600" />
+  </component>
+</quadcept_library>

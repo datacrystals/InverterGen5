@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=B32774X1155K000
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=2.1
+Released=2021-10-10 20:46:49
+Downloaded=2026-01-17 03:25:23
+3D=Y

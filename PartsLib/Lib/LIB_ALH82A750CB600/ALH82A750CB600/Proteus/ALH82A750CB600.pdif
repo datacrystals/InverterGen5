@@ -1,0 +1,126 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ALH82A750CB600"
+   (description "75 F 600 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 1.861Ohm @ 100Hz 3000 Hrs @ 105C")
+   (family "CAP")
+   (package "ALH82A750CB600")
+   (attribute "Datasheet Link" "https://search.kemet.com/component-documentation/download/specsheet/ALH82A750CB600")
+   (attribute "Geometry.Height" "32mm")
+   (attribute "Mouser Part Number" "80-ALH82A750CB600")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ALH82A750CB600?qs=IPgv5n7u5QYD2qLIrnuv%2FQ%3D%3D")
+   (attribute "Manufacturer_Name" "KEMET")
+   (attribute "Manufacturer_Part_Number" "ALH82A750CB600")
+   (gate
+    (symbol "ALH82A750CB600")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "ALH82A750CB600"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ALH82A750CB600"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -11 16)
+      (pt 21 16)
+      (pt 21 -16)
+      (pt -11 -16)
+      (pt -11 16))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -10 0)
+      (arc (pt -10.000 0.000) (pt -10.000 -15.000) (pt 20.000 15.000) (start 180.0) (sweep -180.0))
+      (pt 20 0)
+      (arc (pt 20.000 0.000) (pt -10.000 -15.000) (pt 20.000 15.000) (start 180.0) (sweep .0))
+      (pt -10 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -10 0)
+      (arc (pt -10.000 0.000) (pt -10.000 -15.000) (pt 20.000 15.000) (start 180.0) (sweep -180.0))
+      (pt 20 0)
+      (arc (pt 20.000 0.000) (pt -10.000 -15.000) (pt 20.000 15.000) (start 180.0) (sweep .0))
+      (pt -10 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -10.6 0)
+      (arc (pt -10.600 0.000) (pt -10.600 -0.050) (pt -10.500 0.050) (start 180.0) (sweep 180.0))
+      (pt -10.5 0)
+      (arc (pt -10.500 0.000) (pt -10.600 -0.050) (pt -10.500 0.050) (start 180.0) (sweep .0))
+      (pt -10.6 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 10.000 0.000) (padstack 2))
+   (padstack 0
+    (hole 2)
+    (plated true)
+    (pad (layer TCOP) (square 3.000))
+    (pad (layer INNER) (round 3.000))
+    (pad (layer BCOP) (square 3.000))
+   )
+   (padstack 2
+    (hole 2)
+    (plated true)
+    (pad (layer TCOP) (round 3.000))
+    (pad (layer INNER) (round 3.000))
+    (pad (layer BCOP) (round 3.000))
+   )
+   (model "ALH82A750CB600.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SSM3K361R_LF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-08-28-12:53:04)
+    (mountForm default
+        (footprintRef "SOT95P240X88-3N")
+        (spec "System")
+    )
+)

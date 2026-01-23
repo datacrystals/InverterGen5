@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AMC3330QDWERQ1'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "AMC3330QDWERQ1" (!) = "", "SOIC127P1030X265-16N", "Small Outline Packages", "595-AMC3330QDWERQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/AMC3330QDWERQ1?qs=81r%252BiQLm7BThq9fK1XpIYg%3D%3D", "Isolation Amplifiers Automotive +/-1-V input, precision reinforced isolated amplifier with integrated DC/DC converter 16-SOIC -40 to 125", "https://www.ti.com/lit/ds/symlink/amc3330.pdf?ts=1605812770714&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253DAMC3330DWE", "2.65 mm"
+END_PART
+
+END.

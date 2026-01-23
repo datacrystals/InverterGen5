@@ -1,0 +1,115 @@
+(footprint "CM600HA-24H-PWR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 15 -16.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a58a41fa-5c46-4ba8-a5eb-bdeedd8008a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "CM600HA-24H-PWR"
+		(at 17.5 -26 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d0e2808-d4ea-4ebe-ad30-96cd4e4216f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4312d3b5-e55d-49ef-bbb7-fed52d46f56c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd40f63f-7ef3-4af2-bf08-6e779e672f9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -12.5 -16)
+		(end 41.5 16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a22e35a1-d26a-437f-802a-9f38c9cec9d4")
+	)
+	(fp_text user "CM600HA-24H IGBT"
+		(at 15 -15.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bd5c2eef-d0a0-4ead-a176-df73c98e9078")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 18 25)
+		(drill 9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "b1e7e4cd-17e1-499e-826f-8d4d46f3a76b")
+	)
+	(pad "2" thru_hole roundrect
+		(at 29 0)
+		(size 18 25)
+		(drill 9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "9549ee7a-123d-4ad7-a428-3ddf128aa4e2")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PartsLib/3D/CM600HA-24H.stp"
+		(offset
+			(xyz -53.5 -39 -38)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

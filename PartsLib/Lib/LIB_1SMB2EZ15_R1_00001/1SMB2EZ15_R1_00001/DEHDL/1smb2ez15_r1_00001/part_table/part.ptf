@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1SMB2EZ15_R1_00001'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "PANJIT", "1SMB2EZ15_R1_00001" (!) = "", "1SMB2EZ15_R1_00001", "Other", "241-1SMB2EZ15R100001", "https://www.mouser.co.uk/ProductDetail/Panjit/1SMB2EZ15_R1_00001?qs=sPbYRqrBIVlScXzJBeNObw%3D%3D", "Zener Diode 15 V 2 W +/-5% Surface Mount SMB (DO-214AA)", "https://www.panjit.com.tw/upload/datasheet/1SMB2EZ6.8_SERIES.pdf", "2.44 mm"
+END_PART
+
+END.

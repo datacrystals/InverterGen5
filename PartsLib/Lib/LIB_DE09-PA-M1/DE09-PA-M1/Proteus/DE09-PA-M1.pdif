@@ -1,0 +1,156 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DE09-PA-M1"
+   (description "9 Position D-Sub Plug, Male Pins Connector , UL94 V-0 , 250VAC  , -65C ~ 125C")
+   (family "CON")
+   (package "DE09PAM1")
+   (attribute "Datasheet Link" "https://app.adam-tech.com/products/download/data_sheet/198632/dxxx-pa-m1-data-sheet.pdf")
+   (attribute "Geometry.Height" "12.4714mm")
+   (attribute "Mouser Part Number" "737-DE09-PA-M1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Adam-Tech/DE09-PA-M1?qs=HoCaDK9Nz5dJl%252BJp%252BOux4g%3D%3D")
+   (attribute "Manufacturer_Name" "Adam Tech")
+   (attribute "Manufacturer_Part_Number" "DE09-PA-M1")
+   (gate
+    (symbol "DE09-PA-M1")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+    (pin "7" 7 PS)
+    (pin "8" 8 PS)
+    (pin "9" 9 PS)
+   )
+  )
+  (symbol "DE09-PA-M1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DE09PAM1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.865 4.855)
+      (pt 20.945 4.855)
+      (pt 20.945 -7.695)
+      (pt -9.865 -7.695)
+      (pt -9.865 4.855))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -9.865 4.855)
+      (pt 20.945 4.855)
+      (pt 20.945 -7.695)
+      (pt -9.865 -7.695)
+      (pt -9.865 4.855))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -10.865 5.855)
+      (pt 21.945 5.855)
+      (pt 21.945 -8.695)
+      (pt -10.865 -8.695)
+      (pt -10.865 5.855))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 5.4)
+      (arc (pt 0.000 5.400) (pt -0.050 5.300) (pt 0.050 5.400) (start 180.0) (sweep 90.0))
+      (pt 0 5.3)
+      (arc (pt 0.000 5.300) (pt -0.050 5.300) (pt 0.050 5.400) (start 180.0) (sweep -90.0))
+      (pt 0 5.4))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 2.770 0.000) (padstack 0))
+   (leg 3 (pt 5.540 0.000) (padstack 0))
+   (leg 4 (pt 8.310 0.000) (padstack 0))
+   (leg 5 (pt 11.080 0.000) (padstack 0))
+   (leg 6 (pt 1.385 -2.840) (padstack 0))
+   (leg 7 (pt 4.155 -2.840) (padstack 0))
+   (leg 8 (pt 6.925 -2.840) (padstack 0))
+   (leg 9 (pt 9.695 -2.840) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (padstack 1
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (square 1.500))
+   )
+   (model "DE09-PA-M1.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

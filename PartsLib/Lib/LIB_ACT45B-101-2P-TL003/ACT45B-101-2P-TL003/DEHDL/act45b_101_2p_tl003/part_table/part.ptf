@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ACT45B_101_2P_TL003'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "ACT45B-101-2P-TL003" (!) = "", "ACT45B1012PTL003", "Other", "810-ACT45B1012PTL003", "https://www.mouser.co.uk/ProductDetail/TDK/ACT45B-101-2P-TL003?qs=SKgu1TwNDxoLFWvwfqJuJA%3D%3D", "Common Mode Filters / Chokes, |Z|=5800 at 10MHz, L x W x T :", "https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_automotive_signal_act45b_en.pdf", "3 mm"
+END_PART
+
+END.

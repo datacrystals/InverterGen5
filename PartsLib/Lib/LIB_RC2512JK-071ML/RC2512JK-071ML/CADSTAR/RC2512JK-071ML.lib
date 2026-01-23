@@ -1,0 +1,16 @@
+.RC2512JK-071ML :1 ;1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film
+RESC6431X65N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN RC2512JK-071ML
+~!Mouser Part Number (603-RC2512JK-071ML)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/YAGEO/RC2512JK-071ML?qs=Fz%2FrpjPuTcGzVNzRy4mnPw%3D%3D)
+~!Manufacturer_Name (YAGEO)
+~!Manufacturer_Part_Number (RC2512JK-071ML)
+~!Link Datasheet (https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf)
+~!Height (0.65mm)
+~!3D_Model (RC2512JK-071ML)
+RC2512JK-071ML
+1.1!U 2.1!U 

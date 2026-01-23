@@ -1,0 +1,195 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "776275-1"
+   (description "Body Features: Primary Product Color Black | Connector & Keying Code 1 | Configuration Features: Number of Positions 8 | Number of Rows 3 | PCB Mount Orientation Vertical | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 8 AMP | Contact Type Pin | Housing Features: Centerline (Pitch) .157 INCH | Centerline (Pitch) 4 MM | Industry Standards: UL Flammability Rating UL 94V-0 | Mechanical Attachment: Mating Alignment With | PCB Mount Alignment With | PCB Mount Retention")
+   (family "CON")
+   (package "7762751")
+   (attribute "Datasheet Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773979-2&DocType=Data%20Sheet&DocLang=English&PartCntxt=776275-1&DocFormat=pdf")
+   (attribute "Geometry.Height" "34.5mm")
+   (attribute "Mouser Part Number" "571-776275-1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/776275-1?qs=tLAa1RwIH6f8ivWehpoZzA%3D%3D")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "776275-1")
+   (gate
+    (symbol "776275-1")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+    (pin "7" 7 PS)
+    (pin "8" 8 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+    (pin "MH3" MH3 PS)
+    (pin "MH4" MH4 PS)
+   )
+  )
+  (symbol "776275-1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "7762751"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -16.4 13.8)
+      (pt 24.4 13.8)
+      (pt 24.4 -18.3)
+      (pt -16.4 -18.3)
+      (pt -16.4 13.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -16.4 13.8)
+      (pt 24.4 13.8)
+      (pt 24.4 -18.3)
+      (pt -16.4 -18.3)
+      (pt -16.4 13.8))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -17.4 16.05)
+      (pt 25.4 16.05)
+      (pt 25.4 -19.3)
+      (pt -17.4 -19.3)
+      (pt -17.4 16.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 15)
+      (arc (pt 0.000 15.000) (pt 0.000 14.950) (pt 0.100 15.050) (start 180.0) (sweep 180.0))
+      (pt 0.1 15)
+      (arc (pt 0.100 15.000) (pt 0.000 14.950) (pt 0.100 15.050) (start 180.0) (sweep .0))
+      (pt 0 15))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 4.000 0.000) (padstack 0))
+   (leg 3 (pt 8.000 0.000) (padstack 0))
+   (leg 4 (pt 2.000 -4.000) (padstack 0))
+   (leg 5 (pt 6.000 -4.000) (padstack 0))
+   (leg 6 (pt 0.000 -8.000) (padstack 0))
+   (leg 7 (pt 4.000 -8.000) (padstack 0))
+   (leg 8 (pt 8.000 -8.000) (padstack 0))
+   (leg MH1 (pt -9.700 6.800) (padstack 9))
+   (leg MH2 (pt 17.700 6.800) (padstack 10))
+   (leg MH3 (pt -11.200 -11.300) (padstack 11))
+   (leg MH4 (pt 19.200 -11.300) (padstack 12))
+   (padstack 0
+    (hole 1.85)
+    (plated true)
+    (pad (layer TCOP) (round 2.775))
+    (pad (layer INNER) (round 2.775))
+    (pad (layer BCOP) (round 2.775))
+   )
+   (padstack 9
+    (hole 2)
+    (plated true)
+    (pad (layer TCOP) (round 3.000))
+    (pad (layer INNER) (round 3.000))
+    (pad (layer BCOP) (round 3.000))
+   )
+   (padstack 10
+    (hole 2)
+    (plated true)
+    (pad (layer TCOP) (round 3.000))
+    (pad (layer INNER) (round 3.000))
+    (pad (layer BCOP) (round 3.000))
+   )
+   (padstack 11
+    (hole 2)
+    (plated true)
+    (pad (layer TCOP) (round 3.000))
+    (pad (layer INNER) (round 3.000))
+    (pad (layer BCOP) (round 3.000))
+   )
+   (padstack 12
+    (hole 2)
+    (plated true)
+    (pad (layer TCOP) (round 3.000))
+    (pad (layer INNER) (round 3.000))
+    (pad (layer BCOP) (round 3.000))
+   )
+   (model "776275-1.stp"
+    (euler 0 0 0)
+    (offset 4 -3.9200000762939453 34.349998474121094)
+   )
+  )
+ )
+)

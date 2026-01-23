@@ -1,0 +1,16 @@
+.PMEG6010CEH_115 :1 ;Schottky Diodes & Rectifiers SCHOTTKY 60V 1A
+SODFL3516X120N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN PMEG6010CEH_115
+~!Mouser Part Number (771-PMEG6010CEH-T/R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/PMEG6010CEH115?qs=LOCUfHb8d9uyulDQGIpcOA%3D%3D)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PMEG6010CEH,115)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf)
+~!Height (1.2mm)
+~!3D_Model (PMEG6010CEH,115)
+PMEG6010CEH_115
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=SIHFR120-GE3
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2021-12-29 16:24:20
+Downloaded=2025-02-03 06:54:25
+3D=Y

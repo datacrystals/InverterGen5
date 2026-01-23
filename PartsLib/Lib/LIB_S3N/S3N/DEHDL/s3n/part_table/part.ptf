@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'S3N'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "S3N" (!) = "", "DIOM8059X265N", "Diodes Moulded", "512-S3N", "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/S3N?qs=1e7cUg5%2FiX9vmmrP5FC5Aw%3D%3D", "Glass-Passivated Junction.; High Breakdown Voltage Rating; Low-Profile Package; UL Flammability Classification: 94V-0", "https://www.onsemi.com/pub/Collateral/S3N-D.PDF", "2.65 mm"
+END_PART
+
+END.

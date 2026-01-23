@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TBP01R2_508_04BE'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Same Sky", "TBP01R2-508-04BE" (!) = "", "SHDR4W100P0X508_1X4_2192X850X1200P", "Header, Shrouded - Straight PTH Box", "490-TBP01R2-508-04BE", "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R2-508-04BE?qs=PzGy0jfpSMt81U9Qkgbf1g%3D%3D", "TBP01R2-508 Series - 2~24 Poles, Pluggable, Receptacle, Vertical, 5.08 Pitch, Terminal Block Connector", "https://www.sameskydevices.com/product/resource/tbp01r2-508.pdf", "12 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=SN74LXCH8T245PWR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=24
+Version=1.1
+Released=2021-04-19 10:08:54
+Downloaded=2025-05-27 11:09:55
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=TBP01R2W-508-02BE
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=4.4
+Released=2019-08-31 22:39:52
+Downloaded=2026-01-22 00:45:11
+3D=Y

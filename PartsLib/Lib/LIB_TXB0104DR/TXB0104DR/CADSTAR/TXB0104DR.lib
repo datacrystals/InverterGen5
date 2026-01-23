@@ -1,0 +1,16 @@
+.TXB0104DR :1 ;4-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15 kV ESD Protect
+SOIC127P600X175-14N
+*STM IC
+*NGS
+*PLB 1="VCCA" 2="A1" 3="A2" 4="A3" 5="A4" 6="NC_1" 7="GND" 8="OE" 9="NC_2" 10="B4" 11="B3" 12="B2" 13="B1" 14="VCCB"
+*MXP 14
+*DFN TXB0104DR
+~!Mouser Part Number (595-TXB0104DR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXB0104DR?qs=oFXvjAmG9EgBSYD5QAjkqQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TXB0104DR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/txb0104)
+~!Height (1.75mm)
+~!3D_Model (TXB0104DR)
+TXB0104DR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 

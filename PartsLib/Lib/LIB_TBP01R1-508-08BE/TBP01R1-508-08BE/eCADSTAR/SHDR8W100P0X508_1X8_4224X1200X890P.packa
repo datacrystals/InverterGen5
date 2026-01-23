@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TBP01R1-508-08BE"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-12-08-08:36:44)
+    (mountForm default
+        (footprintRef "SHDR8W100P0X508_1X8_4224X1200X890P")
+        (spec "System")
+    )
+)

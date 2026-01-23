@@ -1,0 +1,16 @@
+.ADS8688AIDBT :1 ;16-Bit, 500kSPS, 8-Ch SAR ADC With Bipolar Inputs Using 5V Supply and Low-Drift VREF
+SOP50P640X120-38M
+*STM IC
+*NGS
+*PLB 1="SDI" 2="'RST'/'PD'" 3="DAISY" 4="'REFSEL'" 5="REFIO" 6="REFGND" 7="REFCAP" 8="AGND_1" 9="AVDD_1" 10="AUX_IN" 11="AUX_GND" 12="AIN_6P" 13="AIN_6GND" 14="AIN_7P" 15="AIN_7GND" 16="AIN_0P" 17="AIN_0GND" 18="AIN_1P" 19="AIN_1GND" 20="AIN2_GND" 21="AIN_2P" 22="AIN_3GND" 23="AIN_3P" 24="AIN_4GND" 25="AIN_4P" 26="AIN_5GND" 27="AIN_5P" 28="AGND_2" 29="AGND_3" 30="AVDD_2" 31="AGND_4" 32="AGND_5" 33="DGND" 34="DVDD" 35="ALARM" 36="SDO" 37="SCLK" 38="'CS'"
+*MXP 38
+*DFN ADS8688AIDBT
+~!Mouser Part Number (595-ADS8688AIDBT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS8688AIDBT?qs=xufs61hA5MZv%2F46DP%252BYoHw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (ADS8688AIDBT)
+~!Link Datasheet (http://www.ti.com/lit/gpn/ads8688a)
+~!Height (1.2mm)
+~!3D_Model (ADS8688AIDBT)
+ADS8688AIDBT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 

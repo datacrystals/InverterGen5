@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP2515-e_ST
+D CAN controller with SPI, 125 degC
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00090060.pdf
+$ENDCMP
+#
+#End Doc Library

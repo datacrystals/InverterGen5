@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SSM3K361R_LF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Toshiba", "SSM3K361R,LF" (!) = "", "SOT95P240X88-3N", "SOT23 (3-Pin)", "757-SSM3K361RLF", "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3K361RLF?qs=kdd6aVn74hzchJRi%252BUbybA%3D%3D", "Silicon N-channel MOS Power Management Switches DC-DC Converters", "http://toshiba.semicon-storage.com/info/docget.jsp?did=36685&prodName=SSM3K361R", "0.88 mm"
+END_PART
+
+END.

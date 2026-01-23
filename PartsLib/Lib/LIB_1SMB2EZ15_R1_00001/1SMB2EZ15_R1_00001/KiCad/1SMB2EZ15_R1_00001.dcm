@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1SMB2EZ15_R1_00001
+D Zener Diode 15 V 2 W +/-5% Surface Mount SMB (DO-214AA)
+K
+F https://www.panjit.com.tw/upload/datasheet/1SMB2EZ6.8_SERIES.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,221 @@
+(footprint "SHDR4W100P0X508_1X4_2192X850X1200P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TBP01R2-508-04BE")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at -5 0 0)
+		(layer "F.SilkS")
+		(uuid "9f2dacd6-c9dc-489d-8c44-3be1fe1a01a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SHDR4W100P0X508_1X4_2192X850X1200P"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "38c51926-d719-41d2-9f3d-0aadc171c4fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c084eb9c-7dfe-4cd4-93fb-6c0c9f8d7f1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b6ed202-4895-406a-8cc3-ee09f41dff92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_line
+		(start -3.34 -4.6)
+		(end -3.34 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb068e24-8544-4b50-84e6-80b367dcbd1b")
+	)
+	(fp_line
+		(start 0 3.9)
+		(end 18.58 3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "888876db-0484-49af-bdcb-a5b09fe03021")
+	)
+	(fp_line
+		(start 18.58 -4.6)
+		(end -3.34 -4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a11c69b1-70bd-4f0c-b45d-d5194558787c")
+	)
+	(fp_line
+		(start 18.58 3.9)
+		(end 18.58 -4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "922b2113-1363-4e48-af2f-1a5c626cec2b")
+	)
+	(fp_line
+		(start -3.59 -4.85)
+		(end 18.83 -4.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e65cc48a-35fe-487a-bfb0-01f38d9103f8")
+	)
+	(fp_line
+		(start -3.59 4.15)
+		(end -3.59 -4.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "cea74928-4f68-4b81-a280-2cfe67ccdfd5")
+	)
+	(fp_line
+		(start -3.34 -4.6)
+		(end 18.58 -4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00d6b348-b6ff-4d5f-9d39-98b7fac45912")
+	)
+	(fp_line
+		(start -3.34 3.9)
+		(end -3.34 -4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "97d69b91-a604-43ea-9fd5-6a299b18d59e")
+	)
+	(fp_line
+		(start 18.58 -4.6)
+		(end 18.58 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e6402d9d-8ce7-48dc-957d-06ba23a58895")
+	)
+	(fp_line
+		(start 18.58 3.9)
+		(end -3.34 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a307b0dd-0061-4649-9470-51511c6259a3")
+	)
+	(fp_line
+		(start 18.83 -4.85)
+		(end 18.83 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a1f71529-8924-4ffa-8bc2-7e13e442727f")
+	)
+	(fp_line
+		(start 18.83 4.15)
+		(end -3.59 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "32ff63dc-f535-4d4d-82e7-c0696b39b64c")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "5c760d96-d550-4b85-84c3-eee00e1e4c99")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0 90)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "ccb2de24-c3b9-4039-8c22-7e81df49a22e")
+	)
+	(pad "3" thru_hole circle
+		(at 10.16 0 90)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "d3626817-6885-443e-899c-fc51f537df22")
+	)
+	(pad "4" thru_hole circle
+		(at 15.24 0 90)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "2a075544-1f75-44cc-8d6e-bab8fae3acc7")
+	)
+	(embedded_fonts no)
+	(model "./PartsLib/3D/TBP01R2-508-04BE.stp"
+		(offset
+			(xyz 0 -4 20.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+)

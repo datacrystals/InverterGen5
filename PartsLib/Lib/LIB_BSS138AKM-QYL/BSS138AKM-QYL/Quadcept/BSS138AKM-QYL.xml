@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/19374512/1553794/2.50/3/2/MOSFET (N-Channel)/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r40_25" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="9.8425196850392" height="15.748031496063" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="17.716535433071" height="23.622047244094" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="9.8425196850392" height="15.748031496063" />
+  </padstyle>
+  <padstyle name="r70_40" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="15.748031496063" height="27.55905511811" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="23.622047244094" height="35.433070866141" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="15.748031496063" height="27.55905511811" />
+  </padstyle>
+  <footprint name="BSS138AKMQYL" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r40_25" originx="-13.779527559055" originy="8.8582677165353" rotation="90" />
+    <pcbpin number="2" name="2" style="r40_25" originx="-13.779527559055" originy="-8.8582677165353" rotation="90" />
+    <pcbpin number="3" name="3" style="r70_40" originx="13.779527559055" originy="0" rotation="0" />
+    <line layer="TOP_ASSEMBLY" originx="-19.370078740157" originy="11.535433070866" endx="19.370078740157" endy="11.535433070866" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="19.370078740157" originy="11.535433070866" endx="19.370078740157" endy="-11.535433070866" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="19.370078740157" originy="-11.535433070866" endx="-19.370078740157" endy="-11.535433070866" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-19.370078740157" originy="-11.535433070866" endx="-19.370078740157" endy="11.535433070866" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-61.023622047243" originy="53.149606299212" endx="61.023622047243" endy="53.149606299212" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="61.023622047243" originy="53.149606299212" endx="61.023622047243" endy="-53.149606299212" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="61.023622047243" originy="-53.149606299212" endx="-61.023622047243" endy="-53.149606299212" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-61.023622047243" originy="-53.149606299212" endx="-61.023622047243" endy="53.149606299212" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-39.370078740157" originy="8.8582677165353" endx="-39.370078740157" endy="8.8582677165353" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-41.338582677165" originy="8.8582677165353" startangle=".0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-43.307086614173" originy="8.8582677165353" endx="-43.307086614173" endy="8.8582677165353" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-41.338582677165" originy="8.8582677165353" startangle="180.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+  </footprint>
+  <symbol name="BSS138AKM-QYL" originx="0" originy="0">
+    <line originx="300" originy="100" endx="300" endy="-100" width="0" />
+    <line originx="300" originy="200" endx="300" endy="300" width="0" />
+    <line originx="100" originy="0" endx="200" endy="0" width="0" />
+    <line originx="200" originy="200" endx="200" endy="0" width="0" />
+    <line originx="300" originy="100" endx="230" endy="100" width="0" />
+    <line originx="300" originy="200" endx="230" endy="200" width="0" />
+    <line originx="230" originy="0" endx="300" endy="0" width="0" />
+    <line originx="230" originy="220" endx="230" endy="180" width="0" />
+    <line originx="230" originy="-20" endx="230" endy="20" width="0" />
+    <line originx="230" originy="80" endx="230" endy="120" width="0" />
+    <arc originx="250" originy="100" startangle="180" sweepangle="180" radius="150" width="0" />
+    <arc originx="250" originy="100" startangle="180" sweepangle="-180" radius="150" width="0" />
+    <sympin number="1" originx="100" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-20" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="G" />
+      <text name="pindes" originx="80" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="3" originx="300" originy="300" rotation="90" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="320" originy="400" style="Default" rotation="90" justify="upperleft" flipped="False" hidden="True" data="D" />
+      <text name="pindes" originx="280" originy="400" style="Default" rotation="90" justify="upperright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="2" originx="300" originy="-100" rotation="270" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="320" originy="-200" style="Default" rotation="90" justify="lowerleft" flipped="False" hidden="True" data="S" />
+      <text name="pindes" originx="280" originy="-200" style="Default" rotation="90" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <polygon type="polygon">
+      <point x="230" y="100" />
+      <point x="270" y="120" />
+      <point x="270" y="80" />
+    </polygon>
+  </symbol>
+  <component name="BSS138AKM-QYL" designatorprefix="Q" height="19.685039370078" footprint="BSS138AKMQYL">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="G" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="S" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="D" />
+    <attached_symbol gate="1" name="BSS138AKM-QYL" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://assets.nexperia.com/documents/data-sheet/BSS138AKM-Q.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="BSS138AKM-Q - 60 V, N-channel Trench MOSFET" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="771-BSS138AKM-QYL" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Nexperia/BSS138AKM-QYL?qs=wT7LY0lnAe1Y9Jh16X3Z%2Fg%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Nexperia" />
+    <text name="Manufacturer_Part_Number" originx="450" originy="50" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="BSS138AKM-QYL" />
+  </component>
+</quadcept_library>

@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=1N5956BRLG
+PartCategory=Zener Diode
+PackageCategory=Diodes, Axial Diameter Horizontal Mounting
+PinCount=2
+Version=2.1
+Released=2022-01-01 10:36:37
+Downloaded=2025-04-26 07:03:02
+3D=Y

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_17159803"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-09-04-04:28:12)
+    (utime 2024-09-04-04:28:12)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "RC2512JK-071ML")
+)
+
+
+(pinAssign "ECS_17159803"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-09-04-04:28:12)
+    (utime 2024-09-04-04:28:12)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_17159803")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "RC2512JK-071ML")
+)
+
+
+(part "RC2512JK-071ML"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-09-04-04:28:12)
+    (utime 2024-09-04-04:28:12)
+    (packageRef "RC2512JK-071ML")
+    (pinAssignRef "ECS_17159803")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "1 MOhms +/-5% 1W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thick Film")
+    (property "Mouser_Part_Number" "603-RC2512JK-071ML")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC2512JK-071ML?qs=Fz%2FrpjPuTcGzVNzRy4mnPw%3D%3D")
+    (property "Manufacturer_Name" "YAGEO")
+    (property "Manufacturer_Part_Number" "RC2512JK-071ML")
+    (property "Datasheet_Link" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf")
+    (property "compAreaTopHeight" 0.65)
+)
+
+

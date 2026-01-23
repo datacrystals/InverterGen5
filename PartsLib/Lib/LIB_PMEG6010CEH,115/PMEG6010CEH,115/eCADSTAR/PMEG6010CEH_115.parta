@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_12855356"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-12-17-09:47:43)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "PMEG6010CEH_115")
+)
+
+
+(pinAssign "ECS_12855356"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-12-17-09:47:43)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_12855356")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "PMEG6010CEH_115")
+)
+
+
+(part "PMEG6010CEH_115"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-12-17-09:47:43)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "PMEG6010CEH_115")
+    (pinAssignRef "ECS_12855356")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Schottky Diodes & Rectifiers SCHOTTKY 60V 1A")
+    (property "Mouser_Part_Number" "771-PMEG6010CEH-T/R")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMEG6010CEH115?qs=LOCUfHb8d9uyulDQGIpcOA%3D%3D")
+    (property "Manufacturer_Name" "Nexperia")
+    (property "Manufacturer_Part_Number" "PMEG6010CEH,115")
+    (property "Datasheet_Link" "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf")
+    (property "compAreaTopHeight" 1.2)
+)
+
+

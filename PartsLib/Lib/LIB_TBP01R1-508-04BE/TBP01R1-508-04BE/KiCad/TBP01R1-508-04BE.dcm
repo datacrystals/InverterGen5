@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TBP01R1-508-04BE
+D 2~24 Poles, Pluggable, Receptacle, Horizontal, 5.08 Pitch, Terminal Block Connector
+K
+F https://www.sameskydevices.com/product/resource/supplyframepdf/tbp01r1-508.pdf
+$ENDCMP
+#
+#End Doc Library

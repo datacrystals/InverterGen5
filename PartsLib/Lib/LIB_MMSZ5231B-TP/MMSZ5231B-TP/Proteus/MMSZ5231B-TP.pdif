@@ -1,0 +1,125 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MMSZ5231B-TP"
+   (description "Zener Diodes")
+   (family "DIO")
+   (package "SOD3716X135N")
+   (attribute "Datasheet Link" "https://mccsemi.com/pdf/Products/MMSZ5221-MMSZ5267(SOD-123).pdf")
+   (attribute "Geometry.Height" "1.35mm")
+   (attribute "Mouser Part Number" "833-MMSZ5231B-TP")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MMSZ5231B-TP?qs=ZNK0BnemlqEexvzDQxpNYA%3D%3D")
+   (attribute "Manufacturer_Name" "MCC")
+   (attribute "Manufacturer_Part_Number" "MMSZ5231B-TP")
+   (gate
+    (symbol "MMSZ5231B-TP")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "MMSZ5231B-TP"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 80) (pt 200 -80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 80) (pt 240 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 -100) (pt 200 -80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 500 0) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOD3716X135N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.575 1.655)
+      (pt 2.575 1.655)
+      (pt 2.575 -1.655)
+      (pt -2.575 -1.655)
+      (pt -2.575 1.655))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.34 0.8)
+      (pt 1.34 0.8)
+      (pt 1.34 -0.8)
+      (pt -1.34 -0.8)
+      (pt -1.34 0.8))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.34 0.275)
+      (pt -0.815 0.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.325 0.8)
+      (pt 1.34 0.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.34 -0.8)
+      (pt 1.34 -0.8))))
+   (leg 1 (pt -1.8 0) (padstack 0))
+   (leg 2 (pt 1.8 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.85 1.05 0 0 0))
+   )
+   (model "MMSZ5231B-TP.stp"
+    (euler 90 0 0)
+    (offset -0.2800000011920929 2.799999952316284 0.7200000286102295)
+   )
+  )
+ )
+)

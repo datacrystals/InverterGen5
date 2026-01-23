@@ -1,0 +1,115 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TBP01R1-508-04BE"
+   (description "2~24 Poles, Pluggable, Receptacle, Horizontal, 5.08 Pitch, Terminal Block Connector")
+   (family "CON")
+   (package "TBP01R150804BE")
+   (attribute "Datasheet Link" "https://www.sameskydevices.com/product/resource/supplyframepdf/tbp01r1-508.pdf")
+   (attribute "Geometry.Height" "8.9mm")
+   (attribute "Mouser Part Number" "490-TBP01R1-508-04BE")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TBP01R1-508-04BE?qs=PzGy0jfpSMtbuigPwCNi2Q%3D%3D")
+   (attribute "Manufacturer_Name" "Same Sky")
+   (attribute "Manufacturer_Part_Number" "TBP01R1-508-04BE")
+   (gate
+    (symbol "TBP01R1-508-04BE")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "TBP01R1-508-04BE"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TBP01R150804BE"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.34 10)
+      (pt 18.58 10)
+      (pt 18.58 -1.2)
+      (pt -3.34 -1.2)
+      (pt -3.34 10))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.34 11)
+      (pt 19.58 11)
+      (pt 19.58 -2.275)
+      (pt -4.34 -2.275)
+      (pt -4.34 11))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.34 -1.2)
+      (pt -3.34 10)
+      (pt 18.58 10)
+      (pt 18.58 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 18.58 0)
+      (pt 18.58 -1.2))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 5.080 0.000) (padstack 0))
+   (leg 3 (pt 10.160 0.000) (padstack 0))
+   (leg 4 (pt 15.240 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.7)
+    (plated true)
+    (pad (layer TCOP) (round 2.550))
+    (pad (layer INNER) (round 2.550))
+    (pad (layer BCOP) (round 2.550))
+   )
+   (model "TBP01R1-508-04BE.stp"
+    (euler 90 0 -90)
+    (offset 15.239999771118164 18.899999618530273 0.07999999821186066)
+   )
+  )
+ )
+)

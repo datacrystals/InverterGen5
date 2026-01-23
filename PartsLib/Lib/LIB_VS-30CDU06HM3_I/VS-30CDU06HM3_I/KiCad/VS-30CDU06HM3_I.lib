@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model VS-30CDU06HM3_I
+#/959147/1553794/2.50/3/4/Diode
+DEF VS-30CDU06HM3_I D 0 30 Y Y 1 F N
+F0 "D" 1650 300 50 H V L CNN
+F1 "VS-30CDU06HM3_I" 1650 200 50 H V L CNN
+F2 "VS30CDU06HM3I" 1650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/VS-30CDU06HM3_I.pdf" 1650 0 50 H I L CNN
+F4 "Rectifiers Dual 2x15A 600V FRED Pt AEC-Q101" 1650 -100 50 H I L CNN "Description"
+F5 "1.8" 1650 -200 50 H I L CNN "Height"
+F6 "78-VS-30CDU06HM3I" 1650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-30CDU06HM3-I?qs=TzNRGq6adzkm0ixYQuTp0g%3D%3D" 1650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 1650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "VS-30CDU06HM3/I" 1650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ANODE_1 1 0 0 200 R 50 50 0 0 P
+X ANODE_2 2 0 -100 200 R 50 50 0 0 P
+X COMMON_CATHODE 3 1800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1600 100 1600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "C4AQNBW5200M3LJ"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "C4AQNBW5200M3LJ")
+        (spec "default")
+    )
+)

@@ -1,0 +1,16 @@
+.ISO6740FQDWRQ1 :1 ;Automotive, general-purpose, quad-channel, 4/0 digital isolator
+SOIC127P1030X265-16N
+*STM IC
+*NGS
+*PLB 1="VCC1" 2="GND1_1" 3="INA" 4="INB" 5="INC" 6="IND" 7="NC" 8="GND1_2" 9="GND2_1" 10="EN2" 11="OUTD" 12="OUTC" 13="OUTB" 14="OUTA" 15="GND2_2" 16="VCC2"
+*MXP 16
+*DFN ISO6740FQDWRQ1
+~!Mouser Part Number (595-ISO6740FQDWRQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO6740FQDWRQ1?qs=aP1CjGhiNiFi0hvB5PXWVQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (ISO6740FQDWRQ1)
+~!Link Datasheet (https://www.ti.com/lit/gpn/iso6740-q1)
+~!Height (2.65mm)
+~!3D_Model (ISO6740FQDWRQ1)
+ISO6740FQDWRQ1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

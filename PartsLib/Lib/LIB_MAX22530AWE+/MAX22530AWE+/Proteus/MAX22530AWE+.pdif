@@ -1,0 +1,192 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MAX22530AWE+"
+   (description "Field-Side Self-Powered, 4-Channel, 12-bit, Isolated ADC")
+   (family "ANA")
+   (package "SOIC127P1032X265-16N")
+   (attribute "Datasheet Link" "https://www.analog.com/MAX22530/datasheet")
+   (attribute "Geometry.Height" "2.65mm")
+   (attribute "Mouser Part Number" "700-MAX22530AWE+")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX22530AWE%2b?qs=DRkmTr78QASxug5yEXUKBg%3D%3D")
+   (attribute "Manufacturer_Name" "Analog Devices")
+   (attribute "Manufacturer_Part_Number" "MAX22530AWE+")
+   (gate
+    (symbol "MAX22530AWE+")
+    (pin "REF" 1 PS)
+    (pin "AGND" 2 PS)
+    (pin "AIN1" 3 PS)
+    (pin "AIN2" 4 PS)
+    (pin "AIN3" 5 PS)
+    (pin "AIN4" 6 PS)
+    (pin "VDDF" 7 PS)
+    (pin "GNDF" 8 PS)
+    (pin "$INT$" 16 PS)
+    (pin "$CS$" 15 PS)
+    (pin "SCLK" 14 PS)
+    (pin "SDI" 13 PS)
+    (pin "SDO" 12 PS)
+    (pin "VDDL" 11 PS)
+    (pin "VDDPL" 10 PS)
+    (pin "GNDL" 9 PS)
+   )
+  )
+  (symbol "MAX22530AWE+"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -800) (pt 200 -800) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -700) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOIC127P1032X265-16N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -5.925 5.5)
+      (pt 5.925 5.5)
+      (pt 5.925 -5.5)
+      (pt -5.925 -5.5)
+      (pt -5.925 5.5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.75 5.15)
+      (pt 3.75 5.15)
+      (pt 3.75 -5.15)
+      (pt -3.75 -5.15)
+      (pt -3.75 5.15))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.75 3.88)
+      (pt -2.48 5.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.4 5.15)
+      (pt 3.4 5.15)
+      (pt 3.4 -5.15)
+      (pt -3.4 -5.15)
+      (pt -3.4 5.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.675 5.12)
+      (pt -3.75 5.12))))
+   (leg 1 (pt -4.712 4.445) (padstack 0))
+   (leg 2 (pt -4.712 3.175) (padstack 0))
+   (leg 3 (pt -4.712 1.905) (padstack 0))
+   (leg 4 (pt -4.712 0.635) (padstack 0))
+   (leg 5 (pt -4.712 -0.635) (padstack 0))
+   (leg 6 (pt -4.712 -1.905) (padstack 0))
+   (leg 7 (pt -4.712 -3.175) (padstack 0))
+   (leg 8 (pt -4.712 -4.445) (padstack 0))
+   (leg 9 (pt 4.712 -4.445) (padstack 0))
+   (leg 10 (pt 4.712 -3.175) (padstack 0))
+   (leg 11 (pt 4.712 -1.905) (padstack 0))
+   (leg 12 (pt 4.712 -0.635) (padstack 0))
+   (leg 13 (pt 4.712 0.635) (padstack 0))
+   (leg 14 (pt 4.712 1.905) (padstack 0))
+   (leg 15 (pt 4.712 3.175) (padstack 0))
+   (leg 16 (pt 4.712 4.445) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.65 1.925 0 0 0))
+   )
+   (model "MAX22530AWE+.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

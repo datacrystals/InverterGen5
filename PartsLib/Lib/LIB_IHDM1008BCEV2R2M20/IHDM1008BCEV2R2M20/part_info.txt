@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=IHDM1008BCEV2R2M20
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2025-02-03 06:24:14
+Downloaded=2025-02-03 07:37:34
+3D=Y

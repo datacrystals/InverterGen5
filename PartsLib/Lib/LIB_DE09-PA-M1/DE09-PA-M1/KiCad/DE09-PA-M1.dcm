@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DE09-PA-M1
+D 9 Position D-Sub Plug, Male Pins Connector , UL94 V-0 , 250VAC  , -65C ~ 125C
+K
+F https://app.adam-tech.com/products/download/data_sheet/198632/dxxx-pa-m1-data-sheet.pdf
+$ENDCMP
+#
+#End Doc Library

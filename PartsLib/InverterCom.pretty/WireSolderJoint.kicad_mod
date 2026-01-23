@@ -1,0 +1,91 @@
+(footprint "WireSolderJoint"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -14 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dd1ccc2f-d7a0-4fba-87d3-df9c8e1944e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WireSolderJoint"
+		(at 0 -16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b856542c-61cb-4db8-b2af-29aced362596")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a99bc881-e4ac-4829-b20e-2da6f3e82383")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f61447b-3eb8-4cca-8897-c0de8a509412")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a8f0dc9-7608-4bae-819b-52c556ff6fa5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 -17.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "121ebf68-0d4e-46b2-93ba-f8923f9dacd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 25 25)
+		(drill 5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.02)
+		(uuid "daa1871e-f54b-4f8f-8bb2-2c1d4bb8877c")
+	)
+)

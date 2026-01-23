@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_2748805"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-01-01-10:36:37)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "1N5956BRLG")
+)
+
+
+(pinAssign "ECS_2748805"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-01-01-10:36:37)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_2748805")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1N5956BRLG")
+)
+
+
+(part "1N5956BRLG"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-01-01-10:36:37)
+    (utime 2025-01-22-16:53:39)
+    (packageRef "1N5956BRLG")
+    (pinAssignRef "ECS_2748805")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "Z")
+    (property "description" "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Surge Rating of 98 Watts @ 1 ms; Maximum Limits Guaranteed On Up To Six Electrical Parameters; Package No Larger Than the Conventional 1 Watt Package Mechanical Characteristics: CASE: Void free, transfer-molded, thermosetting plastic FINISH: All external surfaces are corrosion resistant and leads are readily solderable MAXIMUM LEAD TEMPERATURE FOR SOLDERING PURPOSES:230C, 1/16, from the case for 10 seconds POLARITY: ")
+    (property "Mouser_Part_Number" "863-1N5956BRLG")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1N5956BRLG?qs=y2kkmE52mdPMXQTkwwt%252Bow%3D%3D")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "1N5956BRLG")
+    (property "Datasheet_Link" "https://www.onsemi.com/pub/Collateral/1N5913B-D.PDF")
+)
+
+

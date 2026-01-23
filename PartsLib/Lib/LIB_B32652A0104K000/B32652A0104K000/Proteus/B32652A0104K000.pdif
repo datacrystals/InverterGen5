@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "B32652A0104K000"
+   (description "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)")
+   (family "CAP")
+   (package "B32652_(18_x_9)")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf")
+   (attribute "Geometry.Height" "17.5mm")
+   (attribute "Mouser Part Number" "871-B32652A104K")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K")
+   (attribute "Manufacturer_Name" "TDK")
+   (attribute "Manufacturer_Part_Number" "B32652A0104K000")
+   (gate
+    (symbol "B32652A0104K000")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "B32652A0104K000"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "B32652_(18_x_9)"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.5 4.5)
+      (pt 16.5 4.5)
+      (pt 16.5 -4.5)
+      (pt -1.5 -4.5)
+      (pt -1.5 4.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.5 4.5)
+      (pt 16.5 4.5)
+      (pt 16.5 -4.5)
+      (pt -1.5 -4.5)
+      (pt -1.5 4.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -2.1 0) (pt -2 0)
+     )
+    )
+   )
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.95 5.5)
+      (pt 17.5 5.5)
+      (pt 17.5 -5.5)
+      (pt -2.95 -5.5)
+      (pt -2.95 5.5))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 15 0) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.5))
+    (pad (layer INNER) (round 1.5))
+    (pad (layer BCOP) (round 1.5))
+   )
+   (padstack 1
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.5))
+    (pad (layer INNER) (round 1.5))
+    (pad (layer BCOP) (square 1.5))
+   )
+   (model "B32652A0104K000.stp"
+    (euler -90 180 0)
+    (offset 7.449999809265137 0 13.390000343322754)
+   )
+  )
+ )
+)

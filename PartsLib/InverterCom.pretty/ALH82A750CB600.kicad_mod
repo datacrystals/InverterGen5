@@ -1,0 +1,245 @@
+(footprint "ALH82A750CB600"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ALH82A750CB600-1")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 5 -17 0)
+		(layer "F.SilkS")
+		(uuid "9b238983-e80e-4549-8cb7-2d67fcab09ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ALH82A750CB600"
+		(at 4.5 -21 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c0c81851-06e4-44d3-8fdd-eceba917d58d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "143cb27d-6f9a-491b-9676-a006b56ae5b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9056765-f34a-4546-8d73-bb59db10b0ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.6 0)
+		(end -10.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f5de2b4-7ecb-418a-9208-4eb1f8e8ade8")
+	)
+	(fp_line
+		(start -10.5 0)
+		(end -10.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf9f7d9c-8083-4a7d-9692-74f3d6f2cb4f")
+	)
+	(fp_line
+		(start -10 0)
+		(end -10 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a1e8996-5231-4af2-b81d-642cc0a40b2b")
+	)
+	(fp_line
+		(start 20 0)
+		(end 20 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae80e0cc-fb80-4a45-ae02-55ae3dc4f574")
+	)
+	(fp_arc
+		(start -10.6 0)
+		(mid -10.55 -0.05)
+		(end -10.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "979da33e-507a-4f1c-90ca-9f1009a1bb7a")
+	)
+	(fp_arc
+		(start -10.5 0)
+		(mid -10.55 0.05)
+		(end -10.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd3c61e0-a83e-4dd5-a72f-b02ad4b03114")
+	)
+	(fp_arc
+		(start -10 0)
+		(mid 5 -15)
+		(end 20 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54f7ebda-f092-42ed-9cec-296f535c4676")
+	)
+	(fp_arc
+		(start 20 0)
+		(mid 5 15)
+		(end -10 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff4a6380-1ea5-496e-8b10-252206368199")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 21 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f096a549-5028-4c64-9e83-1f01ab5fb719")
+	)
+	(fp_line
+		(start -10 0)
+		(end -10 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c8ec875-9d5a-43ce-9c7d-79ffc979fa0f")
+	)
+	(fp_line
+		(start 20 0)
+		(end 20 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72b780f2-a463-4e7f-bbe4-dbab11fe9e52")
+	)
+	(fp_arc
+		(start -10 0)
+		(mid 5 -15)
+		(end 20 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "994cfa39-792a-4662-a266-a5e847dda5b9")
+	)
+	(fp_arc
+		(start 20 0)
+		(mid 5 15)
+		(end -10 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cb5a496-0eac-4b78-b2c0-e84c504672e9")
+	)
+	(fp_text user "+"
+		(at -12.5 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "58421057-c242-4458-976d-c2dd84f6c053")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.5 -19 0)
+		(layer "F.Fab")
+		(uuid "13268475-f3f1-40fa-80ae-a0b07beb185c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f884fbc6-75df-41bc-92d7-1a58f3ef9844")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9450745-e221-428e-98d4-4bed63d6a2d9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PartsLib/3D/ALH82A750CB600.stp"
+		(offset
+			(xyz 5 0 32)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 45)
+		)
+	)
+)

@@ -1,0 +1,154 @@
+
+(EDIF
+  (rename &UVY1E102MPD1TD "UVY1E102MPD1TD")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 02 03 00 03 51)
+      (dataOrigin "888549/1553794/2.50/2/3/Capacitor Polarised")
+      (program "SamacSys ECAD Model UVY1E102MPD1TD"
+        (version "1.1"))))
+  (library
+  (rename &UVY1E102MPD1TD "UVY1E102MPD1TD")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &UVY1E102MPD1TD "UVY1E102MPD1TD")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "C")
+          (property (rename PACKAGENAME "PackageName") (string "UVY1E102MPD1TD"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "CAPPRD500W60D1025H1750"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "647-UVY1E102MPD1TD"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Nichicon/UVY1E102MPD1TD?qs=gtReTMvImqniEnVqgrfK9Q%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Nichicon"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "UVY1E102MPD1TD"))
+          (property (rename &Description "Description") (string "Cap Aluminum Lytic 1000uF 25V 20percent (10 X 16mm) Radial 5mm 610mA 1000h 105C Ammo"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://componentsearchengine.com/Datasheets/5/UVY1E102MPD1TD.pdf"))
+          (property (rename &Height "Height") (string "17.5 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "UVY1E102MPD1TD"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &P "P")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &M "M")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &P)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -100 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -100 -100))))
+            )
+            (portImplementation
+              (name &M)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 300 -100) (pt 400 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 100 0)
+                  (pt 100 -200)
+                  (pt 130 -200)
+                  (pt 130 0)
+                  (pt 100 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 80 -50)
+                  (pt 40 -50)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 60 -30)
+                  (pt 60 -70)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 -100)
+                  (pt 100 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 300 -100)
+                )
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 200 0)
+                  (pt 200 -200)
+                  (pt 170 -200)
+                  (pt 170 0)
+                  (pt 200 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify 24) (orientation R0) (origin (pt 250 80))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify 24) (orientation R0) (origin (pt 250 -20))))
+          )
+        )
+      )
+    )
+  )
+)

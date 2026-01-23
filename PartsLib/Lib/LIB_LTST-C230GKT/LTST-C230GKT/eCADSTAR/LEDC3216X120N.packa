@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LTST-C230GKT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-08-08-10:50:26)
+    (mountForm default
+        (footprintRef "LEDC3216X120N")
+        (spec "System")
+    )
+)

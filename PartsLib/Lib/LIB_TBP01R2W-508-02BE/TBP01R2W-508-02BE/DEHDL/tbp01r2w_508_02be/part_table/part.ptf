@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TBP01R2W_508_02BE'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Same Sky", "TBP01R2W-508-02BE" (!) = "", "TBP01R2W50802BE", "Other", "490-TBP01R2W-50802BE", "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R2W-508-02BE?qs=PzGy0jfpSMv0R3n6%2FsgXSg%3D%3D", "TBP01R2W-508 Series - 2~24 Poles, Pluggable, Receptacle, Vertical 5.08 Pitch, Terminal Block Connector", "https://www.sameskydevices.com/product/resource/tbp01r2w-508.pdf", "12.4 mm"
+END_PART
+
+END.

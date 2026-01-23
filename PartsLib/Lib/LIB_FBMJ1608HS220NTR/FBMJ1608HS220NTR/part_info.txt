@@ -1,0 +1,9 @@
+Manufacturer=TAIYO YUDEN
+PartNumber=FBMJ1608HS220NTR
+PartCategory=Ferrite Bead
+PackageCategory=Ferrite Bead Chip
+PinCount=2
+Version=1.1
+Released=2019-06-11 11:21:26
+Downloaded=2025-02-03 07:05:44
+3D=Y

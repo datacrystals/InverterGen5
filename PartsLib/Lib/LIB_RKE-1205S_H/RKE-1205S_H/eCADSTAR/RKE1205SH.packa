@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RKE-1205S_H"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-07-08-12:42:34)
+    (mountForm default
+        (footprintRef "RKE1205SH")
+        (spec "System")
+    )
+)

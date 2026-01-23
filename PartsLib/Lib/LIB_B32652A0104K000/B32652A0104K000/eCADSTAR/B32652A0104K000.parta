@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_12884065"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-10-07-16:26:09)
+    (utime 2023-07-09-22:22:26)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "B32652A0104K000")
+)
+
+
+(pinAssign "ECS_12884065"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-10-07-16:26:09)
+    (utime 2023-07-09-22:22:26)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_12884065")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "B32652A0104K000")
+)
+
+
+(part "B32652A0104K000"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-10-07-16:26:09)
+    (utime 2023-07-09-22:22:26)
+    (packageRef "B32652A0104K000")
+    (pinAssignRef "ECS_12884065")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)")
+    (property "Mouser_Part_Number" "871-B32652A104K")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K")
+    (property "Manufacturer_Name" "TDK")
+    (property "Manufacturer_Part_Number" "B32652A0104K000")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf")
+    (property "compAreaTopHeight" 17.5)
+)
+
+

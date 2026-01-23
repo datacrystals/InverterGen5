@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AMC3330QDWERQ1
+#/13626929/1553794/2.50/16/3/Attenuator or Isolator
+DEF AMC3330QDWERQ1 AT 0 30 Y Y 1 F N
+F0 "AT" 1450 300 50 H V L CNN
+F1 "AMC3330QDWERQ1" 1450 200 50 H V L CNN
+F2 "SOIC127P1030X265-16N" 1450 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/amc3330.pdf?ts=1605812770714&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253DAMC3330DWE" 1450 0 50 H I L CNN
+F4 "Isolation Amplifiers Automotive +/-1-V input, precision reinforced isolated amplifier with integrated DC/DC converter 16-SOIC -40 to 125" 1450 -100 50 H I L CNN "Description"
+F5 "2.65" 1450 -200 50 H I L CNN "Height"
+F6 "595-AMC3330QDWERQ1" 1450 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/AMC3330QDWERQ1?qs=81r%252BiQLm7BThq9fK1XpIYg%3D%3D" 1450 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AMC3330QDWERQ1" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X DCDC_OUT 1 0 0 200 R 50 50 0 0 W
+X DCDC_HGND 2 0 -100 200 R 50 50 0 0 W
+X HLDO_IN 3 0 -200 200 R 50 50 0 0 W
+X NC 4 0 -300 200 R 50 50 0 0 N
+X HLDO_OUT 5 0 -400 200 R 50 50 0 0 W
+X INP 6 0 -500 200 R 50 50 0 0 I
+X INN 7 0 -600 200 R 50 50 0 0 I
+X HGND 8 0 -700 200 R 50 50 0 0 W
+X DCDC_IN 16 1600 0 200 L 50 50 0 0 W
+X DCDC_GND 15 1600 -100 200 L 50 50 0 0 W
+X DIAG 14 1600 -200 200 L 50 50 0 0 O
+X LDO_OUT 13 1600 -300 200 L 50 50 0 0 W
+X VDD 12 1600 -400 200 L 50 50 0 0 W
+X OUTP 11 1600 -500 200 L 50 50 0 0 O
+X OUTN 10 1600 -600 200 L 50 50 0 0 O
+X GND 9 1600 -700 200 L 50 50 0 0 W
+P 5 0 1 6 200 100 1400 100 1400 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

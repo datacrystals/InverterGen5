@@ -1,0 +1,9 @@
+Manufacturer=Amphenol Communications Solutions
+PartNumber=D25S33E4PA00LF
+PartCategory=Connector
+PackageCategory=Other
+PinCount=27
+Version=2.4
+Released=2024-01-05 17:26:09
+Downloaded=2025-04-22 21:00:11
+3D=Y

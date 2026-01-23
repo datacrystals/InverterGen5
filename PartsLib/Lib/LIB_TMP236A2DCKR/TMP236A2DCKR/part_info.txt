@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TMP236A2DCKR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2020-05-21 10:33:11
+Downloaded=2025-02-03 08:13:19
+3D=Y

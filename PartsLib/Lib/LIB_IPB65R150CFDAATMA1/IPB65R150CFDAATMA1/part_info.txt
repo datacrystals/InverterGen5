@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=IPB65R150CFDAATMA1
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2021-04-27 10:49:09
+Downloaded=2025-02-03 01:23:09
+3D=N

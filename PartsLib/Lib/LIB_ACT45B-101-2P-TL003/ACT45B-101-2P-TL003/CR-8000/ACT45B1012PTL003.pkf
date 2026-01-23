@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ACT45B1012PTL003"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ACT45B1012PTL003")
+        (spec "default")
+    )
+)

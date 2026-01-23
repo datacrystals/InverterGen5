@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "L717SDB25PA4CH3R"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-02-20-09:45:32)
+    (mountForm default
+        (footprintRef "L717SDB25PA4CH3R")
+        (spec "System")
+    )
+)

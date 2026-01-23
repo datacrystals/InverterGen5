@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TMP236A2DCKR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-05-01-12:14:55)
+    (mountForm default
+        (footprintRef "SOT65P210X110-5N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,16 @@
+.RKE-1205S_H :1 ;Recom Through Hole 1W Isolated DC-DC Converter, Vin Maximum of 12 V dc, I/O isolation 4kV dc, Vout 5V dc
+RKE1205SH
+*STM PS
+*NGS
+*PLB 1="+VIN" 2="-VIN" 5="-VOUT" 7="+VOUT"
+*MXP 4
+*DFN RKE-1205S_H
+~!Mouser Part Number (919-RKE-1205S/H)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/RECOM-Power/RKE-1205S-H?qs=IFMNCcK%2FBZwj8OgeraTUUA%3D%3D)
+~!Manufacturer_Name (RECOM Power)
+~!Manufacturer_Part_Number (RKE-1205S/H)
+~!Link Datasheet (https://www.recom-power.com/pdf/Econoline/RKE.pdf)
+~!Height (10.7mm)
+~!3D_Model (RKE-1205S_H)
+RKE-1205S_H
+1.1!U 2.1!U 5.1!U 7.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=TBP01R1-508-08BE
+PartCategory=Connector
+PackageCategory=Header, Shrouded - Straight PTH Box
+PinCount=8
+Version=3.1
+Released=2019-12-08 08:36:44
+Downloaded=2025-12-15 21:28:38
+3D=Y

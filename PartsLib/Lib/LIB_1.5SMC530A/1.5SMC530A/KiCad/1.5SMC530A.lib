@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1.5SMC530A
+#/13678506/1553794/2.50/2/3/TVS Diode (Uni-directional)
+DEF 1.5SMC530A D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "1.5SMC530A" 400 250 50 H V L BNN
+F2 "DIOM7959X262N" 400 150 50 H I L BNN
+F3 "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=fca4a2fb-129a-4d31-849b-1393b105dcb5&filename=littelfuse-tvs-diode-1-5smc-datasheet" 400 50 50 H I L BNN
+F4 "ESD Suppressors / TVS Diodes 1.5kW 530V 5% Uni-Directional" 400 -50 50 H I L BNN "Description"
+F5 "2.62" 400 -150 50 H I L BNN "Height"
+F6 "576-1.5SMC530A" 400 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/1.5SMC530A?qs=HR2RnyOI4E5fyiC%252BOaav6Q%3D%3D" 400 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 400 -450 50 H I L BNN "Manufacturer_Name"
+F9 "1.5SMC530A" 400 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#End Library

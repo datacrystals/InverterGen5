@@ -1,0 +1,16 @@
+.ACT45B-101-2P-TL003 :1 ;Common Mode Filters / Chokes, |Z|=5800 at 10MHz, L x W x T :
+ACT45B1012PTL003
+*STM FL
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN ACT45B-101-2P-TL003
+~!Mouser Part Number (810-ACT45B1012PTL003)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TDK/ACT45B-101-2P-TL003?qs=SKgu1TwNDxoLFWvwfqJuJA%3D%3D)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (ACT45B-101-2P-TL003)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/emc/emc/cmf_cmc/catalog/cmf_automotive_signal_act45b_en.pdf)
+~!Height (3mm)
+~!3D_Model (ACT45B-101-2P-TL003)
+ACT45B-101-2P-TL003
+1.1!U 2.1!U 3.1!U 4.1!U 

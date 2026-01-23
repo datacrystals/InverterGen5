@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 5442251
+#/1866743/1553794/2.50/3/2/Connector
+DEF 5442251 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "5442251" 650 200 50 H V L CNN
+F2 "5442251" 650 100 50 H I L CNN
+F3 "https://www.phoenixcontact.com/en-gb/products/printed-circuit-board-terminal-bc-350x9-3-gn-5442251" 650 0 50 H I L CNN
+F4 "Fixed Terminal Blocks BC-350X9- 3 GN 3.5 MM PITCH" 650 -100 50 H I L CNN "Description"
+F5 "8.65" 650 -200 50 H I L CNN "Height"
+F6 "651-5442251" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/5442251?qs=9Y9qB%2FCsC3kmzTCxovpQiw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Phoenix Contact" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "5442251" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

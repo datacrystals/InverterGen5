@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ACT45B-101-2P-TL003"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-10-20-13:29:11)
+    (mountForm default
+        (footprintRef "ACT45B1012PTL003")
+        (spec "System")
+    )
+)

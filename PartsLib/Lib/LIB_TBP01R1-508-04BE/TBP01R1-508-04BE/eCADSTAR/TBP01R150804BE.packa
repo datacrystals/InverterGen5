@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TBP01R1-508-04BE"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-11-18-09:14:14)
+    (mountForm default
+        (footprintRef "TBP01R150804BE")
+        (spec "System")
+    )
+)

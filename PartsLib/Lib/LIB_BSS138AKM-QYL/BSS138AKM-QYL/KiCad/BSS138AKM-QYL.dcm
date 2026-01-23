@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSS138AKM-QYL
+D BSS138AKM-Q - 60 V, N-channel Trench MOSFET
+K
+F https://assets.nexperia.com/documents/data-sheet/BSS138AKM-Q.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "VS-30CDU06HM3_I"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-01-05-12:36:09)
+    (mountForm default
+        (footprintRef "VS30CDU06HM3I")
+        (spec "System")
+    )
+)

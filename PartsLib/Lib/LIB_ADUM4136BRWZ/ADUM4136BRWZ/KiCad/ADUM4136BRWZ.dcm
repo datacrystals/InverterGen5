@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADUM4136BRWZ
+D Analog Devices ADUM4136BRWZ Isolated Gate Driver MOSFET Power Driver, 4A 16-Pin, SOIC
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-11/217546.pdf
+$ENDCMP
+#
+#End Doc Library

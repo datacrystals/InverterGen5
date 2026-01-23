@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ISO1042BDWVR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "ISO1042BDWVR" (!) = "", "SOIC127P1150X280-8N", "Small Outline Packages", "595-ISO1042BDWVR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1042BDWVR?qs=qSfuJ%252Bfl%2Fd68DAhWt0GTEQ%3D%3D", "Isolated CAN Transceiver With 70-V Bus Fault Protection and Flexible Data Rate", "http://www.ti.com/lit/gpn/ISO1042", "2.8 mm"
+END_PART
+
+END.

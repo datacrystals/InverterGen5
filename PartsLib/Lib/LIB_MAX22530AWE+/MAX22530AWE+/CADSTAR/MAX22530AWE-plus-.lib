@@ -1,0 +1,16 @@
+.MAX22530AWE-plus- :1 ;Field-Side Self-Powered, 4-Channel, 12-bit, Isolated ADC
+SOIC127P1032X265-16N
+*STM IC
+*NGS
+*PLB 1="REF" 2="AGND" 3="AIN1" 4="AIN2" 5="AIN3" 6="AIN4" 7="VDDF" 8="GNDF" 9="GNDL" 10="VDDPL" 11="VDDL" 12="SDO" 13="SDI" 14="SCLK" 15="'CS'" 16="'INT'"
+*MXP 16
+*DFN MAX22530AWE-plus-
+~!Mouser Part Number (700-MAX22530AWE+)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX22530AWE%2b?qs=DRkmTr78QASxug5yEXUKBg%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (MAX22530AWE+)
+~!Link Datasheet (https://www.analog.com/MAX22530/datasheet)
+~!Height (2.65mm)
+~!3D_Model (MAX22530AWE+)
+MAX22530AWE-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

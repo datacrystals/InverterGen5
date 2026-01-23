@@ -1,0 +1,9 @@
+Manufacturer=Avago Technologies
+PartNumber=HCPL-316J-500E
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2023-12-10 08:04:46
+Downloaded=2025-02-05 02:18:50
+3D=Y

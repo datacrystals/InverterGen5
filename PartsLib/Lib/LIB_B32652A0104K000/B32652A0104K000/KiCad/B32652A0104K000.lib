@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model B32652A0104K000
+#/12884065/1553794/2.50/2/2/Capacitor
+DEF B32652A0104K000 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "B32652A0104K000" 350 150 50 H V L CNN
+F2 "B32652_(18_x_9)" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf" 350 -50 50 H I L CNN
+F4 "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)" 350 -150 50 H I L CNN "Description"
+F5 "17.5" 350 -250 50 H I L CNN "Height"
+F6 "871-B32652A104K" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "B32652A0104K000" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

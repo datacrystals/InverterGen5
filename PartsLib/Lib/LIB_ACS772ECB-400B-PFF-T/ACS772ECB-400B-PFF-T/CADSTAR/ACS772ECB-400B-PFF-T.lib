@@ -1,0 +1,16 @@
+.ACS772ECB-400B-PFF-T :1 ;200kHz, 1.5% Max Tolerance, 100  Internal Resistance Module-alternative Current Sensor for High Current and High Voltage Applications
+ACS772ECB200BPFFT
+*STM IC
+*NGS
+*PLB 1="VCC" 2="GND" 3="VIOUT" 4="IP+_1" 5="IP-_1" 6="IP-_2" 7="IP-_3" 8="IP-_4" 9="IP-_5" 10="IP-_6" 11="IP-_7" 12="IP-_8" 13="IP-_9" 14="IP-_10" 15="IP-_11" 16="IP-_12" 17="IP-_13" 18="IP-_14" 19="IP-_15" 20="IP-_16" 21="IP+_2" 22="IP+_3" 23="IP+_4" 24="IP+_5" 25="IP+_6" 26="IP+_7" 27="IP+_8" 28="IP+_9" 29="IP+_10" 30="IP+_11" 31="IP+_12" 32="IP+_13" 33="IP+_14" 34="IP+_15" 35="IP+_16"
+*MXP 35
+*DFN ACS772ECB-400B-PFF-T
+~!Mouser Part Number (250-772ECB400BPFFT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/ACS772ECB-400B-PFF-T?qs=pUKx8fyJudC33O6UrXBnUA%3D%3D)
+~!Manufacturer_Name (Allegro Microsystems)
+~!Manufacturer_Part_Number (ACS772ECB-400B-PFF-T)
+~!Link Datasheet (https://www.mouser.co.uk/datasheet/2/1115/ACS772_Datasheet-3074305.pdf)
+~!Height (7.1mm)
+~!3D_Model (ACS772ECB-400B-PFF-T)
+ACS772ECB-400B-PFF-T
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 30.1!U 31.1!U 32.1!U 33.1!U 34.1!U 35.1!U 

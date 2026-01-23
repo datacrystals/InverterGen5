@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM5185QPWPRQ1
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=15
+Version=1.1
+Released=2024-01-22 06:47:38
+Downloaded=2025-02-05 07:55:03
+3D=Y

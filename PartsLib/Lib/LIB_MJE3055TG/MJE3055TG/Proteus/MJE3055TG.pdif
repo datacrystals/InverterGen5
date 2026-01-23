@@ -1,0 +1,144 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MJE3055TG"
+   (description "DC Current Gain Specified to 10 Amperes; High Current Gain - Bandwidth Product - fT = 2.0 MHz (Min) @ IC fT = 500 mAdc; Pb-Free Packages are Available")
+   (family "TRX")
+   (package "TO254P483X1010X2035-3P")
+   (attribute "Datasheet Link" "https://www.onsemi.com/pub/Collateral/MJE2955T-D.PDF")
+   (attribute "Geometry.Height" "4.83mm")
+   (attribute "Mouser Part Number" "863-MJE3055TG")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MJE3055TG?qs=HVbQlW5zcXUpZ6jjVRRo8A%3D%3D")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "MJE3055TG")
+   (gate
+    (symbol "MJE3055TG")
+    (pin "B" 1 PS)
+    (pin "E" 3 PS)
+    (pin "C" 2 PS)
+   )
+  )
+  (symbol "MJE3055TG"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 150) (pt 300 -150))
+   )
+   (graphic
+    (stroke 20)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 50) (pt 400 150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -50) (pt 400 -150))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -150) (pt 400 -200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 150) (pt 400 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 330 -100) (pt 350 -80) (pt 370 -120) (pt 330 -100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 -300) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 300) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO254P483X1010X2035-3P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.975 3.345)
+      (pt 8.055 3.345)
+      (pt 8.055 -1.985)
+      (pt -2.975 -1.985)
+      (pt -2.975 3.345))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.725 3.095)
+      (pt 7.805 3.095)
+      (pt 7.805 -1.735)
+      (pt -2.725 -1.735)
+      (pt -2.725 3.095))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.725 1.825)
+      (pt -1.455 3.095))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.805 -1.735)
+      (pt 7.805 3.095)
+      (pt -2.725 3.095)
+      (pt -2.725 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.54 0) (padstack 0))
+   (leg 3 (pt 5.08 0) (padstack 0))
+   (padstack 0
+    (hole 1.34)
+    (plated true)
+    (pad (layer TCOP) (round 2.01))
+    (pad (layer INNER) (round 2.01))
+    (pad (layer BCOP) (round 2.01))
+   )
+   (padstack 1
+    (hole 1.34)
+    (plated true)
+    (pad (layer TCOP) (square 2.01))
+    (pad (layer INNER) (round 2.01))
+    (pad (layer BCOP) (square 2.01))
+   )
+   (model "MJE3055TG.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

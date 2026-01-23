@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IPB65R150CFDAATMA1'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "IPB65R150CFDAATMA1" (!) = "", "IPB65R150CFDAATMA1", "Other", "726-IPB65R150CFDAATM", "https://www.mouser.com/Search/Refine.aspx?Keyword=726-IPB65R150CFDAATM", "Trans MOSFET N-CH 650V 22.4A Automotive 3-Pin(2+Tab) D2PAK T/R", "https://componentsearchengine.com/Datasheets/1/IPB65R150CFDAATMA1.pdf", "4.82 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=S3N
+PartCategory=Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=3.1
+Released=2019-02-17 12:50:40
+Downloaded=2025-04-28 06:35:16
+3D=Y

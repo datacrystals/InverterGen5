@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TMP236A2DCKR
+#/1378040/1553794/2.50/5/3/Integrated Circuit
+DEF TMP236A2DCKR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TMP236A2DCKR" 950 200 50 H V L CNN
+F2 "SOT65P210X110-5N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tmp236" 950 0 50 H I L CNN
+F4 "+/-2.5C analog output temperature sensor, with 19.5mV/C gain" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "595-TMP236A2DCKR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMP236A2DCKR?qs=%252BEew9%252B0nqrAE5COBF10gEQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TMP236A2DCKR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X VOUT 3 0 -200 200 R 50 50 0 0 P
+X VDD 4 1100 0 200 L 50 50 0 0 P
+X NC_2 5 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

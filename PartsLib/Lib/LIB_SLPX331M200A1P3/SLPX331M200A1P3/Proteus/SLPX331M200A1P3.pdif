@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SLPX331M200A1P3"
+   (description "Cap Aluminum Lytic 330uF 200V 20% (22 X 25mm) Snap-In 10mm 0.603 Ohm 1510mA 3000h 85C")
+   (family "CAP")
+   (package "CAPPRD1000W190D2250H2700")
+   (attribute "Datasheet Link" "https://www.arrow.com/en/products/slpx331m200a1p3/cornell-dubilier-electronics")
+   (attribute "Geometry.Height" "27mm")
+   (attribute "Mouser Part Number" "598-SLPX331M200A1P3")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/SLPX331M200A1P3?qs=tRzVlScAa5ofnbB%2FIUpkZA%3D%3D")
+   (attribute "Manufacturer_Name" "Cornell Dubilier")
+   (attribute "Manufacturer_Part_Number" "SLPX331M200A1P3")
+   (gate
+    (symbol "SLPX331M200A1P3")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "SLPX331M200A1P3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100) (pt 230 -100) (pt 230 100) (pt 200 100) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 180 50) (pt 140 50))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 70) (pt 160 30))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 0) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 100) (pt 300 -100) (pt 270 -100) (pt 270 100) (pt 300 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CAPPRD1000W190D2250H2700"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (circle
+      (pt 16.75 0) (pt -6.75 0)
+     )
+    )
+   )
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt 16.25 0) (pt -6.25 0)
+     )
+    )
+   )
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (circle
+      (pt 16.25 0) (pt -6.25 0)
+     )
+    )
+   )
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 10 0) (padstack 0))
+   (padstack 0
+    (hole 2.1)
+    (plated true)
+    (pad (layer TCOP) (round 3.15))
+    (pad (layer INNER) (round 3.15))
+    (pad (layer BCOP) (round 3.15))
+   )
+   (padstack 1
+    (hole 2.1)
+    (plated true)
+    (pad (layer TCOP) (square 3.15))
+    (pad (layer INNER) (round 3.15))
+    (pad (layer BCOP) (square 3.15))
+   )
+   (model "SLPX331M200A1P3.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

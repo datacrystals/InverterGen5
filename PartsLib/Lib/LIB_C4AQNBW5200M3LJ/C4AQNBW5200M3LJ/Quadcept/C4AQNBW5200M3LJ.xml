@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/16820452/1553794/2.50/4/2/Capacitor (4-Pin)/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c210_h140" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="55.11811023622">
+    <padshape layer="TOP" shape="round" width="82.67716535433" height="82.67716535433" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="90.551181102361" height="90.551181102361" />
+    <padshape layer="INNER" shape="round" width="82.67716535433" height="82.67716535433" />
+    <padshape layer="BOTTOM" shape="round" width="82.67716535433" height="82.67716535433" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="90.551181102361" height="90.551181102361" />
+  </padstyle>
+  <padstyle name="s210_h140" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="55.11811023622">
+    <padshape layer="TOP" shape="square" width="82.67716535433" height="82.67716535433" />
+    <padshape layer="TOP_SOLDER_MASK" shape="square" width="90.551181102361" height="90.551181102361" />
+    <padshape layer="INNER" shape="square" width="82.67716535433" height="82.67716535433" />
+    <padshape layer="BOTTOM" shape="square" width="82.67716535433" height="82.67716535433" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="square" width="90.551181102361" height="90.551181102361" />
+  </padstyle>
+  <footprint name="C4AQNBW5200M3LJ" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="s210_h140" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c210_h140" originx="1476.3779527559" originy="0" rotation="90" />
+    <pcbpin number="3" name="3" style="c210_h140" originx="0" originy="799.21259842519" rotation="90" />
+    <pcbpin number="4" name="4" style="c210_h140" originx="1476.3779527559" originy="799.21259842519" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-88.582677165353" originy="990.15748031495" endx="1564.9606299212" endy="990.15748031495" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="1564.9606299212" originy="990.15748031495" endx="1564.9606299212" endy="-190.94488188976" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="1564.9606299212" originy="-190.94488188976" endx="-88.582677165353" endy="-190.94488188976" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-88.582677165353" originy="-190.94488188976" endx="-88.582677165353" endy="990.15748031495" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-88.582677165353" originy="990.15748031495" endx="1564.9606299212" endy="990.15748031495" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="1564.9606299212" originy="990.15748031495" endx="1564.9606299212" endy="-190.94488188976" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="1564.9606299212" originy="-190.94488188976" endx="-88.582677165353" endy="-190.94488188976" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-88.582677165353" originy="-190.94488188976" endx="-88.582677165353" endy="990.15748031495" width="7.8740157480314" />
+    <line layer="TOP_PLACE_BOUND" originx="-127.95275590551" originy="1029.5275590551" endx="1604.3307086614" endy="1029.5275590551" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="1604.3307086614" originy="1029.5275590551" endx="1604.3307086614" endy="-230.31496062992" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="1604.3307086614" originy="-230.31496062992" endx="-127.95275590551" endy="-230.31496062992" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-127.95275590551" originy="-230.31496062992" endx="-127.95275590551" endy="1029.5275590551" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-110.23622047244" originy="0" endx="-110.23622047244" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-108.26771653543" originy="0" startangle="-180.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-106.29921259842" originy="0" endx="-106.29921259842" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-108.26771653543" originy="0" startangle=".0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+  </footprint>
+  <symbol name="C4AQNBW5200M3LJ" originx="0" originy="0">
+    <line originx="220" originy="100" endx="220" endy="-100" width="0" />
+    <line originx="280" originy="100" endx="280" endy="-100" width="0" />
+    <line originx="100" originy="0" endx="220" endy="0" width="0" />
+    <line originx="400" originy="0" endx="280" endy="0" width="0" />
+    <line originx="100" originy="50" endx="100" endy="-50" width="0" />
+    <line originx="400" originy="50" endx="400" endy="-50" width="0" />
+    <sympin number="1" originx="100" originy="50" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="140" originy="60" style="Default" rotation="0" justify="left" flipped="False" hidden="True" data="1" />
+      <text name="pindes" originx="60" originy="60" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="400" originy="50" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="360" originy="60" style="Default" rotation="0" justify="right" flipped="False" hidden="True" data="2" />
+      <text name="pindes" originx="440" originy="60" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="100" originy="-50" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="140" originy="-40" style="Default" rotation="0" justify="left" flipped="False" hidden="True" data="3" />
+      <text name="pindes" originx="60" originy="-40" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="400" originy="-50" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="360" originy="-40" style="Default" rotation="0" justify="right" flipped="False" hidden="True" data="4" />
+      <text name="pindes" originx="440" originy="-40" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="4" />
+    </sympin>
+  </symbol>
+  <component name="C4AQNBW5200M3LJ" designatorprefix="C" height="1779.5275590551" footprint="C4AQNBW5200M3LJ">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="2" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="3" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="4" />
+    <attached_symbol gate="1" name="C4AQNBW5200M3LJ" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="80-C4AQNBW5200M3LJ" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="KEMET" />
+    <text name="Manufacturer_Part_Number" originx="350" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="C4AQNBW5200M3LJ" />
+  </component>
+</quadcept_library>

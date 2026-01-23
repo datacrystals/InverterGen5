@@ -1,0 +1,16 @@
+.MF-RHT200_32-2 :1 ;BOURNS - MF-RHT200/32-2 - FUSE, RESETTABLE PTC, AEC-Q200, 32V, THD
+MFRHT200322
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MF-RHT200_32-2
+~!Mouser Part Number (652-MF-RHT200/32-2)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/MF-RHT200-32-2?qs=0lQeLiL1qyakA%2F3J%2FiyUHw%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (MF-RHT200/32-2)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/MF-RHT200_32-2.pdf)
+~!Height (14mm)
+~!3D_Model (MF-RHT200_32-2)
+MF-RHT200_32-2
+1.1!U 2.1!U 

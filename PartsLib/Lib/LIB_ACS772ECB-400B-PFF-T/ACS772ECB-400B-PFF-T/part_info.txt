@@ -1,0 +1,9 @@
+Manufacturer=Allegro Microsystems
+PartNumber=ACS772ECB-400B-PFF-T
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=35
+Version=14.3
+Released=2021-11-01 12:58:14
+Downloaded=2025-04-14 20:14:32
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=Adam Tech
+PartNumber=RD7-12S033R
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=6
+Version=1.1
+Released=2024-10-19 15:20:23
+Downloaded=2025-12-15 18:29:14
+3D=Y

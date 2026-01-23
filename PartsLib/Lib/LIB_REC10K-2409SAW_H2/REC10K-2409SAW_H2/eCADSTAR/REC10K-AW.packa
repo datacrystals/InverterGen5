@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "REC10K-2409SAW_H2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-06-10-19:28:38)
+    (mountForm default
+        (footprintRef "REC10K-AW")
+        (spec "System")
+    )
+)

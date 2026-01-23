@@ -1,0 +1,16 @@
+.R-78K3.3-1.0 :1 ;1.0 Amp SIP3 Single Output
+R78K3310
+*STM PS
+*NGS
+*PLB 1="+VIN" 2="GND" 3="+VOUT"
+*MXP 3
+*DFN R-78K3.3-1.0
+~!Mouser Part Number (919-R-78K3.3-1.0)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/RECOM-Power/R-78K3.3-1.0?qs=Jm2GQyTW%2FbgHKVxUJQMQlQ%3D%3D)
+~!Manufacturer_Name (RECOM Power)
+~!Manufacturer_Part_Number (R-78K3.3-1.0)
+~!Link Datasheet (https://recom-power.com/pdf/Innoline/R-78K-1.0.pdf)
+~!Height (10.7mm)
+~!3D_Model (R-78K3.3-1.0)
+R-78K3.3-1.0
+1.1!U 2.1!U 3.1!U 

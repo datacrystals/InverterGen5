@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM358DR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=4.1
+Released=2015-10-26 07:25:49
+Downloaded=2025-02-03 03:48:26
+3D=Y

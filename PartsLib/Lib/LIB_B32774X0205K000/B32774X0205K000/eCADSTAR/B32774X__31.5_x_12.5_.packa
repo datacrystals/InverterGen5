@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B32774X0205K000"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-10-10-20:46:49)
+    (mountForm default
+        (footprintRef "B32774X__31_5_x_12_5_")
+        (spec "System")
+    )
+)

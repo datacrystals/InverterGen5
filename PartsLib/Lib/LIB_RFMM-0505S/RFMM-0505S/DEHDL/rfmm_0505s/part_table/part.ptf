@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RFMM_0505S'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "RECOM Power", "RFMM-0505S" (!) = "", "RFMM0505S", "Other", "919-RFMM-0505S", "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RFMM-0505S?qs=lYGu3FyN48cLA%2FDlNgurmw%3D%3D", "Isolated DC/DC Converters 1W 5Vin 5Vout 200mA SIP7", "https://www.recom-power.com/pdf/Econoline/RFMM.pdf", "10.7 mm"
+END_PART
+
+END.

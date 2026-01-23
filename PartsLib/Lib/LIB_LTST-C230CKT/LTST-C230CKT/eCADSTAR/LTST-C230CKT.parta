@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_12194609"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-08-17-06:02:18)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "LTST-C230CKT")
+)
+
+
+(pinAssign "ECS_12194609"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-08-17-06:02:18)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_12194609")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "LTST-C230CKT")
+)
+
+
+(part "LTST-C230CKT"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-08-17-06:02:18)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "LTST-C230CKT")
+    (pinAssignRef "ECS_12194609")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "Standard LEDs - SMD Red Clear 638nm")
+    (property "Mouser_Part_Number" "859-LTST-C230CKT")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C230CKT?qs=Ajas4iFhtucdJAOTHdHdqw%3D%3D")
+    (property "Manufacturer_Name" "Lite-On")
+    (property "Manufacturer_Part_Number" "LTST-C230CKT")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 1.2)
+)
+
+

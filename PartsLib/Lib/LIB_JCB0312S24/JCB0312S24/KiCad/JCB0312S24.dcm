@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP JCB0312S24
+D Isolated Module DC DC Converter 1 Output 24V 125mA 9V - 18V Input
+K
+F https://www.xppower.com/portals/0/pdfs/SF_JCB.pdf
+$ENDCMP
+#
+#End Doc Library

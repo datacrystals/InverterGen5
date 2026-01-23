@@ -1,0 +1,192 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "HCPL-316J-500E"
+   (description "2.5A Gate Driver Optical Coupling 5000Vrms 1 Channel 16-SO")
+   (family "ANA")
+   (package "SOIC127P1036X391-16N")
+   (attribute "Datasheet Link" "https://docs.broadcom.com/doc/AV02-0717EN")
+   (attribute "Geometry.Height" "3.911mm")
+   (attribute "Mouser Part Number" "630-HCPL-316J-500E")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HCPL-316J-500E?qs=s%252BgfxR24RQ5bfr5kc6yRkw%3D%3D")
+   (attribute "Manufacturer_Name" "Avago Technologies")
+   (attribute "Manufacturer_Part_Number" "HCPL-316J-500E")
+   (gate
+    (symbol "HCPL-316J-500E")
+    (pin "VIN+" 1 PS)
+    (pin "VIN-" 2 PS)
+    (pin "VCC1" 3 PS)
+    (pin "GND1" 4 PS)
+    (pin "$RESET$" 5 PS)
+    (pin "$FAULT$" 6 PS)
+    (pin "VLED1+" 7 PS)
+    (pin "VLED1-" 8 PS)
+    (pin "VE" 16 PS)
+    (pin "VLED2+" 15 PS)
+    (pin "DESAT" 14 PS)
+    (pin "VCC2" 13 PS)
+    (pin "VC" 12 PS)
+    (pin "VOUT" 11 PS)
+    (pin "VEE_2" 10 PS)
+    (pin "VEE_1" 9 PS)
+   )
+  )
+  (symbol "HCPL-316J-500E"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -800) (pt 200 -800) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -700) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOIC127P1036X391-16N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -5.925 5.533)
+      (pt 5.925 5.533)
+      (pt 5.925 -5.533)
+      (pt -5.925 -5.533)
+      (pt -5.925 5.533))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.746 5.156)
+      (pt 3.746 5.156)
+      (pt 3.746 -5.156)
+      (pt -3.746 -5.156)
+      (pt -3.746 5.156))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.746 3.886)
+      (pt -2.476 5.156))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.675 5.156)
+      (pt 3.675 5.156)
+      (pt 3.675 -5.156)
+      (pt -3.675 -5.156)
+      (pt -3.675 5.156))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.675 5.17)
+      (pt -4.025 5.17))))
+   (leg 1 (pt -4.85 4.445) (padstack 0))
+   (leg 2 (pt -4.85 3.175) (padstack 0))
+   (leg 3 (pt -4.85 1.905) (padstack 0))
+   (leg 4 (pt -4.85 0.635) (padstack 0))
+   (leg 5 (pt -4.85 -0.635) (padstack 0))
+   (leg 6 (pt -4.85 -1.905) (padstack 0))
+   (leg 7 (pt -4.85 -3.175) (padstack 0))
+   (leg 8 (pt -4.85 -4.445) (padstack 0))
+   (leg 9 (pt 4.85 -4.445) (padstack 0))
+   (leg 10 (pt 4.85 -3.175) (padstack 0))
+   (leg 11 (pt 4.85 -1.905) (padstack 0))
+   (leg 12 (pt 4.85 -0.635) (padstack 0))
+   (leg 13 (pt 4.85 0.635) (padstack 0))
+   (leg 14 (pt 4.85 1.905) (padstack 0))
+   (leg 15 (pt 4.85 3.175) (padstack 0))
+   (leg 16 (pt 4.85 4.445) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.75 1.65 0 0 0))
+   )
+   (model "HCPL-316J-500E.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

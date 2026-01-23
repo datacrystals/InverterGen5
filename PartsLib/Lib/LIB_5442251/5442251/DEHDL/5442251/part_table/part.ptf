@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5442251'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Phoenix Contact", "5442251" (!) = "", "5442251", "Other", "651-5442251", "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/5442251?qs=9Y9qB%2FCsC3kmzTCxovpQiw%3D%3D", "Fixed Terminal Blocks BC-350X9- 3 GN 3.5 MM PITCH", "https://www.phoenixcontact.com/en-gb/products/printed-circuit-board-terminal-bc-350x9-3-gn-5442251", "8.65 mm"
+END_PART
+
+END.

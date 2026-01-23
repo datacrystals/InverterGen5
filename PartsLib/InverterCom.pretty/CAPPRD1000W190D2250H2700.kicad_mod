@@ -1,0 +1,141 @@
+(footprint "CAPPRD1000W190D2250H2700"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "22*25mm")
+	(tags "Capacitor Polarised")
+	(property "Reference" "C**"
+		(at 5 -12.5 0)
+		(layer "F.SilkS")
+		(uuid "63cfefac-c6d3-452a-91b4-3b6330dc677d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPPRD1000W190D2250H2700"
+		(at 4.5 -16.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c5ed7772-f48a-4740-8df6-9aa97844f8ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e970f54a-3c43-446b-9baf-fd672aac1e81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d7ba6b1-55fa-464e-9c1c-8457c72d4a20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 5 0)
+		(end 5 11.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bbbd3c6d-c4c7-43c9-a99f-b2a0f8d3f56f")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 5 11.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "60ea0bcb-eb6d-4b21-afc7-0d5ab45a7fe4")
+	)
+	(fp_text user "+"
+		(at -8 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "60dcfa65-6813-456f-9012-fb6f7bf8d7a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 -14.5 0)
+		(layer "F.Fab")
+		(uuid "1f9a68df-3806-4fcf-b8e0-836316858d17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3.15 3.15)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa25319f-be59-4119-a929-631b912ceab6")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 3.15 3.15)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "592a8cde-6886-49af-9e58-e9eb49fb963e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PartsLib/3D/SLPX331M200A1P3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/home/tliao/Nextcloud/TractionInverterV3/3D/SLPX331M200A1P3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

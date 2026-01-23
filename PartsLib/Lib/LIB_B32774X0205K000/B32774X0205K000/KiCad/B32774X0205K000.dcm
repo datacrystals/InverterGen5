@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B32774X0205K000
+D Metallized Polypropylene Capacitors (MKP/MFP), 2uF, 1000V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf
+$ENDCMP
+#
+#End Doc Library

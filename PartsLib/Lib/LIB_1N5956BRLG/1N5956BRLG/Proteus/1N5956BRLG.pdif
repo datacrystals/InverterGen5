@@ -1,0 +1,165 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "1N5956BRLG"
+   (description "Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (>16 KV) per Human Body Model; Surge Rating of 98 Watts @ 1 ms; Maximum Limits Guaranteed On Up To Six Electrical Parameters; Package No Larger Than the Conventional 1 Watt Package Mechanical Characteristics: CASE: Void free, transfer-molded, thermosetting plastic FINISH: All external surfaces are corrosion resistant and leads are readily solderable MAXIMUM LEAD TEMPERATURE FOR SOLDERING PURPOSES:230C, 1/16, from the case for 10 seconds POLARITY: ")
+   (family "DIO")
+   (package "DIOAD1405W86L465D235")
+   (attribute "Datasheet Link" "https://www.onsemi.com/pub/Collateral/1N5913B-D.PDF")
+   (attribute "Mouser Part Number" "863-1N5956BRLG")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/1N5956BRLG?qs=y2kkmE52mdPMXQTkwwt%252Bow%3D%3D")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "1N5956BRLG")
+   (gate
+    (symbol "1N5956BRLG")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "1N5956BRLG"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 80) (pt 200 -80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 80) (pt 240 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 -100) (pt 200 -80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 500 0) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIOAD1405W86L465D235"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.038 1.525)
+      (pt 15.137 1.525)
+      (pt 15.137 -1.525)
+      (pt -1.038 -1.525)
+      (pt -1.038 1.525))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 4.725 1.175)
+      (pt 9.375 1.175)
+      (pt 9.375 -1.175)
+      (pt 4.725 -1.175)
+      (pt 4.725 1.175))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 4.725 0)
+      (pt 5.9 1.175))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0 0)
+      (pt 4.725 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 9.375 0)
+      (pt 14.1 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 4.725 1.175)
+      (pt 9.375 1.175)
+      (pt 9.375 -1.175)
+      (pt 4.725 -1.175)
+      (pt 4.725 1.175))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 4.725 0)
+      (pt 5.9 1.175))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.138 0)
+      (pt 4.725 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 9.375 0)
+      (pt 12.962 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 14.1 0) (padstack 0))
+   (padstack 0
+    (hole 1.05)
+    (plated true)
+    (pad (layer TCOP) (round 1.575))
+    (pad (layer INNER) (round 1.575))
+    (pad (layer BCOP) (round 1.575))
+   )
+   (padstack 1
+    (hole 1.05)
+    (plated true)
+    (pad (layer TCOP) (square 1.575))
+    (pad (layer INNER) (round 1.575))
+    (pad (layer BCOP) (square 1.575))
+   )
+   (model "1N5956BRLG.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ISO1042BDWVR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "SOIC127P1150X280-8N")
+        (spec "System")
+    )
+)

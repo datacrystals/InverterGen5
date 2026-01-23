@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "UCM1H101MCL1GS"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-04-15-07:34:55)
+    (mountForm default
+        (footprintRef "CAPAE660X800N")
+        (spec "System")
+    )
+)

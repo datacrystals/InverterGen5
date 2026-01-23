@@ -1,0 +1,16 @@
+.TPL7407LAQPWRQ1 :1 ;30-V, 7-Channel NMOS Array Automotive Low-Side Driver
+SOP65P640X120-16N
+*STM IC
+*NGS
+*PLB 1="IN1" 2="IN2" 3="IN3" 4="IN4" 5="IN5" 6="IN6" 7="IN7" 8="GND" 9="COM" 10="OUT7" 11="OUT6" 12="OUT5" 13="OUT4" 14="OUT3" 15="OUT2" 16="OUT1"
+*MXP 16
+*DFN TPL7407LAQPWRQ1
+~!Mouser Part Number (595-TPL7407LAQPWRQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPL7407LAQPWRQ1?qs=gTYE2QTfZfQmMwRSVe6tfQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPL7407LAQPWRQ1)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tpl7407la-q1)
+~!Height (1.2mm)
+~!3D_Model (TPL7407LAQPWRQ1)
+TPL7407LAQPWRQ1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

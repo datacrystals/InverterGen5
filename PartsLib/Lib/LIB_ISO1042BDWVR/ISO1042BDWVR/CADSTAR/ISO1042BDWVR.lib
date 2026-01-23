@@ -1,0 +1,16 @@
+.ISO1042BDWVR :1 ;Isolated CAN Transceiver With 70-V Bus Fault Protection and Flexible Data Rate
+SOIC127P1150X280-8N
+*STM IC
+*NGS
+*PLB 1="VCC1" 2="TXD" 3="RXD" 4="GND1" 5="GND2" 6="CANL" 7="CANH" 8="VCC2"
+*MXP 8
+*DFN ISO1042BDWVR
+~!Mouser Part Number (595-ISO1042BDWVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1042BDWVR?qs=qSfuJ%252Bfl%2Fd68DAhWt0GTEQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (ISO1042BDWVR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/ISO1042)
+~!Height (2.8mm)
+~!3D_Model (ISO1042BDWVR)
+ISO1042BDWVR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

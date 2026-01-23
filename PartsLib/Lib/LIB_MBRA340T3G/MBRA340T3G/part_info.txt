@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=MBRA340T3G
+PartCategory=Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=3.2
+Released=2015-11-03 12:30:39
+Downloaded=2025-04-14 03:08:58
+3D=Y

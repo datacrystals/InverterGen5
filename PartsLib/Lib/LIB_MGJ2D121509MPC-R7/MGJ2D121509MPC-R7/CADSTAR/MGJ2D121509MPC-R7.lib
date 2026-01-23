@@ -1,0 +1,16 @@
+.MGJ2D121509MPC-R7 :1 ;Isolated DC/DC Converters DC/DC 1W SM 12-15/9V 5.2KV
+MGJ2D121509MPCR7
+*STM PS
+*NGS
+*PLB 1="-VIN" 3="-VOUT_1" 4="-VOUT_2" 5="+VOUT" 6="0V" 7="NC" 8="+VIN"
+*MXP 7
+*DFN MGJ2D121509MPC-R7
+~!Mouser Part Number (580-MGJ2D121509MPCR7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/MGJ2D121509MPC-R7?qs=QNEnbhJQKva%252B8ZMbPXWu1Q%3D%3D)
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (MGJ2D121509MPC-R7)
+~!Link Datasheet (https://www.mouser.jp/datasheet/2/281/1/KDC_MGJ2SM-2941076.pdf)
+~!Height (4.84mm)
+~!3D_Model (MGJ2D121509MPC-R7)
+MGJ2D121509MPC-R7
+1.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

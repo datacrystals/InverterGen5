@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "UVY1E102MPD1TD"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-04-06-04:15:06)
+    (mountForm default
+        (footprintRef "CAPPRD500W60D1025H1750")
+        (spec "System")
+    )
+)

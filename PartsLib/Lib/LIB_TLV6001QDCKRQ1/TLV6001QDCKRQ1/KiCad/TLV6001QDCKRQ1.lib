@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TLV6001QDCKRQ1
+#/1408252/1553794/2.50/5/3/Integrated Circuit
+DEF TLV6001QDCKRQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "TLV6001QDCKRQ1" 850 200 50 H V L CNN
+F2 "SOT65P210X110-5N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tlv6001-q1" 850 0 50 H I L CNN
+F4 "Low-Power, RRIO, 1-MHz, Operational Amplifier for Cost-Sensitive Systems" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "595-TLV6001QDCKRQ1" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV6001QDCKRQ1?qs=qSfuJ%252Bfl%2Fd4YmnuAK2Ksyg%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TLV6001QDCKRQ1" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X +IN 1 0 0 200 R 50 50 0 0 I
+X V- 2 0 -100 200 R 50 50 0 0 W
+X -IN 3 0 -200 200 R 50 50 0 0 I
+X OUT 4 1000 0 200 L 50 50 0 0 I
+X V+ 5 1000 -100 200 L 50 50 0 0 W
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

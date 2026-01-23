@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C4AQNBW5200M3LJ'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "KEMET", "C4AQNBW5200M3LJ" (!) = "", "C4AQNBW5200M3LJ", "Other", "80-C4AQNBW5200M3LJ", "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D", "C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm", "https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ", "45.2 mm"
+END_PART
+
+END.

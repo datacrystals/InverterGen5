@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=ISO1042BDWVR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.2
+Released=2019-11-13 07:15:25
+Downloaded=2025-04-01 09:14:41
+3D=Y

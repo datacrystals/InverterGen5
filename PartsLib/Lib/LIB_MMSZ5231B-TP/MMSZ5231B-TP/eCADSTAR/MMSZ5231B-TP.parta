@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_11394118"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-01-11-10:23:12)
+    (utime 2024-05-17-16:34:44)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MMSZ5231B-TP")
+)
+
+
+(pinAssign "ECS_11394118"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-01-11-10:23:12)
+    (utime 2024-05-17-16:34:44)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_11394118")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MMSZ5231B-TP")
+)
+
+
+(part "MMSZ5231B-TP"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-01-11-10:23:12)
+    (utime 2024-05-17-16:34:44)
+    (packageRef "MMSZ5231B-TP")
+    (pinAssignRef "ECS_11394118")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "Z")
+    (property "description" "Zener Diodes")
+    (property "Mouser_Part_Number" "833-MMSZ5231B-TP")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MMSZ5231B-TP?qs=ZNK0BnemlqEexvzDQxpNYA%3D%3D")
+    (property "Manufacturer_Name" "MCC")
+    (property "Manufacturer_Part_Number" "MMSZ5231B-TP")
+    (property "Datasheet_Link" "https://mccsemi.com/pdf/Products/MMSZ5221-MMSZ5267(SOD-123).pdf")
+    (property "compAreaTopHeight" 1.35)
+)
+
+

@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 776275-1
+#/190562/1553794/2.50/12/2/Connector
+DEF 776275-1 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "776275-1" 750 200 50 H V L CNN
+F2 "7762751" 750 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773979-2&DocType=Data%20Sheet&DocLang=English&PartCntxt=776275-1&DocFormat=pdf" 750 0 50 H I L CNN
+F4 "Body Features: Primary Product Color Black | Connector & Keying Code 1 | Configuration Features: Number of Positions 8 | Number of Rows 3 | PCB Mount Orientation Vertical | Contact Features: Contact Mating Area Plating Material Tin | Contact Current Rating (Max) 8 AMP | Contact Type Pin | Housing Features: Centerline (Pitch) .157 INCH | Centerline (Pitch) 4 MM | Industry Standards: UL Flammability Rating UL 94V-0 | Mechanical Attachment: Mating Alignment With | PCB Mount Alignment With | PCB Mount Retention" 750 -100 50 H I L CNN "Description"
+F5 "34.5" 750 -200 50 H I L CNN "Height"
+F6 "571-776275-1" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/776275-1?qs=tLAa1RwIH6f8ivWehpoZzA%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "776275-1" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 900 0 200 L 50 50 0 0 P
+X 8 8 900 -100 200 L 50 50 0 0 P
+X MH1 MH1 900 -200 200 L 50 50 0 0 P
+X MH2 MH2 900 -300 200 L 50 50 0 0 P
+X MH3 MH3 900 -400 200 L 50 50 0 0 P
+X MH4 MH4 900 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

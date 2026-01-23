@@ -1,0 +1,9 @@
+Manufacturer=RECOM Power
+PartNumber=REC10K-2409SAW/H2
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=6
+Version=2.1
+Released=2024-06-10 19:28:40
+Downloaded=2025-04-04 20:56:06
+3D=Y

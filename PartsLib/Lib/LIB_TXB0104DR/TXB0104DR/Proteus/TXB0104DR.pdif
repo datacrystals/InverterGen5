@@ -1,0 +1,180 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TXB0104DR"
+   (description "4-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15 kV ESD Protect")
+   (family "ANA")
+   (package "SOIC127P600X175-14N")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/txb0104")
+   (attribute "Geometry.Height" "1.75mm")
+   (attribute "Mouser Part Number" "595-TXB0104DR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXB0104DR?qs=oFXvjAmG9EgBSYD5QAjkqQ%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "TXB0104DR")
+   (gate
+    (symbol "TXB0104DR")
+    (pin "VCCA" 1 PS)
+    (pin "A1" 2 PS)
+    (pin "A2" 3 PS)
+    (pin "A3" 4 PS)
+    (pin "A4" 5 PS)
+    (pin "NC_1" 6 PS)
+    (pin "GND" 7 PS)
+    (pin "VCCB" 14 PS)
+    (pin "B1" 13 PS)
+    (pin "B2" 12 PS)
+    (pin "B3" 11 PS)
+    (pin "B4" 10 PS)
+    (pin "NC_2" 9 PS)
+    (pin "OE" 8 PS)
+   )
+  )
+  (symbol "TXB0104DR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -700) (pt 200 -700) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOIC127P600X175-14N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.725 4.625)
+      (pt 3.725 4.625)
+      (pt 3.725 -4.625)
+      (pt -3.725 -4.625)
+      (pt -3.725 4.625))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.95 4.325)
+      (pt 1.95 4.325)
+      (pt 1.95 -4.325)
+      (pt -1.95 -4.325)
+      (pt -1.95 4.325))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.95 3.055)
+      (pt -0.68 4.325))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.6 4.325)
+      (pt 1.6 4.325)
+      (pt 1.6 -4.325)
+      (pt -1.6 -4.325)
+      (pt -1.6 4.325))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.475 4.485)
+      (pt -1.95 4.485))))
+   (leg 1 (pt -2.712 3.81) (padstack 0))
+   (leg 2 (pt -2.712 2.54) (padstack 0))
+   (leg 3 (pt -2.712 1.27) (padstack 0))
+   (leg 4 (pt -2.712 0) (padstack 0))
+   (leg 5 (pt -2.712 -1.27) (padstack 0))
+   (leg 6 (pt -2.712 -2.54) (padstack 0))
+   (leg 7 (pt -2.712 -3.81) (padstack 0))
+   (leg 8 (pt 2.712 -3.81) (padstack 0))
+   (leg 9 (pt 2.712 -2.54) (padstack 0))
+   (leg 10 (pt 2.712 -1.27) (padstack 0))
+   (leg 11 (pt 2.712 0) (padstack 0))
+   (leg 12 (pt 2.712 1.27) (padstack 0))
+   (leg 13 (pt 2.712 2.54) (padstack 0))
+   (leg 14 (pt 2.712 3.81) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.65 1.525 0 0 0))
+   )
+   (model "TXB0104DR.stp"
+    (euler 0 0 0)
+    (offset 0 0.009999999776482582 0)
+   )
+  )
+ )
+)

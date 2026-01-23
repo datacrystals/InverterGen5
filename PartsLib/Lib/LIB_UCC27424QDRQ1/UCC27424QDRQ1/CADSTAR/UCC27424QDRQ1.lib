@@ -1,0 +1,16 @@
+.UCC27424QDRQ1 :1 ;Automotive Dual 4A High Speed Low-Side MOSFET Driver With Enable
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="ENBA" 2="INA" 3="GND" 4="INB" 5="OUTB" 6="VDD" 7="OUTA" 8="ENBB"
+*MXP 8
+*DFN UCC27424QDRQ1
+~!Mouser Part Number (595-UCC27424QDRQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27424QDRQ1?qs=3WadRV20yGwTLMr0pUhVuw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (UCC27424QDRQ1)
+~!Link Datasheet (http://www.ti.com/lit/gpn/ucc27424-q1)
+~!Height (1.75mm)
+~!3D_Model (UCC27424QDRQ1)
+UCC27424QDRQ1
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

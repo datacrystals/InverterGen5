@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=B32652A0104K000
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=5.1
+Released=2021-10-07 16:26:09
+Downloaded=2025-04-22 03:12:05
+3D=Y

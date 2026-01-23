@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MAX22530AWE+"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-09-04-03:45:08)
+    (mountForm default
+        (footprintRef "SOIC127P1032X265-16N")
+        (spec "System")
+    )
+)

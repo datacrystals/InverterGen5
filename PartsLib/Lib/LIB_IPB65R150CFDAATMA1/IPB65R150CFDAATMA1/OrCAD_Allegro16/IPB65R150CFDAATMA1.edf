@@ -1,0 +1,208 @@
+
+(EDIF
+  (rename &IPB65R150CFDAATMA1 "IPB65R150CFDAATMA1")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 02 03 01 23 09)
+      (dataOrigin "1603646/1553794/2.50/3/3/MOSFET (N-Channel)")
+      (program "SamacSys ECAD Model IPB65R150CFDAATMA1"
+        (version "1.1"))))
+  (library
+  (rename &IPB65R150CFDAATMA1 "IPB65R150CFDAATMA1")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &IPB65R150CFDAATMA1 "IPB65R150CFDAATMA1")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Q")
+          (property (rename PACKAGENAME "PackageName") (string "IPB65R150CFDAATMA1"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "IPB65R150CFDAATMA1"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "726-IPB65R150CFDAATM"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.com/Search/Refine.aspx?Keyword=726-IPB65R150CFDAATM"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Infineon"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "IPB65R150CFDAATMA1"))
+          (property (rename &Description "Description") (string "Trans MOSFET N-CH 650V 22.4A Automotive 3-Pin(2+Tab) D2PAK T/R"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://componentsearchengine.com/Datasheets/1/IPB65R150CFDAATMA1.pdf"))
+          (property (rename &Height "Height") (string "4.82 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "IPB65R150CFDAATMA1"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &G "G")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &D "D")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &S "S")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &G)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -100 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -100 -300))))
+            )
+            (portImplementation
+              (name &D)
+              (figure PIN (path (pointList (pt 200 100) (pt 200 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 100))))
+            )
+            (portImplementation
+              (name &S)
+              (figure PIN (path (pointList (pt 200 -500) (pt 200 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 -500))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -200)
+                  (pt 200 -400)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 200 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 -300)
+                  (pt 100 -300)
+                  (pt 100 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -200)
+                  (pt 130 -200)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 130 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -300)
+                  (pt 200 -300)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -80)
+                  (pt 130 -120)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -320)
+                  (pt 130 -280)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -220)
+                  (pt 130 -180)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (circle
+                (pt 0 -200)
+                (pt 300 -200)
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 130 -200)
+                  (pt 170 -180)
+                  (pt 170 -220)
+                  (pt 130 -200)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 350 -220))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 350 -320))))
+          )
+        )
+      )
+    )
+  )
+)

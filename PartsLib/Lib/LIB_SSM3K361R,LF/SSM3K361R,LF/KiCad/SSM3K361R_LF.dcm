@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SSM3K361R,LF
+D Silicon N-channel MOS Power Management Switches DC-DC Converters
+K
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=36685&prodName=SSM3K361R
+$ENDCMP
+#
+#End Doc Library

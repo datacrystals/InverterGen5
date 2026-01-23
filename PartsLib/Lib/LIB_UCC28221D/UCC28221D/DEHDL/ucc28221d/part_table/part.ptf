@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'UCC28221D'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "UCC28221D" (!) = "", "SOIC127P600X175-16N", "Small Outline Packages", "595-UCC28221D", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC28221D/?qs=eJkN62t4xTWVlcTfMjdgEA%3D%3D", "Dual Interleaved PWM Controller with Programmable Max Duty Cycle", "http://www.ti.com/lit/gpn/ucc28221", "1.75 mm"
+END_PART
+
+END.

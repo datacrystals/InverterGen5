@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ADS8688AIDBT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-08-16-16:17:33)
+    (mountForm default
+        (footprintRef "SOP50P640X120-38M")
+        (spec "System")
+    )
+)

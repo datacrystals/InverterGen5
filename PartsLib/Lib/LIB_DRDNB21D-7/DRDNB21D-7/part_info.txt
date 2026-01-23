@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=DRDNB21D-7
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=4.1
+Released=2017-01-12 06:55:43
+Downloaded=2025-12-15 17:48:14
+3D=Y

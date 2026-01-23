@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=BSS138AKM-QYL
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=3
+Version=2.4
+Released=2024-04-04 04:52:40
+Downloaded=2025-02-03 06:50:53
+3D=Y

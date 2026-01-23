@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRDNB21D-7
+D Diodes Inc, DRDNB21D-7, Dual NPN Digital Transistor, 100 mA 50 V, 6-Pin SOT-363
+K
+F https://www.diodes.com//assets/Datasheets/ds30756.pdf
+$ENDCMP
+#
+#End Doc Library

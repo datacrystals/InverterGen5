@@ -1,0 +1,9 @@
+Manufacturer=Lite-On
+PartNumber=LTST-C230CKT
+PartCategory=LED
+PackageCategory=LEDs Chip
+PinCount=2
+Version=1.1
+Released=2020-08-17 06:02:18
+Downloaded=2025-02-04 04:18:50
+3D=Y

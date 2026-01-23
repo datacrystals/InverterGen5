@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "VS30CDU06HM3I"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "VS30CDU06HM3I")
+        (spec "default")
+    )
+)

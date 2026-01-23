@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIHFR120-GE3
+D MOSFET 100V N-CH
+K
+F https://www.mouser.in/datasheet/2/427/91266-1768752.pdf
+$ENDCMP
+#
+#End Doc Library

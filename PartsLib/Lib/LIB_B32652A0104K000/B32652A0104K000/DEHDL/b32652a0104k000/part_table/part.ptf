@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B32652A0104K000'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "B32652A0104K000" (!) = "", "B32652_(18_x_9)", "Other", "871-B32652A104K", "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K", "Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)", "https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf", "17.5 mm"
+END_PART
+
+END.

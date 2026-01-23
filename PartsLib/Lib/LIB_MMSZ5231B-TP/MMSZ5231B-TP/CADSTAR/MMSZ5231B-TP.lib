@@ -1,0 +1,16 @@
+.MMSZ5231B-TP :1 ;Zener Diodes
+SOD3716X135N
+*STM Z
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN MMSZ5231B-TP
+~!Mouser Part Number (833-MMSZ5231B-TP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MMSZ5231B-TP?qs=ZNK0BnemlqEexvzDQxpNYA%3D%3D)
+~!Manufacturer_Name (MCC)
+~!Manufacturer_Part_Number (MMSZ5231B-TP)
+~!Link Datasheet (https://mccsemi.com/pdf/Products/MMSZ5221-MMSZ5267(SOD-123).pdf)
+~!Height (1.35mm)
+~!3D_Model (MMSZ5231B-TP)
+MMSZ5231B-TP
+1.1!U 2.1!U 

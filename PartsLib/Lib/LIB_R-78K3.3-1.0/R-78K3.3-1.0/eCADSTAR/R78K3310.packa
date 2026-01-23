@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "R-78K3_3-1_0"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-02-17-13:48:36)
+    (mountForm default
+        (footprintRef "R78K3310")
+        (spec "System")
+    )
+)

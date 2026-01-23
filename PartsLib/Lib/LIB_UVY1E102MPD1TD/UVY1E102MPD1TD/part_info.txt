@@ -1,0 +1,9 @@
+Manufacturer=Nichicon
+PartNumber=UVY1E102MPD1TD
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor, Polarized Radial Diameter
+PinCount=2
+Version=1.1
+Released=2020-10-17 12:25:44
+Downloaded=2025-02-03 00:03:51
+3D=Y

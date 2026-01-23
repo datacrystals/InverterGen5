@@ -1,0 +1,16 @@
+.B32774X1155K000 :1 ;Metallized Polypropylene Capacitors (MKP/MFP), 1.5uF, 1200V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)
+B32774X__31.5_x_12.5_
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN B32774X1155K000
+~!Mouser Part Number (871-B32774X1155K000)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X1155K000?qs=RcG8xmE7yp0YFv1F2F1e3g%3D%3D)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (B32774X1155K000)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf)
+~!Height (-)
+~!3D_Model (B32774X1155K000)
+B32774X1155K000
+1.1!U 2.1!U 

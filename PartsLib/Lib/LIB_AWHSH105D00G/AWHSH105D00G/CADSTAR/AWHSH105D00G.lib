@@ -1,0 +1,16 @@
+.AWHSH105D00G :1 ;General Purpose Relays Commercial RelayRated Carrying Current :15AType of Sealing : Sealed and Waterproof TypeNumber of pole : one poleCoil Voltage : 5VCoil Type : Standard DC CoilContact Form : Form C
+AWHSH105D00G
+*STM K
+*NGS
+*PLB 1="COIL_1" 2="NO" 3="NC" 4="COIL_2" 5="COM"
+*MXP 5
+*DFN AWHSH105D00G
+~!Mouser Part Number (523-AWHSH105D00G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AWHSH105D00G?qs=rSMjJ%252B1ewcT7jFUGTuCYSw%3D%3D)
+~!Manufacturer_Name (Amphenol)
+~!Manufacturer_Part_Number (AWHSH105D00G)
+~!Link Datasheet (https://g.componentsearchengine.com/Datasheets/0/17861032.pdf)
+~!Height (15.3mm)
+~!3D_Model (AWHSH105D00G)
+AWHSH105D00G
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

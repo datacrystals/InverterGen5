@@ -1,0 +1,235 @@
+(ftf
+  (header
+    (version 2.0)
+    (unit DBUNIT)
+  )
+  (TechnologyContainer
+    (technology SamacSys_Footprint
+      (footprintLayer
+        (layer Top (type CONDUCTIVE))
+        (layer Inner (type CONDUCTIVE))
+        (layer Bottom (type CONDUCTIVE))
+        (layer Silk-Top (type SYMBOLMARK))
+        (layer Silk-Bottom (type SYMBOLMARK))
+        (layer Resist-Top (type SOLDERRESIST))
+        (layer Resist-Bottom (type SOLDERRESIST))
+        (layer MetalMask-Top (type METALMASK))
+        (layer MetalMask-Bottom (type METALMASK))
+        (layer CompArea-Top (type COMPAREA))
+        (layer CompArea-Bottom (type COMPAREA))
+        (layer Top_Assembly (type SYMBOLMARK))
+        (layer Bottom_Assembly (type SYMBOLMARK))
+        (layer Hole (type HOLE))
+      )
+    )
+  )
+  (footprintContainer
+    (commonParameters
+      (dimensionParameters
+        (arrowLength 100000)
+        (arrowAngle 15.000000)
+        (dotDiameter 100000)
+        (textFrameOffset 100000)
+        (arrowOffset 100000)
+        (dimAssistOffset 100000)
+        (dimLineWidth 10000)
+        (drawTextFrame NO)
+        (textFrameRange ALL)
+        (textClip YES)
+        (standard JIS)
+      )
+    )
+    (padstackGroups
+      (padstackGroup default)
+    )
+    (pads
+      (pad c120
+        (cuser "SamacSys")
+        (uuser "SamacSys")
+        (ctime 2017-06-16-12:00:00)
+        (utime 2017-06-16-12:00:00)
+        (photo FLASH)
+        (panelUse NO)
+        (propertyI padShape 2)
+        (propertyI diameter 120000)
+        (propertyI originXOffset 0)
+        (propertyI originYOffset 0)
+      )
+      (pad r120_120
+        (cuser "SamacSys")
+        (uuser "SamacSys")
+        (ctime 2017-06-16-12:00:00)
+        (utime 2017-06-16-12:00:00)
+        (photo FLASH)
+        (panelUse NO)
+        (propertyI padShape 5)
+        (propertyI angle 0)
+        (propertyI width 120000)
+        (propertyI height 120000)
+        (propertyI originXOffset 0)
+        (propertyI originYOffset 0)
+      )
+    ); End of pads
+    (padstacks
+      (padstack c120h80
+        (cuser "SamacSys")
+        (uuser "SamacSys")
+        (ctime 2017-06-16-12:00:00)
+        (utime 2017-06-16-12:00:00)
+        (type PLATED)
+        (throughMode THROUGH)
+        (panelUse NO)
+        (Hole (footLayer Hole)
+          (geometry
+            (circle 40000
+              (pt 0 0)
+            )
+          )
+        )
+        (padSet (footLayer Resist-Top)
+          (connect (pad c120))
+        )
+        (padSet (footLayer Resist-Bottom)
+          (connect (pad c120))
+        )
+        (padSet (footLayer Top)
+          (connect (pad c120))
+          (noconnect (pad c120))
+        )
+        (padSet (footLayer Inner)
+          (clearance (pad c120))
+          (connect (pad c120))
+          (noconnect (pad c120))
+        )
+        (padSet (footLayer Bottom)
+          (connect (pad c120))
+          (noconnect (pad c120))
+        )
+      )
+      (padstack r120_120h80
+        (cuser "SamacSys")
+        (uuser "SamacSys")
+        (ctime 2017-06-16-12:00:00)
+        (utime 2017-06-16-12:00:00)
+        (type PLATED)
+        (throughMode THROUGH)
+        (panelUse NO)
+        (Hole (footLayer Hole)
+          (geometry
+            (circle 40000
+              (pt 0 0)
+            )
+          )
+        )
+        (padSet (footLayer Resist-Top)
+          (connect (pad r120_120))
+        )
+        (padSet (footLayer Resist-Bottom)
+          (connect (pad r120_120))
+        )
+        (padSet (footLayer Top)
+          (connect (pad r120_120))
+          (noconnect (pad r120_120))
+        )
+        (padSet (footLayer Inner)
+          (clearance (pad c120))
+          (connect (pad c120))
+          (noconnect (pad c120))
+        )
+        (padSet (footLayer Bottom)
+          (connect (pad r120_120))
+          (noconnect (pad r120_120))
+        )
+      )
+    ); End of padstacks
+    (footprints
+      (footprint "CAPPRD500W60D1025H1750"
+        (polarity YES)
+        (cuser "SamacSys")
+        (uuser "SamacSys")
+        (utime 2020-04-06-04:15:06)
+        (panelUse NO)
+        (heelprint
+          (layout
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (arc CW
+                        (r 512500)
+                        (begin
+                          (pt 250000 512500
+                            (width 20000)
+                          )
+                        )
+                        (center 0 0)
+                        (end
+                          (pt 250000 512500
+                            (width 20000)
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (arc CW
+                        (r 512500)
+                        (begin
+                          (pt 250000 512500
+                            (width 10000)
+                          )
+                        )
+                        (center 0 0)
+                        (end
+                          (pt 250000 512500
+                            (width 10000)
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+           ); End of layout
+         ); End of heelprint
+         (toeprint
+          (pin 1
+            (pt 0 0)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 0 0)
+                  (angle 90)
+                  (padstackGroup default (padstack r120_120h80))
+                )
+              )
+            )
+          )
+          (pin 2
+            (pt 500000 0)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 500000 0)
+                  (angle 90)
+                  (padstackGroup default (padstack c120h80))
+                )
+              )
+            )
+          )
+        ); End of toeprint
+        (propertyS accurateShape UVY1E102MPD1TD.stp)
+      ); End of footprint
+    ); End of footprints
+  );  End of footprintContainer
+); End of ftf
+

@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1548129
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=2.6
+Released=2024-05-29 10:38:59
+Downloaded=2025-03-22 17:34:00
+3D=Y

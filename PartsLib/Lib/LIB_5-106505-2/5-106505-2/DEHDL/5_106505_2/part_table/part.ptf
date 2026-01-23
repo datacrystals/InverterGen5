@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5_106505_2'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TE Connectivity", "5-106505-2" (!) = "", "5-106505-2_3", "Other", "571-5-106505-2", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-106505-2?qs=MQMItlSumdeqtmm5RcerVg%3D%3D", "Body Features: Primary Product Color Black | Shell Plating Material Tin | Connector Profile Standard | Configuration Features: PCB Mount Orientation Right Angle | Number of Positions 9 | Number of Rows 2 | Contact Features: Contact Mating Area Plating Material Gold | Contact Mating Area Plating Material Thickness .76 MICM | Contact Shape & Form Round | Contact Mating Area Plating Material Gold Flash over Palladium Nickel | Contact Current Rating (Max) 6 AMP | Contact Base Material Phosphor Bronze | PCB Cont", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82068_AMPLIMITE_Right-Angle_Posted_Conn&DocType=Catalog%20Section&DocLang=English&PartCntxt=5-106505-2&DocFormat=pdf"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'D25S33E4PA00LF'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol Communications Solutions", "D25S33E4PA00LF" (!) = "", "D25S33E4PA00LF", "Other", "", "", "D-SUB STANDARD BOARD MOUNT CONNECTORS", "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c01-8646-0010.pdf", "12.96 mm"
+END_PART
+
+END.

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_13683356"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-03-05-17:23:40)
+    (utime 2024-05-17-16:34:44)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "FM2000GP-TP")
+)
+
+
+(pinAssign "ECS_13683356"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-03-05-17:23:40)
+    (utime 2024-05-17-16:34:44)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_13683356")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "FM2000GP-TP")
+)
+
+
+(part "FM2000GP-TP"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-03-05-17:23:40)
+    (utime 2024-05-17-16:34:44)
+    (packageRef "FM2000GP-TP")
+    (pinAssignRef "ECS_13683356")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Fast Recovery Rectifiers")
+    (property "Mouser_Part_Number" "833-FM2000GP-TP")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/FM2000GP-TP?qs=y6ZabgHbY%252BxF9Taq4zonHw%3D%3D")
+    (property "Manufacturer_Name" "MCC")
+    (property "Manufacturer_Part_Number" "FM2000GP-TP")
+    (property "Datasheet_Link" "https://www.mccsemi.com/pdf/Products/FM2000GP(SMA).pdf")
+    (property "compAreaTopHeight" 2.44)
+)
+
+

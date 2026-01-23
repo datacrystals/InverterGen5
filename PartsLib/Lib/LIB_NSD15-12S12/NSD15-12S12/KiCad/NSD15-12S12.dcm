@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NSD15-12S12
+D Isolated DC/DC Converters 15W 12V/1.25A W/EMI FILTER
+K
+F https://www.meanwellusa.com/webapp/product/search.aspx?prod=NSD15-S
+$ENDCMP
+#
+#End Doc Library

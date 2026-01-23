@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'JCB0312S24'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "XP POWER", "JCB0312S24" (!) = "", "JCB0312S24", "Other", "209-JCB0312S24", "https://www.mouser.co.uk/ProductDetail/XP-Power/JCB0312S24?qs=w%2Fv1CP2dgqougWRJ%2F3pg2Q%3D%3D", "Isolated Module DC DC Converter 1 Output 24V 125mA 9V - 18V Input", "https://www.xppower.com/portals/0/pdfs/SF_JCB.pdf", "10.66 mm"
+END_PART
+
+END.

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RKE1205SH"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RKE1205SH")
+        (spec "default")
+    )
+)

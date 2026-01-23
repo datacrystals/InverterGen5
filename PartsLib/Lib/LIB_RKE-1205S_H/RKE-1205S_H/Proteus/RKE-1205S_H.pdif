@@ -1,0 +1,121 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RKE-1205S_H"
+   (description "Recom Through Hole 1W Isolated DC-DC Converter, Vin Maximum of 12 V dc, I/O isolation 4kV dc, Vout 5V dc")
+   (family "ANA")
+   (package "RKE1205SH")
+   (attribute "Datasheet Link" "https://www.recom-power.com/pdf/Econoline/RKE.pdf")
+   (attribute "Geometry.Height" "10.7mm")
+   (attribute "Mouser Part Number" "919-RKE-1205S/H")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RKE-1205S-H?qs=IFMNCcK%2FBZwj8OgeraTUUA%3D%3D")
+   (attribute "Manufacturer_Name" "RECOM Power")
+   (attribute "Manufacturer_Part_Number" "RKE-1205S/H")
+   (gate
+    (symbol "RKE-1205S_H")
+    (pin "+VIN" 1 PS)
+    (pin "-VIN" 2 PS)
+    (pin "-VOUT" 5 PS)
+    (pin "+VOUT" 7 PS)
+   )
+  )
+  (symbol "RKE-1205S_H"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RKE1205SH"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2 -5.78)
+      (pt 17.65 -5.78)
+      (pt 17.65 1.27)
+      (pt -2 1.27)
+      (pt -2 -5.78))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 1.27)
+      (pt 17.65 1.27)
+      (pt 17.65 -5.78)
+      (pt -2 -5.78)
+      (pt -2 1.27))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3 2.95)
+      (pt 18.65 2.95)
+      (pt 18.65 -6.78)
+      (pt -3 -6.78)
+      (pt -3 2.95))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 1.9)
+      (arc (pt 0.000 1.900) (pt 0.000 1.850) (pt 0.100 1.950) (start 180.0) (sweep 180.0))
+      (pt 0.1 1.9)
+      (arc (pt 0.100 1.900) (pt 0.000 1.850) (pt 0.100 1.950) (start 180.0) (sweep .0))
+      (pt 0 1.9)
+      (arc (pt 0.000 1.900) (pt 0.000 1.850) (pt 0.100 1.950) (start 180.0) (sweep 180.0))
+      (pt 0.1 1.9))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg 5 (pt 10.160 0.000) (padstack 0))
+   (leg 7 (pt 15.240 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.15)
+    (plated true)
+    (pad (layer TCOP) (round 1.725))
+    (pad (layer INNER) (round 1.725))
+    (pad (layer BCOP) (round 1.725))
+   )
+   (model "RKE-1205S_H.stp"
+    (euler 90 0 0)
+    (offset 7.829999923706055 -2.309999942779541 0.5)
+   )
+  )
+ )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'VS_30CDU06HM3_I'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "VS-30CDU06HM3/I" (!) = "", "VS30CDU06HM3I", "Other", "78-VS-30CDU06HM3I", "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-30CDU06HM3-I?qs=TzNRGq6adzkm0ixYQuTp0g%3D%3D", "Rectifiers Dual 2x15A 600V FRED Pt AEC-Q101", "https://componentsearchengine.com/Datasheets/1/VS-30CDU06HM3_I.pdf", "1.8 mm"
+END_PART
+
+END.

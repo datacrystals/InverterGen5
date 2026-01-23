@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=MJE3055TG
+PartCategory=Transistor BJT NPN
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=3.1
+Released=2015-11-03 12:30:39
+Downloaded=2025-02-05 03:27:26
+3D=Y

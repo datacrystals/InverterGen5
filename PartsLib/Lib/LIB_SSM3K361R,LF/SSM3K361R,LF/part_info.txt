@@ -1,0 +1,9 @@
+Manufacturer=Toshiba
+PartNumber=SSM3K361R,LF
+PartCategory=MOSFET (N-Channel)
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=2.1
+Released=2017-11-10 13:06:35
+Downloaded=2025-04-13 06:51:03
+3D=Y

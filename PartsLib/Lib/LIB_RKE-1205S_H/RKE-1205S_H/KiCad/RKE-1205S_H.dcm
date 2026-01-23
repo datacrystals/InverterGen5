@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RKE-1205S_H
+D Recom Through Hole 1W Isolated DC-DC Converter, Vin Maximum of 12 V dc, I/O isolation 4kV dc, Vout 5V dc
+K
+F https://www.recom-power.com/pdf/Econoline/RKE.pdf
+$ENDCMP
+#
+#End Doc Library

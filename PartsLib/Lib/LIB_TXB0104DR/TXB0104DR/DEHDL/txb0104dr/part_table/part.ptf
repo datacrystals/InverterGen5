@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TXB0104DR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TXB0104DR" (!) = "", "SOIC127P600X175-14N", "Small Outline Packages", "595-TXB0104DR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXB0104DR?qs=oFXvjAmG9EgBSYD5QAjkqQ%3D%3D", "4-Bit Bidirectional Voltage-Level Shifter with Auto Direction Sensing and +/-15 kV ESD Protect", "http://www.ti.com/lit/gpn/txb0104", "1.75 mm"
+END_PART
+
+END.

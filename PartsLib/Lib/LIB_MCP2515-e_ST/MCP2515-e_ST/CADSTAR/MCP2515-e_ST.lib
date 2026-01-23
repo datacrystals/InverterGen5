@@ -1,0 +1,16 @@
+.MCP2515-e_ST :1 ;CAN controller with SPI, 125 degC
+SOP65P640X120-20N
+*STM IC
+*NGS
+*PLB 1="TXCAN" 2="RXCAN" 3="CLKOUT/SOF" 4="'TX0RTS'" 5="'TX1RTS'" 6="NC_1" 7="'TX2RTS'" 8="OSC2" 9="OSC1" 10="VSS" 11="'RX1BF'" 12="'RX0BF'" 13="'INT'" 14="SCK" 15="NC_2" 16="SI" 17="SO" 18="'CS'" 19="'RESET'" 20="VDD"
+*MXP 20
+*DFN MCP2515-e_ST
+~!Mouser Part Number (579-MCP2515-E/ST)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP2515-E-ST?qs=y1t9dHv1DsIvDWDHTyyG6w%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP2515-e/ST)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00090060.pdf)
+~!Height (1.2mm)
+~!3D_Model (MCP2515-e_ST)
+MCP2515-e_ST
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 

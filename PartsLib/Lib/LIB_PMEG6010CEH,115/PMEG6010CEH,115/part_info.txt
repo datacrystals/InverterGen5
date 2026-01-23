@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=PMEG6010CEH,115
+PartCategory=Diode
+PackageCategory=Small Outline Diode Flat Lead
+PinCount=2
+Version=8.2
+Released=2020-12-17 09:47:43
+Downloaded=2025-04-14 03:10:52
+3D=Y

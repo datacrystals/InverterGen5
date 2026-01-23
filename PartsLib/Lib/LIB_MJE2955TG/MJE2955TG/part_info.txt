@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=MJE2955TG
+PartCategory=Transistor
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=2.1
+Released=2015-11-03 12:30:39
+Downloaded=2025-02-05 03:30:20
+3D=Y

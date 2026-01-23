@@ -1,0 +1,117 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "1.5SMC530A"
+   (description "ESD Suppressors / TVS Diodes 1.5kW 530V 5% Uni-Directional")
+   (family "DIO")
+   (package "DIOM7959X262N")
+   (attribute "Datasheet Link" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=fca4a2fb-129a-4d31-849b-1393b105dcb5&filename=littelfuse-tvs-diode-1-5smc-datasheet")
+   (attribute "Geometry.Height" "2.62mm")
+   (attribute "Mouser Part Number" "576-1.5SMC530A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/1.5SMC530A?qs=HR2RnyOI4E5fyiC%252BOaav6Q%3D%3D")
+   (attribute "Manufacturer_Name" "LITTELFUSE")
+   (attribute "Manufacturer_Part_Number" "1.5SMC530A")
+   (gate
+    (symbol "1.5SMC530A")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "1.5SMC530A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 -80) (pt 240 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 -80) (pt 200 80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 100) (pt 200 80))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIOM7959X262N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -4.85 3.36)
+      (pt 4.85 3.36)
+      (pt 4.85 -3.36)
+      (pt -4.85 -3.36)
+      (pt -4.85 3.36))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.97 2.952)
+      (pt 3.97 2.952)
+      (pt 3.97 -2.952)
+      (pt -3.97 -2.952)
+      (pt -3.97 2.952))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.97 1.852)
+      (pt -2.87 2.952))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.97 2.952)
+      (pt -4.6 2.952))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.97 -2.952)
+      (pt 3.97 -2.952))))
+   (leg 1 (pt -3.5 0) (padstack 0))
+   (leg 2 (pt 3.5 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.2 3.15 0 0 90))
+   )
+   (model "1.5SMC530A.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MF_RHT200_32_2'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "MF-RHT200/32-2" (!) = "", "MFRHT200322", "Other", "652-MF-RHT200/32-2", "https://www.mouser.co.uk/ProductDetail/Bourns/MF-RHT200-32-2?qs=0lQeLiL1qyakA%2F3J%2FiyUHw%3D%3D", "BOURNS - MF-RHT200/32-2 - FUSE, RESETTABLE PTC, AEC-Q200, 32V, THD", "https://componentsearchengine.com/Datasheets/1/MF-RHT200_32-2.pdf", "14 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MGJ2D121509MPC_R7'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "MGJ2D121509MPC-R7" (!) = "", "MGJ2D121509MPCR7", "Other", "580-MGJ2D121509MPCR7", "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/MGJ2D121509MPC-R7?qs=QNEnbhJQKva%252B8ZMbPXWu1Q%3D%3D", "Isolated DC/DC Converters DC/DC 1W SM 12-15/9V 5.2KV", "https://www.mouser.jp/datasheet/2/281/1/KDC_MGJ2SM-2941076.pdf", "4.84 mm"
+END_PART
+
+END.

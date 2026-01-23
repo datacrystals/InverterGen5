@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RD712S033R"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RD712S033R")
+        (spec "default")
+    )
+)

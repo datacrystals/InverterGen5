@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '776231_1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "776231-1" (!) = "", "7762311", "Other", "571-776231-1", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/776231-1?qs=YqNA2qefETAQAJm2ankyIA%3D%3D", "Body Features: Connector & Keying Code 1 | Primary Product Color Black | Configuration Features: PCB Mount Orientation Vertical | Number of Positions 35 | Number of Rows 3 | Contact Features: Contact Current Rating (Max) 8 AMP | Contact Type Pin | Contact Mating Area Plating Material Tin | Housing Features: Centerline (Pitch) .157 INCH | Centerline (Pitch) 4 MM | Industry Standards: UL Flammability Rating UL 94V-0 | Mechanical Attachment: PCB Mount Retention Without | Mating Alignment With | PCB Mount Align", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773979-2&DocType=Data%20Sheet&DocLang=English&PartCntxt=776231-1&DocFormat=pdf", "34.25 mm"
+END_PART
+
+END.

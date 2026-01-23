@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AWHSH105D00G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-01-17-13:43:36)
+    (mountForm default
+        (footprintRef "AWHSH105D00G")
+        (spec "System")
+    )
+)

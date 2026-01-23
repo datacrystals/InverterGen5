@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "JCB0312S24"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "JCB0312S24")
+        (spec "default")
+    )
+)

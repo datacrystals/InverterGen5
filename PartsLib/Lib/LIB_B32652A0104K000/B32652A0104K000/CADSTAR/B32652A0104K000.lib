@@ -1,0 +1,16 @@
+.B32652A0104K000 :1 ;Metallized Polypropylene Capacitors (MKP/MFP), 0.1uF, 1000V DC, 9mm(W) x 17.5mm(H) x 18mm(L)
+B32652__18_x_9_
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN B32652A0104K000
+~!Mouser Part Number (871-B32652A104K)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32652A104K)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (B32652A0104K000)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/B32652A0104K000.pdf)
+~!Height (17.5mm)
+~!3D_Model (B32652A0104K000)
+B32652A0104K000
+1.1!U 2.1!U 

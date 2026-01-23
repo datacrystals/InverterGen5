@@ -1,0 +1,18 @@
+.IHDM1008BCEV2R2M20 :1 ;2.2 H Unshielded Drum Core, Wirewound Inductor 63 A 0.7mOhm Max Vertical, 2 PC Pin , 69MHz , -40C ~ 180C
+IHDM1008BCEV2R2M20
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN IHDM1008BCEV2R2M20
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (IHDM1008BCEV2R2M20)
+~!Mouser Part Number (70-IHDM1008BCV2R2M20)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Dale/IHDM1008BCEV2R2M20?qs=XAiT9M5g4x%252Bqlz3WIccdng%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.vishay.com/docs/34522/ihdm-1008bc-x0.pdf)
+~!Height (22.75mm)
+~!3D_Model (IHDM1008BCEV2R2M20)
+IHDM1008BCEV2R2M20
+1.1!U 2.1!U 

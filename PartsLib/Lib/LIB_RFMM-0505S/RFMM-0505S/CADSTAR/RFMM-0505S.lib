@@ -1,0 +1,16 @@
+.RFMM-0505S :1 ;Isolated DC/DC Converters 1W 5Vin 5Vout 200mA SIP7
+RFMM0505S
+*STM PS
+*NGS
+*PLB 1="+VIN" 2="-VIN" 5="-VOUT" 7="+VOUT"
+*MXP 4
+*DFN RFMM-0505S
+~!Mouser Part Number (919-RFMM-0505S)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/RECOM-Power/RFMM-0505S?qs=lYGu3FyN48cLA%2FDlNgurmw%3D%3D)
+~!Manufacturer_Name (RECOM Power)
+~!Manufacturer_Part_Number (RFMM-0505S)
+~!Link Datasheet (https://www.recom-power.com/pdf/Econoline/RFMM.pdf)
+~!Height (10.7mm)
+~!3D_Model (RFMM-0505S)
+RFMM-0505S
+1.1!U 2.1!U 5.1!U 7.1!U 

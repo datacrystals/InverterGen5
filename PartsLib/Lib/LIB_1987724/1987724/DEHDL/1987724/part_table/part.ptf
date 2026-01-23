@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1987724'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Phoenix Contact", "1987724" (!) = "", "1987724", "Other", "651-1987724", "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1987724?qs=gjk32EaArKIePzXcIKo3jg%3D%3D", "Phoenix Contact PT 2.5/ 2-5.0-V PCB Terminal Block, 2 Way/Pole, Screw Terminals, 20  10 AWG Through Hole,", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA18/1075322.pdf", "9.15 mm"
+END_PART
+
+END.

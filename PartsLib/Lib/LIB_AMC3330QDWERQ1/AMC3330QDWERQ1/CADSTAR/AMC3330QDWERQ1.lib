@@ -1,0 +1,16 @@
+.AMC3330QDWERQ1 :1 ;Isolation Amplifiers Automotive +/-1-V input, precision reinforced isolated amplifier with integrated DC/DC converter 16-SOIC -40 to 125
+SOIC127P1030X265-16N
+*STM AT
+*NGS
+*PLB 1="DCDC_OUT" 2="DCDC_HGND" 3="HLDO_IN" 4="NC" 5="HLDO_OUT" 6="INP" 7="INN" 8="HGND" 9="GND" 10="OUTN" 11="OUTP" 12="VDD" 13="LDO_OUT" 14="DIAG" 15="DCDC_GND" 16="DCDC_IN"
+*MXP 16
+*DFN AMC3330QDWERQ1
+~!Mouser Part Number (595-AMC3330QDWERQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/AMC3330QDWERQ1?qs=81r%252BiQLm7BThq9fK1XpIYg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (AMC3330QDWERQ1)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/amc3330.pdf?ts=1605812770714&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253DAMC3330DWE)
+~!Height (2.65mm)
+~!3D_Model (AMC3330QDWERQ1)
+AMC3330QDWERQ1
+1.1!P 2.1!G 3.1!P 4.1!U 5.1!P 6.1!I 7.1!I 8.1!G 16.1!P 15.1!G 14.1!Y 13.1!P 12.1!P 11.1!Y 10.1!Y 9.1!G 

@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_981772"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-11-10-13:06:35)
+    (utime 2025-04-04-14:48:41)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 3) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SSM3K361R_LF")
+)
+
+
+(pinAssign "ECS_981772"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-11-10-13:06:35)
+    (utime 2025-04-04-14:48:41)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_981772")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SSM3K361R_LF")
+)
+
+
+(part "SSM3K361R_LF"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-11-10-13:06:35)
+    (utime 2025-04-04-14:48:41)
+    (packageRef "SSM3K361R_LF")
+    (pinAssignRef "ECS_981772")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "Silicon N-channel MOS Power Management Switches DC-DC Converters")
+    (property "Mouser_Part_Number" "757-SSM3K361RLF")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3K361RLF?qs=kdd6aVn74hzchJRi%252BUbybA%3D%3D")
+    (property "Manufacturer_Name" "Toshiba")
+    (property "Manufacturer_Part_Number" "SSM3K361R,LF")
+    (property "Datasheet_Link" "http://toshiba.semicon-storage.com/info/docget.jsp?did=36685&prodName=SSM3K361R")
+    (property "compAreaTopHeight" 0.88)
+)
+
+

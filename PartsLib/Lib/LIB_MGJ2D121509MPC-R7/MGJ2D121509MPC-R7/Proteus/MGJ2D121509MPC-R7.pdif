@@ -1,0 +1,156 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MGJ2D121509MPC-R7"
+   (description "Isolated DC/DC Converters DC/DC 1W SM 12-15/9V 5.2KV")
+   (family "ANA")
+   (package "MGJ2D121509MPCR7")
+   (attribute "Datasheet Link" "https://www.mouser.jp/datasheet/2/281/1/KDC_MGJ2SM-2941076.pdf")
+   (attribute "Geometry.Height" "4.84mm")
+   (attribute "Mouser Part Number" "580-MGJ2D121509MPCR7")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/MGJ2D121509MPC-R7?qs=QNEnbhJQKva%252B8ZMbPXWu1Q%3D%3D")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "MGJ2D121509MPC-R7")
+   (gate
+    (symbol "MGJ2D121509MPC-R7")
+    (pin "-VIN" 1 PS)
+    (pin "-VOUT_1" 3 PS)
+    (pin "-VOUT_2" 4 PS)
+    (pin "+VOUT" 5 PS)
+    (pin "0V" 6 PS)
+    (pin "NC" 7 NC)
+    (pin "+VIN" 8 PS)
+   )
+  )
+  (symbol "MGJ2D121509MPC-R7"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MGJ2D121509MPCR7"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.97 -7.495)
+      (pt 9.97 -7.495)
+      (pt 9.97 7.495)
+      (pt -9.97 7.495)
+      (pt -9.97 -7.495))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -10.97 9.135)
+      (pt 10.97 9.135)
+      (pt 10.97 -9.135)
+      (pt -10.97 -9.135)
+      (pt -10.97 9.135))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -9.93 -7.5)
+      (pt -9.97 7.495))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.18 7.5)
+      (pt 3.57 7.495))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.18 -7.5)
+      (pt 3.57 -7.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 8.32 -7.495)
+      (pt 9.97 -7.5)
+      (pt 9.97 7.495)
+      (pt 8.32 7.495))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -9 -8.7)
+      (arc (pt -9.000 -8.700) (pt -9.050 -8.700) (pt -8.950 -8.600) (start 180.0) (sweep -90.0))
+      (pt -9 -8.6)
+      (arc (pt -9.000 -8.600) (pt -9.050 -8.700) (pt -8.950 -8.600) (start 180.0) (sweep 90.0))
+      (pt -9 -8.7)
+      (arc (pt -9.000 -8.700) (pt -9.050 -8.700) (pt -8.950 -8.600) (start 180.0) (sweep -90.0))
+      (pt -9 -8.6))))
+   (leg 1 (pt -8.890 -6.985) (padstack 0))
+   (leg 3 (pt 4.570 -6.985) (padstack 0))
+   (leg 4 (pt 7.110 -6.985) (padstack 0))
+   (leg 5 (pt 7.110 6.985) (padstack 0))
+   (leg 6 (pt 4.570 6.985) (padstack 0))
+   (leg 7 (pt -6.350 6.985) (padstack 0))
+   (leg 8 (pt -8.890 6.985) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 2.300 0 0 90.000))
+   )
+   (model "MGJ2D121509MPC-R7.stp"
+    (euler 90 0 0)
+    (offset 0 0 0.1899999976158142)
+   )
+  )
+ )
+)

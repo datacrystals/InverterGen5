@@ -1,0 +1,16 @@
+.SIHFR120-GE3 :1 ;MOSFET 100V N-CH
+SIHFR120GE3
+*STM Q
+*NGS
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN SIHFR120-GE3
+~!Mouser Part Number (78-SIHFR120-GE3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SIHFR120-GE3?qs=FfLXECYddQTykmVhSg2%2FTQ%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (SIHFR120-GE3)
+~!Link Datasheet (https://www.mouser.in/datasheet/2/427/91266-1768752.pdf)
+~!Height (2.38mm)
+~!3D_Model (SIHFR120-GE3)
+SIHFR120-GE3
+1.1!U 2.1!U 3.1!U 

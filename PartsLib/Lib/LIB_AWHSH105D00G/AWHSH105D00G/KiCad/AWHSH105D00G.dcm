@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AWHSH105D00G
+D General Purpose Relays Commercial RelayRated Carrying Current :15AType of Sealing : Sealed and Waterproof TypeNumber of pole : one poleCoil Voltage : 5VCoil Type : Standard DC CoilContact Form : Form C
+K
+F https://g.componentsearchengine.com/Datasheets/0/17861032.pdf
+$ENDCMP
+#
+#End Doc Library

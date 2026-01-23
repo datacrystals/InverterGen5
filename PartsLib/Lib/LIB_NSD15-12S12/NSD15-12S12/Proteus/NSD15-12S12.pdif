@@ -1,0 +1,138 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "NSD15-12S12"
+   (description "Isolated DC/DC Converters 15W 12V/1.25A W/EMI FILTER")
+   (family "ANA")
+   (package "NSD1512S12")
+   (attribute "Datasheet Link" "https://www.meanwellusa.com/webapp/product/search.aspx?prod=NSD15-S")
+   (attribute "Geometry.Height" "9.82mm")
+   (attribute "Mouser Part Number" "709-NSD15-12S12")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/NSD15-12S12?qs=l0g2inPJSHOlwI9uYxJDvg%3D%3D")
+   (attribute "Manufacturer_Name" "Mean Well")
+   (attribute "Manufacturer_Part_Number" "NSD15-12S12")
+   (gate
+    (symbol "NSD15-12S12")
+    (pin "+VIN" 1 PS)
+    (pin "-VIN" 2 PS)
+    (pin "CONTROL" 4 PS)
+    (pin "+VOUT" 6 PS)
+    (pin "-VOUT" 7 PS)
+    (pin "TRIM" 8 PS)
+   )
+  )
+  (symbol "NSD15-12S12"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "NSD1512S12"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.54 -16.51)
+      (pt 48.26 -16.51)
+      (pt 48.26 21.59)
+      (pt -2.54 21.59)
+      (pt -2.54 -16.51))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.54 -16.51)
+      (pt 48.26 -16.51)
+      (pt 48.26 21.59)
+      (pt -2.54 21.59)
+      (pt -2.54 -16.51))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.14 -17.51)
+      (pt 49.26 -17.51)
+      (pt 49.26 22.59)
+      (pt -4.14 22.59)
+      (pt -4.14 -17.51))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.4 0)
+      (arc (pt -3.400 0.000) (pt -3.400 -0.050) (pt -3.300 0.050) (start 180.0) (sweep -180.0))
+      (pt -3.3 0)
+      (arc (pt -3.300 0.000) (pt -3.400 -0.050) (pt -3.300 0.050) (start 180.0) (sweep .0))
+      (pt -3.4 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 0.000 5.080) (padstack 0))
+   (leg 4 (pt 0.000 15.240) (padstack 0))
+   (leg 6 (pt 45.720 -2.540) (padstack 0))
+   (leg 7 (pt 45.720 7.620) (padstack 0))
+   (leg 8 (pt 45.720 17.780) (padstack 0))
+   (padstack 0
+    (hole 1.2)
+    (plated true)
+    (pad (layer TCOP) (round 1.800))
+    (pad (layer INNER) (round 1.800))
+    (pad (layer BCOP) (round 1.800))
+   )
+   (padstack 1
+    (hole 1.2)
+    (plated true)
+    (pad (layer TCOP) (square 1.800))
+    (pad (layer INNER) (round 1.800))
+    (pad (layer BCOP) (square 1.800))
+   )
+   (model "NSD15-12S12.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

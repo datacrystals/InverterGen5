@@ -1,0 +1,16 @@
+.TL431AIDBZR :1 ;1% Accuracy Adjustable Precision Shunt Regulator
+SOT95P237X112-3N
+*STM U
+*NGS
+*PLB 1="CATHODE" 2="REF" 3="ANODE"
+*MXP 3
+*DFN TL431AIDBZR
+~!Mouser Part Number (595-TL431AIDBZR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL431AIDBZR?qs=odmYgEirbww5TG7DvnasYA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TL431AIDBZR)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100034171.pdf)
+~!Height (1.12mm)
+~!3D_Model (TL431AIDBZR)
+TL431AIDBZR
+1.1!U 2.1!U 3.1!U 

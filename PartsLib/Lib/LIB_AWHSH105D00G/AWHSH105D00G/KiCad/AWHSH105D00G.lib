@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AWHSH105D00G
+#/17861032/1553794/2.50/5/4/Relay or Contactor
+DEF AWHSH105D00G K 0 30 Y Y 1 F N
+F0 "K" 1150 300 50 H V L CNN
+F1 "AWHSH105D00G" 1150 200 50 H V L CNN
+F2 "AWHSH105D00G" 1150 100 50 H I L CNN
+F3 "https://g.componentsearchengine.com/Datasheets/0/17861032.pdf" 1150 0 50 H I L CNN
+F4 "General Purpose Relays Commercial RelayRated Carrying Current :15AType of Sealing : Sealed and Waterproof TypeNumber of pole : one poleCoil Voltage : 5VCoil Type : Standard DC CoilContact Form : Form C" 1150 -100 50 H I L CNN "Description"
+F5 "15.3" 1150 -200 50 H I L CNN "Height"
+F6 "523-AWHSH105D00G" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AWHSH105D00G?qs=rSMjJ%252B1ewcT7jFUGTuCYSw%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AWHSH105D00G" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X COIL_1 1 0 0 200 R 50 50 0 0 P
+X NO 2 0 -100 200 R 50 50 0 0 P
+X NC 3 0 -200 200 R 50 50 0 0 N
+X COIL_2 4 1300 0 200 L 50 50 0 0 P
+X COM 5 1300 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

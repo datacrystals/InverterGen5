@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TBP02R1-381-02BE
+D 2~24 Poles, Pluggable,Receptacle, Horizontal, 3.81 Pitch, Terminal Block Connector
+K
+F https://www.sameskydevices.com/product/resource/supplyframepdf/tbp02r1-381.pdf
+$ENDCMP
+#
+#End Doc Library

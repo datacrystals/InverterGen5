@@ -1,0 +1,107 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "677-15ABPE"
+   (description "Heat Sinks High Performance, High Power Heat Sink for Vertical Board Mounting for TO-220, TO-247, TO-218, 15-LEAD MULTIWATT, 38.1mm Height/002")
+   (family "ANA")
+   (package "67715ABPE")
+   (attribute "Datasheet Link" "http://www.wakefield-vette.com/Portals/0/resources/datasheets/677.pdf")
+   (attribute "Geometry.Height" "38.1mm")
+   (attribute "Mouser Part Number" "567-677-15ABPE")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/677-15ABPE?qs=IxdtNV%2F4IV2Xq6Oa6Jy%2FmQ%3D%3D")
+   (attribute "Manufacturer_Name" "Wakefield Thermal")
+   (attribute "Manufacturer_Part_Number" "677-15ABPE")
+   (gate
+    (symbol "677-15ABPE")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "677-15ABPE"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "67715ABPE"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.25 12.7)
+      (pt 33.65 12.7)
+      (pt 33.65 -12.7)
+      (pt -8.25 -12.7)
+      (pt -8.25 12.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -8.25 12.7)
+      (pt 33.65 12.7)
+      (pt 33.65 -12.7)
+      (pt -8.25 -12.7)
+      (pt -8.25 12.7))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.25 13.7)
+      (pt 34.65 13.7)
+      (pt 34.65 -13.7)
+      (pt -9.25 -13.7)
+      (pt -9.25 13.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.6 -0.2)
+      (arc (pt -8.600 -0.200) (pt -8.700 -0.250) (pt -8.600 -0.150) (start 180.0) (sweep .0))
+      (pt -8.7 -0.2)
+      (arc (pt -8.700 -0.200) (pt -8.700 -0.250) (pt -8.600 -0.150) (start 180.0) (sweep 180.0))
+      (pt -8.6 -0.2))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 25.400 0.000) (padstack 0))
+   (padstack 0
+    (hole 2.6)
+    (plated true)
+    (pad (layer TCOP) (round 3.900))
+    (pad (layer INNER) (round 3.900))
+    (pad (layer BCOP) (round 3.900))
+   )
+   (model "677-15ABPE.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

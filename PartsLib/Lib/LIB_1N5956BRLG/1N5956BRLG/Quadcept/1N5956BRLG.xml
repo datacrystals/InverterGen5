@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/2748805/1553794/2.50/2/2/Zener Diode/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c157.5_h105" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="41.338582677165">
+    <padshape layer="TOP" shape="round" width="62.007874015747" height="62.007874015747" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="69.881889763779" height="69.881889763779" />
+    <padshape layer="INNER" shape="round" width="62.007874015747" height="62.007874015747" />
+    <padshape layer="BOTTOM" shape="round" width="62.007874015747" height="62.007874015747" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="69.881889763779" height="69.881889763779" />
+  </padstyle>
+  <padstyle name="s157.5_h105" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="41.338582677165">
+    <padshape layer="TOP" shape="square" width="62.007874015747" height="62.007874015747" />
+    <padshape layer="TOP_SOLDER_MASK" shape="square" width="69.881889763779" height="69.881889763779" />
+    <padshape layer="INNER" shape="round" width="62.007874015747" height="62.007874015747" />
+    <padshape layer="BOTTOM" shape="square" width="62.007874015747" height="62.007874015747" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="square" width="69.881889763779" height="69.881889763779" />
+  </padstyle>
+  <footprint name="DIOAD1405W86L465D235" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="s157.5_h105" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c157.5_h105" originx="555.11811023621" originy="0" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-40.866141732283" originy="60.039370078739" endx="595.94488188976" endy="60.039370078739" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="595.94488188976" originy="60.039370078739" endx="595.94488188976" endy="-60.039370078739" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="595.94488188976" originy="-60.039370078739" endx="-40.866141732283" endy="-60.039370078739" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-40.866141732283" originy="-60.039370078739" endx="-40.866141732283" endy="60.039370078739" width="1.9685039370079" />
+    <line layer="TOP_ASSEMBLY" originx="186.02362204724" originy="46.259842519684" endx="369.09448818897" endy="46.259842519684" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="369.09448818897" originy="46.259842519684" endx="369.09448818897" endy="-46.259842519684" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="369.09448818897" originy="-46.259842519684" endx="186.02362204724" endy="-46.259842519684" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="186.02362204724" originy="-46.259842519684" endx="186.02362204724" endy="46.259842519684" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="186.02362204724" originy="0" endx="232.28346456693" endy="46.259842519684" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="0" originy="0" endx="186.02362204724" endy="0" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="369.09448818897" originy="0" endx="555.11811023621" endy="0" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="186.02362204724" originy="46.259842519684" endx="369.09448818897" endy="46.259842519684" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="369.09448818897" originy="46.259842519684" endx="369.09448818897" endy="-46.259842519684" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="369.09448818897" originy="-46.259842519684" endx="186.02362204724" endy="-46.259842519684" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="186.02362204724" originy="-46.259842519684" endx="186.02362204724" endy="46.259842519684" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="186.02362204724" originy="0" endx="232.28346456693" endy="46.259842519684" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="44.803149606299" originy="0" endx="186.02362204724" endy="0" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="369.09448818897" originy="0" endx="510.31496062991" endy="0" width="7.8740157480314" />
+  </footprint>
+  <symbol name="1N5956BRLG" originx="0" originy="0">
+    <line originx="200" originy="80" endx="200" endy="-80" width="0" />
+    <line originx="200" originy="80" endx="240" endy="100" width="0" />
+    <line originx="160" originy="-100" endx="200" endy="-80" width="0" />
+    <line originx="100" originy="0" endx="200" endy="0" width="0" />
+    <line originx="500" originy="0" endx="400" endy="0" width="0" />
+    <sympin number="1" originx="100" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="140" originy="10" style="Default" rotation="0" justify="left" flipped="False" hidden="True" data="K" />
+      <text name="pindes" originx="60" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="500" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="460" originy="10" style="Default" rotation="0" justify="right" flipped="False" hidden="True" data="A" />
+      <text name="pindes" originx="540" originy="10" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <polygon type="polygon">
+      <point x="200" y="0" />
+      <point x="400" y="100" />
+      <point x="400" y="-100" />
+    </polygon>
+  </symbol>
+  <component name="1N5956BRLG" designatorprefix="Z" height="0" footprint="DIOAD1405W86L465D235">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="K" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="A" />
+    <attached_symbol gate="1" name="1N5956BRLG" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.onsemi.com/pub/Collateral/1N5913B-D.PDF" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Zener Voltage Range - 3.3 V to 200 V; ESD Rating of Class 3 (&gt;16 KV) per Human Body Model; Surge Rating of 98 Watts @ 1 ms; Maximum Limits Guaranteed On Up To Six Electrical Parameters; Package No Larger Than the Conventional 1 Watt Package Mechanical Characteristics: CASE: Void free, transfer-molded, thermosetting plastic FINISH: All external surfaces are corrosion resistant and leads are readily solderable MAXIMUM LEAD TEMPERATURE FOR SOLDERING PURPOSES:230C, 1/16, from the case for 10 seconds POLARITY: " />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="863-1N5956BRLG" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/onsemi/1N5956BRLG?qs=y2kkmE52mdPMXQTkwwt%252Bow%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="onsemi" />
+    <text name="Manufacturer_Part_Number" originx="400" originy="250" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="1N5956BRLG" />
+  </component>
+</quadcept_library>

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=UCC28220D
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=16
+Version=1.1
+Released=2020-01-20 13:20:49
+Downloaded=2025-02-03 03:06:43
+3D=Y

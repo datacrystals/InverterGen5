@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'L717SDB25PA4CH3R'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol Communications Solutions", "L717SDB25PA4CH3R" (!) = "", "L717SDB25PA4CH3R", "Other", "523-L717SDB25PA4CH3R", "https://www.mouser.co.uk/ProductDetail/Amphenol-Commercial-Products/L717SDB25PA4CH3R?qs=wLKqLMNa9uLx5EBU2ISlaA%3D%3D", "Dsub, Stamped Signal 3A, Right Angle PCB Through Hole, FP=8.08mm (0.318in), Row Pitch 2.84mm, 25 Pin, Flash Gold, Bright Tin Shell+Grounding Dimples, M3 Rear Insert, Ground Tab with Boardlock", "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/l717sdxxxpa4ch3r.pdf", "12.55 mm"
+END_PART
+
+END.

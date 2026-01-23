@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MF-RHT200_32-2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-11-09:58:34)
+    (mountForm default
+        (footprintRef "MFRHT200322")
+        (spec "System")
+    )
+)

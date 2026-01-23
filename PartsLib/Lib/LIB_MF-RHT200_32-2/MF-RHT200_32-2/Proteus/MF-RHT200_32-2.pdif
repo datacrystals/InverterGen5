@@ -1,0 +1,109 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MF-RHT200_32-2"
+   (description "BOURNS - MF-RHT200/32-2 - FUSE, RESETTABLE PTC, AEC-Q200, 32V, THD")
+   (family "CAP")
+   (package "MFRHT200322")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/MF-RHT200_32-2.pdf")
+   (attribute "Geometry.Height" "14mm")
+   (attribute "Mouser Part Number" "652-MF-RHT200/32-2")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/MF-RHT200-32-2?qs=0lQeLiL1qyakA%2F3J%2FiyUHw%3D%3D")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "MF-RHT200/32-2")
+   (gate
+    (symbol "MF-RHT200_32-2")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "MF-RHT200_32-2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MFRHT200322"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.15 1.5)
+      (pt 7.25 1.5)
+      (pt 7.25 -1.5)
+      (pt -2.15 -1.5)
+      (pt -2.15 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.15 1.5)
+      (pt 7.25 1.5)
+      (pt 7.25 -1.5)
+      (pt -2.15 -1.5)
+      (pt -2.15 1.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.15 2.5)
+      (pt 8.25 2.5)
+      (pt 8.25 -2.5)
+      (pt -3.15 -2.5)
+      (pt -3.15 2.5))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 5.100 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.71)
+    (plated true)
+    (pad (layer TCOP) (round 1.217))
+    (pad (layer INNER) (round 1.217))
+    (pad (layer BCOP) (round 1.217))
+   )
+   (model "MF-RHT200_32-2.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

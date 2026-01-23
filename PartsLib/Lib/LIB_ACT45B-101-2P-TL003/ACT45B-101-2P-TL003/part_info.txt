@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=ACT45B-101-2P-TL003
+PartCategory=Filter
+PackageCategory=Other
+PinCount=4
+Version=3.2
+Released=2020-09-22 08:42:45
+Downloaded=2025-04-01 21:27:50
+3D=Y

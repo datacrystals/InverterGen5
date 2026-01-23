@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=UCC28221D
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2021-12-08 06:29:07
+Downloaded=2025-02-02 00:15:34
+3D=Y

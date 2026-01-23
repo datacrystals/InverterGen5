@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=TBP01R1-508-04BE
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=3.2
+Released=2020-11-18 09:14:14
+Downloaded=2025-12-15 20:15:22
+3D=Y

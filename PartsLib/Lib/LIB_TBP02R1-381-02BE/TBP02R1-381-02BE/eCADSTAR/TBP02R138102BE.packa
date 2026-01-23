@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TBP02R1-381-02BE"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-30-14:26:48)
+    (mountForm default
+        (footprintRef "TBP02R138102BE")
+        (spec "System")
+    )
+)

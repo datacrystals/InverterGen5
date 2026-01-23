@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PMEG6010CEH_115'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "PMEG6010CEH,115" (!) = "", "SODFL3516X120N", "Small Outline Diode Flat Lead", "771-PMEG6010CEH-T/R", "https://www.mouser.co.uk/ProductDetail/Nexperia/PMEG6010CEH115?qs=LOCUfHb8d9uyulDQGIpcOA%3D%3D", "Schottky Diodes & Rectifiers SCHOTTKY 60V 1A", "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf", "1.2 mm"
+END_PART
+
+END.

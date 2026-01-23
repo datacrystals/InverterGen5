@@ -1,0 +1,107 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "38969-0002"
+   (description "Barrier Terminal Blocks")
+   (family "CON")
+   (package "389690002")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "21.9mm")
+   (attribute "Mouser Part Number" "538-38969-0002")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/38969-0002?qs=%2Fs3Y63xoe9mbpbSgf7b48A%3D%3D")
+   (attribute "Manufacturer_Name" "Molex")
+   (attribute "Manufacturer_Part_Number" "38969-0002")
+   (gate
+    (symbol "38969-0002")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "38969-0002"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -100) (pt 200 -100) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "389690002"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -7.6 4)
+      (pt 20.3 4)
+      (pt 20.3 -18.6)
+      (pt -7.6 -18.6)
+      (pt -7.6 4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.6 4)
+      (pt 20.3 4)
+      (pt 20.3 -18.6)
+      (pt -7.6 -18.6)
+      (pt -7.6 4))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.6 7.05)
+      (pt 21.3 7.05)
+      (pt 21.3 -19.6)
+      (pt -8.6 -19.6)
+      (pt -8.6 7.05))))
+   (layer TSLK
+    (graphic
+     (stroke 1.4)
+     (path
+      (closed true)
+      (pt 0 6)
+      (arc (pt 0.000 6.000) (pt 0.000 5.950) (pt 0.100 6.050) (start 180.0) (sweep 180.0))
+      (pt 0.1 6)
+      (arc (pt 0.100 6.000) (pt 0.000 5.950) (pt 0.100 6.050) (start 180.0) (sweep .0))
+      (pt 0 6))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 12.700 -13.000) (padstack 0))
+   (padstack 0
+    (hole 3.96)
+    (plated true)
+    (pad (layer TCOP) (round 5.940))
+    (pad (layer INNER) (round 5.940))
+    (pad (layer BCOP) (round 5.940))
+   )
+   (model "38969-0002.stp"
+    (euler 90 0 0)
+    (offset 6.239999771118164 -6.289999961853027 -0.12999999523162842)
+   )
+  )
+ )
+)

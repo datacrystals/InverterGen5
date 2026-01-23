@@ -1,0 +1,16 @@
+.RD7-12S033R :1 ;Isolated DC/DC Converters - Through Hole DC-DC Converter, Isolated Module, Single Output, 9V-18VDC Input, 3.3VDC, 3W
+RD712S033R
+*STM PS
+*NGS
+*PLB 1="-VIN" 2="+VIN" 3="CTRL-CONTROL INPUT CAN (CAN BE LEFT OPEN)" 6="+VOUT" 7="-VOUT" 8="NC"
+*MXP 6
+*DFN RD7-12S033R
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Adam Tech)
+~!Manufacturer_Part_Number (RD7-12S033R)
+~!Link Datasheet (https://app.adam-tech.com/products/download/data_sheet/247025/rd7-12s033r-data-sheet.pdf)
+~!Height (11.6mm)
+~!3D_Model (RD7-12S033R)
+RD7-12S033R
+1.1!U 2.1!U 3.1!U 6.1!U 7.1!U 8.1!U 

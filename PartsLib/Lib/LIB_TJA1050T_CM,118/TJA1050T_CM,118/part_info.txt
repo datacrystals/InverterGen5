@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=TJA1050T/CM,118
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2019-01-14 03:56:05
+Downloaded=2025-02-03 11:09:01
+3D=Y

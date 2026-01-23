@@ -1,0 +1,192 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "UCC28220D"
+   (description "Dual Interleaved PWM Controller with Programmable Max Duty Cycle")
+   (family "ANA")
+   (package "UCC28220D")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/ucc28220")
+   (attribute "Geometry.Height" "1.75mm")
+   (attribute "Mouser Part Number" "595-UCC28220D")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC28220D/?qs=eJkN62t4xTVBY%2FGqaPYojw%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "UCC28220D")
+   (gate
+    (symbol "UCC28220D")
+    (pin "LINEOV" 1 PS)
+    (pin "LINEHYS" 2 PS)
+    (pin "VDD" 3 PS)
+    (pin "CS1" 4 PS)
+    (pin "SLOPE" 5 PS)
+    (pin "CS2" 6 PS)
+    (pin "SS" 7 PS)
+    (pin "CTRL" 8 PS)
+    (pin "DISCHG" 9 PS)
+    (pin "CHG" 10 PS)
+    (pin "GND" 11 PS)
+    (pin "OUT2" 12 PS)
+    (pin "OUT1" 13 PS)
+    (pin "REF" 14 PS)
+    (pin "LINEUV" 15 PS)
+    (pin "NC" 16 NC)
+   )
+  )
+  (symbol "UCC28220D"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1200 100) (pt 1200 -800) (pt 200 -800) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -700) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "UCC28220D"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.95 1.95)
+      (pt 4.95 1.95)
+      (pt 4.95 -1.95)
+      (pt -4.95 -1.95)
+      (pt -4.95 1.95))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.95 4.475)
+      (pt 6 4.475)
+      (pt 6 -5.2)
+      (pt -5.95 -5.2)
+      (pt -5.95 4.475))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -4.95 1.5)
+      (pt -4.95 -1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 4.95 1.5)
+      (pt 5 -1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.445 -4)
+      (arc (pt -4.445 -4.000) (pt -4.545 -4.200) (pt -4.345 -4.000) (start 180.0) (sweep 90.0))
+      (pt -4.445 -4.2)
+      (arc (pt -4.445 -4.200) (pt -4.545 -4.200) (pt -4.345 -4.000) (start 180.0) (sweep -90.0))
+      (pt -4.445 -4))))
+   (leg 1 (pt -4.445 -2.700) (padstack 0))
+   (leg 2 (pt -3.175 -2.700) (padstack 0))
+   (leg 3 (pt -1.905 -2.700) (padstack 0))
+   (leg 4 (pt -0.635 -2.700) (padstack 0))
+   (leg 5 (pt 0.635 -2.700) (padstack 0))
+   (leg 6 (pt 1.905 -2.700) (padstack 0))
+   (leg 7 (pt 3.175 -2.700) (padstack 0))
+   (leg 8 (pt 4.445 -2.700) (padstack 0))
+   (leg 9 (pt 4.445 2.700) (padstack 0))
+   (leg 10 (pt 3.175 2.700) (padstack 0))
+   (leg 11 (pt 1.905 2.700) (padstack 0))
+   (leg 12 (pt 0.635 2.700) (padstack 0))
+   (leg 13 (pt -0.635 2.700) (padstack 0))
+   (leg 14 (pt -1.905 2.700) (padstack 0))
+   (leg 15 (pt -3.175 2.700) (padstack 0))
+   (leg 16 (pt -4.445 2.700) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.600 1.550 0 0 90.000))
+   )
+   (model "UCC28220D.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TJA1050T_CM,118
+D NXP - TJA1050T/CM,118 - CAN TRANSCEIVER, 1TX/RX, SOIC-8
+K
+F http://www.nxp.com/docs/en/data-sheet/TJA1050.pdf
+$ENDCMP
+#
+#End Doc Library

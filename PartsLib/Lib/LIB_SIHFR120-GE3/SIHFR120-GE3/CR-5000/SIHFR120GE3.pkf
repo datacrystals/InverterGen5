@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SIHFR120GE3"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SIHFR120GE3")
+        (spec "default")
+    )
+)

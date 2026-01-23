@@ -1,0 +1,16 @@
+.FM2000GP-TP :1 ;Fast Recovery Rectifiers
+DIOM5226X244N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN FM2000GP-TP
+~!Mouser Part Number (833-FM2000GP-TP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/FM2000GP-TP?qs=y6ZabgHbY%252BxF9Taq4zonHw%3D%3D)
+~!Manufacturer_Name (MCC)
+~!Manufacturer_Part_Number (FM2000GP-TP)
+~!Link Datasheet (https://www.mccsemi.com/pdf/Products/FM2000GP(SMA).pdf)
+~!Height (2.44mm)
+~!3D_Model (FM2000GP-TP)
+FM2000GP-TP
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=RECOM Power
+PartNumber=R-78K3.3-1.0
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=3
+Version=3.4
+Released=2023-02-17 13:48:36
+Downloaded=2025-04-23 02:19:12
+3D=Y

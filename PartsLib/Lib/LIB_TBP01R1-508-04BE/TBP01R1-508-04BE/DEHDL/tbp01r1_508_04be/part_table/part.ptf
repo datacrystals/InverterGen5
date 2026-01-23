@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TBP01R1_508_04BE'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Same Sky", "TBP01R1-508-04BE" (!) = "", "TBP01R150804BE", "Other", "490-TBP01R1-508-04BE", "https://www.mouser.co.uk/ProductDetail/Same-Sky/TBP01R1-508-04BE?qs=PzGy0jfpSMtbuigPwCNi2Q%3D%3D", "2~24 Poles, Pluggable, Receptacle, Horizontal, 5.08 Pitch, Terminal Block Connector", "https://www.sameskydevices.com/product/resource/supplyframepdf/tbp01r1-508.pdf", "8.9 mm"
+END_PART
+
+END.
