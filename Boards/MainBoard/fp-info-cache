@@ -1,4 +1,4 @@
-171720511352089
+177028042093911
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65911,6 +65911,27 @@ Connector
 0
 6
 6
+InverterCom
+TBP01R250806BE
+TBP01R2-508-06BE-2
+Connector
+0
+6
+6
+InverterCom
+TBP02R2W38106BE
+TBP02R2W-381-06BE-1
+Connector
+0
+6
+6
+InverterCom
+TBP02R2W38108BE
+TBP02R2W-381-08BE-3
+Connector
+0
+8
+8
 InverterCom
 TBP02R138102BE
 TBP02R1-381-02BE-2

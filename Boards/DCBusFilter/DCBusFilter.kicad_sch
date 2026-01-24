@@ -746,12 +746,8 @@
 		)
 	)
 	(no_connect
-		(at 91.44 81.28)
-		(uuid "ab9761a5-03de-4621-933b-f333aedc76ba")
-	)
-	(no_connect
-		(at 142.24 81.28)
-		(uuid "aea2e3bc-0b0c-4cf6-b885-39b2692ea47c")
+		(at 91.44 83.82)
+		(uuid "914a746d-21fa-41be-8e43-2698a747f900")
 	)
 	(wire
 		(pts
@@ -793,17 +789,7 @@
 		)
 		(uuid "a138826b-0937-4849-aa8a-9eefc99c1c2c")
 	)
-	(label "DC_LINK_-"
-		(at 142.24 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23bd705e-38ca-42b6-a701-16ab8ff1ea61")
-	)
-	(label "DC_LINK_-"
+	(label "DC_LINK_+"
 		(at 91.44 86.36 0)
 		(effects
 			(font
@@ -811,17 +797,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "26dbd42d-b614-4983-9ddf-34062d992449")
-	)
-	(label "PHASE_LEG"
-		(at 91.44 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2df2be16-16ea-4a66-86d3-53bb696ad360")
+		(uuid "2f04daaf-95a1-4258-839f-aaa697a1bc5a")
 	)
 	(label "DC_LINK_-"
 		(at 76.2 57.15 180)
@@ -832,16 +808,6 @@
 			(justify right bottom)
 		)
 		(uuid "32b1e81a-1b3e-4e84-af1c-4264a12f27c6")
-	)
-	(label "DC_LINK_+"
-		(at 91.44 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3301a147-437d-4c8f-9622-aa088082db65")
 	)
 	(label "PHASE_LEG"
 		(at 38.1 88.9 0)
@@ -873,16 +839,6 @@
 		)
 		(uuid "46ee3a3e-2d86-4329-a756-505e1b5dc258")
 	)
-	(label "DC_LINK_+"
-		(at 142.24 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64785ffa-0a22-4148-a81e-cd6d450e7bc0")
-	)
 	(label "DC_LINK_-"
 		(at 102.87 58.42 180)
 		(effects
@@ -904,6 +860,16 @@
 		(uuid "8829aad5-33d7-4f21-bbbf-5461f6837412")
 	)
 	(label "DC_LINK_-"
+		(at 91.44 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ade3fb5-3887-4f30-8067-0efcb4c4cdbd")
+	)
+	(label "DC_LINK_-"
 		(at 38.1 63.5 0)
 		(effects
 			(font
@@ -912,6 +878,16 @@
 			(justify left bottom)
 		)
 		(uuid "8e54ab3b-bf75-4bea-9563-556607bc47e1")
+	)
+	(label "PHASE_LEG"
+		(at 91.44 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e173e7a-9ffb-4295-92cc-c2b09a4714f3")
 	)
 	(label "DC_LINK_+"
 		(at 38.1 38.1 0)
@@ -922,16 +898,6 @@
 			(justify left bottom)
 		)
 		(uuid "9fd1d66b-d943-48b3-b570-239bdce9aebf")
-	)
-	(label "PHASE_LEG"
-		(at 142.24 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd13cd7e-c8ad-40d1-b93a-eb0fffc43681")
 	)
 	(label "DC_LINK_-"
 		(at 130.81 58.42 180)
@@ -1637,132 +1603,6 @@
 			(project ""
 				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:TBP01R2-508-04BE")
-		(at 142.24 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecf18bf6-0fe6-41de-9024-fe4222ab8cf3")
-		(property "Reference" "J2"
-			(at 132.08 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TBP01R2-508-04BE"
-			(at 132.08 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SHDR4W100P0X508_1X4_2192X850X1200P"
-			(at 125.73 -8.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp01r2-508.pdf"
-			(at 125.73 -108.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TBP01R2-508 Series - 2~24 Poles, Pluggable, Receptacle, Vertical, 5.08 Pitch, Terminal Block Connector"
-			(at 142.24 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "12"
-			(at 125.73 -308.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "490-TBP01R2-508-04BE"
-			(at 125.73 -408.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R2-508-04BE?qs=PzGy0jfpSMt81U9Qkgbf1g%3D%3D"
-			(at 125.73 -508.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Same Sky"
-			(at 125.73 -608.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TBP01R2-508-04BE"
-			(at 125.73 -708.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "18bcb5c8-103e-4da8-8387-b7dd847e7a3e")
-		)
-		(pin "1"
-			(uuid "0ff4b842-535e-495d-b16c-dd55426b7100")
-		)
-		(pin "3"
-			(uuid "192e40c1-61dc-4b10-90eb-67dc8b5b8e40")
-		)
-		(pin "4"
-			(uuid "9fdbf9b0-99ea-4f6a-b9ec-ea4bfab1c86b")
-		)
-		(instances
-			(project "DCBusFilter"
-				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
-					(reference "J2")
 					(unit 1)
 				)
 			)

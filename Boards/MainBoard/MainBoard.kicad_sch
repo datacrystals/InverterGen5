@@ -1441,7 +1441,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "InverterCom:TBP02R2W-381-08BE"
+		(symbol "InverterCom:TBP01R2-508-06BE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1454,7 +1454,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "TBP02R2W-381-08BE"
+			(property "Value" "TBP01R2-508-06BE"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -1463,7 +1463,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "TBP02R2W38108BE"
+			(property "Footprint" "TBP01R250806BE"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -1473,7 +1473,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02r2w-381.pdf"
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp01r2-508.pdf"
 				(at 16.51 -194.92 0)
 				(effects
 					(font
@@ -1483,7 +1483,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TBP02R2W-381 Series - 2~24 Poles, Pluggable, Receptacle, Vertical, 3.81 Pitch, Terminal Block Connector"
+			(property "Description" "6 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.200\" (5.08mm) Vertical Through Hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1492,7 +1492,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "9.2"
+			(property "Height" "12.4"
 				(at 16.51 -394.92 0)
 				(effects
 					(font
@@ -1502,7 +1502,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "490-TBP02R2W-38108BE"
+			(property "Mouser Part Number" "490-TBP01R2-508-06BE"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -1512,7 +1512,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TBP02R2W-381-08BE?qs=PzGy0jfpSMsy8Qrmxc%252Brhg%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R2-508-06BE?qs=PzGy0jfpSMsphIICa8uwtQ%3D%3D"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -1532,7 +1532,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "TBP02R2W-381-08BE"
+			(property "Manufacturer_Part_Number" "TBP01R2-508-06BE"
 				(at 16.51 -794.92 0)
 				(effects
 					(font
@@ -1542,10 +1542,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TBP02R2W-381-08BE_1_1"
+			(symbol "TBP01R2-508-06BE_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 15.24 -20.32)
+					(end 15.24 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1655,42 +1655,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 0)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1990,16 +1954,6 @@
 		)
 		(uuid "155eef23-61ad-48f8-ae92-fbc70630922c")
 	)
-	(label "CAN_24V_OUT"
-		(at 54.61 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1aa12fa8-7f57-4793-95df-71d9aa192f67")
-	)
 	(label "GND_A"
 		(at 187.96 92.71 180)
 		(effects
@@ -2040,16 +1994,6 @@
 		)
 		(uuid "210c592f-13bf-4d30-803a-eaddeba4e6f3")
 	)
-	(label "RELAY2_COM"
-		(at 59.69 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "213eb57a-da20-46d2-a198-5065752e0a61")
-	)
 	(label "ISENSE_PH_V_Y"
 		(at 57.15 72.39 0)
 		(effects
@@ -2089,16 +2033,6 @@
 			(justify right bottom)
 		)
 		(uuid "2521b482-5594-4cf6-b874-78fb6c8de1a4")
-	)
-	(label "RELAY3_COM"
-		(at 59.69 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b20e3d6-794e-4c8c-ba09-16470c9d27c0")
 	)
 	(label "CAN_JUMPER_B"
 		(at 139.7 45.72 0)
@@ -2360,16 +2294,6 @@
 		)
 		(uuid "64172792-d360-458e-ba89-64eb3680413d")
 	)
-	(label "CAN_5V_OUT"
-		(at 54.61 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "654b5163-f512-4370-b1d6-99215b3e7f83")
-	)
 	(label "SPI2_SCK_A"
 		(at 139.7 83.82 0)
 		(effects
@@ -2480,16 +2404,6 @@
 		)
 		(uuid "7bb34962-4bde-46fe-8129-667ae539de11")
 	)
-	(label "CAN_JUMPER_B"
-		(at 54.61 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7bb5144e-09c4-444b-a3e6-6854b3e25458")
-	)
 	(label "RELAY2_NO"
 		(at 15.24 133.35 180)
 		(effects
@@ -2499,16 +2413,6 @@
 			(justify right bottom)
 		)
 		(uuid "7c3bb3b0-ac4e-4227-8f93-e8ef0a608eba")
-	)
-	(label "CAN_LOW"
-		(at 54.61 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7cda7407-47b7-4235-845a-2cd8d39aae18")
 	)
 	(label "+12V_A"
 		(at 101.6 152.4 180)
@@ -2650,26 +2554,6 @@
 		)
 		(uuid "95a84f9f-b7bc-4a2e-bb9b-fa6627de5d38")
 	)
-	(label "RELAY3_NO"
-		(at 59.69 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "967e0af5-8815-400f-9f49-13215fa58390")
-	)
-	(label "RELAY1_COM"
-		(at 59.69 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97a85e1d-64ca-420c-8cf3-a7b41d921515")
-	)
 	(label "GND_U"
 		(at 101.6 87.63 180)
 		(effects
@@ -2689,16 +2573,6 @@
 			(justify left bottom)
 		)
 		(uuid "9b47b213-142a-4668-8b1c-0d15bd1402ff")
-	)
-	(label "CAN_GND"
-		(at 54.61 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c40c9ba-a826-48f4-937e-ec5f2f81b4a0")
 	)
 	(label "GND_A"
 		(at 190.5 144.78 180)
@@ -2740,16 +2614,6 @@
 		)
 		(uuid "a180e0de-5cf2-45db-a471-a22a9c4a2803")
 	)
-	(label "+12V_A"
-		(at 59.69 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a27e36ce-4f9c-4fb4-9e29-3099798678c1")
-	)
 	(label "CAN_JUMPER_B"
 		(at 17.78 15.24 180)
 		(effects
@@ -2779,16 +2643,6 @@
 			(justify right bottom)
 		)
 		(uuid "a6e76b6c-fd18-475c-8207-4911077dbcf8")
-	)
-	(label "RELAY1_NO"
-		(at 59.69 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "acd0dc81-0eea-4704-a52a-d075af9fc802")
 	)
 	(label "SPI1_CAN_CS_A"
 		(at 101.6 41.91 180)
@@ -2980,16 +2834,6 @@
 		)
 		(uuid "dc939f81-6f03-4c0d-a0d8-8b4f2eecccf7")
 	)
-	(label "CAN_HIGH"
-		(at 54.61 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dfc36813-3f57-4331-8dca-b7eb1dfd4c6d")
-	)
 	(label "+3.3V_A"
 		(at 187.96 40.64 180)
 		(effects
@@ -3090,16 +2934,6 @@
 		)
 		(uuid "f3ce56c7-0a88-4d8b-a1de-4580ca70d4bb")
 	)
-	(label "RELAY2_NO"
-		(at 59.69 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6159472-01bc-4f07-8a6a-b5cd9b820d58")
-	)
 	(label "ISENSE_PH_V_Y"
 		(at 101.6 73.66 180)
 		(effects
@@ -3109,16 +2943,6 @@
 			(justify right bottom)
 		)
 		(uuid "f870e83a-cc6b-4862-9014-148ebdc93f0d")
-	)
-	(label "CAN_JUMPER_A"
-		(at 54.61 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f974befa-78ec-435c-ae01-6947975cdd13")
 	)
 	(label "SPI2_TX_A"
 		(at 139.7 86.36 0)
@@ -3228,17 +3052,6 @@
 			(justify left)
 		)
 		(uuid "21ad9bfe-d3c5-4a0b-87a0-839ba560f79f")
-	)
-	(hierarchical_label "+12V_SWITCHED_A"
-		(shape input)
-		(at 59.69 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "22d6caaf-3a25-4fd7-b2fb-d188baaa5425")
 	)
 	(hierarchical_label "+3.3V_A"
 		(shape input)
@@ -3784,7 +3597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 22.86 25.4 0)
 			(effects
 				(font
@@ -3875,144 +3688,6 @@
 			(project "MainBoard"
 				(path "/1bd20b11-4068-4af7-8516-b3d686707223"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:TBP02R2W-381-08BE")
-		(at 59.69 152.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ae0fd26-69c6-4d07-902e-563ad7032361")
-		(property "Reference" "J8"
-			(at 49.53 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TBP02R2W-381-08BE"
-			(at 49.53 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "InverterCom:TBP02R2W38108BE"
-			(at 43.18 57.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02r2w-381.pdf"
-			(at 43.18 -42.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TBP02R2W-381 Series - 2~24 Poles, Pluggable, Receptacle, Vertical, 3.81 Pitch, Terminal Block Connector"
-			(at 59.69 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.2"
-			(at 43.18 -242.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "490-TBP02R2W-38108BE"
-			(at 43.18 -342.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TBP02R2W-381-08BE?qs=PzGy0jfpSMsy8Qrmxc%252Brhg%3D%3D"
-			(at 43.18 -442.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Same Sky"
-			(at 43.18 -542.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TBP02R2W-381-08BE"
-			(at 43.18 -642.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f440e7e3-1a9c-47f1-842e-c1ac33e9cd41")
-		)
-		(pin "8"
-			(uuid "ef59be5d-dda3-4d9c-9781-6e9b21babe97")
-		)
-		(pin "7"
-			(uuid "694a605b-34c8-4a4f-b70f-b268b042fbe2")
-		)
-		(pin "2"
-			(uuid "a0b8cd8e-ce5d-4f81-92fb-1a0ab2512ea5")
-		)
-		(pin "4"
-			(uuid "b0396460-e881-4c08-b14f-2eeb30f195c5")
-		)
-		(pin "6"
-			(uuid "f0e8382d-a81d-413c-b85c-1c06870a6ecb")
-		)
-		(pin "5"
-			(uuid "0170cafc-5431-49a5-829c-ef8c419ea89c")
-		)
-		(pin "3"
-			(uuid "43bbc86a-2576-401f-a439-f6a5a57281c1")
-		)
-		(instances
-			(project "MainBoard"
-				(path "/1bd20b11-4068-4af7-8516-b3d686707223"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4265,7 +3940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 20.32 133.35 0)
 			(effects
 				(font
@@ -4520,7 +4195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 195.58 139.7 0)
 			(effects
 				(font
@@ -4809,144 +4484,6 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:TBP02R2W-381-08BE")
-		(at 54.61 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1ce4eac-8669-4bcd-93ef-8263c66ac6a1")
-		(property "Reference" "J7"
-			(at 44.45 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TBP02R2W-381-08BE"
-			(at 44.45 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "InverterCom:TBP02R2W38108BE"
-			(at 38.1 -51.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp02r2w-381.pdf"
-			(at 38.1 -151.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TBP02R2W-381 Series - 2~24 Poles, Pluggable, Receptacle, Vertical, 3.81 Pitch, Terminal Block Connector"
-			(at 54.61 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.2"
-			(at 38.1 -351.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "490-TBP02R2W-38108BE"
-			(at 38.1 -451.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TBP02R2W-381-08BE?qs=PzGy0jfpSMsy8Qrmxc%252Brhg%3D%3D"
-			(at 38.1 -551.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Same Sky"
-			(at 38.1 -651.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TBP02R2W-381-08BE"
-			(at 38.1 -751.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88159f81-499f-4338-b10b-228cbea900ce")
-		)
-		(pin "8"
-			(uuid "3850dc61-63a3-40fe-8b34-362486bc1d09")
-		)
-		(pin "7"
-			(uuid "741e51b6-629f-4881-8164-b2806777f7ee")
-		)
-		(pin "2"
-			(uuid "9493b9b9-3ea9-45ac-8142-b15509206bd2")
-		)
-		(pin "4"
-			(uuid "b488730a-5c20-4dbb-b004-f59a3bd43d0f")
-		)
-		(pin "6"
-			(uuid "9f9a8a7c-5f03-490a-8a16-0443e65adfea")
-		)
-		(pin "5"
-			(uuid "4b5e8fe4-095f-448e-99ae-96476021cda3")
-		)
-		(pin "3"
-			(uuid "dc84e354-8a20-4148-8ae2-8de10c6452fb")
-		)
-		(instances
-			(project ""
-				(path "/1bd20b11-4068-4af7-8516-b3d686707223"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 254 101.6 0)
 		(unit 1)
@@ -5185,138 +4722,6 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:TBP01R1-508-06BE")
-		(at 48.26 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9c87663-0663-486e-9f23-3847ddc1eb77")
-		(property "Reference" "J6"
-			(at 38.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TBP01R1-508-06BE"
-			(at 38.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "InverterCom:TBP01R150806BE"
-			(at 31.75 7.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/TBP01R1-508.pdf"
-			(at 31.75 -92.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TBP01R1-508 Series - 2~24 Poles, Pluggable, Receptacle, Horizontal, 5.08 Pitch, Terminal Block Connector"
-			(at 48.26 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.5"
-			(at 31.75 -292.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "490-TBP01R1-508-06BE"
-			(at 31.75 -392.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Same-Sky/TBP01R1-508-06BE?qs=PzGy0jfpSMtbefrSiaRjjA%3D%3D"
-			(at 31.75 -492.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Same Sky"
-			(at 31.75 -592.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TBP01R1-508-06BE"
-			(at 31.75 -692.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "c7f313a8-8cab-412f-ae26-b5b331d5087d")
-		)
-		(pin "2"
-			(uuid "92260d45-4c80-4ab0-bcb0-1f63cf6c54ae")
-		)
-		(pin "4"
-			(uuid "92dbf092-c577-4664-90df-a6ecb999da98")
-		)
-		(pin "1"
-			(uuid "8a267496-ba67-48a0-88d9-f9f54858622b")
-		)
-		(pin "3"
-			(uuid "2f413bb6-91a2-4492-a812-10a8b2445e6e")
-		)
-		(pin "6"
-			(uuid "1e1c045d-c379-4990-8eb5-17df1c4ba3ee")
-		)
-		(instances
-			(project "MainBoard"
-				(path "/1bd20b11-4068-4af7-8516-b3d686707223"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
 		(at 193.04 43.18 0)
 		(unit 1)
@@ -5343,7 +4748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 193.04 43.18 0)
 			(effects
 				(font
@@ -5440,6 +4845,140 @@
 		)
 	)
 	(symbol
+		(lib_id "InverterCom:TBP01R2-508-06BE")
+		(at 48.26 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5bfa2d8-3ef7-424e-b9f9-7d81c23e34ea")
+		(property "Reference" "J6"
+			(at 64.77 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBP01R2-508-06BE"
+			(at 64.77 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TBP01R250806BE"
+			(at 64.77 197.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp01r2-508.pdf"
+			(at 64.77 297.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "6 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.200\" (5.08mm) Vertical Through Hole"
+			(at 48.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.4"
+			(at 64.77 497.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-TBP01R2-508-06BE"
+			(at 64.77 597.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R2-508-06BE?qs=PzGy0jfpSMsphIICa8uwtQ%3D%3D"
+			(at 64.77 697.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 64.77 797.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TBP01R2-508-06BE"
+			(at 64.77 897.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dcf1f9e9-7493-4961-b4ba-f2a8e9e21b5c")
+		)
+		(pin "5"
+			(uuid "9c78d838-753c-48d8-b953-733ca8357fd6")
+		)
+		(pin "4"
+			(uuid "f1e970ff-3c6f-43c0-9516-1e78a37ba815")
+		)
+		(pin "1"
+			(uuid "f9b54092-728f-4a48-956f-d52c90b132f7")
+		)
+		(pin "3"
+			(uuid "8197eead-5b4c-4882-98c1-275ee9e70ca3")
+		)
+		(pin "6"
+			(uuid "e5b508a0-baf0-435c-89ca-39884ebeb513")
+		)
+		(instances
+			(project ""
+				(path "/1bd20b11-4068-4af7-8516-b3d686707223"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
 		(at 193.04 92.71 0)
 		(unit 1)
@@ -5466,7 +5005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 193.04 92.71 0)
 			(effects
 				(font

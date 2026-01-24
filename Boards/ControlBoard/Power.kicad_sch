@@ -144,370 +144,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "InverterCom:LTST-C230GKT"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LTST-C230GKT"
-				(at 12.7 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LEDC3216X120N"
-				(at 12.7 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 12.7 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Lite-On LTST-C230GKT Green LED, 569 nm, 3016 (1206), Rectangle Lens SMD Package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.2"
-				(at 12.7 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "859-LTST-C230GKT"
-				(at 12.7 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C230GKT?qs=7ZnIBiPc9DrbEstVFO1DAg%3D%3D"
-				(at 12.7 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Lite-On"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "LTST-C230GKT"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "LTST-C230GKT_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "InverterCom:MF-RHT200_32-2"
 			(pin_names
 				(hide yes)
@@ -1667,23 +1303,13 @@
 	)
 	(text "INPUT POLARITY PROTECTION"
 		(exclude_from_sim no)
-		(at 46.228 42.418 0)
+		(at 45.72 53.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "36c18164-5f5a-4567-8507-63f5e3164297")
-	)
-	(text "+12v status led"
-		(exclude_from_sim no)
-		(at 243.078 28.194 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "64693646-4a71-4e28-b2a1-5250172225de")
 	)
 	(text "3.3V POWER, 3W MAX"
 		(exclude_from_sim no)
@@ -1694,16 +1320,6 @@
 			)
 		)
 		(uuid "7e64ac8d-30fa-4e54-919c-cc1d7e1ecd17")
-	)
-	(text "+3.3v status led"
-		(exclude_from_sim no)
-		(at 113.538 103.124 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b900236b-3d7e-4ba9-b578-3a10668bd80b")
 	)
 	(text "+12V POWER SUPPLY 15W MAX"
 		(exclude_from_sim no)
@@ -1726,18 +1342,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b550132-a1c0-471c-8e41-87aaea6dd508")
-	)
-	(junction
-		(at 226.06 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f7ace87-8915-41b7-8109-2665d376ba2b")
-	)
-	(junction
-		(at 214.63 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11002a80-32bf-4919-85a7-1ec4e4a4fcaa")
 	)
 	(junction
 		(at 123.19 129.54)
@@ -1770,12 +1374,6 @@
 		(uuid "2907a354-5b7c-40f4-ad63-68a880cf8ece")
 	)
 	(junction
-		(at 214.63 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2df55f2e-7b30-4f63-92af-253c036a71ce")
-	)
-	(junction
 		(at 134.62 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1792,12 +1390,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36ceedee-75fb-4d90-8fab-69659deeb6d0")
-	)
-	(junction
-		(at 214.63 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "390d9342-3e45-4663-a433-26cceb190389")
 	)
 	(junction
 		(at 106.68 36.83)
@@ -1848,6 +1440,12 @@
 		(uuid "65eca592-cb50-412b-9c0a-b0d93dfd4d07")
 	)
 	(junction
+		(at 38.1 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c75fa0e-78db-42f2-9c08-54daf6c6ec93")
+	)
+	(junction
 		(at 203.2 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1866,22 +1464,10 @@
 		(uuid "768220dd-b036-48b9-8fbe-cc6785b25566")
 	)
 	(junction
-		(at 226.06 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c955cc2-7e76-4068-894f-e031d1030b27")
-	)
-	(junction
 		(at 213.36 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7daeed49-2bba-43fa-942e-b54f7047368d")
-	)
-	(junction
-		(at 214.63 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7db867ee-9fba-4215-9a82-93cdc548bbad")
 	)
 	(junction
 		(at 213.36 35.56)
@@ -1900,18 +1486,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "945c27e4-a83c-4e1e-9d39-102c8a839bc2")
-	)
-	(junction
-		(at 203.2 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9cffc120-638a-4a42-9f5a-c86608df1410")
-	)
-	(junction
-		(at 203.2 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4bb2ac2-c709-49b4-a3d9-decf4b820ea3")
 	)
 	(junction
 		(at 203.2 59.69)
@@ -1936,18 +1510,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c88f8ad4-1b3b-43f5-9196-b5c1a1f1e761")
-	)
-	(junction
-		(at 226.06 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb08b3fe-7125-4525-a3d9-3e9650d283c1")
-	)
-	(junction
-		(at 226.06 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd4a1b32-f4a0-4167-8e53-4ff022ddac49")
 	)
 	(junction
 		(at 116.84 21.59)
@@ -2015,7 +1577,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 72.39) (xy 214.63 72.39)
+			(xy 203.2 72.39) (xy 245.11 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2155,16 +1717,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 88.9) (xy 203.2 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21a5edc0-2b24-46a4-afb1-8946248d6fe4")
-	)
-	(wire
-		(pts
 			(xy 191.77 59.69) (xy 203.2 59.69)
 		)
 		(stroke
@@ -2172,16 +1724,6 @@
 			(type default)
 		)
 		(uuid "21c74404-3559-4482-b31f-449c40c21c22")
-	)
-	(wire
-		(pts
-			(xy 203.2 76.2) (xy 214.63 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2276ceb8-b7b5-4cff-a165-bdd363cddd74")
 	)
 	(wire
 		(pts
@@ -2202,16 +1744,6 @@
 			(type default)
 		)
 		(uuid "32ee15cf-6592-4b1f-8318-e12d2afe3e64")
-	)
-	(wire
-		(pts
-			(xy 214.63 76.2) (xy 226.06 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "371a7522-d32a-4579-9c83-db4fad61c400")
 	)
 	(wire
 		(pts
@@ -2335,26 +1867,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 88.9) (xy 214.63 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54a46183-b50a-4e13-b311-aae81c950a8a")
-	)
-	(wire
-		(pts
-			(xy 226.06 76.2) (xy 245.11 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59906594-2c57-497b-9fff-3fde94f00537")
-	)
-	(wire
-		(pts
 			(xy 64.77 36.83) (xy 64.77 35.56)
 		)
 		(stroke
@@ -2372,6 +1884,16 @@
 			(type default)
 		)
 		(uuid "5fbfb0e4-269d-42b6-8a2b-fabb46aad45f")
+	)
+	(wire
+		(pts
+			(xy 38.1 36.83) (xy 38.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60576bd0-af8f-48ac-bd17-dcfe160a2fbb")
 	)
 	(wire
 		(pts
@@ -2425,36 +1947,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 72.39) (xy 245.11 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6d2de3-2680-43b6-a452-5011dbe9ae5a")
-	)
-	(wire
-		(pts
-			(xy 226.06 88.9) (xy 245.11 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75013277-85f9-4d16-b807-8fd4cb58a2e6")
-	)
-	(wire
-		(pts
-			(xy 214.63 59.69) (xy 226.06 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750e8646-d391-4c72-9d51-39276b037b87")
-	)
-	(wire
-		(pts
 			(xy 116.84 31.75) (xy 116.84 36.83)
 		)
 		(stroke
@@ -2472,16 +1964,6 @@
 			(type default)
 		)
 		(uuid "7e70a544-f8b2-4fff-b85a-53279e9fa93c")
-	)
-	(wire
-		(pts
-			(xy 226.06 59.69) (xy 245.11 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eea95f1-6fea-4996-a931-673fd4676350")
 	)
 	(wire
 		(pts
@@ -2535,6 +2017,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 36.83) (xy 53.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ea2d8b-69b4-41dc-9f3a-df3b93a5ecbc")
+	)
+	(wire
+		(pts
 			(xy 111.76 146.05) (xy 123.19 146.05)
 		)
 		(stroke
@@ -2585,16 +2077,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 76.2) (xy 203.2 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc580f8-07bd-4b4d-be0a-b670dc19e785")
-	)
-	(wire
-		(pts
 			(xy 189.23 31.75) (xy 189.23 35.56)
 		)
 		(stroke
@@ -2602,26 +2084,6 @@
 			(type default)
 		)
 		(uuid "aa8e8ea2-74c9-4561-8472-b4ba61d00b73")
-	)
-	(wire
-		(pts
-			(xy 214.63 72.39) (xy 226.06 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abd1cbed-f397-4436-ba46-848b71a1e7f4")
-	)
-	(wire
-		(pts
-			(xy 214.63 88.9) (xy 226.06 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac06c4bf-3a27-42a9-a8d9-0a9f5b7bf171")
 	)
 	(wire
 		(pts
@@ -2695,7 +2157,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 59.69) (xy 214.63 59.69)
+			(xy 203.2 59.69) (xy 245.11 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2823,17 +2285,6 @@
 		)
 		(uuid "fe80783a-8235-4656-9985-759fd00bf27b")
 	)
-	(hierarchical_label "+3.3V_OUT_A"
-		(shape input)
-		(at 121.92 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0fa51391-67f1-4f49-99b8-7b765b5dbea3")
-	)
 	(hierarchical_label "+12V_OUT_A"
 		(shape input)
 		(at 219.71 35.56 0)
@@ -2888,17 +2339,6 @@
 			(justify left)
 		)
 		(uuid "4c681efa-c083-4cdc-a950-725ee343a60e")
-	)
-	(hierarchical_label "GND_A"
-		(shape input)
-		(at 144.78 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e84726e-840a-4ee6-a197-ccb73f468208")
 	)
 	(hierarchical_label "+3.3V_OUT_A"
 		(shape input)
@@ -2955,17 +2395,6 @@
 		)
 		(uuid "92b221f5-b987-46d1-b503-81e5f389abf3")
 	)
-	(hierarchical_label "+12V_OUT_A"
-		(shape input)
-		(at 251.46 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5268e9b-4aa8-458d-834d-906ba459c589")
-	)
 	(hierarchical_label "GND_A"
 		(shape input)
 		(at 93.98 73.66 180)
@@ -2976,28 +2405,6 @@
 			(justify right)
 		)
 		(uuid "a84d412a-3d66-44c6-878a-a4f03faa08b8")
-	)
-	(hierarchical_label "+12V_OUT_A"
-		(shape input)
-		(at 245.11 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bad3acd4-40f0-4410-b7de-c4ba7153a171")
-	)
-	(hierarchical_label "GND_A"
-		(shape input)
-		(at 245.11 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "baee8e2d-9fa4-4fd0-b0b3-91334cf44e5a")
 	)
 	(hierarchical_label "+12V_OUT_A"
 		(shape input)
@@ -3045,17 +2452,6 @@
 	)
 	(hierarchical_label "GND_A"
 		(shape input)
-		(at 274.32 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f262b6b7-6c99-4a86-9982-fc498c47ecb5")
-	)
-	(hierarchical_label "GND_A"
-		(shape input)
 		(at 219.71 21.59 0)
 		(effects
 			(font
@@ -3064,128 +2460,6 @@
 			(justify left)
 		)
 		(uuid "f9ad40cd-9948-48df-859c-5bfda6066b37")
-	)
-	(symbol
-		(lib_id "InverterCom:LTST-C230GKT")
-		(at 144.78 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05cf9104-0169-42c6-abdb-1b64c2a4a80f")
-		(property "Reference" "LED11"
-			(at 135.8899 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LTST-C230GKT"
-			(at 138.4299 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:LEDC3216X120N"
-			(at 132.08 13.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 -86.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Lite-On LTST-C230GKT Green LED, 569 nm, 3016 (1206), Rectangle Lens SMD Package"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.2"
-			(at 132.08 -286.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "859-LTST-C230GKT"
-			(at 132.08 -386.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C230GKT?qs=7ZnIBiPc9DrbEstVFO1DAg%3D%3D"
-			(at 132.08 -486.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Lite-On"
-			(at 132.08 -586.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LTST-C230GKT"
-			(at 132.08 -686.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0887e6e4-56f1-49b6-bc8f-cf9e5e79564c")
-		)
-		(pin "2"
-			(uuid "e965891f-7879-458c-af6d-ad788e92d1f3")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
-					(reference "LED11")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "InverterCom:UCM1H101MCL1GS")
@@ -3500,127 +2774,6 @@
 	)
 	(symbol
 		(lib_id "InverterCom:UCM1H101MCL1GS")
-		(at 203.2 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32d8c4ec-5a22-4e80-be9b-c84fda9266ab")
-		(property "Reference" "C169"
-			(at 207.01 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UCM1H101MCL1GS"
-			(at 207.01 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPAE660X800N"
-			(at 299.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"
-			(at 399.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Nichicon 100uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 6.3 (Dia.) x 7.7mm"
-			(at 203.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8"
-			(at 599.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UCM1H101MCL1GS"
-			(at 699.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H101MCL1GS?qs=DSgADHjnLTkk%252B%2Fewo0WoDQ%3D%3D"
-			(at 799.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 899.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCM1H101MCL1GS"
-			(at 999.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "425c9bfb-b194-48ed-b94f-6cf51cce7c5f")
-		)
-		(pin "2"
-			(uuid "63741e83-2055-476f-b53d-4fec032ed78c")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
-					(reference "C169")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UCM1H101MCL1GS")
 		(at 100.33 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3742,197 +2895,6 @@
 	)
 	(symbol
 		(lib_id "InverterCom:UCM1H101MCL1GS")
-		(at 191.77 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34c12136-a276-4c54-bb72-02f4ee86849c")
-		(property "Reference" "C168"
-			(at 195.58 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UCM1H101MCL1GS"
-			(at 195.58 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPAE660X800N"
-			(at 287.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"
-			(at 387.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Nichicon 100uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 6.3 (Dia.) x 7.7mm"
-			(at 191.77 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8"
-			(at 587.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UCM1H101MCL1GS"
-			(at 687.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H101MCL1GS?qs=DSgADHjnLTkk%252B%2Fewo0WoDQ%3D%3D"
-			(at 787.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 887.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCM1H101MCL1GS"
-			(at 987.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20f59042-5d84-4a60-adce-6b2495d8e852")
-		)
-		(pin "2"
-			(uuid "978cb11a-918e-419a-b273-4b7440b60b9e")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
-					(reference "C168")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 125.73 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49772dd6-5dea-4f45-92ab-b263e9157eaa")
-		(property "Reference" "R23"
-			(at 124.4599 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220"
-			(at 126.9999 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 125.73 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 125.73 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2424e5d-35dd-41de-a440-b8d34eefa067")
-		)
-		(pin "2"
-			(uuid "3f9805cc-7a35-4b05-8101-f1117912c0a5")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UCM1H101MCL1GS")
 		(at 87.63 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4047,127 +3009,6 @@
 			(project "ControlBoard"
 				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
 					(reference "C143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UCM1H101MCL1GS")
-		(at 226.06 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a664191-63ac-4fe0-8a63-0177cfd7b538")
-		(property "Reference" "C155"
-			(at 229.87 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UCM1H101MCL1GS"
-			(at 229.87 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPAE660X800N"
-			(at 322.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"
-			(at 422.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Nichicon 100uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 6.3 (Dia.) x 7.7mm"
-			(at 226.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8"
-			(at 622.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UCM1H101MCL1GS"
-			(at 722.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H101MCL1GS?qs=DSgADHjnLTkk%252B%2Fewo0WoDQ%3D%3D"
-			(at 822.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 922.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCM1H101MCL1GS"
-			(at 1022.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48976084-148b-47cd-be26-64b139d1109a")
-		)
-		(pin "2"
-			(uuid "2941f700-8cc8-4f66-8959-528177db72d9")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
-					(reference "C155")
 					(unit 1)
 				)
 			)
@@ -4427,128 +3268,6 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:LTST-C230GKT")
-		(at 274.32 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "534b651a-5c31-4a03-beef-da5bb98b42f4")
-		(property "Reference" "LED12"
-			(at 265.4299 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LTST-C230GKT"
-			(at 267.9699 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:LEDC3216X120N"
-			(at 261.62 -61.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 -161.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Lite-On LTST-C230GKT Green LED, 569 nm, 3016 (1206), Rectangle Lens SMD Package"
-			(at 274.32 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.2"
-			(at 261.62 -361.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "859-LTST-C230GKT"
-			(at 261.62 -461.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C230GKT?qs=7ZnIBiPc9DrbEstVFO1DAg%3D%3D"
-			(at 261.62 -561.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Lite-On"
-			(at 261.62 -661.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LTST-C230GKT"
-			(at 261.62 -761.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e185540-d52d-401c-a969-602213dbdaba")
-		)
-		(pin "2"
-			(uuid "cccc071d-1f06-4c92-9f35-6fb414d86148")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
-					(reference "LED12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 106.68 27.94 0)
 		(unit 1)
@@ -4613,127 +3332,6 @@
 			(project "ControlBoard"
 				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UCM1H101MCL1GS")
-		(at 214.63 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b954814-5857-4bee-b788-f65c42dc3752")
-		(property "Reference" "C154"
-			(at 218.44 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UCM1H101MCL1GS"
-			(at 218.44 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPAE660X800N"
-			(at 310.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"
-			(at 410.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Nichicon 100uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 6.3 (Dia.) x 7.7mm"
-			(at 214.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8"
-			(at 610.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UCM1H101MCL1GS"
-			(at 710.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H101MCL1GS?qs=DSgADHjnLTkk%252B%2Fewo0WoDQ%3D%3D"
-			(at 810.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 910.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCM1H101MCL1GS"
-			(at 1010.82 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d638b715-1ed5-42ca-8a81-ded3ee2f30d2")
-		)
-		(pin "2"
-			(uuid "8d2d1866-84d2-4a95-8227-739f60c25116")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
-					(reference "C154")
 					(unit 1)
 				)
 			)
@@ -4932,127 +3530,6 @@
 	)
 	(symbol
 		(lib_id "InverterCom:UCM1H101MCL1GS")
-		(at 214.63 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82bc1838-2206-4c2f-b0dd-47444fc4252b")
-		(property "Reference" "C170"
-			(at 218.44 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UCM1H101MCL1GS"
-			(at 218.44 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPAE660X800N"
-			(at 310.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"
-			(at 410.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Nichicon 100uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 6.3 (Dia.) x 7.7mm"
-			(at 214.63 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8"
-			(at 610.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UCM1H101MCL1GS"
-			(at 710.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H101MCL1GS?qs=DSgADHjnLTkk%252B%2Fewo0WoDQ%3D%3D"
-			(at 810.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 910.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCM1H101MCL1GS"
-			(at 1010.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a37182fd-4a4a-43c9-8848-038b6054941a")
-		)
-		(pin "2"
-			(uuid "31a5c6f5-9f4e-4f76-a0e8-bb36554a5ecd")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
-					(reference "C170")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UCM1H101MCL1GS")
 		(at 214.63 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5167,6 +3644,126 @@
 			(project "ControlBoard"
 				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
 					(reference "C146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:S3N")
+		(at 53.34 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ab16853-6113-4f42-baf6-26ecf26d9e7b")
+		(property "Reference" "D4"
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S3N"
+			(at 45.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "InverterCom:DIOM8059X265N"
+			(at 41.91 -49.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/S3N-D.PDF"
+			(at 41.91 -149.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Glass-Passivated Junction.; High Breakdown Voltage Rating; Low-Profile Package; UL Flammability Classification: 94V-0"
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.65"
+			(at 41.91 -349.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "512-S3N"
+			(at 41.91 -449.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/S3N?qs=1e7cUg5%2FiX9vmmrP5FC5Aw%3D%3D"
+			(at 41.91 -549.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 41.91 -649.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S3N"
+			(at 41.91 -749.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52328dea-fb69-46f4-942f-f2e00d19ce9a")
+		)
+		(pin "2"
+			(uuid "50db64ed-81f8-4189-a56a-049574a33d1c")
+		)
+		(instances
+			(project "ControlBoard"
+				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6100,76 +4697,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 255.27 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0442a81-45df-4212-80cf-98f708b44e94")
-		(property "Reference" "R24"
-			(at 253.9999 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 256.5399 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 255.27 33.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 255.27 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b53c1d87-9e0e-405a-b9a5-8cbf68028003")
-		)
-		(pin "2"
-			(uuid "bd67c267-cb2f-4e8b-a44f-ea37acc21784")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "InverterCom:UCM1H101MCL1GS")
 		(at 191.77 54.61 90)
 		(unit 1)
@@ -6889,127 +5416,6 @@
 			(project ""
 				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
 					(reference "C140")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:UCM1H101MCL1GS")
-		(at 226.06 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6b3ff6e-36a2-4b3e-becf-808238c14f3c")
-		(property "Reference" "C171"
-			(at 229.87 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "UCM1H101MCL1GS"
-			(at 229.87 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "InverterCom:CAPAE660X800N"
-			(at 322.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"
-			(at 422.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Nichicon 100uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 6.3 (Dia.) x 7.7mm"
-			(at 226.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8"
-			(at 622.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UCM1H101MCL1GS"
-			(at 722.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H101MCL1GS?qs=DSgADHjnLTkk%252B%2Fewo0WoDQ%3D%3D"
-			(at 822.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at 922.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCM1H101MCL1GS"
-			(at 1022.25 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5ea453b-86c5-40b0-9171-a0b138cd435d")
-		)
-		(pin "2"
-			(uuid "c758fc49-9312-466f-a42d-480b25ed841c")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/f43d716c-803e-4298-9377-543b8fb7319f"
-					(reference "C171")
 					(unit 1)
 				)
 			)

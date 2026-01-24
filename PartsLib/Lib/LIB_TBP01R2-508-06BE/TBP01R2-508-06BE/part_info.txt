@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=TBP01R2-508-06BE
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=3.2
+Released=2026-01-24 08:06:37
+Downloaded=2026-01-24 19:05:42
+3D=Y

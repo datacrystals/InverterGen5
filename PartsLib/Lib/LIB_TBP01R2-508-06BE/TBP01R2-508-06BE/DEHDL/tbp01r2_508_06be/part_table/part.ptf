@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TBP01R2_508_06BE'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Same Sky", "TBP01R2-508-06BE" (!) = "", "TBP01R250806BE", "Other", "490-TBP01R2-508-06BE", "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R2-508-06BE?qs=PzGy0jfpSMsphIICa8uwtQ%3D%3D", "6 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.200" (5.08mm) Vertical Through Hole", "https://www.sameskydevices.com/product/resource/tbp01r2-508.pdf", "12.4 mm"
+END_PART
+
+END.

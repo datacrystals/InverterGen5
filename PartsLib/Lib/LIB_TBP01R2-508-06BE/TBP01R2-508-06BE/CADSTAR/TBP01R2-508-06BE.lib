@@ -1,0 +1,16 @@
+.TBP01R2-508-06BE :1 ;6 Position Terminal Block Header, Male Pins, Shrouded (4 Side) 0.200" (5.08mm) Vertical Through Hole
+TBP01R250806BE
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 6
+*DFN TBP01R2-508-06BE
+~!Mouser Part Number (490-TBP01R2-508-06BE)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R2-508-06BE?qs=PzGy0jfpSMsphIICa8uwtQ%3D%3D)
+~!Manufacturer_Name (Same Sky)
+~!Manufacturer_Part_Number (TBP01R2-508-06BE)
+~!Link Datasheet (https://www.sameskydevices.com/product/resource/tbp01r2-508.pdf)
+~!Height (12.4mm)
+~!3D_Model (TBP01R2-508-06BE)
+TBP01R2-508-06BE
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 
