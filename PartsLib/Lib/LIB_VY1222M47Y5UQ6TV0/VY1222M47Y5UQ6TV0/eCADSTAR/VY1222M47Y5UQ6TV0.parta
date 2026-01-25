@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_1307015"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-02-25-09:38:34)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "VY1222M47Y5UQ6TV0")
+)
+
+
+(pinAssign "ECS_1307015"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-02-25-09:38:34)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1307015")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "VY1222M47Y5UQ6TV0")
+)
+
+
+(part "VY1222M47Y5UQ6TV0"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-02-25-09:38:34)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "VY1222M47Y5UQ6TV0")
+    (pinAssignRef "ECS_1307015")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole")
+    (property "Mouser_Part_Number" "72-VY1222M47Y5UQ6TV0")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "VY1222M47Y5UQ6TV0")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf")
+    (property "compAreaTopHeight" 16)
+)
+
+

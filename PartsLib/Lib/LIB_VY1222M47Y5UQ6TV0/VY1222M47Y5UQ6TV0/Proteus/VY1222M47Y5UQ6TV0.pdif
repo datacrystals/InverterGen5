@@ -1,0 +1,109 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "VY1222M47Y5UQ6TV0"
+   (description "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole")
+   (family "CAP")
+   (package "VY1222M47Y5UQ6TV0")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf")
+   (attribute "Geometry.Height" "16mm")
+   (attribute "Mouser Part Number" "72-VY1222M47Y5UQ6TV0")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "VY1222M47Y5UQ6TV0")
+   (gate
+    (symbol "VY1222M47Y5UQ6TV0")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "VY1222M47Y5UQ6TV0"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "VY1222M47Y5UQ6TV0"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1 2.5)
+      (pt 11 2.5)
+      (pt 11 -2.5)
+      (pt -1 -2.5)
+      (pt -1 2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 2.5)
+      (pt 11 2.5)
+      (pt 11 -2.5)
+      (pt -1 -2.5)
+      (pt -1 2.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.5 3)
+      (pt 11.5 3)
+      (pt 11.5 -3)
+      (pt -1.5 -3)
+      (pt -1.5 3))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 10.000 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.85)
+    (plated true)
+    (pad (layer TCOP) (round 1.381))
+    (pad (layer INNER) (round 1.381))
+    (pad (layer BCOP) (round 1.381))
+   )
+   (model "VY1222M47Y5UQ6TV0.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -637,6 +637,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "InverterCom:VY1222M47Y5UQ6TV0"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "VY1222M47Y5UQ6TV0"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "VY1222M47Y5UQ6TV0"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "16"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "72-VY1222M47Y5UQ6TV0"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "VY1222M47Y5UQ6TV0"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "VY1222M47Y5UQ6TV0_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -790,6 +982,26 @@
 		(uuid "a138826b-0937-4849-aa8a-9eefc99c1c2c")
 	)
 	(label "DC_LINK_+"
+		(at 190.5 17.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c6af07f-499d-4095-9d7e-a6df4f262780")
+	)
+	(label "DC_LINK_-"
+		(at 190.5 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "277f00eb-df63-492b-84eb-779abd5f0d1b")
+	)
+	(label "DC_LINK_+"
 		(at 91.44 86.36 0)
 		(effects
 			(font
@@ -849,6 +1061,26 @@
 		)
 		(uuid "6aed375d-25e2-4ea4-866e-5a624020c616")
 	)
+	(label "PHASE_LEG"
+		(at 154.94 16.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6edca699-cc80-4ebe-bc98-bd06cf33d871")
+	)
+	(label "DC_LINK_-"
+		(at 154.94 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77dae3c2-06c5-42a0-acc4-a9ae5f0798cf")
+	)
 	(label "DC_LINK_+"
 		(at 102.87 45.72 180)
 		(effects
@@ -879,6 +1111,16 @@
 		)
 		(uuid "8e54ab3b-bf75-4bea-9563-556607bc47e1")
 	)
+	(label "DC_LINK_+"
+		(at 114.3 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9668ca7c-422c-446b-932a-8194e7eb8e82")
+	)
 	(label "PHASE_LEG"
 		(at 91.44 81.28 0)
 		(effects
@@ -898,6 +1140,36 @@
 			(justify left bottom)
 		)
 		(uuid "9fd1d66b-d943-48b3-b570-239bdce9aebf")
+	)
+	(label "DC_LINK_+"
+		(at 76.2 17.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc19c58c-7148-48a7-a32e-9fe0bc1f1a94")
+	)
+	(label "DC_LINK_-"
+		(at 76.2 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf247cef-c3cb-41af-8c8e-27eb5643747d")
+	)
+	(label "PHASE_LEG"
+		(at 114.3 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4ff3c5a-f066-4985-aff4-5b158c6170b0")
 	)
 	(label "DC_LINK_-"
 		(at 130.81 58.42 180)
@@ -1103,6 +1375,372 @@
 		)
 	)
 	(symbol
+		(lib_id "InverterCom:VY1222M47Y5UQ6TV0")
+		(at 190.5 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a786cb9-310e-484d-b927-95cc54a738a9")
+		(property "Reference" "C8"
+			(at 194.31 22.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VY1222M47Y5UQ6TV0"
+			(at 194.31 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "VY1222M47Y5UQ6TV0"
+			(at 286.69 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf"
+			(at 386.69 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole"
+			(at 190.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "16"
+			(at 586.69 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "72-VY1222M47Y5UQ6TV0"
+			(at 686.69 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D"
+			(at 786.69 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 886.69 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VY1222M47Y5UQ6TV0"
+			(at 986.69 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3044717a-5388-44d6-b55d-36f74fd8ed0b")
+		)
+		(pin "1"
+			(uuid "517f41cd-f127-48d9-bc1a-56b40b16edf2")
+		)
+		(instances
+			(project "DCBusFilter"
+				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:VY1222M47Y5UQ6TV0")
+		(at 154.94 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74807101-8646-499f-8152-6fd7136cdfe3")
+		(property "Reference" "C6"
+			(at 158.75 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VY1222M47Y5UQ6TV0"
+			(at 158.75 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "VY1222M47Y5UQ6TV0"
+			(at 251.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf"
+			(at 351.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole"
+			(at 154.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "16"
+			(at 551.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "72-VY1222M47Y5UQ6TV0"
+			(at 651.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D"
+			(at 751.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 851.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VY1222M47Y5UQ6TV0"
+			(at 951.13 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "575830cb-4c21-4899-8271-b7a22211d077")
+		)
+		(pin "1"
+			(uuid "9cba8033-38dc-4ee5-b144-8cc7a213911a")
+		)
+		(instances
+			(project "DCBusFilter"
+				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:VY1222M47Y5UQ6TV0")
+		(at 76.2 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82bfd8d0-3dc0-4188-b01c-14e7564b04d3")
+		(property "Reference" "C2"
+			(at 80.01 22.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VY1222M47Y5UQ6TV0"
+			(at 80.01 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "VY1222M47Y5UQ6TV0"
+			(at 172.39 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf"
+			(at 272.39 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole"
+			(at 76.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "16"
+			(at 472.39 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "72-VY1222M47Y5UQ6TV0"
+			(at 572.39 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D"
+			(at 672.39 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 772.39 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VY1222M47Y5UQ6TV0"
+			(at 872.39 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "695e2675-15de-4391-aa7c-f22019eed1fb")
+		)
+		(pin "1"
+			(uuid "e0955f78-c416-4ab3-9e98-079d23a522b6")
+		)
+		(instances
+			(project ""
+				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "InverterCom:C4AQNBW5200M3LJ")
 		(at 132.08 58.42 90)
 		(unit 1)
@@ -1290,6 +1928,128 @@
 			(project "DCBusFilter"
 				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:VY1222M47Y5UQ6TV0")
+		(at 114.3 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b556373b-d093-4d17-9681-e7f807a3fbb6")
+		(property "Reference" "C5"
+			(at 118.11 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VY1222M47Y5UQ6TV0"
+			(at 118.11 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "VY1222M47Y5UQ6TV0"
+			(at 210.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf"
+			(at 310.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole"
+			(at 114.3 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "16"
+			(at 510.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "72-VY1222M47Y5UQ6TV0"
+			(at 610.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D"
+			(at 710.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 810.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VY1222M47Y5UQ6TV0"
+			(at 910.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb272e56-6ad9-42fd-9bdc-389451971a71")
+		)
+		(pin "1"
+			(uuid "05b2ae83-374b-40d7-ad04-9d3f060070c6")
+		)
+		(instances
+			(project "DCBusFilter"
+				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
+					(reference "C5")
 					(unit 1)
 				)
 			)

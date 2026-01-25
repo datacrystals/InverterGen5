@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model VY1222M47Y5UQ6TV0
+#/1307015/1553794/2.50/2/4/Capacitor
+DEF VY1222M47Y5UQ6TV0 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "VY1222M47Y5UQ6TV0" 350 150 50 H V L CNN
+F2 "VY1222M47Y5UQ6TV0" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf" 350 -50 50 H I L CNN
+F4 "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole" 350 -150 50 H I L CNN "Description"
+F5 "16" 350 -250 50 H I L CNN "Height"
+F6 "72-VY1222M47Y5UQ6TV0" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "VY1222M47Y5UQ6TV0" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

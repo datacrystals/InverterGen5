@@ -811,6 +811,10 @@
 		(color 0 0 0 0)
 		(uuid "bb17d4bd-7605-4ef2-bc27-7ca628f16ef2")
 	)
+	(no_connect
+		(at 140.97 121.92)
+		(uuid "23f6d809-92d8-493b-b667-e48c7d498397")
+	)
 	(wire
 		(pts
 			(xy 78.74 39.37) (xy 90.17 39.37)
@@ -993,26 +997,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 127) (xy 157.48 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a02116f2-8fa7-4902-b80c-26c081aae56d")
-	)
-	(wire
-		(pts
-			(xy 140.97 121.92) (xy 157.48 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2206ad6-5382-48c7-85de-9d1d3c50f22a")
-	)
-	(wire
-		(pts
 			(xy 78.74 46.99) (xy 90.17 46.99)
 		)
 		(stroke
@@ -1020,16 +1004,6 @@
 			(type default)
 		)
 		(uuid "c49b2b86-35a5-40e9-955a-5f1e67fee07a")
-	)
-	(wire
-		(pts
-			(xy 181.61 127) (xy 157.48 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c77452b5-b46e-480c-961d-2319fbae157b")
 	)
 	(wire
 		(pts
@@ -1120,16 +1094,6 @@
 			(justify left bottom)
 		)
 		(uuid "24e453f0-c4ac-4cd0-bdea-d668b3daaa7d")
-	)
-	(label "+5V_A_INT_2"
-		(at 214.63 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b78fd3b-f6d7-4916-b475-d6705ae23677")
 	)
 	(label "+5V_A_INT_2"
 		(at 55.88 46.99 270)
@@ -1234,17 +1198,6 @@
 			(justify right)
 		)
 		(uuid "1e5d2329-db6a-4e17-8dd3-8b26ef903d3c")
-	)
-	(hierarchical_label "RLY4_NO"
-		(shape input)
-		(at 181.61 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2ff40094-02b5-48ce-8a4a-c8c7146b5fa9")
 	)
 	(hierarchical_label "GND_A"
 		(shape input)
@@ -1380,6 +1333,17 @@
 	)
 	(hierarchical_label "GND_A"
 		(shape input)
+		(at 110.49 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aaa36b35-4a2d-4594-823e-6b1a7da51764")
+	)
+	(hierarchical_label "GND_A"
+		(shape input)
 		(at 55.88 39.37 90)
 		(effects
 			(font
@@ -1400,17 +1364,6 @@
 		)
 		(uuid "c6c1402d-b2f8-4b9e-8e59-fbfcc33bf3a4")
 	)
-	(hierarchical_label "RLY4_COM"
-		(shape input)
-		(at 214.63 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cfca7bfd-3f83-456a-88fd-6086d2b9c3fc")
-	)
 	(hierarchical_label "GND_A"
 		(shape input)
 		(at 116.84 34.29 180)
@@ -1421,17 +1374,6 @@
 			(justify right)
 		)
 		(uuid "dfc4c7a7-04e0-45f6-afe6-11861b75317d")
-	)
-	(hierarchical_label "RLY4_IN_A"
-		(shape input)
-		(at 110.49 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e7e18fbe-12a3-4a7b-b187-6377ba32dd39")
 	)
 	(symbol
 		(lib_id "InverterCom:DRDNB21D-7")
@@ -2497,135 +2439,6 @@
 			(project "MainBoard"
 				(path "/1bd20b11-4068-4af7-8516-b3d686707223/3f1e0dfd-3bb5-4a06-942c-ceeb344b0f52"
 					(reference "C134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:AWHSH105D00G")
-		(at 181.61 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4125649-e0d3-43fe-b086-acbc4f0b42c5")
-		(property "Reference" "K4"
-			(at 198.12 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AWHSH105D00G"
-			(at 198.12 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "InverterCom:AWHSH105D00G"
-			(at 210.82 221.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://g.componentsearchengine.com/Datasheets/0/17861032.pdf"
-			(at 210.82 321.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose Relays Commercial RelayRated Carrying Current :15AType of Sealing : Sealed and Waterproof TypeNumber of pole : one poleCoil Voltage : 5VCoil Type : Standard DC CoilContact Form : Form C"
-			(at 181.61 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "15.3"
-			(at 210.82 521.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "523-AWHSH105D00G"
-			(at 210.82 621.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/AWHSH105D00G?qs=rSMjJ%252B1ewcT7jFUGTuCYSw%3D%3D"
-			(at 210.82 721.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol"
-			(at 210.82 821.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AWHSH105D00G"
-			(at 210.82 921.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8b3e635b-1583-4821-9ec8-88740e5c99c9")
-		)
-		(pin "1"
-			(uuid "d6a23aff-ff81-4fc4-9498-a8e083a28526")
-		)
-		(pin "5"
-			(uuid "0127477d-5e79-470b-bda1-63b5e06e30ec")
-		)
-		(pin "2"
-			(uuid "96f78218-15be-46fa-925c-547ebd8fa9f9")
-		)
-		(pin "3"
-			(uuid "5e05c3b2-94de-44a6-865f-e00782d95f4e")
-		)
-		(instances
-			(project "MainBoard"
-				(path "/1bd20b11-4068-4af7-8516-b3d686707223/3f1e0dfd-3bb5-4a06-942c-ceeb344b0f52"
-					(reference "K4")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "VY1222M47Y5UQ6TV0"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-06-22-10:55:41)
+    (mountForm default
+        (footprintRef "VY1222M47Y5UQ6TV0")
+        (spec "System")
+    )
+)
