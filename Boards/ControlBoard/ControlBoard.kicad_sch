@@ -2729,6 +2729,16 @@
 		)
 		(uuid "062a696a-1046-4cd3-be41-a14e325094cb")
 	)
+	(label "THROTTLE_V"
+		(at 40.64 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08eba68e-9bea-4076-bb08-15544821d970")
+	)
 	(label "+5V_V"
 		(at 77.47 69.85 0)
 		(effects
@@ -3509,16 +3519,6 @@
 		)
 		(uuid "8e1997fa-0505-453c-8d11-73319a737592")
 	)
-	(label "THROTTLE_V"
-		(at 40.64 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f6538be-4e06-496f-8da5-3a2cb60a8c48")
-	)
 	(label "SPI2_ADC4_CS_A"
 		(at 152.4 50.8 0)
 		(effects
@@ -3528,16 +3528,6 @@
 			(justify left bottom)
 		)
 		(uuid "90c5b184-64da-44a7-b43e-d33b77c292a1")
-	)
-	(label "SPARE_V"
-		(at 40.64 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "94305dc1-a789-42bc-9afc-775cf24cb709")
 	)
 	(label "SPI2_SCK_A"
 		(at 152.4 55.88 0)
@@ -3618,16 +3608,6 @@
 			(justify left bottom)
 		)
 		(uuid "a0b8d026-bb08-4b60-b879-78dd7813bbdb")
-	)
-	(label "REGEN_THROTTLE_V"
-		(at 40.64 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a119f432-2aa2-492f-ab2d-7bbb0a6d4612")
 	)
 	(label "HALL_PH_V_W"
 		(at 114.3 64.77 180)
@@ -3929,6 +3909,16 @@
 		)
 		(uuid "cbdd099f-000f-4fa9-a2e0-b462dec6b71e")
 	)
+	(label "SPARE_V"
+		(at 40.64 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdd57fec-340c-4d4c-8868-cf4c8509346d")
+	)
 	(label "THROTTLE_V"
 		(at 114.3 49.53 180)
 		(effects
@@ -4158,6 +4148,16 @@
 			(justify right bottom)
 		)
 		(uuid "efc62233-f061-4dee-82a6-78bc28cd3e77")
+	)
+	(label "REGEN_THROTTLE_V"
+		(at 40.64 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f01ce318-13b9-4bd8-8727-a44fd7dbb251")
 	)
 	(label "+3.3V_A"
 		(at 193.04 64.77 180)

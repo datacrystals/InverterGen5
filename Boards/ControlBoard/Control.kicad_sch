@@ -2028,16 +2028,16 @@
 		)
 		(uuid "0e8e902a-1b46-484f-b23e-37dd0391a62e")
 	)
-	(hierarchical_label "PH_V_L_A"
+	(hierarchical_label "PH_U_H_A"
 		(shape input)
-		(at 129.54 55.88 0)
+		(at 129.54 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1b3462dc-963c-4a72-ad33-d40e17136227")
+		(uuid "1749d70c-2c5d-4935-a85e-2ce8a91f52f3")
 	)
 	(hierarchical_label "SPI2_CS_ADC1_A"
 		(shape input)
@@ -2061,16 +2061,16 @@
 		)
 		(uuid "22b87b2e-d163-4e58-abc6-9ffad4a9a0eb")
 	)
-	(hierarchical_label "PH_U_H_A"
+	(hierarchical_label "PH_W_H_A"
 		(shape input)
-		(at 129.54 60.96 0)
+		(at 129.54 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "33f39f4b-e2bd-42f4-bee0-99dd81b84702")
+		(uuid "240da6cd-b82a-4a0d-ac48-477ee62cee12")
 	)
 	(hierarchical_label "PH_W_L_A"
 		(shape input)
@@ -2093,17 +2093,6 @@
 			(justify right)
 		)
 		(uuid "38a65828-78e8-4aa5-b564-988092427e03")
-	)
-	(hierarchical_label "PH_V_H_A"
-		(shape input)
-		(at 129.54 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c8ba326-235b-4ed0-b0a4-ec4f50182a06")
 	)
 	(hierarchical_label "SPI1_CAN_INT_A"
 		(shape input)
@@ -2138,17 +2127,6 @@
 		)
 		(uuid "4cd4672c-af55-4c4b-b1b6-953bfe76d79c")
 	)
-	(hierarchical_label "GND_A"
-		(shape input)
-		(at 40.64 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5afef156-493b-4aad-b8a3-df15ceda38f7")
-	)
 	(hierarchical_label "+3.3V_A"
 		(shape input)
 		(at 139.7 17.78 0)
@@ -2160,16 +2138,27 @@
 		)
 		(uuid "5e040e16-1dff-47cd-bc39-ae361b683a90")
 	)
-	(hierarchical_label "PH_W_H_A"
+	(hierarchical_label "PH_V_L_A"
 		(shape input)
-		(at 129.54 66.04 0)
+		(at 129.54 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5e6db5fc-d6ff-473a-980e-cae75325b0dd")
+		(uuid "5e2ec3c1-ee87-4076-bb19-623ae04f5dd9")
+	)
+	(hierarchical_label "PH_V_H_A"
+		(shape input)
+		(at 129.54 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7364c944-1227-4f4d-b49a-4e73752ba5cf")
 	)
 	(hierarchical_label "RELAY1_A"
 		(shape input)
@@ -2182,27 +2171,16 @@
 		)
 		(uuid "767d2546-a0ae-4426-a11c-0d74d18196b5")
 	)
-	(hierarchical_label "SPI1_RX_A"
+	(hierarchical_label "PH_W_L_A"
 		(shape input)
-		(at 40.64 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "97099cc9-ecf9-4418-abe4-ff479e646844")
-	)
-	(hierarchical_label "PH_U_L_A"
-		(shape input)
-		(at 129.54 53.34 0)
+		(at 129.54 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9859f5c2-c545-445c-90b0-0dc1dbb41e0f")
+		(uuid "98c9a7e1-3f52-41f2-816b-d7eb68e2a93f")
 	)
 	(hierarchical_label "SPI2_RX_A"
 		(shape input)
@@ -2292,16 +2270,16 @@
 		)
 		(uuid "b6da45c6-b1a7-4fdf-ad2a-37c45d518699")
 	)
-	(hierarchical_label "SPI1_TX_A"
+	(hierarchical_label "SPI2_CS_ADC4_A"
 		(shape input)
-		(at 40.64 55.88 180)
+		(at 129.54 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "b7c47c4a-0a72-4606-bbe2-fd633058f450")
+		(uuid "c610c9c7-5a0b-41b3-a496-77208906c05e")
 	)
 	(hierarchical_label "GATE_DRIVER_FAULT_A"
 		(shape input)
@@ -2325,28 +2303,6 @@
 		)
 		(uuid "c926970d-3225-4392-a2bf-05f94c07264c")
 	)
-	(hierarchical_label "PH_W_L_A"
-		(shape input)
-		(at 129.54 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c9797494-dc50-4ed8-ba44-8b4a68c6c1d8")
-	)
-	(hierarchical_label "SPI2_CS_ADC4_A"
-		(shape input)
-		(at 129.54 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca458e64-b778-4349-8061-12f35f57bd26")
-	)
 	(hierarchical_label "SPI1_RX_A"
 		(shape input)
 		(at 78.74 58.42 180)
@@ -2368,17 +2324,6 @@
 			(justify left)
 		)
 		(uuid "d5ba5178-856a-499d-936a-334229303dd9")
-	)
-	(hierarchical_label "SPI1_SCK_A"
-		(shape input)
-		(at 40.64 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e76128e3-d3ef-4389-8eb7-f904f13636df")
 	)
 	(hierarchical_label "GND_A"
 		(shape input)
@@ -2446,6 +2391,17 @@
 		)
 		(uuid "f4b3e21c-f9d9-47ed-9225-b2a755e08dcb")
 	)
+	(hierarchical_label "PH_U_L_A"
+		(shape input)
+		(at 129.54 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc3f2a18-2fa1-42d8-9aff-3c00c40101a9")
+	)
 	(hierarchical_label "RELAY2_A"
 		(shape input)
 		(at 78.74 63.5 180)
@@ -2467,72 +2423,6 @@
 			(justify right)
 		)
 		(uuid "fedc0d76-a060-4f09-88ac-db9f673cbb78")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 40.64 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d2344ea-fe07-4492-8e17-c6b159d744e7")
-		(property "Reference" "TP27"
-			(at 45.72 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 45.466 58.166 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 40.64 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 40.64 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73b281e6-3983-47b0-9577-d12c498e1590")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/0ea8cdf4-b6d0-41be-8e8a-b9b799ce9f5d"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -2602,72 +2492,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 40.64 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4feda047-cfba-4d7d-80e7-6b30dc710031")
-		(property "Reference" "TP25"
-			(at 45.72 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 45.466 50.546 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 40.64 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 40.64 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "738540cb-0cf4-40e5-aa2e-23259a291a97")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/0ea8cdf4-b6d0-41be-8e8a-b9b799ce9f5d"
-					(reference "TP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 39.37 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2727,72 +2551,6 @@
 			(project "ControlBoard"
 				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/0ea8cdf4-b6d0-41be-8e8a-b9b799ce9f5d"
 					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 40.64 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66b038ec-d484-4f5a-9506-9321fa218b6d")
-		(property "Reference" "TP28"
-			(at 45.72 64.008 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 45.466 61.976 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 40.64 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 40.64 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d06000cb-b5a5-429c-b9da-27233038f2e0")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/0ea8cdf4-b6d0-41be-8e8a-b9b799ce9f5d"
-					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -2961,7 +2719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "InverterCom:RaspberryPi_Pico_Common_Unspecified"
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
 			(at 104.14 110.49 0)
 			(effects
 				(font
@@ -3847,72 +3605,6 @@
 			(project "ControlBoard"
 				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/0ea8cdf4-b6d0-41be-8e8a-b9b799ce9f5d"
 					(reference "TP34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 40.64 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f65a7a1d-f129-4ed4-adee-8c1e12079142")
-		(property "Reference" "TP26"
-			(at 45.72 56.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 45.466 54.356 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
-			(at 40.64 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 40.64 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41719d8e-66a1-435d-960f-ba364d8fd69e")
-		)
-		(instances
-			(project "ControlBoard"
-				(path "/66e49eb5-2741-49e2-b48a-baf482488ca8/0ea8cdf4-b6d0-41be-8e8a-b9b799ce9f5d"
-					(reference "TP26")
 					(unit 1)
 				)
 			)
