@@ -1903,6 +1903,16 @@
 		)
 		(uuid "ea8bc771-3bbb-4390-8aa4-caacf184b8e0")
 	)
+	(text "maybe check that these resistors default to safe state"
+		(exclude_from_sim no)
+		(at 103.632 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe38ce92-788b-4e96-857a-901ed7e35bb2")
+	)
 	(junction
 		(at 181.61 91.44)
 		(diameter 0)

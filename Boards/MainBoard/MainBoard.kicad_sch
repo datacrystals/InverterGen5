@@ -1988,7 +1988,7 @@
 	)
 	(text "CANBUS OUTPUT CONNECTOR TO CONTROL BOARD\nINTERFACES TO OUTSIDE WORLD"
 		(exclude_from_sim no)
-		(at 6.604 7.112 0)
+		(at 24.384 19.812 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2009,7 +2009,7 @@
 	)
 	(text "CONNECTION FROM MAINBOARD TO CONTROL MODULE ABOVE\nPROVIDES RELAY OUTPUTS + GATE DRIVER INTERLOCK"
 		(exclude_from_sim no)
-		(at 2.794 115.824 0)
+		(at 23.114 119.634 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2408,7 +2408,7 @@
 		(uuid "03128b15-c5f5-4cf6-b881-0a0bbf72b280")
 	)
 	(label "CAN_24V_OUT"
-		(at 17.78 22.86 180)
+		(at 35.56 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2468,7 +2468,7 @@
 		(uuid "0bbd9a47-13f1-4938-aeb1-6e34168da69c")
 	)
 	(label "CAN_HIGH"
-		(at 17.78 30.48 180)
+		(at 35.56 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2698,7 +2698,7 @@
 		(uuid "32ac05aa-80f6-427f-b4c4-2c36ce48b8f7")
 	)
 	(label "CAN_JUMPER_A"
-		(at 17.78 17.78 180)
+		(at 35.56 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2898,7 +2898,7 @@
 		(uuid "66caddab-5b3b-4c55-be3e-4b37283487af")
 	)
 	(label "RELAY2_COM"
-		(at 15.24 140.97 180)
+		(at 35.56 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2978,7 +2978,7 @@
 		(uuid "7bb34962-4bde-46fe-8129-667ae539de11")
 	)
 	(label "RELAY2_NO"
-		(at 15.24 133.35 180)
+		(at 35.56 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3038,7 +3038,7 @@
 		(uuid "83db525c-6117-4ee2-a9ec-806d4f9ce4da")
 	)
 	(label "RELAY1_NO"
-		(at 15.24 143.51 180)
+		(at 35.56 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3058,7 +3058,7 @@
 		(uuid "85ab99f0-30e8-4148-8570-0ecc0b374ca6")
 	)
 	(label "CAN_GND"
-		(at 17.78 33.02 180)
+		(at 35.56 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3208,7 +3208,7 @@
 		(uuid "a39fbda2-ff09-495e-a2ce-b32b4e5cf751")
 	)
 	(label "CAN_JUMPER_B"
-		(at 17.78 15.24 180)
+		(at 35.56 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3288,7 +3288,7 @@
 		(uuid "be153ab0-1141-4b00-ad49-5af2b02b45d3")
 	)
 	(label "RELAY3_NO"
-		(at 15.24 123.19 180)
+		(at 35.56 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3298,7 +3298,7 @@
 		(uuid "be486ec0-2783-4fa0-bf47-a3d38bb73577")
 	)
 	(label "CAN_LOW"
-		(at 17.78 27.94 180)
+		(at 35.56 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3358,7 +3358,7 @@
 		(uuid "cb4d7f41-5fce-4d63-8cc4-7c4cdf5042f5")
 	)
 	(label "RELAY3_COM"
-		(at 15.24 130.81 180)
+		(at 35.56 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3468,7 +3468,7 @@
 		(uuid "e35f7afd-aefb-4549-bbb1-6b2f5db935aa")
 	)
 	(label "RELAY1_COM"
-		(at 27.94 143.51 0)
+		(at 48.26 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4153,7 +4153,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
-		(at 22.86 25.4 0)
+		(at 40.64 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4161,7 +4161,7 @@
 		(dnp no)
 		(uuid "06a55784-7834-45ce-84ce-57706c279ede")
 		(property "Reference" "J14"
-			(at 24.384 10.668 0)
+			(at 42.164 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4170,7 @@
 			)
 		)
 		(property "Value" "Conn_02x10_Counter_Clockwise"
-			(at 22.8601 12.7 0)
+			(at 40.6401 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4179,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
-			(at 22.86 25.4 0)
+			(at 40.64 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4188,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 25.4 0)
+			(at 40.64 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +4197,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 25.4 0)
+			(at 40.64 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,7 +4617,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
-		(at 20.32 133.35 0)
+		(at 40.64 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4625,7 +4625,7 @@
 		(dnp no)
 		(uuid "41088e86-5f82-4b10-887d-9cb3a896e942")
 		(property "Reference" "J5"
-			(at 21.844 118.618 0)
+			(at 42.164 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4634,7 @@
 			)
 		)
 		(property "Value" "Conn_02x10_Counter_Clockwise"
-			(at 20.3201 120.65 0)
+			(at 40.6401 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +4643,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
-			(at 20.32 133.35 0)
+			(at 40.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4652,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 133.35 0)
+			(at 40.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4661,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 20.32 133.35 0)
+			(at 40.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)

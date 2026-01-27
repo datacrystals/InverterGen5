@@ -3641,7 +3641,7 @@
 		(descr "TBP02R2W-381-08BE-3")
 		(tags "Connector")
 		(property "Reference" "J8"
-			(at 13.335 -5.5 90)
+			(at -8.57 0 90)
 			(layer "F.SilkS")
 			(uuid "7c11db85-b9ec-4fde-b82d-5f4fc2047946")
 			(effects
@@ -7882,7 +7882,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 47)
 			(uuid "0476a33f-67df-4373-897b-786b72b4fec3")
 		)
 		(fp_circle
@@ -7894,7 +7893,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 47)
 			(uuid "4934673e-2011-4d59-84f8-6107a7d849d7")
 		)
 		(fp_text user "${REFERENCE}"
@@ -8807,7 +8805,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 47)
 			(uuid "fc8edba2-f8c3-4652-85d4-471732b4681c")
 		)
 		(fp_circle
@@ -8819,7 +8816,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 47)
 			(uuid "efc6df08-257d-40e9-8801-910ff5eca727")
 		)
 		(fp_text user "${REFERENCE}"
@@ -9182,7 +9178,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 47)
 			(uuid "e504f39b-3754-4f88-9710-c4e36907af0b")
 		)
 		(fp_circle
@@ -9194,7 +9189,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 47)
 			(uuid "5555b472-ba9c-4878-9077-633f619fd4fb")
 		)
 		(fp_text user "${REFERENCE}"
@@ -11102,7 +11096,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 47)
 			(uuid "f41b0389-0ac8-4784-a27e-11b361a3207e")
 		)
 		(fp_circle
@@ -11114,7 +11107,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 47)
 			(uuid "4bb8416f-7f9e-4c1c-a69e-22a1b721c2f1")
 		)
 		(fp_text user "${REFERENCE}"
@@ -16138,7 +16130,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 47)
 			(uuid "d8bda755-f832-4d80-a2f0-b22805ee7ef0")
 		)
 		(fp_circle
@@ -16150,7 +16141,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 47)
 			(uuid "9865769d-0c52-40a5-a772-6a71642d676a")
 		)
 		(fp_text user "${REFERENCE}"
@@ -19187,7 +19177,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 47)
 			(uuid "f024db34-1196-43bf-8499-8f4848d016a0")
 		)
 		(fp_circle
@@ -19199,7 +19188,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 47)
 			(uuid "ed0adb66-ac09-4d76-bf7d-5ede28f960dd")
 		)
 		(fp_text user "${REFERENCE}"
@@ -21251,7 +21239,7 @@
 		(descr "TBP01R1-508-04BE-4")
 		(tags "Connector")
 		(property "Reference" "J4"
-			(at 7.5 -3.5 180)
+			(at -4.88 7 180)
 			(layer "B.SilkS")
 			(uuid "ac23c890-bcab-4966-b67b-39c24f47b2a1")
 			(effects
@@ -35975,6 +35963,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "1->"
+		(at 195 0 270)
+		(layer "F.SilkS")
+		(uuid "29a70a2f-2779-458a-ab19-2f661f41ba84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "DANGER!\nHAZARDOUS VOLTAGES PRESENT\nREMOVE POWER AND VERIFY\nCAPACITORS DISCHARGED BEFORE SERVICING"
 		(at 124 54 0)
 		(layer "F.SilkS")
@@ -35982,6 +35983,19 @@
 		(effects
 			(font
 				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1->"
+		(at 230.5 5.5 0)
+		(layer "F.SilkS")
+		(uuid "8446b79e-f7b8-49b6-a95a-aa09a63d0315")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.25)
 				(bold yes)
 			)
@@ -36001,6 +36015,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND   VIN\n(9-18V)"
+		(at 1 23 270)
+		(layer "F.SilkS")
+		(uuid "8cf5d32d-d310-4aaa-8e20-d5cca23cdc82")
+		(effects
+			(font
+				(size 1.5 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "<-1"
+		(at 85 40.5 0)
+		(layer "F.SilkS")
+		(uuid "98c25a03-bbbe-4db2-b886-23f6020eadfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "TRACTION INVERTER, GEN 5,\nCONTROL BOARD,\nREVISION 1,\n1200VMAX, 800V WORKING"
 		(at 197 58 0)
 		(layer "F.SilkS")
@@ -36012,6 +36052,97 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "GND  CH  CL  NC  +24v NC CJPA CJPB"
+		(at 211 39 90)
+		(layer "F.SilkS")
+		(uuid "ab3a605e-a912-4ae8-a4a5-7c0ed6afa753")
+		(effects
+			(font
+				(size 1.5 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "<-1"
+		(at 160 42 0)
+		(layer "F.SilkS")
+		(uuid "cd17b35c-68f4-40fb-86b3-ce4bdcae2250")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "R1NO R1COM R2COM R2NO R3COM R3NO   NC   NC"
+		(at 286 48 90)
+		(layer "F.SilkS")
+		(uuid "ddcd7dad-8946-4806-bb1f-5279724ef384")
+		(effects
+			(font
+				(size 1.5 0.75)
+				(thickness 0.1875)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1->"
+		(at 286.5 17.5 0)
+		(layer "F.SilkS")
+		(uuid "ed0b36b1-7689-4be9-97f4-5e5246bde842")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+5V H_U H_W H_V MTRTMP GND"
+		(at 141 3 0)
+		(layer "B.SilkS")
+		(uuid "2840356b-dd98-4ed6-9ab2-203c70c99f3d")
+		(effects
+			(font
+				(size 1.5 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+5V NC RGN SPRE THRT GND"
+		(at 175 3 0)
+		(layer "B.SilkS")
+		(uuid "52012675-4a69-42b3-91cb-9f980419e325")
+		(effects
+			(font
+				(size 1.5 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "NC GND HS_TMP +5V"
+		(at 187 8 0)
+		(layer "B.SilkS")
+		(uuid "9ff80312-4414-4dcd-95a4-4b02d9964060")
+		(effects
+			(font
+				(size 1.5 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
