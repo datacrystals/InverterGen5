@@ -3964,7 +3964,7 @@
 		(descr "wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP1"
-			(at 0.7 2.5 0)
+			(at -0.5 2.5 0)
 			(layer "F.SilkS")
 			(uuid "9e124a8b-ff9e-420c-a44c-65a271135753")
 			(effects
@@ -15362,6 +15362,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "1->"
+		(at 25.5 59 0)
+		(layer "F.SilkS")
+		(uuid "0ef24c86-b0a8-4cd5-bd1a-243879d84946")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1875)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "DANGER HIGH VOLTAGE"
 		(at 58.5 39 0)
 		(layer "F.SilkS" knockout)
@@ -15370,6 +15383,19 @@
 			(font
 				(size 1.2 0.9)
 				(thickness 0.225)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DESIGNED BY\nTHOMAS LIAO"
+		(at 48.91 59.17 0)
+		(layer "F.SilkS")
+		(uuid "3a08fdf5-b564-48dd-999f-6d86c4de2355")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.175)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -15427,19 +15453,6 @@
 				(bold yes)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "DESIGNED BY\nTHOMAS LIAO"
-		(at 58.5 59 -0)
-		(layer "B.SilkS")
-		(uuid "3a08fdf5-b564-48dd-999f-6d86c4de2355")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.175)
-				(bold yes)
-			)
-			(justify left bottom mirror)
 		)
 	)
 	(segment
