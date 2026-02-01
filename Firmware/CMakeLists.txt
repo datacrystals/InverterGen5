@@ -9,6 +9,7 @@ set(PICO_SDK_PATH $ENV{PICO_SDK_PATH})
 include(${PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 project(pico_project C CXX ASM)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
@@ -21,9 +22,11 @@ set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Source)
 # Add your executable
 add_executable(${PROJECT_NAME}
     ${SOURCE_DIR}/Main.cpp
-    ${SOURCE_DIR}/CommutationManager.cpp
-    ${SOURCE_DIR}/PWMDriver.cpp
-    ${SOURCE_DIR}/svpwm.c
+    ${SOURCE_DIR}/Switching/CommutationManager.cpp
+    ${SOURCE_DIR}/Switching/PWMDriver.cpp
+
+    ${SOURCE_DIR}/Sensors/MAX2253x.cpp
+    # ${SOURCE_DIR}/svpwm.c
     ${SOURCE_DIR}/Command/CommandInitializer.cpp
     ${SOURCE_DIR}/Command/CommandManager.cpp
     ${SOURCE_DIR}/Command/Commands/AutoCommand.cpp

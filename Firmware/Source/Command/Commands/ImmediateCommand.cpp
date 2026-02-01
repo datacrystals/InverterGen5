@@ -1,6 +1,6 @@
 #include "../CommandInterface.h"
 #include "../CommandContext.h"
-#include <PWMDriver.h>
+#include <Switching/PWMDriver.h>
 #include <Hardware.h>
 #include <cstdio>
 

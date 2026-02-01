@@ -1,7 +1,6 @@
 #include "CommutationManager.h"
 
-CommutationManager::CommutationManager() : zone_count(0) {
-    // Zones array left uninitialized until clearZones() or add*() called
+CommutationManager::CommutationManager() : zone_count(0), rng_state_(0xACE1u) {
 }
 
 void CommutationManager::clearZones() { 
@@ -28,6 +27,21 @@ void CommutationManager::addSync(float start_freq, float end_freq, uint16_t puls
     zone_count++;
 }
 
+void CommutationManager::addRCFM(float start_freq, float end_freq, 
+                                float center_carrier, float dither_hz) {
+    if (zone_count >= MAX_ZONES) return;
+    // Ensure center frequency is within hardware limits
+    if (center_carrier < MIN_CARRIER) center_carrier = MIN_CARRIER;
+    if (center_carrier > MAX_CARRIER) center_carrier = MAX_CARRIER;
+    
+    // Limit dither to ensure we don't exceed limits
+    float max_dither = std::min(center_carrier - MIN_CARRIER, MAX_CARRIER - center_carrier);
+    if (dither_hz > max_dither) dither_hz = max_dither;
+    
+    zones[zone_count] = {start_freq, end_freq, ZoneType::RCFM, center_carrier, dither_hz};
+    zone_count++;
+}
+
 bool CommutationManager::getZone(float freq, ZoneConfig* zone) const {
     float abs_freq = std::fabs(freq);
     for (int i = 0; i < zone_count; i++) {
@@ -39,6 +53,14 @@ bool CommutationManager::getZone(float freq, ZoneConfig* zone) const {
     // Safe default: async fixed at default carrier if no zone matches
     *zone = {0.0f, 1000.0f, ZoneType::ASYNC_FIXED, DEFAULT_CARRIER, 0.0f};
     return false;
+}
+
+// Simple LCG random number generator
+float CommutationManager::randomFloat() const {
+    // LCG parameters (glibc style)
+    rng_state_ = (1103515245u * rng_state_ + 12345u) & 0x7fffffffu;
+    // Map to [-1.0, 1.0]
+    return (static_cast<float>(rng_state_) / 0x3fffffffu) - 1.0f;
 }
 
 float CommutationManager::calculateCarrier(float freq, const ZoneConfig* zone, 
@@ -59,7 +81,17 @@ float CommutationManager::calculateCarrier(float freq, const ZoneConfig* zone,
         case ZoneType::SYNC: {
             if (sync_pulses) *sync_pulses = zone->param1;
             float carrier = abs_freq * zone->param1;
-            // Clamp to hardware limits (protect CM600HA-24H IGBT module)
+            if (carrier < MIN_CARRIER) carrier = MIN_CARRIER;
+            if (carrier > MAX_CARRIER) carrier = MAX_CARRIER;
+            return carrier;
+        }
+        
+        case ZoneType::RCFM: {
+            // Generate random carrier around center frequency
+            float random_factor = randomFloat();  // -1.0 to 1.0
+            float carrier = zone->param1 + random_factor * zone->param2;
+            
+            // Hard clamp to hardware limits (safety for CM600HA-24H)
             if (carrier < MIN_CARRIER) carrier = MIN_CARRIER;
             if (carrier > MAX_CARRIER) carrier = MAX_CARRIER;
             return carrier;

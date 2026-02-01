@@ -1,7 +1,7 @@
 // main.cpp
 #include "pico/stdlib.h"
-#include "PWMDriver.h"
-#include "CommutationManager.h"
+#include <Switching/PWMDriver.h>
+#include <Switching/CommutationManager.h>
 #include "Hardware.h"
 #include "Command/CommandContext.h"
 #include "Command/CommandManager.h"
@@ -50,10 +50,44 @@ static void updateCarrierFromZones() {
 
 static void configureZones() {
     zone_mgr.clearZones();
-    zone_mgr.addAsyncFixed(0.0f, 15.0f, 2000.0f);
-    zone_mgr.addSync(15.0f, 30.0f, 45);
-    zone_mgr.addSync(30.0f, 45.0f, 31);
-    zone_mgr.addSync(45.0f, 60.0f, 19);
+
+    // 0-10Hz: RCFM with 2000Hz center, +/- 400Hz dither
+    // This spreads switching noise to reduce acoustic resonance at low speeds
+    zone_mgr.addRCFM(0.0f, 30.0f, 2000.0f, 1000.0f);
+    
+    // 10-30Hz: Fixed async for stable current control
+    zone_mgr.addAsyncFixed(30.0f, 35.0f, 2000.0f);
+    
+    // 30-60Hz: Synchronous modes for high speed efficiency
+    zone_mgr.addSync(35.0f, 45.0f, 45);
+    zone_mgr.addSync(45.0f, 60.0f, 31);
+    zone_mgr.addSync(60.0f, 120.0f, 19);
+
+
+    // // -- alstom wmata 2000/3000/6000
+    // zone_mgr.addAsyncFixed(0.0f, 8.0f, 1235.0f);
+    // zone_mgr.addAsyncFixed(8.0f, 17.0f, 1190.0f);
+    // zone_mgr.addAsyncFixed(17.0f, 20.0f, 1210.0f);
+    // zone_mgr.addAsyncFixed(20.0f, 25.0f, 1235.0f);
+    // zone_mgr.addAsyncFixed(25.0f, 30.0f, 1460.0f);
+    // zone_mgr.addAsyncFixed(30.0f, 33.0f, 1210.0f);
+    // zone_mgr.addAsyncFixed(33.0f, 50.0f, 1230.0f);
+    // zone_mgr.addAsyncFixed(50.0f, 1000.0f, 1190.0f);
+
+
+
+    // zone_mgr.addAsyncRamp(0.0f, 10.0f, 250.0f, 500.0f);
+    // zone_mgr.addAsyncFixed(10.0f, 20.0f, 500.0f);
+
+    // zone_mgr.addAsyncFixed(20.0f, 200.0f, 4000.0f);
+    // zone_mgr.addAsyncFixed(20.0f, 30.0f, 4000.0f);
+    // zone_mgr.addAsyncFixed(30.0f, 40.0f, 6000.0f);
+    // zone_mgr.addAsyncFixed(40.0f, 1500.0f, 8000.0f);
+    // zone_mgr.addSync(20.0f, 30.0f, 25);
+    // zone_mgr.addSync(30.0f, 45.0f, 19);
+    // zone_mgr.addSync(45.0f, 60.0f, 11);
+    // zone_mgr.addSync(25.0f, 35.0f, 23);
+    // zone_mgr.addSync(35.0f, 60.0f, 15);
 }
 
 int main() {
@@ -106,7 +140,7 @@ int main() {
         serial_proc.poll();
         
         if (!driver.isEmergencyStopped()) {
-            driver.update(0.005f);
+            driver.update(0.001f);
             updateCarrierFromZones();
         }
         
@@ -144,6 +178,6 @@ int main() {
             last_print = get_absolute_time();
         }
         
-        sleep_ms(5);
+        sleep_ms(1);
     }
 }

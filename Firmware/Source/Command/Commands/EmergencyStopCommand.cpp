@@ -1,7 +1,7 @@
 #include "../CommandInterface.h"
 #include "../CommandContext.h"
 #include <cstdio>
-#include <PWMDriver.h>
+#include <Switching/PWMDriver.h>
 #include <Hardware.h>
 
 class EmergencyStopCommand : public CommandInterface {
