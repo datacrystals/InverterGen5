@@ -1,6 +1,7 @@
 #include "PWMDriver.h"
 #include "hardware/clocks.h"
 #include "hardware/irq.h"
+#include "Hardware.h"
 
 // Static instance pointer for ISR
 PWMDriver* PWMDriver::instance_ = nullptr;
@@ -56,8 +57,8 @@ void PWMDriver::setStrategy(ModulationStrategy* strategy) {
 }
 
 void PWMDriver::setCarrierFrequency(float hz) {
-    if (hz < 100.0f) hz = 100.0f;
-    if (hz > 20000.0f) hz = 20000.0f;
+    if (hz < Hardware::Limits::Switching::MIN_HZ) hz = Hardware::Limits::Switching::MIN_HZ;
+    if (hz > Hardware::Limits::Switching::MAX_HZ) hz = Hardware::Limits::Switching::MAX_HZ;
     
     carrier_hz_ = hz;
     if (enabled_) {
@@ -169,9 +170,9 @@ void PWMDriver::enable() {
         pwm_set_chan_level(slice, PWM_CHAN_B, pwm_top_ / 2);
     };
     
-    init_slice(config_.u_a, config_.u_b);
-    init_slice(config_.v_a, config_.v_b);
-    init_slice(config_.w_a, config_.w_b);
+    init_slice(Hardware::Pins::U_A, Hardware::Pins::U_B);
+    init_slice(Hardware::Pins::V_A, Hardware::Pins::V_B);
+    init_slice(Hardware::Pins::W_A, Hardware::Pins::W_B);
     
     // Sync procedure: align counters
     pwm_set_counter(0, 0);
@@ -321,21 +322,21 @@ void PWMDriver::forceAllGpioLow() {
         gpio_put(gpio, 0);
     };
     
-    force_low(config_.u_a);
-    force_low(config_.u_b);
-    force_low(config_.v_a);
-    force_low(config_.v_b);
-    force_low(config_.w_a);
-    force_low(config_.w_b);
+    force_low(Hardware::Pins::U_A);
+    force_low(Hardware::Pins::U_B);
+    force_low(Hardware::Pins::V_A);
+    force_low(Hardware::Pins::V_B);
+    force_low(Hardware::Pins::W_A);
+    force_low(Hardware::Pins::W_B);
 }
 
 void PWMDriver::restorePwmPins() {
-    gpio_set_function(config_.u_a, GPIO_FUNC_PWM);
-    gpio_set_function(config_.u_b, GPIO_FUNC_PWM);
-    gpio_set_function(config_.v_a, GPIO_FUNC_PWM);
-    gpio_set_function(config_.v_b, GPIO_FUNC_PWM);
-    gpio_set_function(config_.w_a, GPIO_FUNC_PWM);
-    gpio_set_function(config_.w_b, GPIO_FUNC_PWM);
+    gpio_set_function(Hardware::Pins::U_A, GPIO_FUNC_PWM);
+    gpio_set_function(Hardware::Pins::U_B, GPIO_FUNC_PWM);
+    gpio_set_function(Hardware::Pins::V_A, GPIO_FUNC_PWM);
+    gpio_set_function(Hardware::Pins::V_B, GPIO_FUNC_PWM);
+    gpio_set_function(Hardware::Pins::W_A, GPIO_FUNC_PWM);
+    gpio_set_function(Hardware::Pins::W_B, GPIO_FUNC_PWM);
 }
 
 uint16_t PWMDriver::clampDuty(uint16_t x, uint16_t lo, uint16_t hi) {

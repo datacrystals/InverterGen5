@@ -15,8 +15,8 @@ public:
         return {
             .name = "freq",
             .unit = "Hz",
-            .min = MIN_FUNDAMENTAL_FREQUENCY_HZ,  // -500 or 0
-            .max = MAX_FUNDAMENTAL_FREQUENCY_HZ,  // 500
+            .min = Hardware::Limits::Fundamental::MIN_HZ,  // -500 or 0
+            .max = Hardware::Limits::Fundamental::MAX_HZ,  // 500
             .default_val = 0,
             .required = true,
             .type = ArgSpec::FLOAT

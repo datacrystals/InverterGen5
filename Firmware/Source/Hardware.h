@@ -1,35 +1,38 @@
-// Hardware configuration information
+#pragma once
+#include <cstdint>
 
-// Software configuration parameters
-// Use care when changing, but generally safe
-#define COMMUTATION_PATTERN_MAX_ZONES 12 // safe to change
+namespace Hardware {
+    namespace Pins {
+        constexpr uint8_t U_A = 16;
+        constexpr uint8_t U_B = 17;
+        constexpr uint8_t V_A = 18;
+        constexpr uint8_t V_B = 19;
+        constexpr uint8_t W_A = 20;
+        constexpr uint8_t W_B = 21;
+        
+        //MAX2253x
+        namespace SPI {
+            constexpr uint8_t SCK = 10;
+            constexpr uint8_t MOSI = 11;
+            constexpr uint8_t MISO = 12;
+        }
+    }
 
+    namespace Limits {
+        namespace Switching {
+            constexpr uint32_t MAX_HZ = 15000;
+            constexpr uint32_t MIN_HZ = 250;
+        }
+        
+        namespace Fundamental {
+            constexpr int16_t MAX_HZ = 500;
+            constexpr int16_t MIN_HZ = -500;
+            constexpr uint16_t MAX_RAMP_HZ_S = 500;
+        }
+    }
 
-// Default values, probably dont change
-// but not quite as dangerous as limits
-#define COMMUTATION_PATTERN_DEFAULT_HZ 2000 // default to this frequency if no matching zone is found
-
-
-// LIMITS -- !!DANGER ZONE!! --
-// probably dont change this unless you have a really good reason to
-// might blow up things if you randomly change it
-
-// Seriously, dont change this.
-
-#define MAX_SWITCHING_FREQUENCY_HZ 15000
-#define MIN_SWITCHING_FREQUENCY_HZ 250
-
-#define MIN_FUNDAMENTAL_FREQUENCY_HZ -500
-#define MAX_FUNDAMENTAL_FREQUENCY_HZ 500
-
-#define MAX_FUNDAMENTAL_FREQUENCY_RAMP_HZS 500
-
-// HARDWARE PIN CONFIGS (!!!DO NOT CHANGE THESE!!!)
-
-// GPIO mapping
-#define U_A 16
-#define U_B 17
-#define V_A 18
-#define V_B 19
-#define W_A 20
-#define W_B 21
+    namespace Commutation {
+        constexpr uint8_t MAX_ZONES = 12;
+        constexpr uint16_t DEFAULT_HZ = 2000;
+    }
+}

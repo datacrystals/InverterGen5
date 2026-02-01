@@ -15,7 +15,7 @@ public:
             .name = "rate",
             .unit = "Hz/s",
             .min = 0.1f,  // Minimum sensible ramp
-            .max = MAX_FUNDAMENTAL_FREQUENCY_RAMP_HZS,
+            .max = Hardware::Limits::Fundamental::MAX_RAMP_HZ_S,
             .default_val = 5.0f,
             .required = true,
             .type = ArgSpec::FLOAT

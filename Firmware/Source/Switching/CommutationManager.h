@@ -29,10 +29,10 @@ struct ZoneConfig {
 
 class CommutationManager {
 private:
-    static constexpr int MAX_ZONES = COMMUTATION_PATTERN_MAX_ZONES;
-    static constexpr float DEFAULT_CARRIER = COMMUTATION_PATTERN_DEFAULT_HZ;
-    static constexpr float MIN_CARRIER = MIN_SWITCHING_FREQUENCY_HZ;
-    static constexpr float MAX_CARRIER = MAX_SWITCHING_FREQUENCY_HZ;
+    static constexpr int MAX_ZONES = Hardware::Commutation::MAX_ZONES;
+    static constexpr float DEFAULT_CARRIER = Hardware::Commutation::DEFAULT_HZ;
+    static constexpr float MIN_CARRIER = Hardware::Limits::Switching::MIN_HZ;
+    static constexpr float MAX_CARRIER = Hardware::Limits::Switching::MAX_HZ;
     
     ZoneConfig zones[MAX_ZONES];
     int zone_count = 0;

@@ -3,6 +3,7 @@
 #include "hardware/spi.h"
 #include <cstdio>
 #include <cstring>
+#include "Hardware.h"
 
 static constexpr float VOLTAGE_REFERENCE = 1.8f;
 static constexpr uint16_t ADC_MAX_VALUE = 4095;
@@ -239,12 +240,12 @@ bool MAX2253x_MultiADC::init() {
     spi_init(SPI_PORT, SPI_BAUDRATE);
     spi_set_format(SPI_PORT, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
     
-    gpio_set_function(SPI_SCK_PIN, GPIO_FUNC_SPI);
-    gpio_set_function(SPI_MOSI_PIN, GPIO_FUNC_SPI);
-    gpio_set_function(SPI_MISO_PIN, GPIO_FUNC_SPI);
+    gpio_set_function(Hardware::Pins::SPI::SCK, GPIO_FUNC_SPI);
+    gpio_set_function(Hardware::Pins::SPI::MOSI, GPIO_FUNC_SPI);
+    gpio_set_function(Hardware::Pins::SPI::MISO, GPIO_FUNC_SPI);
     
     printf("SPI: %u Hz, SCK=%u, MOSI=%u, MISO=%u\n",
-           SPI_BAUDRATE, SPI_SCK_PIN, SPI_MOSI_PIN, SPI_MISO_PIN);
+           SPI_BAUDRATE, Hardware::Pins::SPI::SCK, Hardware::Pins::SPI::MOSI, Hardware::Pins::SPI::MISO);
     
     bool all_ok = true;
     for(size_t i = 0; i < m_devices.size(); i++) {

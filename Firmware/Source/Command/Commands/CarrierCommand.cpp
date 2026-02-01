@@ -14,14 +14,13 @@ public:
         return {
             .name = "freq",
             .unit = "Hz",
-            .min = MIN_SWITCHING_FREQUENCY_HZ,   // 100
-            .max = MAX_SWITCHING_FREQUENCY_HZ,   // 10000
+            .min = Hardware::Limits::Switching::MIN_HZ,   // 100
+            .max = Hardware::Limits::Switching::MAX_HZ,   // 10000
             .default_val = 2000,
             .required = true,
             .type = ArgSpec::FLOAT
         };
     }
-    
     void execute(const ArgValue* args, CommandContext& ctx) override {
         float carrier = args[0].f_val;
         *ctx.manual_carrier_hz = carrier;

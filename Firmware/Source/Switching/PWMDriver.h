@@ -4,7 +4,7 @@
 #include <cmath>
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
-
+#include "Hardware.h"
 // ============================================================================
 // Modulation Strategy Interface
 // Implement this to add SVM, FOC, SHE, etc.
@@ -39,9 +39,6 @@ public:
 class PWMDriver {
 public:
     struct Config {
-        uint u_a, u_b;      // Phase U high/low (or A/B)
-        uint v_a, v_b;      // Phase V
-        uint w_a, w_b;      // Phase W
         
         // Safety limits: keep duty away from 0% and 100% for bootstrap caps
         float min_duty_percent = 1.0f;   // 1% minimum

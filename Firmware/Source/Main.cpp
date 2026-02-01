@@ -7,11 +7,12 @@
 #include "Command/CommandManager.h"
 #include "Command/SerialProcessor.h"
 #include "Command/CommandInitializer.h"  // Single include for all command setup
+#include "Sensors/MAX2253x.h"
 
 static CommutationManager zone_mgr;
 static PWMDriver* pwm_driver = nullptr;
-static volatile float g_ramp_rate = 5.0f;
-static volatile float g_manual_carrier_hz = COMMUTATION_PATTERN_DEFAULT_HZ;
+static volatile float g_ramp_rate = 5.0f; //jerk hz/s
+static volatile float g_manual_carrier_hz = Hardware::Commutation::DEFAULT_HZ;
 static volatile bool g_manual_carrier_mode = false;
 static float last_carrier_hz = 0.0f;
 static bool last_sync_mode = false;
@@ -53,26 +54,26 @@ static void configureZones() {
 
     // 0-10Hz: RCFM with 2000Hz center, +/- 400Hz dither
     // This spreads switching noise to reduce acoustic resonance at low speeds
-    zone_mgr.addRCFM(0.0f, 30.0f, 2000.0f, 1000.0f);
+    // zone_mgr.addRCFM(0.0f, 30.0f, 1200.0f, 200.0f);
     
-    // 10-30Hz: Fixed async for stable current control
-    zone_mgr.addAsyncFixed(30.0f, 35.0f, 2000.0f);
+    // // 10-30Hz: Fixed async for stable current control
+    // zone_mgr.addAsyncFixed(30.0f, 35.0f, 2000.0f);
     
-    // 30-60Hz: Synchronous modes for high speed efficiency
-    zone_mgr.addSync(35.0f, 45.0f, 45);
-    zone_mgr.addSync(45.0f, 60.0f, 31);
-    zone_mgr.addSync(60.0f, 120.0f, 19);
+    // // 30-60Hz: Synchronous modes for high speed efficiency
+    // zone_mgr.addSync(35.0f, 45.0f, 45);
+    // zone_mgr.addSync(45.0f, 60.0f, 31);
+    // zone_mgr.addSync(60.0f, 120.0f, 19);
 
 
-    // // -- alstom wmata 2000/3000/6000
-    // zone_mgr.addAsyncFixed(0.0f, 8.0f, 1235.0f);
-    // zone_mgr.addAsyncFixed(8.0f, 17.0f, 1190.0f);
-    // zone_mgr.addAsyncFixed(17.0f, 20.0f, 1210.0f);
-    // zone_mgr.addAsyncFixed(20.0f, 25.0f, 1235.0f);
-    // zone_mgr.addAsyncFixed(25.0f, 30.0f, 1460.0f);
-    // zone_mgr.addAsyncFixed(30.0f, 33.0f, 1210.0f);
-    // zone_mgr.addAsyncFixed(33.0f, 50.0f, 1230.0f);
-    // zone_mgr.addAsyncFixed(50.0f, 1000.0f, 1190.0f);
+    // -- alstom wmata 2000/3000/6000
+    zone_mgr.addAsyncFixed(0.0f, 8.0f, 1235.0f);
+    zone_mgr.addAsyncFixed(8.0f, 17.0f, 1190.0f);
+    zone_mgr.addAsyncFixed(17.0f, 20.0f, 1210.0f);
+    zone_mgr.addAsyncFixed(20.0f, 25.0f, 1235.0f);
+    zone_mgr.addAsyncFixed(25.0f, 30.0f, 1460.0f);
+    zone_mgr.addAsyncFixed(30.0f, 33.0f, 1210.0f);
+    zone_mgr.addAsyncFixed(33.0f, 50.0f, 1230.0f);
+    zone_mgr.addAsyncFixed(50.0f, 1000.0f, 1190.0f);
 
 
 
@@ -97,9 +98,6 @@ int main() {
     configureZones();
     
     PWMDriver::Config cfg;
-    cfg.u_a = U_A; cfg.u_b = U_B;
-    cfg.v_a = V_A; cfg.v_b = V_B;
-    cfg.w_a = W_A; cfg.w_b = W_B;
     cfg.min_duty_percent = 1.0f;
     cfg.max_duty_percent = 99.0f;
     
@@ -135,8 +133,40 @@ int main() {
     driver.enable();
     
     absolute_time_t last_print = get_absolute_time();
+
+    int sex = 0;
+    std::vector<uint8_t> cs_pins = {13,14,15}; // 3 devices = 12 channels total
     
+    MAX2253x_MultiADC adc_system(cs_pins);
+    adc_system.print_status();
+    if (!adc_system.init()) {
+        printf("ADC initialization failed!\n");
+        return -1;
+    }
+
     while (true) {
+        sex++;
+        if(sex > 1000) {
+            auto all_voltages = adc_system.read_all_devices_voltage();
+        
+        // Device 0: HV bus voltage, 12V aux, etc.
+        printf("Device 0 (CS=5): %.3fV, %.3fV, %.3fV, %.3fV\n",
+               all_voltages[0][0], all_voltages[0][1], 
+               all_voltages[0][2], all_voltages[0][3]);
+        
+        // Device 1: Phase currents (isolated shunt amplifiers)
+        printf("Device 1 (CS=6): %.3fV, %.3fV, %.3fV, %.3fV\n",
+               all_voltages[1][0], all_voltages[1][1], 
+               all_voltages[1][2], all_voltages[1][3]);
+               
+        // Device 2: Throttle, temperature, etc.
+        printf("Device 2 (CS=7): %.3fV, %.3fV, %.3fV, %.3fV\n",
+               all_voltages[2][0], all_voltages[2][1], 
+               all_voltages[2][2], all_voltages[2][3]);
+            sex = 0;
+        }
+        
+
         serial_proc.poll();
         
         if (!driver.isEmergencyStopped()) {
