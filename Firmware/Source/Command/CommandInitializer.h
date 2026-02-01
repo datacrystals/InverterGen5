@@ -8,6 +8,7 @@ CommandInterface* getFreqCommand();
 CommandInterface* getRampCommand();
 CommandInterface* getCarrierCommand();
 CommandInterface* getAutoCommand();
+CommandInterface* getFlashCommand();
 CommandInterface* getSoftStopCommand();
 CommandInterface* getEmergencyStopCommand();
 CommandInterface* getEnableCommand();

@@ -30,6 +30,7 @@ add_executable(${PROJECT_NAME}
     ${SOURCE_DIR}/Command/CommandInitializer.cpp
     ${SOURCE_DIR}/Command/CommandManager.cpp
     ${SOURCE_DIR}/Command/Commands/AutoCommand.cpp
+    ${SOURCE_DIR}/Command/Commands/FlashCommand.cpp
     ${SOURCE_DIR}/Command/Commands/CarrierCommand.cpp
     ${SOURCE_DIR}/Command/Commands/EmergencyStopCommand.cpp
     ${SOURCE_DIR}/Command/Commands/EnableCommand.cpp
