@@ -56,7 +56,7 @@ private:
 class MAX2253x_MultiADC {
 public:
     static spi_inst_t* SPI_PORT;
-    static constexpr uint32_t SPI_BAUDRATE = 200'000;
+    static constexpr uint32_t SPI_BAUDRATE = 5'000'000;
     
     explicit MAX2253x_MultiADC(const std::vector<uint8_t>& cs_pins);
     
