@@ -6,10 +6,12 @@
 class CarrierCommand : public CommandInterface {
 public:
     const char* getCommandName() const override { return "C"; }
-    const char* getShortDescription() const override { return "Set manual carrier frequency"; }
-    
+    const char* getShortDescription() const override {
+        return "Set manual carrier frequency";
+    }
+
     int getArgCount() const override { return 1; }
-    
+
     ArgSpec getArgSpec(int index) const override {
         return {
             .name = "freq",
@@ -21,14 +23,18 @@ public:
             .type = ArgSpec::FLOAT
         };
     }
+
     void execute(const ArgValue* args, CommandContext& ctx) override {
         float carrier = args[0].f_val;
-        *ctx.manual_carrier_hz = carrier;
-        *ctx.manual_carrier_mode = true;
-        if (ctx.update_carrier) ctx.update_carrier();
+
+        // Core0 -> Core1 messages
+        ctx.set_manual_carrier_hz(carrier);
+        ctx.set_manual_carrier_mode(true);
+
+        // No direct carrier update on core0
         printf("Manual carrier: %.1f Hz (AUTO mode OFF)\r\n", carrier);
     }
-    
+
     static CarrierCommand& instance() {
         static CarrierCommand inst;
         return inst;

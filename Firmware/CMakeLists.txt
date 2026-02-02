@@ -22,6 +22,7 @@ set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Source)
 # Add your executable
 add_executable(${PROJECT_NAME}
     ${SOURCE_DIR}/Main.cpp
+    ${SOURCE_DIR}/RtBridge.cpp
     ${SOURCE_DIR}/Switching/CommutationManager.cpp
     ${SOURCE_DIR}/Switching/PWMDriver.cpp
 
@@ -58,6 +59,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 # Link libraries
 target_link_libraries(${PROJECT_NAME}
     pico_stdlib
+    pico_multicore
     pico_stdio_usb
     hardware_spi
     hardware_pio

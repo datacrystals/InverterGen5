@@ -1,4 +1,5 @@
 #include "CommutationManager.h"
+#include <cstdlib>  // for atof/atoi
 
 CommutationManager::CommutationManager() : zone_count(0), rng_state_(0xACE1u) {
 }
