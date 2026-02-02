@@ -60,6 +60,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 target_link_libraries(${PROJECT_NAME}
     pico_stdlib
     pico_multicore
+    pico_rand
     pico_stdio_usb
     hardware_spi
     hardware_pio

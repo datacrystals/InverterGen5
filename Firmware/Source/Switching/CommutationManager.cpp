@@ -1,5 +1,6 @@
+#include "pico/rand.h"    
 #include "CommutationManager.h"
-#include <cstdlib>  // for atof/atoi
+#include <cstdlib>
 
 CommutationManager::CommutationManager() : zone_count(0), rng_state_(0xACE1u) {
 }
@@ -58,11 +59,12 @@ bool CommutationManager::getZone(float freq, ZoneConfig* zone) const {
 
 // Simple LCG random number generator
 float CommutationManager::randomFloat() const {
-    // LCG parameters (glibc style)
-    rng_state_ = (1103515245u * rng_state_ + 12345u) & 0x7fffffffu;
-    // Map to [-1.0, 1.0]
-    return (static_cast<float>(rng_state_) / 0x3fffffffu) - 1.0f;
+    // RP2040 hardware RNG (Ring Oscillator based - no pseudo-random correlation)
+    uint32_t r = get_rand_32();
+    // Map [0, 2^32) to [-1.0, 1.0]
+    return (r * (2.0f / 4294967296.0f)) - 1.0f;
 }
+
 
 float CommutationManager::calculateCarrier(float freq, const ZoneConfig* zone, 
                                           float* sync_pulses) const {

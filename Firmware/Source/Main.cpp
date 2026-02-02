@@ -31,15 +31,16 @@ static MeasurementSystem* measurements = nullptr;
 static void configureZones() {
     zone_mgr.clearZones();
 
+    zone_mgr.addRCFM(0.0f, 2000.0f, 2000.0f, 400.0f);
     // -- alstom wmata 2000/3000/6000 switching pattern
-    zone_mgr.addAsyncFixed(0.0f, 8.0f, 1235.0f);
-    zone_mgr.addAsyncFixed(8.0f, 17.0f, 1190.0f);
-    zone_mgr.addAsyncFixed(17.0f, 20.0f, 1210.0f);
-    zone_mgr.addAsyncFixed(20.0f, 25.0f, 1235.0f);
-    zone_mgr.addAsyncFixed(25.0f, 30.0f, 1460.0f);
-    zone_mgr.addAsyncFixed(30.0f, 33.0f, 1210.0f);
-    zone_mgr.addAsyncFixed(33.0f, 50.0f, 1230.0f);
-    zone_mgr.addAsyncFixed(50.0f, 1000.0f, 1190.0f);
+    // zone_mgr.addAsyncFixed(0.0f, 8.0f, 1235.0f);
+    // zone_mgr.addAsyncFixed(8.0f, 17.0f, 1190.0f);
+    // zone_mgr.addAsyncFixed(17.0f, 20.0f, 1210.0f);
+    // zone_mgr.addAsyncFixed(20.0f, 25.0f, 1235.0f);
+    // zone_mgr.addAsyncFixed(25.0f, 30.0f, 1460.0f);
+    // zone_mgr.addAsyncFixed(30.0f, 33.0f, 1210.0f);
+    // zone_mgr.addAsyncFixed(33.0f, 50.0f, 1230.0f);
+    // zone_mgr.addAsyncFixed(50.0f, 1000.0f, 1190.0f);
 }
 
 static const char* zoneTypeToStr(ZoneType t) {

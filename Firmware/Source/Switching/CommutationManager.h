@@ -5,6 +5,7 @@
 
 #include "Hardware.h"
 
+
 enum class ZoneType {
     ASYNC_FIXED,
     ASYNC_RAMP,
@@ -67,4 +68,7 @@ public:
 private:
     // Generate random float in range [-1.0, 1.0]
     float randomFloat() const;
+
+
+
 };
