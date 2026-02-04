@@ -1,0 +1,6 @@
+- add defalt off resistors to all spi chip selects
+- convert m4 gate drive board support holes to m3
+- add m3 threaded holes to heatspreader
+- add resistors for temp sensors
+- more dc link filter caps
+-

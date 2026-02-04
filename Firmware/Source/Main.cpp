@@ -31,7 +31,7 @@ static MeasurementSystem* measurements = nullptr;
 static void configureZones() {
     zone_mgr.clearZones();
 
-    zone_mgr.addAsyncFixed(0.0f, 800.0f, 3000.0f);
+    zone_mgr.addAsyncFixed(0.0f, 800.0f, 2000.0f);
 
     // zone_mgr.addRCFM(0.0f, 2000.0f, 5000.0f, 2000.0f);
     // -- alstom wmata 2000/3000/6000 switching pattern
