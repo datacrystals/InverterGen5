@@ -80,6 +80,13 @@ public:
     float getThrottle() const;
     float getIGBTTemperature(uint8_t idx = 0) const;
     
+
+    // Sin/Cos encoder methods
+    float getRotorPositionDegrees() const;     // Get rotor angle (0-360°)
+    void startEncoderCalibration();            // Begin offset calibration
+    bool isEncoderCalibrating() const;         // Check if cal in progress
+    void stopEncoderCalibration();             // End calibration & compute offsets
+
     // Batch update - call in your main loop
     void update();
     
@@ -92,4 +99,13 @@ private:
     MAX2253x_MultiADC& m_adc;
     std::unordered_map<std::string, std::unique_ptr<MeasurementChannel>> m_channels;
     std::vector<std::pair<size_t, uint8_t>> m_physical_map;  // Reverse lookup
+
+    // Encoder calibration state
+    float m_encoder_sin_offset = 0.9f;  // Common-mode voltage for sin
+    float m_encoder_cos_offset = 0.9f;  // Common-mode voltage for cos
+    float m_encoder_cal_accum_sin = 0.0f;
+    float m_encoder_cal_accum_cos = 0.0f;
+    uint32_t m_encoder_cal_samples = 0;
+    bool m_encoder_cal_active = false;
+
 };

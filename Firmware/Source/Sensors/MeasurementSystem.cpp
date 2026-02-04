@@ -104,6 +104,18 @@ void MeasurementSystem::update() {
             channel->update(voltage);
         }
     }
+    
+    // Accumulate encoder calibration samples
+    if (m_encoder_cal_active) {
+        auto sin_it = m_channels.find("ENCODER_SIN");
+        auto cos_it = m_channels.find("ENCODER_COS");
+        
+        if (sin_it != m_channels.end() && cos_it != m_channels.end()) {
+            m_encoder_cal_accum_sin += sin_it->second->getValue();
+            m_encoder_cal_accum_cos += cos_it->second->getValue();
+            m_encoder_cal_samples++;
+        }
+    }
 }
 
 float MeasurementSystem::read(const std::string& channel_name) const {
@@ -187,3 +199,60 @@ float MeasurementSystem::getBatteryVoltage() const {
     }
     return 0.0f;
 }
+
+
+
+float MeasurementSystem::getRotorPositionDegrees() const {
+    auto sin_it = m_channels.find("ENCODER_SIN");
+    auto cos_it = m_channels.find("ENCODER_COS");
+    
+    if (sin_it == m_channels.end() || cos_it == m_channels.end()) {
+        return NAN; // Channels not configured
+    }
+    
+    // Remove common-mode offset
+    float sin_centered = sin_it->second->getValue() - m_encoder_sin_offset;
+    float cos_centered = cos_it->second->getValue() - m_encoder_cos_offset;
+    
+    // Validate signal amplitude (optional but recommended)
+    float amplitude_sq = sin_centered * sin_centered + cos_centered * cos_centered;
+    if (amplitude_sq < 0.01f) { // Signal too weak/faulted
+        return NAN;
+    }
+    
+    // Calculate angle (-π to π)
+    float angle_rad = atan2f(sin_centered, cos_centered);
+    
+    // Convert to degrees and normalize to 0-360
+    float angle_deg = angle_rad * 180.0f / M_PI;
+    if (angle_deg < 0.0f) {
+        angle_deg += 360.0f;
+    }
+    
+    return angle_deg;
+}
+
+void MeasurementSystem::startEncoderCalibration() {
+    m_encoder_cal_active = true;
+    m_encoder_cal_accum_sin = 0.0f;
+    m_encoder_cal_accum_cos = 0.0f;
+    m_encoder_cal_samples = 0;
+    printf("Encoder calibration started. Keep motor stationary...\n");
+}
+
+bool MeasurementSystem::isEncoderCalibrating() const {
+    return m_encoder_cal_active;
+}
+
+void MeasurementSystem::stopEncoderCalibration() {
+    if (m_encoder_cal_samples > 0) {
+        m_encoder_sin_offset = m_encoder_cal_accum_sin / m_encoder_cal_samples;
+        m_encoder_cos_offset = m_encoder_cal_accum_cos / m_encoder_cal_samples;
+        printf("Encoder calibration complete. Offsets: SIN=%.3fV, COS=%.3fV (samples: %lu)\n",
+               m_encoder_sin_offset, m_encoder_cos_offset, m_encoder_cal_samples);
+    } else {
+        printf("Encoder calibration failed: no samples collected\n");
+    }
+    m_encoder_cal_active = false;
+}
+

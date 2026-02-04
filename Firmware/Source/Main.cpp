@@ -31,7 +31,14 @@ static MeasurementSystem* measurements = nullptr;
 static void configureZones() {
     zone_mgr.clearZones();
 
-    zone_mgr.addRCFM(0.0f, 2000.0f, 2000.0f, 400.0f);
+    zone_mgr.addAsyncFixed(0.0f, 10.0f, 2000.0f);
+    zone_mgr.addAsyncRamp(10.0f, 20.0f, 2000.0f, 4000.0f);
+    zone_mgr.addAsyncFixed(20.0f, 2000.0f, 4000.0f);
+    // zone_mgr.addSync(10.0f, 20.0f, 51);
+    // zone_mgr.addSync(20.0f, 500.0f, 33);
+
+
+    // zone_mgr.addRCFM(0.0f, 2000.0f, 1000.0f, 150.0f);
     // -- alstom wmata 2000/3000/6000 switching pattern
     // zone_mgr.addAsyncFixed(0.0f, 8.0f, 1235.0f);
     // zone_mgr.addAsyncFixed(8.0f, 17.0f, 1190.0f);
@@ -97,16 +104,37 @@ int main() {
         {0, 0, SensorType::VOLTAGE_DIVIDER, 1500.0f, 0.0f, 0.1f, "V_PH_W", 0.0f},  // Phase W
         {0, 1, SensorType::VOLTAGE_DIVIDER, 1500.0f, 0.0f, 0.1f, "V_PH_V", 0.0f},  // Phase V
         {0, 2, SensorType::VOLTAGE_DIVIDER, 1500.0f, 0.0f, 0.1f, "V_PH_U", 0.0f},  // Phase U
-        {0, 3, SensorType::VOLTAGE_DIVIDER, 1500.0f, 0.0f, 1.0f, "V_DC_BUS", 0.0f} // DC Link bus
+        {0, 3, SensorType::VOLTAGE_DIVIDER, 1500.0f, 0.0f, 1.0f, "V_DC_BUS", 0.0f}, // DC Link bus
+
+        // Device 2 (CS=15): Encoder signals
+        {2, 2, SensorType::DIRECT, 0.0f, 0.0f, 0.1f, "ENCODER_SIN", 0.0f}, // Encoder sine (filtered)
+        {2, 1, SensorType::DIRECT, 0.0f, 0.0f, 0.1f, "ENCODER_COS", 0.0f}  // Encoder cosine (filtered)
     };
 
     measurements->addChannels(channel_map);
+    
+    // Do an initial update to populate channel values before printing
+    measurements->update();
     measurements->printChannels();
 
-    printf("\nCalibrating current offsets...\n");
+    printf("\nCalibrating current sensors...\n");
     sleep_ms(100);
     measurements->calibrateCurrentSensors();
-    printf("Calibration complete.\n\n");
+    printf("Current sensor calibration complete.\n\n");
+
+    // ---------------------------
+    // ENCODER CALIBRATION (FIXED)
+    // ---------------------------
+    printf("Calibrating encoder... keep motor stationary for 2 seconds\n");
+    measurements->startEncoderCalibration();
+    absolute_time_t cal_start = get_absolute_time();
+    // MUST call update() during calibration to collect samples
+    while (absolute_time_diff_us(cal_start, get_absolute_time()) < 2000000) {
+        measurements->update();
+        sleep_ms(10); // Sample at ~100Hz during calibration
+    }
+    measurements->stopEncoderCalibration();
+    printf("Encoder calibration complete.\n\n");
 
     // Optional: decide whether to start enabled from core0.
     // RtBridge core1 currently calls driver.enable() at startup; if you prefer core0 control,
@@ -130,10 +158,13 @@ int main() {
             float v_v  = measurements->read("V_PH_V");
             float v_w  = measurements->read("V_PH_W");
 
+            float enc_sin  = measurements->read("ENCODER_SIN");
+            float enc_cos  = measurements->read("ENCODER_COS");
+            float rotor_pos = measurements->getRotorPositionDegrees();
+
             printf("\r\n=== Telemetry ===\r\n");
-            // Note: you had "%5.1f%V" typo in original; fixed to "%5.1fV"
-            printf("DC Bus: %6.1fV | V_U: %5.1fV | V_V: %5.1fV | V_W: %5.1fV\r\n",
-                   v_dc, v_u, v_v, v_w);
+            printf("DC Bus: %6.1fV | V_U: %5.1fV | V_V: %5.1fV | V_W: %5.1fV\r\n", v_dc, v_u, v_v, v_w);
+            printf("SIN: %5.3fV | COS: %5.3fV | Rotor: %6.1f°\r\n", enc_sin, enc_cos, rotor_pos);
 
             last_telemetry = get_absolute_time();
         }
@@ -154,7 +185,6 @@ int main() {
                     printf("MANUAL CARRIER F:%6.2fHz Mod:%3.0f%% Car:%4.0fHz [AUTO OFF]\r\n",
                            st.current_freq, st.modulation_index * 100.0f, st.carrier_hz);
                 } else {
-                    // This is only for display; core1 actually controls carrier.
                     ZoneConfig zone{};
                     const char* zone_str = "DEF";
                     if (zone_mgr.getZone(st.current_freq, &zone)) {

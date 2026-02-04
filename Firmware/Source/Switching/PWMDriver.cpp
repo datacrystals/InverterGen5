@@ -256,15 +256,16 @@ void PWMDriver::update(float dt) {
     }
     
     // Auto-modulation curve (matches your original code)
+    
     if (auto_modulation_) {
         float abs_freq = std::fabs(current_freq_);
         if (abs_freq <= 0.0f) {
-            mod_index_ = 0.05f;  // Maintain minimum flux
-        } else if (abs_freq >= 60.0f) {
+            mod_index_ = 0.04f;  // Maintain minimum flux
+        } else if (abs_freq >= 120.0f) {
             mod_index_ = 0.99f;  // Full modulation at high speed
         } else {
             // Linear ramp from 5% to 99% over 0-60Hz
-            mod_index_ = 0.05f + (abs_freq / 60.0f) * (0.99f - 0.05f);
+            mod_index_ = 0.04f + (abs_freq / 120.0f) * (0.99f - 0.04f);
         }
     }
     

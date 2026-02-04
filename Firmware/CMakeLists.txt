@@ -26,6 +26,10 @@ add_executable(${PROJECT_NAME}
     ${SOURCE_DIR}/Switching/CommutationManager.cpp
     ${SOURCE_DIR}/Switching/PWMDriver.cpp
 
+    # ${SOURCE_DIR}/Configuration/ConfigManager.cpp
+
+    # ${SOURCE_DIR}/FileSystem/FileSystem.cpp
+
     ${SOURCE_DIR}/Sensors/MeasurementSystem.cpp
     ${SOURCE_DIR}/Sensors/MAX2253x.cpp
     # ${SOURCE_DIR}/svpwm.c
@@ -47,6 +51,8 @@ add_executable(${PROJECT_NAME}
     
 )
 
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/ThirdParty/pico-littlefs)
+
 # pico_generate_pio_header(${PROJECT_NAME} ${SOURCE_DIR}/svpwm_phase.pio)
 # pico_generate_pio_header(${PROJECT_NAME} ${SOURCE_DIR}/complementary_pwm.pio)
 # pico_generate_pio_header(${PROJECT_NAME} ${SOURCE_DIR}/main.pio)
@@ -54,6 +60,7 @@ add_executable(${PROJECT_NAME}
 # Include directories
 target_include_directories(${PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/Source
+    ${CMAKE_CURRENT_LIST_DIR}/ThirdParty
 )
 
 # Link libraries
