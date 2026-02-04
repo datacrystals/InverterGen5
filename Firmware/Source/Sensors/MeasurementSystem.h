@@ -5,9 +5,10 @@
 #include <vector>
 #include <string>
 #include <unordered_map>
-#include <memory>     // ADD THIS LINE for std::unique_ptr and std::make_unique
+#include <memory>
 #include <functional>
 #include <cmath>
+#include <cfloat>  // For FLT_MAX
 #include "MAX2253x.h"
 
 enum class SensorType {
@@ -80,13 +81,6 @@ public:
     float getThrottle() const;
     float getIGBTTemperature(uint8_t idx = 0) const;
     
-
-    // Sin/Cos encoder methods
-    float getRotorPositionDegrees() const;     // Get rotor angle (0-360°)
-    void startEncoderCalibration();            // Begin offset calibration
-    bool isEncoderCalibrating() const;         // Check if cal in progress
-    void stopEncoderCalibration();             // End calibration & compute offsets
-
     // Batch update - call in your main loop
     void update();
     
@@ -95,17 +89,25 @@ public:
     void calibrateCurrentSensors();  // Zero all bipolar current channels
     bool isChannelFaulted(const std::string& name) const;
 
+    // --- Sin/Cos Encoder Methods ---
+    // Dynamic tracking (no stationary requirement)
+    void startEncoderTracking();           // Begin tracking min/max
+    void stopEncoderTracking();            // Stop tracking
+    void resetEncoderTracking();           // Reset min/max values
+    bool isEncoderTracking() const;        // Check if tracking active
+    float getRotorPositionDegrees() const; // Get angle (0-360°)
+
+    // --- Encoder Tracking State (dynamic centering) ---
+    float m_encoder_sin_min = FLT_MAX;
+    float m_encoder_sin_max = -FLT_MAX;
+    float m_encoder_cos_min = FLT_MAX;
+    float m_encoder_cos_max = -FLT_MAX;
+    bool m_encoder_tracking_active = false;
+
 private:
     MAX2253x_MultiADC& m_adc;
     std::unordered_map<std::string, std::unique_ptr<MeasurementChannel>> m_channels;
     std::vector<std::pair<size_t, uint8_t>> m_physical_map;  // Reverse lookup
 
-    // Encoder calibration state
-    float m_encoder_sin_offset = 0.9f;  // Common-mode voltage for sin
-    float m_encoder_cos_offset = 0.9f;  // Common-mode voltage for cos
-    float m_encoder_cal_accum_sin = 0.0f;
-    float m_encoder_cal_accum_cos = 0.0f;
-    uint32_t m_encoder_cal_samples = 0;
-    bool m_encoder_cal_active = false;
 
 };

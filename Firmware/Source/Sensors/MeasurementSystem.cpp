@@ -1,7 +1,13 @@
 #include "MeasurementSystem.h"
 #include <algorithm>
 #include <cstdio>
-#include <memory>  
+#include <cfloat>  // For FLT_MAX
+
+#ifndef M_PI
+#define M_PI 3.14159265358979323846f
+#endif
+
+// --- MeasurementChannel Implementation ---
 
 MeasurementChannel::MeasurementChannel(const ChannelConfig& cfg) 
     : m_config(cfg) {
@@ -63,13 +69,12 @@ void MeasurementChannel::update(float adc_voltage) {
 }
 
 void MeasurementChannel::calibrateZero(float samples) {
+    // Note: This is stubbed. Real calibration requires accumulating samples during zero-current state.
     m_accumulator = 0.0f;
     m_sample_count = 0;
-    // Note: actual averaging happens in update(), this just resets accumulators
-    // You'd need to sample for a period with no current flowing
 }
 
-// --- MeasurementSystem ---
+// --- MeasurementSystem Implementation ---
 
 MeasurementSystem::MeasurementSystem(MAX2253x_MultiADC& adc) : m_adc(adc) {}
 
@@ -105,15 +110,20 @@ void MeasurementSystem::update() {
         }
     }
     
-    // Accumulate encoder calibration samples
-    if (m_encoder_cal_active) {
+    // Track encoder min/max during operation
+    if (m_encoder_tracking_active) {
         auto sin_it = m_channels.find("ENCODER_SIN");
         auto cos_it = m_channels.find("ENCODER_COS");
         
         if (sin_it != m_channels.end() && cos_it != m_channels.end()) {
-            m_encoder_cal_accum_sin += sin_it->second->getValue();
-            m_encoder_cal_accum_cos += cos_it->second->getValue();
-            m_encoder_cal_samples++;
+            float sin_val = sin_it->second->getValue();
+            float cos_val = cos_it->second->getValue();
+            
+            // Update min/max for both channels
+            if (sin_val < m_encoder_sin_min) m_encoder_sin_min = sin_val;
+            if (sin_val > m_encoder_sin_max) m_encoder_sin_max = sin_val;
+            if (cos_val < m_encoder_cos_min) m_encoder_cos_min = cos_val;
+            if (cos_val > m_encoder_cos_max) m_encoder_cos_max = cos_val;
         }
     }
 }
@@ -127,11 +137,21 @@ float MeasurementSystem::read(const std::string& channel_name) const {
 }
 
 float MeasurementSystem::getDCBusVoltage() const {
-    // Try common names
     const char* names[] = {"V_DC", "V_BUS", "HV_BUS", "BATTERY", "DC_BUS"};
     for (const char* name : names) {
         auto val = read(name);
         if (val != 0.0f) return val;
+    }
+    return 0.0f;
+}
+
+float MeasurementSystem::getBatteryVoltage() const {
+    const char* names[] = {"V_BATTERY", "V_BAT", "BATTERY"};
+    for (const char* name : names) {
+        auto it = m_channels.find(name);
+        if (it != m_channels.end()) {
+            return it->second->getValue();
+        }
     }
     return 0.0f;
 }
@@ -144,6 +164,12 @@ float MeasurementSystem::getPhaseCurrent(uint8_t phase) const {
 
 float MeasurementSystem::getThrottle() const {
     return read("THROTTLE");
+}
+
+float MeasurementSystem::getIGBTTemperature(uint8_t idx) const {
+    char buf[16];
+    snprintf(buf, sizeof(buf), "IGBT_TEMP_%u", idx);
+    return read(buf);
 }
 
 void MeasurementSystem::printChannels() const {
@@ -179,7 +205,6 @@ void MeasurementSystem::calibrateCurrentSensors() {
     }
 }
 
-
 bool MeasurementSystem::isChannelFaulted(const std::string& name) const {
     auto it = m_channels.find(name);
     if (it != m_channels.end()) {
@@ -188,42 +213,60 @@ bool MeasurementSystem::isChannelFaulted(const std::string& name) const {
     return true; // If channel doesn't exist, consider it faulted
 }
 
-float MeasurementSystem::getBatteryVoltage() const {
-    // Try common names for battery voltage
-    const char* names[] = {"V_BATTERY", "V_BAT", "BATTERY"};
-    for (const char* name : names) {
-        auto it = m_channels.find(name);
-        if (it != m_channels.end()) {
-            return it->second->getValue();
-        }
-    }
-    return 0.0f;
+// --- Encoder Tracking Implementation ---
+
+void MeasurementSystem::startEncoderTracking() {
+    resetEncoderTracking();
+    m_encoder_tracking_active = true;
+    printf("Encoder tracking started. Rotate motor through full range...\n");
 }
 
+void MeasurementSystem::stopEncoderTracking() {
+    m_encoder_tracking_active = false;
+    printf("Encoder tracking stopped.\n");
+}
 
+void MeasurementSystem::resetEncoderTracking() {
+    m_encoder_sin_min = FLT_MAX;
+    m_encoder_sin_max = -FLT_MAX;
+    m_encoder_cos_min = FLT_MAX;
+    m_encoder_cos_max = -FLT_MAX;
+}
+
+bool MeasurementSystem::isEncoderTracking() const {
+    return m_encoder_tracking_active;
+}
 
 float MeasurementSystem::getRotorPositionDegrees() const {
     auto sin_it = m_channels.find("ENCODER_SIN");
     auto cos_it = m_channels.find("ENCODER_COS");
     
     if (sin_it == m_channels.end() || cos_it == m_channels.end()) {
-        return NAN; // Channels not configured
+        return NAN;
     }
     
-    // Remove common-mode offset
-    float sin_centered = sin_it->second->getValue() - m_encoder_sin_offset;
-    float cos_centered = cos_it->second->getValue() - m_encoder_cos_offset;
+    // Dynamic center points from tracked min/max
+    float sin_center = (m_encoder_sin_min + m_encoder_sin_max) * 0.5f;
+    float cos_center = (m_encoder_cos_min + m_encoder_cos_max) * 0.5f;
     
-    // Validate signal amplitude (optional but recommended)
-    float amplitude_sq = sin_centered * sin_centered + cos_centered * cos_centered;
-    if (amplitude_sq < 0.01f) { // Signal too weak/faulted
-        return NAN;
+    // Remove dynamic offsets
+    float sin_centered = sin_it->second->getValue() - sin_center;
+    float cos_centered = cos_it->second->getValue() - cos_center;
+    
+    // Optional: Normalize amplitudes if channels have different gains
+    float sin_amp = (m_encoder_sin_max - m_encoder_sin_min) * 0.5f;
+    float cos_amp = (m_encoder_cos_max - m_encoder_cos_min) * 0.5f;
+    
+    // Only normalize if we have reasonable amplitude (>10mV)
+    if (sin_amp > 0.01f && cos_amp > 0.01f) {
+        sin_centered /= sin_amp;
+        cos_centered /= cos_amp;
     }
     
     // Calculate angle (-π to π)
     float angle_rad = atan2f(sin_centered, cos_centered);
     
-    // Convert to degrees and normalize to 0-360
+    // Convert to 0-360 degrees
     float angle_deg = angle_rad * 180.0f / M_PI;
     if (angle_deg < 0.0f) {
         angle_deg += 360.0f;
@@ -231,28 +274,3 @@ float MeasurementSystem::getRotorPositionDegrees() const {
     
     return angle_deg;
 }
-
-void MeasurementSystem::startEncoderCalibration() {
-    m_encoder_cal_active = true;
-    m_encoder_cal_accum_sin = 0.0f;
-    m_encoder_cal_accum_cos = 0.0f;
-    m_encoder_cal_samples = 0;
-    printf("Encoder calibration started. Keep motor stationary...\n");
-}
-
-bool MeasurementSystem::isEncoderCalibrating() const {
-    return m_encoder_cal_active;
-}
-
-void MeasurementSystem::stopEncoderCalibration() {
-    if (m_encoder_cal_samples > 0) {
-        m_encoder_sin_offset = m_encoder_cal_accum_sin / m_encoder_cal_samples;
-        m_encoder_cos_offset = m_encoder_cal_accum_cos / m_encoder_cal_samples;
-        printf("Encoder calibration complete. Offsets: SIN=%.3fV, COS=%.3fV (samples: %lu)\n",
-               m_encoder_sin_offset, m_encoder_cos_offset, m_encoder_cal_samples);
-    } else {
-        printf("Encoder calibration failed: no samples collected\n");
-    }
-    m_encoder_cal_active = false;
-}
-

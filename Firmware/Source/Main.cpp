@@ -31,14 +31,9 @@ static MeasurementSystem* measurements = nullptr;
 static void configureZones() {
     zone_mgr.clearZones();
 
-    zone_mgr.addAsyncFixed(0.0f, 10.0f, 2000.0f);
-    zone_mgr.addAsyncRamp(10.0f, 20.0f, 2000.0f, 4000.0f);
-    zone_mgr.addAsyncFixed(20.0f, 2000.0f, 4000.0f);
-    // zone_mgr.addSync(10.0f, 20.0f, 51);
-    // zone_mgr.addSync(20.0f, 500.0f, 33);
+    zone_mgr.addAsyncFixed(0.0f, 800.0f, 3000.0f);
 
-
-    // zone_mgr.addRCFM(0.0f, 2000.0f, 1000.0f, 150.0f);
+    // zone_mgr.addRCFM(0.0f, 2000.0f, 5000.0f, 2000.0f);
     // -- alstom wmata 2000/3000/6000 switching pattern
     // zone_mgr.addAsyncFixed(0.0f, 8.0f, 1235.0f);
     // zone_mgr.addAsyncFixed(8.0f, 17.0f, 1190.0f);
@@ -106,14 +101,14 @@ int main() {
         {0, 2, SensorType::VOLTAGE_DIVIDER, 1500.0f, 0.0f, 0.1f, "V_PH_U", 0.0f},  // Phase U
         {0, 3, SensorType::VOLTAGE_DIVIDER, 1500.0f, 0.0f, 1.0f, "V_DC_BUS", 0.0f}, // DC Link bus
 
-        // Device 2 (CS=15): Encoder signals
-        {2, 2, SensorType::DIRECT, 0.0f, 0.0f, 0.1f, "ENCODER_SIN", 0.0f}, // Encoder sine (filtered)
-        {2, 1, SensorType::DIRECT, 0.0f, 0.0f, 0.1f, "ENCODER_COS", 0.0f}  // Encoder cosine (filtered)
+        // Device 2 (CS=15): Encoder signals (filtered for clean angle)
+        {2, 2, SensorType::DIRECT, 0.0f, 0.0f, 0.05f, "ENCODER_SIN", 0.0f}, // Encoder sine
+        {2, 1, SensorType::DIRECT, 0.0f, 0.0f, 0.05f, "ENCODER_COS", 0.0f}  // Encoder cosine
     };
 
     measurements->addChannels(channel_map);
     
-    // Do an initial update to populate channel values before printing
+    // Initial update to populate values
     measurements->update();
     measurements->printChannels();
 
@@ -123,18 +118,31 @@ int main() {
     printf("Current sensor calibration complete.\n\n");
 
     // ---------------------------
-    // ENCODER CALIBRATION (FIXED)
+    // ENCODER TRACKING (DYNAMIC CENTERING)
     // ---------------------------
-    printf("Calibrating encoder... keep motor stationary for 2 seconds\n");
-    measurements->startEncoderCalibration();
-    absolute_time_t cal_start = get_absolute_time();
-    // MUST call update() during calibration to collect samples
-    while (absolute_time_diff_us(cal_start, get_absolute_time()) < 2000000) {
+    printf("Starting encoder tracking... rotate motor slowly for 5 seconds\n");
+    measurements->startEncoderTracking();
+    absolute_time_t track_start = get_absolute_time();
+    
+    // MUST call update() during tracking to capture min/max
+    while (absolute_time_diff_us(track_start, get_absolute_time()) < 5000000) {
         measurements->update();
-        sleep_ms(10); // Sample at ~100Hz during calibration
+        
+        // Show tracking progress every second
+        static uint32_t last_print = 0;
+        uint32_t elapsed_sec = to_ms_since_boot(get_absolute_time()) / 1000;
+        if (elapsed_sec != last_print) {
+            last_print = elapsed_sec;
+            printf("Tracking... %lu/5s  SIN:[%.3f,%.3f]  COS:[%.3f,%.3f]\n", 
+                   last_print,
+                   measurements->m_encoder_sin_min, measurements->m_encoder_sin_max,
+                   measurements->m_encoder_cos_min, measurements->m_encoder_cos_max);
+        }
+        
+        sleep_ms(10); // Sample at ~100Hz during tracking
     }
-    measurements->stopEncoderCalibration();
-    printf("Encoder calibration complete.\n\n");
+    measurements->stopEncoderTracking();
+    printf("Encoder tracking complete.\n\n");
 
     // Optional: decide whether to start enabled from core0.
     // RtBridge core1 currently calls driver.enable() at startup; if you prefer core0 control,
