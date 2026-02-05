@@ -38,6 +38,8 @@ class MeasurementChannel {
 public:
     MeasurementChannel(const ChannelConfig& cfg);
 
+    void setZeroOffsetVolts(float v) { m_config.zero_offset_volts = v; }
+
     // Update with new raw ADC voltage reading (0-1.8V for MAX2253x)
     void update(float adc_voltage);
 
@@ -97,6 +99,21 @@ public:
 
     // Optional: allow re-learning / locking behavior
     bool isEncoderCalibrationLocked() const { return m_encoder_cal_locked; }
+
+    bool setZeroOffsetVolts(const std::string& name, float v) {
+        auto it = m_channels.find(name);
+        if (it == m_channels.end()) return false;
+        it->second->setZeroOffsetVolts(v);
+        return true;
+    }
+    float readRawVoltage(const std::string& channel_name) const {
+    auto it = m_channels.find(channel_name);
+    if (it != m_channels.end()) return it->second->getRawVoltage();
+    return NAN;
+    }
+
+
+    
 
 private:
     MAX2253x_MultiADC& m_adc;

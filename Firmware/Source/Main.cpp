@@ -31,9 +31,12 @@ static MeasurementSystem* measurements = nullptr;
 static void configureZones() {
     zone_mgr.clearZones();
 
-    zone_mgr.addAsyncFixed(0.0f, 10.0f, 2000.0f);
-    zone_mgr.addAsyncRamp(10.0f, 15.0f, 2000.0f, 4000.0f);
-    zone_mgr.addAsyncFixed(15.0f, 20.0f, 4000.0f);
+    // zone_mgr.addAsyncFixed(0.0f, 10.0f, 2000.0f);
+    // zone_mgr.addAsyncRamp(10.0f, 15.0f, 2000.0f, 4000.0f);
+    // zone_mgr.addAsyncFixed(15.0f, 20.0f, 4000.0f);
+
+
+    zone_mgr.addAsyncFixed(0.0f, 2000.0f, 12000.0f);
 
     // zone_mgr.addRCFM(0.0f, 2000.0f, 1200.0f, 200.0f);
     // -- alstom wmata 2000/3000/6000 switching pattern
@@ -105,10 +108,23 @@ int main() {
 
         // Device 2 (CS=15): Encoder signals (filtered for clean angle)
         {2, 2, SensorType::DIRECT, 0.0f, 0.0f, 0.05f, "ENCODER_SIN", 0.0f}, // Encoder sine
-        {2, 1, SensorType::DIRECT, 0.0f, 0.0f, 0.05f, "ENCODER_COS", 0.0f}  // Encoder cosine
+        {2, 1, SensorType::DIRECT, 0.0f, 0.0f, 0.05f, "ENCODER_COS", 0.0f},  // Encoder cosine
+
+        
     };
 
+    ChannelConfig dc_main_current {
+        .device_index = 1,
+        .channel = 3,
+        .type = SensorType::BIPOLAR_CURRENT,
+        .scale = -1204.8193f,     // A/V  (because -0.83mV per amp)
+        .offset = 0.0f,           // unused for BIPOLAR_CURRENT in your code
+        .low_pass_factor = 1.0f,  // pick 0.1-0.3 for smoothing; 1.0 = no filter
+        .name = "I_DC_MAIN",
+        .zero_offset_volts = 0.410f
+};
     measurements->addChannels(channel_map);
+    measurements->addChannel(dc_main_current);
     
     // Initial update to populate values
     measurements->update();
@@ -117,6 +133,17 @@ int main() {
     printf("\nCalibrating current sensors...\n");
     sleep_ms(100);
     // measurements->calibrateCurrentSensors();
+    float sum = 0.0f;
+const int N = 200;
+
+for (int i = 0; i < N; i++) {
+    measurements->update();                 // get fresh ADC values
+    sum += measurements->readRawVoltage("I_DC_MAIN");
+    sleep_ms(2);
+}
+
+float zero = sum / N;
+measurements->setZeroOffsetVolts("I_DC_MAIN", zero);
     printf("Current sensor calibration complete.\n\n");
 
     // Optional: decide whether to start enabled from core0.
@@ -135,25 +162,28 @@ int main() {
         serial_proc.poll();
 
         // ---- Telemetry output (every 500ms) ----
-        if (absolute_time_diff_us(last_telemetry, get_absolute_time()) > 100000) {
-            float v_dc = measurements->read("V_DC_BUS");
-            float v_u  = measurements->read("V_PH_U");
-            float v_v  = measurements->read("V_PH_V");
-            float v_w  = measurements->read("V_PH_W");
+       if (absolute_time_diff_us(last_telemetry, get_absolute_time()) > 200000) {
+    float v_dc = measurements->read("V_DC_BUS");
+    float v_u  = measurements->read("V_PH_U");
+    float v_v  = measurements->read("V_PH_V");
+    float v_w  = measurements->read("V_PH_W");
 
-            float enc_sin  = measurements->read("ENCODER_SIN");
-            float enc_cos  = measurements->read("ENCODER_COS");
-            float rotor_pos = measurements->getRotorPositionDegrees();
+    float i_dc_main = measurements->read("I_DC_MAIN");   // <-- main current (A)
 
-            printf("\r\n=== Telemetry ===\r\n");
-            printf("DC Bus: %6.1fV | V_U: %5.1fV | V_V: %5.1fV | V_W: %5.1fV\r\n", v_dc, v_u, v_v, v_w);
-            printf("SIN: %5.5fV | COS: %5.5fV | Rotor: %6.1f°\r\n", enc_sin, enc_cos, rotor_pos);
+    float enc_sin   = measurements->read("ENCODER_SIN");
+    float enc_cos   = measurements->read("ENCODER_COS");
+    float rotor_pos = measurements->getRotorPositionDegrees();
+    printf("\r\n=== Telemetry ===\r\n");
+    printf("DC Bus: %6.1fV | I_DC_MAIN: %7.1fA | V_U: %5.1fV | V_V: %5.1fV | V_W: %5.1fV\r\n",
+           v_dc, i_dc_main, v_u, v_v, v_w);
+    printf("SIN: %5.5fV | COS: %5.5fV | Rotor: %6.1f°\r\n", enc_sin, enc_cos, rotor_pos);
 
-            last_telemetry = get_absolute_time();
-        }
+    last_telemetry = get_absolute_time();
+}
+
 
         // ---- Status print using core1 snapshot (every 500ms) ----
-        if (absolute_time_diff_us(last_print, get_absolute_time()) > 100000) {
+        if (absolute_time_diff_us(last_print, get_absolute_time()) > 200000) {
             RtStatus st{};
             const bool have = (ctx.try_get_status && ctx.try_get_status(&st));
 

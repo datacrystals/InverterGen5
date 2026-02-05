@@ -15,6 +15,7 @@ MeasurementChannel::MeasurementChannel(const ChannelConfig& cfg)
     m_filtered_value = cfg.offset;  // Initialize to offset
 }
 
+
 void MeasurementChannel::update(float adc_voltage) {
     m_last_raw_voltage = adc_voltage;
 
@@ -26,7 +27,8 @@ void MeasurementChannel::update(float adc_voltage) {
             break;
 
         case SensorType::BIPOLAR_CURRENT:
-            physical_value = (adc_voltage - m_config.zero_offset_volts) * m_config.scale;
+            physical_value = (adc_voltage - m_config.zero_offset_volts) * m_config.scale; // scale is A/V
+
             break;
 
         case SensorType::UNIPOLAR_CURRENT:
@@ -261,7 +263,7 @@ void MeasurementSystem::printChannels() const {
             case SensorType::DIRECT:           type_str = "DIRECT"; break;
         }
 
-        std::printf("%-15s %-4zu/%-4u %-12s %8.3f   %8.3f\n",
+        std::printf("%-15s %-4zu/%-4u %-12s %10.6f   %8.3f\n",
                     name.c_str(), cfg.device_index, cfg.channel, type_str,
                     ch->getRawVoltage(), ch->getValue());
     }
