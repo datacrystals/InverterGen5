@@ -31,9 +31,11 @@ static MeasurementSystem* measurements = nullptr;
 static void configureZones() {
     zone_mgr.clearZones();
 
-    zone_mgr.addAsyncFixed(0.0f, 800.0f, 2000.0f);
+    zone_mgr.addAsyncFixed(0.0f, 10.0f, 2000.0f);
+    zone_mgr.addAsyncRamp(10.0f, 15.0f, 2000.0f, 4000.0f);
+    zone_mgr.addAsyncFixed(15.0f, 20.0f, 4000.0f);
 
-    // zone_mgr.addRCFM(0.0f, 2000.0f, 5000.0f, 2000.0f);
+    // zone_mgr.addRCFM(0.0f, 2000.0f, 1200.0f, 200.0f);
     // -- alstom wmata 2000/3000/6000 switching pattern
     // zone_mgr.addAsyncFixed(0.0f, 8.0f, 1235.0f);
     // zone_mgr.addAsyncFixed(8.0f, 17.0f, 1190.0f);
@@ -116,33 +118,6 @@ int main() {
     sleep_ms(100);
     measurements->calibrateCurrentSensors();
     printf("Current sensor calibration complete.\n\n");
-
-    // ---------------------------
-    // ENCODER TRACKING (DYNAMIC CENTERING)
-    // ---------------------------
-    printf("Starting encoder tracking... rotate motor slowly for 5 seconds\n");
-    measurements->startEncoderTracking();
-    absolute_time_t track_start = get_absolute_time();
-    
-    // MUST call update() during tracking to capture min/max
-    while (absolute_time_diff_us(track_start, get_absolute_time()) < 5000000) {
-        measurements->update();
-        
-        // Show tracking progress every second
-        static uint32_t last_print = 0;
-        uint32_t elapsed_sec = to_ms_since_boot(get_absolute_time()) / 1000;
-        if (elapsed_sec != last_print) {
-            last_print = elapsed_sec;
-            printf("Tracking... %lu/5s  SIN:[%.3f,%.3f]  COS:[%.3f,%.3f]\n", 
-                   last_print,
-                   measurements->m_encoder_sin_min, measurements->m_encoder_sin_max,
-                   measurements->m_encoder_cos_min, measurements->m_encoder_cos_max);
-        }
-        
-        sleep_ms(10); // Sample at ~100Hz during tracking
-    }
-    measurements->stopEncoderTracking();
-    printf("Encoder tracking complete.\n\n");
 
     // Optional: decide whether to start enabled from core0.
     // RtBridge core1 currently calls driver.enable() at startup; if you prefer core0 control,

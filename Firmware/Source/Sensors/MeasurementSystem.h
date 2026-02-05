@@ -77,24 +77,16 @@ public:
     // Convenience accessors for common EV inverter signals
     float getDCBusVoltage() const;
     float getBatteryVoltage() const;
-    float getPhaseCurrent(uint8_t phase) const;  // 0=A, 1=B, 2=C
-    float getThrottle() const;
-    float getIGBTTemperature(uint8_t idx = 0) const;
-    
+    float getPhaseCurrent(uint8_t phase) const;
     // Batch update - call in your main loop
     void update();
     
     // Diagnostics
     void printChannels() const;
-    void calibrateCurrentSensors();  // Zero all bipolar current channels
+    // void calibrateCurrentSensors();  // Zero all bipolar current channels
     bool isChannelFaulted(const std::string& name) const;
 
     // --- Sin/Cos Encoder Methods ---
-    // Dynamic tracking (no stationary requirement)
-    void startEncoderTracking();           // Begin tracking min/max
-    void stopEncoderTracking();            // Stop tracking
-    void resetEncoderTracking();           // Reset min/max values
-    bool isEncoderTracking() const;        // Check if tracking active
     float getRotorPositionDegrees() const; // Get angle (0-360°)
 
     // --- Encoder Tracking State (dynamic centering) ---

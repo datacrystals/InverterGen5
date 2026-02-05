@@ -162,16 +162,6 @@ float MeasurementSystem::getPhaseCurrent(uint8_t phase) const {
     return read(buf);
 }
 
-float MeasurementSystem::getThrottle() const {
-    return read("THROTTLE");
-}
-
-float MeasurementSystem::getIGBTTemperature(uint8_t idx) const {
-    char buf[16];
-    snprintf(buf, sizeof(buf), "IGBT_TEMP_%u", idx);
-    return read(buf);
-}
-
 void MeasurementSystem::printChannels() const {
     printf("\n=== Measurement System Channels ===\n");
     printf("%-15s %-10s %-12s %-10s %-10s\n", "Name", "Device", "Type", "Raw(V)", "Physical");
@@ -196,14 +186,14 @@ void MeasurementSystem::printChannels() const {
     printf("\n");
 }
 
-void MeasurementSystem::calibrateCurrentSensors() {
-    printf("Calibrating current sensors (ensure NO current flowing)...\n");
-    for (auto& [name, ch] : m_channels) {
-        if (ch->getConfig().type == SensorType::BIPOLAR_CURRENT) {
-            ch->calibrateZero();
-        }
-    }
-}
+// void MeasurementSystem::calibrateCurrentSensors() {
+//     printf("Calibrating current sensors (ensure NO current flowing)...\n");
+//     for (auto& [name, ch] : m_channels) {
+//         if (ch->getConfig().type == SensorType::BIPOLAR_CURRENT) {
+//             ch->calibrateZero();
+//         }
+//     }
+// }
 
 bool MeasurementSystem::isChannelFaulted(const std::string& name) const {
     auto it = m_channels.find(name);
@@ -211,30 +201,6 @@ bool MeasurementSystem::isChannelFaulted(const std::string& name) const {
         return it->second->isFaulted();
     }
     return true; // If channel doesn't exist, consider it faulted
-}
-
-// --- Encoder Tracking Implementation ---
-
-void MeasurementSystem::startEncoderTracking() {
-    resetEncoderTracking();
-    m_encoder_tracking_active = true;
-    printf("Encoder tracking started. Rotate motor through full range...\n");
-}
-
-void MeasurementSystem::stopEncoderTracking() {
-    m_encoder_tracking_active = false;
-    printf("Encoder tracking stopped.\n");
-}
-
-void MeasurementSystem::resetEncoderTracking() {
-    m_encoder_sin_min = FLT_MAX;
-    m_encoder_sin_max = -FLT_MAX;
-    m_encoder_cos_min = FLT_MAX;
-    m_encoder_cos_max = -FLT_MAX;
-}
-
-bool MeasurementSystem::isEncoderTracking() const {
-    return m_encoder_tracking_active;
 }
 
 float MeasurementSystem::getRotorPositionDegrees() const {
