@@ -1,3 +1,4 @@
+// ========================= MeasurementSystem.h =========================
 #pragma once
 
 #include <cstdint>
@@ -28,26 +29,26 @@ struct ChannelConfig {
     float offset;             // Additive offset (volts or amps)
     float low_pass_factor;    // 0.0-1.0 for IIR filter (1.0 = no filter)
     std::string name;         // Human readable name
-    
+
     // For current sensors: what represents zero current (typically 0.5 or 0.9V for isolated amps)
-    float zero_offset_volts;  
+    float zero_offset_volts;
 };
 
 class MeasurementChannel {
 public:
     MeasurementChannel(const ChannelConfig& cfg);
-    
+
     // Update with new raw ADC voltage reading (0-1.8V for MAX2253x)
     void update(float adc_voltage);
-    
+
     // Get physical value (volts, amps, degrees, etc)
     float getValue() const { return m_filtered_value; }
     float getRawVoltage() const { return m_last_raw_voltage; }
     uint16_t getRawADC() const { return m_last_raw_adc; }
-    
+
     // Zero calibration for current sensors
     void calibrateZero(float samples = 100.0f);
-    
+
     const std::string& getName() const { return m_config.name; }
     bool isFaulted() const { return m_faulted; }
     const ChannelConfig& getConfig() const { return m_config; }
@@ -65,41 +66,65 @@ private:
 class MeasurementSystem {
 public:
     explicit MeasurementSystem(MAX2253x_MultiADC& adc);
-    
+
     // Register channels - call this once at startup
     void addChannel(const ChannelConfig& config);
     void addChannels(const std::vector<ChannelConfig>& configs);
-    
+
     // Read physical values
     float read(const std::string& channel_name) const;
     float read(size_t device_idx, uint8_t channel) const;
-    
+
     // Convenience accessors for common EV inverter signals
     float getDCBusVoltage() const;
     float getBatteryVoltage() const;
     float getPhaseCurrent(uint8_t phase) const;
+
     // Batch update - call in your main loop
     void update();
-    
+
     // Diagnostics
     void printChannels() const;
-    // void calibrateCurrentSensors();  // Zero all bipolar current channels
     bool isChannelFaulted(const std::string& name) const;
 
     // --- Sin/Cos Encoder Methods ---
     float getRotorPositionDegrees() const; // Get angle (0-360°)
 
-    // --- Encoder Tracking State (dynamic centering) ---
-    float m_encoder_sin_min = FLT_MAX;
-    float m_encoder_sin_max = -FLT_MAX;
-    float m_encoder_cos_min = FLT_MAX;
-    float m_encoder_cos_max = -FLT_MAX;
-    bool m_encoder_tracking_active = false;
+    // Encoder tracking controls
+    void resetEncoderTracking();
+    void setEncoderTracking(bool enable) { m_encoder_tracking_active = enable; }
+    bool isEncoderTrackingEnabled() const { return m_encoder_tracking_active; }
+
+    // Optional: allow re-learning / locking behavior
+    bool isEncoderCalibrationLocked() const { return m_encoder_cal_locked; }
 
 private:
     MAX2253x_MultiADC& m_adc;
     std::unordered_map<std::string, std::unique_ptr<MeasurementChannel>> m_channels;
     std::vector<std::pair<size_t, uint8_t>> m_physical_map;  // Reverse lookup
 
+    // --- Encoder Tracking State (min/max + stationary detection + lock) ---
+    float m_encoder_sin_min = FLT_MAX;
+    float m_encoder_sin_max = -FLT_MAX;
+    float m_encoder_cos_min = FLT_MAX;
+    float m_encoder_cos_max = -FLT_MAX;
 
+    // Enable by default
+    bool m_encoder_tracking_active = true;
+
+    // New: track whether we've seen at least one valid sample
+    bool m_encoder_tracking_initialized = false;
+
+    // Stationary detection
+    float m_encoder_last_sin = 0.0f;
+    float m_encoder_last_cos = 0.0f;
+    uint32_t m_encoder_still_count = 0;
+    bool m_encoder_stationary = false;
+
+    // Locked calibration (prevents "same position, different angle")
+    bool  m_encoder_cal_locked = false;
+    float m_encoder_sin_center_locked = 0.0f;
+    float m_encoder_cos_center_locked = 0.0f;
+    float m_encoder_sin_amp_locked    = 1.0f;
+    float m_encoder_cos_amp_locked    = 1.0f;
 };

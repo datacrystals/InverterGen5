@@ -116,7 +116,7 @@ int main() {
 
     printf("\nCalibrating current sensors...\n");
     sleep_ms(100);
-    measurements->calibrateCurrentSensors();
+    // measurements->calibrateCurrentSensors();
     printf("Current sensor calibration complete.\n\n");
 
     // Optional: decide whether to start enabled from core0.
@@ -135,7 +135,7 @@ int main() {
         serial_proc.poll();
 
         // ---- Telemetry output (every 500ms) ----
-        if (absolute_time_diff_us(last_telemetry, get_absolute_time()) > 500000) {
+        if (absolute_time_diff_us(last_telemetry, get_absolute_time()) > 100000) {
             float v_dc = measurements->read("V_DC_BUS");
             float v_u  = measurements->read("V_PH_U");
             float v_v  = measurements->read("V_PH_V");
@@ -147,13 +147,13 @@ int main() {
 
             printf("\r\n=== Telemetry ===\r\n");
             printf("DC Bus: %6.1fV | V_U: %5.1fV | V_V: %5.1fV | V_W: %5.1fV\r\n", v_dc, v_u, v_v, v_w);
-            printf("SIN: %5.3fV | COS: %5.3fV | Rotor: %6.1f°\r\n", enc_sin, enc_cos, rotor_pos);
+            printf("SIN: %5.5fV | COS: %5.5fV | Rotor: %6.1f°\r\n", enc_sin, enc_cos, rotor_pos);
 
             last_telemetry = get_absolute_time();
         }
 
         // ---- Status print using core1 snapshot (every 500ms) ----
-        if (absolute_time_diff_us(last_print, get_absolute_time()) > 500000) {
+        if (absolute_time_diff_us(last_print, get_absolute_time()) > 100000) {
             RtStatus st{};
             const bool have = (ctx.try_get_status && ctx.try_get_status(&st));
 
