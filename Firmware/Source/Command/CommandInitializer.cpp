@@ -8,6 +8,7 @@ void initializeCommands() {
     mgr.registerCommand(getRampCommand());
     mgr.registerCommand(getCarrierCommand());
     mgr.registerCommand(getAutoCommand());
+    mgr.registerCommand(getAsyncCommand());
     mgr.registerCommand(getFlashCommand());
     mgr.registerCommand(getSoftStopCommand());
     mgr.registerCommand(getEmergencyStopCommand());

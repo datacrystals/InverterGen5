@@ -162,7 +162,7 @@ measurements->setZeroOffsetVolts("I_DC_MAIN", zero);
         serial_proc.poll();
 
         // ---- Telemetry output (every 500ms) ----
-       if (absolute_time_diff_us(last_telemetry, get_absolute_time()) > 200000) {
+       if (absolute_time_diff_us(last_telemetry, get_absolute_time()) > 1600000) {
     float v_dc = measurements->read("V_DC_BUS");
     float v_u  = measurements->read("V_PH_U");
     float v_v  = measurements->read("V_PH_V");
@@ -183,7 +183,7 @@ measurements->setZeroOffsetVolts("I_DC_MAIN", zero);
 
 
         // ---- Status print using core1 snapshot (every 500ms) ----
-        if (absolute_time_diff_us(last_print, get_absolute_time()) > 200000) {
+        if (absolute_time_diff_us(last_print, get_absolute_time()) > 1600000) {
             RtStatus st{};
             const bool have = (ctx.try_get_status && ctx.try_get_status(&st));
 

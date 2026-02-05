@@ -43,6 +43,7 @@ add_executable(${PROJECT_NAME}
     ${SOURCE_DIR}/Command/Commands/FreqCommand.cpp
     ${SOURCE_DIR}/Command/Commands/ImmediateCommand.cpp
     ${SOURCE_DIR}/Command/Commands/RampCommand.cpp
+    ${SOURCE_DIR}/Command/Commands/AsyncCommand.cpp
     ${SOURCE_DIR}/Command/Commands/SoftStopCommand.cpp
     ${SOURCE_DIR}/Command/Commands/HelpCommand.cpp
     
