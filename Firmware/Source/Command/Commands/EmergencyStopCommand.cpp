@@ -4,9 +4,8 @@
 
 class EmergencyStopCommand : public CommandInterface {
 public:
-    const char* getCommandName() const override { return "STOP"; }
-    const char* getShortDescription() const override { return "Emergency stop (immediate)"; }
-
+    EmergencyStopCommand() : CommandInterface("STOP", "Emergency stop (immediate)") {}
+    
     void execute(const ArgValue* /*args*/, CommandContext& ctx) override {
         if (ctx.emergency_stop) {
             ctx.emergency_stop();
@@ -15,13 +14,9 @@ public:
             printf("Error: No emergency stop hook available\r\n");
         }
     }
-
-    static EmergencyStopCommand& instance() {
-        static EmergencyStopCommand inst;
-        return inst;
-    }
 };
 
-CommandInterface* getEmergencyStopCommand() {
-    return &EmergencyStopCommand::instance();
+CommandInterface* makeEmergencyStopCommand() {
+    static EmergencyStopCommand inst;
+    return &inst;
 }

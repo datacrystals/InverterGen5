@@ -4,10 +4,9 @@
 
 class SoftStopCommand : public CommandInterface {
 public:
-    const char* getCommandName() const override { return "S"; }
-    const char* getShortDescription() const override { return "Soft stop (ramp to zero)"; }
+    SoftStopCommand() : CommandInterface("S", "Soft stop (ramp to zero)") {}
 
-    void execute(const ArgValue* /*args*/, CommandContext& ctx) override {
+    void execute(const ArgValue*, CommandContext& ctx) override {
         RtStatus status{};
         const bool have_status = (ctx.try_get_status && ctx.try_get_status(&status));
 
@@ -29,13 +28,9 @@ public:
             printf("Error: No frequency control hook available\r\n");
         }
     }
-
-    static SoftStopCommand& instance() {
-        static SoftStopCommand inst;
-        return inst;
-    }
 };
 
-CommandInterface* getSoftStopCommand() {
-    return &SoftStopCommand::instance();
+CommandInterface* makeSoftStopCommand() {
+    static SoftStopCommand inst;
+    return &inst;
 }
