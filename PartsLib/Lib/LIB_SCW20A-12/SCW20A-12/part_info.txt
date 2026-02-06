@@ -1,0 +1,9 @@
+Manufacturer=Mean Well
+PartNumber=SCW20A-15
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=9
+Version=1.2
+Released=2022-02-24 10:11:42
+Downloaded=2026-02-06 07:03:55
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SCW20A_15'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mean Well", "SCW20A-15" (!) = "", "SCW20A15", "Other", "709-SCW20A-15", "https://www.mouser.com/Search/Refine.aspx?Keyword=709-SCW20A-15", "Module DC-DC 12VIN 1-OUT 15V 1.333A 20W 9-Pin DIP Module", "https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/SCW20/SCW20-spec.pdf", "12.7 mm"
+END_PART
+
+END.

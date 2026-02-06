@@ -1,6 +1,3 @@
 - add defalt off resistors to all spi chip selects
 - convert m4 gate drive board support holes to m3
-- add resistors for temp sensors
-- more dc link filter caps
-- higher power dc/dc for logic
-- fan?
+- widen gate drive traces to lower ESL

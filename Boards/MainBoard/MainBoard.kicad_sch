@@ -5021,7 +5021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
 			(at 254 33.02 0)
 			(effects
 				(font
@@ -5085,7 +5085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 254 25.4 0)
 			(effects
 				(font
@@ -5754,7 +5754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
 			(at 254 52.07 0)
 			(effects
 				(font
@@ -6060,7 +6060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 254 60.96 0)
 			(effects
 				(font
@@ -6476,7 +6476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
 			(at 254 45.72 0)
 			(effects
 				(font
@@ -6661,7 +6661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TBP01R250806BE"
+		(property "Footprint" "InverterCom:TBP01R250806BE"
 			(at 31.75 7.95 0)
 			(effects
 				(font
@@ -7160,7 +7160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
 			(at 254 67.31 0)
 			(effects
 				(font

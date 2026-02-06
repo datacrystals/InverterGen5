@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SCW20A-15
+#/1505509/1553794/2.50/9/3/Power Supply
+DEF SCW20A-15 PS 0 30 Y Y 1 F N
+F0 "PS" 1550 300 50 H V L CNN
+F1 "SCW20A-15" 1550 200 50 H V L CNN
+F2 "SCW20A15" 1550 100 50 H I L CNN
+F3 "https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/SCW20/SCW20-spec.pdf" 1550 0 50 H I L CNN
+F4 "Module DC-DC 12VIN 1-OUT 15V 1.333A 20W 9-Pin DIP Module" 1550 -100 50 H I L CNN "Description"
+F5 "12.7" 1550 -200 50 H I L CNN "Height"
+F6 "709-SCW20A-15" 1550 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=709-SCW20A-15" 1550 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Mean Well" 1550 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SCW20A-15" 1550 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X REMOTE_ON/OFF 1 0 0 200 R 50 50 0 0 P
+X -VIN_1 2 0 -100 200 R 50 50 0 0 P
+X -VIN_2 3 0 -200 200 R 50 50 0 0 P
+X N.C._1 9 0 -300 200 R 50 50 0 0 P
+X N.C._2 11 0 -400 200 R 50 50 0 0 P
+X +VOUT 14 1700 -300 200 L 50 50 0 0 P
+X -VOUT 16 1700 -200 200 L 50 50 0 0 P
+X +VIN_1 22 1700 -100 200 L 50 50 0 0 P
+X +VIN_2 23 1700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1500 100 1500 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

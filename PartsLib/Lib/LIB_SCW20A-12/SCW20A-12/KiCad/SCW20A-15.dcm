@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SCW20A-15
+D Module DC-DC 12VIN 1-OUT 15V 1.333A 20W 9-Pin DIP Module
+K
+F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/SCW20/SCW20-spec.pdf
+$ENDCMP
+#
+#End Doc Library

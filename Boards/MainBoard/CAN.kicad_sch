@@ -4667,7 +4667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "REC10K-AW"
+		(property "Footprint" "InverterCom:REC10K-AW"
 			(at 92.71 248.59 0)
 			(effects
 				(font

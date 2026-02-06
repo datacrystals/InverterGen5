@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SCW20A15"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SCW20A15")
+        (spec "default")
+    )
+)
