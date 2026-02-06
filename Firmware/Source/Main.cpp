@@ -31,9 +31,14 @@ static MeasurementSystem* measurements = nullptr;
 static void configureZones() {
     zone_mgr.clearZones();
 
-    zone_mgr.addAsyncFixed(0.0f, 800.0f, 2000.0f);
+    // zone_mgr.addAsyncFixed(0.0f, 10.0f, 2000.0f);
+    // zone_mgr.addAsyncRamp(10.0f, 15.0f, 2000.0f, 4000.0f);
+    // zone_mgr.addAsyncFixed(15.0f, 20.0f, 4000.0f);
 
-    // zone_mgr.addRCFM(0.0f, 2000.0f, 5000.0f, 2000.0f);
+
+    zone_mgr.addAsyncFixed(0.0f, 2000.0f, 12000.0f);
+
+    // zone_mgr.addRCFM(0.0f, 2000.0f, 1200.0f, 200.0f);
     // -- alstom wmata 2000/3000/6000 switching pattern
     // zone_mgr.addAsyncFixed(0.0f, 8.0f, 1235.0f);
     // zone_mgr.addAsyncFixed(8.0f, 17.0f, 1190.0f);
@@ -103,10 +108,23 @@ int main() {
 
         // Device 2 (CS=15): Encoder signals (filtered for clean angle)
         {2, 2, SensorType::DIRECT, 0.0f, 0.0f, 0.05f, "ENCODER_SIN", 0.0f}, // Encoder sine
-        {2, 1, SensorType::DIRECT, 0.0f, 0.0f, 0.05f, "ENCODER_COS", 0.0f}  // Encoder cosine
+        {2, 1, SensorType::DIRECT, 0.0f, 0.0f, 0.05f, "ENCODER_COS", 0.0f},  // Encoder cosine
+
+        
     };
 
+    ChannelConfig dc_main_current {
+        .device_index = 1,
+        .channel = 3,
+        .type = SensorType::BIPOLAR_CURRENT,
+        .scale = -1204.8193f,     // A/V  (because -0.83mV per amp)
+        .offset = 0.0f,           // unused for BIPOLAR_CURRENT in your code
+        .low_pass_factor = 1.0f,  // pick 0.1-0.3 for smoothing; 1.0 = no filter
+        .name = "I_DC_MAIN",
+        .zero_offset_volts = 0.410f
+};
     measurements->addChannels(channel_map);
+    measurements->addChannel(dc_main_current);
     
     // Initial update to populate values
     measurements->update();
@@ -114,35 +132,19 @@ int main() {
 
     printf("\nCalibrating current sensors...\n");
     sleep_ms(100);
-    measurements->calibrateCurrentSensors();
-    printf("Current sensor calibration complete.\n\n");
+    // measurements->calibrateCurrentSensors();
+    float sum = 0.0f;
+const int N = 200;
 
-    // ---------------------------
-    // ENCODER TRACKING (DYNAMIC CENTERING)
-    // ---------------------------
-    printf("Starting encoder tracking... rotate motor slowly for 5 seconds\n");
-    measurements->startEncoderTracking();
-    absolute_time_t track_start = get_absolute_time();
-    
-    // MUST call update() during tracking to capture min/max
-    while (absolute_time_diff_us(track_start, get_absolute_time()) < 5000000) {
-        measurements->update();
-        
-        // Show tracking progress every second
-        static uint32_t last_print = 0;
-        uint32_t elapsed_sec = to_ms_since_boot(get_absolute_time()) / 1000;
-        if (elapsed_sec != last_print) {
-            last_print = elapsed_sec;
-            printf("Tracking... %lu/5s  SIN:[%.3f,%.3f]  COS:[%.3f,%.3f]\n", 
-                   last_print,
-                   measurements->m_encoder_sin_min, measurements->m_encoder_sin_max,
-                   measurements->m_encoder_cos_min, measurements->m_encoder_cos_max);
-        }
-        
-        sleep_ms(10); // Sample at ~100Hz during tracking
-    }
-    measurements->stopEncoderTracking();
-    printf("Encoder tracking complete.\n\n");
+for (int i = 0; i < N; i++) {
+    measurements->update();                 // get fresh ADC values
+    sum += measurements->readRawVoltage("I_DC_MAIN");
+    sleep_ms(2);
+}
+
+float zero = sum / N;
+measurements->setZeroOffsetVolts("I_DC_MAIN", zero);
+    printf("Current sensor calibration complete.\n\n");
 
     // Optional: decide whether to start enabled from core0.
     // RtBridge core1 currently calls driver.enable() at startup; if you prefer core0 control,
@@ -160,25 +162,28 @@ int main() {
         serial_proc.poll();
 
         // ---- Telemetry output (every 500ms) ----
-        if (absolute_time_diff_us(last_telemetry, get_absolute_time()) > 500000) {
-            float v_dc = measurements->read("V_DC_BUS");
-            float v_u  = measurements->read("V_PH_U");
-            float v_v  = measurements->read("V_PH_V");
-            float v_w  = measurements->read("V_PH_W");
+       if (absolute_time_diff_us(last_telemetry, get_absolute_time()) > 1600000) {
+    float v_dc = measurements->read("V_DC_BUS");
+    float v_u  = measurements->read("V_PH_U");
+    float v_v  = measurements->read("V_PH_V");
+    float v_w  = measurements->read("V_PH_W");
 
-            float enc_sin  = measurements->read("ENCODER_SIN");
-            float enc_cos  = measurements->read("ENCODER_COS");
-            float rotor_pos = measurements->getRotorPositionDegrees();
+    float i_dc_main = measurements->read("I_DC_MAIN");   // <-- main current (A)
 
-            printf("\r\n=== Telemetry ===\r\n");
-            printf("DC Bus: %6.1fV | V_U: %5.1fV | V_V: %5.1fV | V_W: %5.1fV\r\n", v_dc, v_u, v_v, v_w);
-            printf("SIN: %5.3fV | COS: %5.3fV | Rotor: %6.1f°\r\n", enc_sin, enc_cos, rotor_pos);
+    float enc_sin   = measurements->read("ENCODER_SIN");
+    float enc_cos   = measurements->read("ENCODER_COS");
+    float rotor_pos = measurements->getRotorPositionDegrees();
+    printf("\r\n=== Telemetry ===\r\n");
+    printf("DC Bus: %6.1fV | I_DC_MAIN: %7.1fA | V_U: %5.1fV | V_V: %5.1fV | V_W: %5.1fV\r\n",
+           v_dc, i_dc_main, v_u, v_v, v_w);
+    printf("SIN: %5.5fV | COS: %5.5fV | Rotor: %6.1f°\r\n", enc_sin, enc_cos, rotor_pos);
 
-            last_telemetry = get_absolute_time();
-        }
+    last_telemetry = get_absolute_time();
+}
+
 
         // ---- Status print using core1 snapshot (every 500ms) ----
-        if (absolute_time_diff_us(last_print, get_absolute_time()) > 500000) {
+        if (absolute_time_diff_us(last_print, get_absolute_time()) > 1600000) {
             RtStatus st{};
             const bool have = (ctx.try_get_status && ctx.try_get_status(&st));
 

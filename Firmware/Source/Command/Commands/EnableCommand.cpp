@@ -4,10 +4,9 @@
 
 class EnableCommand : public CommandInterface {
 public:
-    const char* getCommandName() const override { return "E"; }
-    const char* getShortDescription() const override { return "Enable after emergency stop"; }
+    EnableCommand() : CommandInterface("E", "Enable after emergency stop") {}
 
-    void execute(const ArgValue* /*args*/, CommandContext& ctx) override {
+    void execute(const ArgValue*, CommandContext& ctx) override {
         RtStatus status{};
         const bool have = (ctx.try_get_status && ctx.try_get_status(&status));
 
@@ -33,13 +32,9 @@ public:
         if (ctx.enable) ctx.enable();
         printf("Enable requested\r\n");
     }
-
-    static EnableCommand& instance() {
-        static EnableCommand inst;
-        return inst;
-    }
 };
 
-CommandInterface* getEnableCommand() {
-    return &EnableCommand::instance();
+CommandInterface* makeEnableCommand() {
+    static EnableCommand inst;
+    return &inst;
 }

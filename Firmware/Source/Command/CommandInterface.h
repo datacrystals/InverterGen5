@@ -3,26 +3,56 @@
 
 #include "CommandTypes.h"
 #include "CommandContext.h"
+#include <initializer_list>
 
 class CommandInterface {
 public:
-    virtual ~CommandInterface() = default;
-    
-    // Command name (e.g., "F", "STOP", "CARRIER")
-    virtual const char* getCommandName() const = 0;
-    
-    // Short description text (without signature/ranges)
-    virtual const char* getShortDescription() const = 0;
-    
-    // Argument metadata - override if you take arguments
-    virtual int getArgCount() const { return 0; }
-    virtual ArgSpec getArgSpec(int index) const { 
-        return {}; 
+    static constexpr int MAX_ARGS = 8;  // tune to your needs
+
+    // 0-arg command
+    CommandInterface(const char* name, const char* desc)
+        : name_(name), desc_(desc), count_(0) {}
+
+    // 1-arg command
+    CommandInterface(const char* name, const char* desc, const ArgSpec& one)
+        : name_(name), desc_(desc), count_(1) {
+        specs_[0] = one;
     }
-    
-    // Execute with PRE-VALIDATED arguments
-    // CommandManager guarantees args[] matches getArgCount() and all bounds checked
+
+    // N-arg command
+    CommandInterface(const char* name, const char* desc, std::initializer_list<ArgSpec> many)
+        : name_(name), desc_(desc) {
+        int n = (int)many.size();
+        if (n > MAX_ARGS) n = MAX_ARGS;
+
+        count_ = n;
+        int i = 0;
+        for (const auto& s : many) {
+            if (i >= count_) break;
+            specs_[i++] = s;
+        }
+    }
+
+    virtual ~CommandInterface() = default;
+
+    // Defaults now come from stored data
+    virtual const char* getCommandName() const { return name_; }
+    virtual const char* getShortDescription() const { return desc_; }
+
+    virtual int getArgCount() const { return count_; }
+
+    virtual ArgSpec getArgSpec(int index) const {
+        return (index >= 0 && index < count_) ? specs_[index] : ArgSpec{};
+    }
+
+    // Still required
     virtual void execute(const ArgValue* args, CommandContext& ctx) = 0;
+
+private:
+    const char* name_;
+    const char* desc_;
+    ArgSpec specs_[MAX_ARGS]{};
+    int count_{0};
 };
 
 #endif

@@ -1,17 +1,36 @@
 #include "CommandInitializer.h"
 #include "CommandManager.h"
+#include "CommandInterface.h"
+
+// declare factories (or put these in one small header)
+CommandInterface* makeFreqCommand();
+CommandInterface* makeRampCommand();
+CommandInterface* makeCarrierCommand();
+CommandInterface* makeAutoCommand();
+CommandInterface* makeAsyncCommand();
+CommandInterface* makeFlashCommand();
+CommandInterface* makeSoftStopCommand();
+CommandInterface* makeEmergencyStopCommand();
+CommandInterface* makeEnableCommand();
+CommandInterface* makeImmediateCommand();
+CommandInterface* makeHelpCommand();
 
 void initializeCommands() {
-    CommandManager& mgr = CommandManager::instance();
-    
-    mgr.registerCommand(getFreqCommand());
-    mgr.registerCommand(getRampCommand());
-    mgr.registerCommand(getCarrierCommand());
-    mgr.registerCommand(getAutoCommand());
-    mgr.registerCommand(getFlashCommand());
-    mgr.registerCommand(getSoftStopCommand());
-    mgr.registerCommand(getEmergencyStopCommand());
-    mgr.registerCommand(getEnableCommand());
-    mgr.registerCommand(getImmediateCommand());
-    mgr.registerCommand(getHelpCommand());
+    auto& mgr = CommandManager::instance();
+
+    CommandInterface* cmds[] = {
+        makeFreqCommand(),
+        makeRampCommand(),
+        makeCarrierCommand(),
+        makeAutoCommand(),
+        makeAsyncCommand(),
+        makeFlashCommand(),
+        makeSoftStopCommand(),
+        makeEmergencyStopCommand(),
+        makeEnableCommand(),
+        makeImmediateCommand(),
+        makeHelpCommand(),
+    };
+
+    for (auto* c : cmds) mgr.registerCommand(c);
 }

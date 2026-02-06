@@ -5,22 +5,17 @@
 
 class FreqCommand : public CommandInterface {
 public:
-    const char* getCommandName() const override { return "F"; }
-    const char* getShortDescription() const override { return "Set output frequency"; }
-
-    int getArgCount() const override { return 1; }
-
-    ArgSpec getArgSpec(int /*index*/) const override {
-        return {
+     FreqCommand()
+      : CommandInterface("F", "Set output frequency",
+            ArgSpec{
             .name = "freq",
             .unit = "Hz",
             .min = Hardware::Limits::Fundamental::MIN_HZ,
             .max = Hardware::Limits::Fundamental::MAX_HZ,
             .default_val = 0.0f,
             .required = true,
-            .type = ArgSpec::FLOAT
-        };
-    }
+            .type = ArgSpec::FLOAT})
+    {}
 
     void execute(const ArgValue* args, CommandContext& ctx) override {
         const float f = args[0].f_val;
@@ -55,13 +50,9 @@ public:
 
         printf("Target freq: %.2f Hz\r\n", f);
     }
-
-    static FreqCommand& instance() {
-        static FreqCommand inst;
-        return inst;
-    }
 };
 
-CommandInterface* getFreqCommand() {
-    return &FreqCommand::instance();
+CommandInterface* makeFreqCommand() {
+    static FreqCommand inst;
+    return &inst;
 }
