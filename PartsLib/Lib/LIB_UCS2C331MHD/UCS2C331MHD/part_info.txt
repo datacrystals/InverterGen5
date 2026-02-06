@@ -1,0 +1,9 @@
+Manufacturer=Nichicon
+PartNumber=UCS2C331MHD
+PartCategory=Capacitor
+PackageCategory=Capacitor, Polarized Radial Diameter
+PinCount=2
+Version=1.1
+Released=2025-02-04 09:45:38
+Downloaded=2026-02-05 19:32:18
+3D=Y

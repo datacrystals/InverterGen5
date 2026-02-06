@@ -1,0 +1,126 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MKP1848S61010JY5B"
+   (description "10 F Film Capacitor 1000V (1kV) Polypropylene (PP), Metallized Radial - 4 Leads")
+   (family "CAP")
+   (package "MKP1848S61010JY5B")
+   (attribute "Datasheet Link" "http://www.vishay.com/docs/26010/mkp1848sdclink.pdf")
+   (attribute "Geometry.Height" "15mm")
+   (attribute "Mouser Part Number" "75-MKP1848S61010JY5B")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Roederstein/MKP1848S61010JY5B?qs=KOdD7VNvzR%2F1kfZ42yGaMQ%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "MKP1848S61010JY5B")
+   (gate
+    (symbol "MKP1848S61010JY5B")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "MKP1848S61010JY5B"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MKP1848S61010JY5B"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 26.65)
+      (pt 55 26.65)
+      (pt 55 -6.35)
+      (pt -2.5 -6.35)
+      (pt -2.5 26.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.5 26.65)
+      (pt 55 26.65)
+      (pt 55 -6.35)
+      (pt -2.5 -6.35)
+      (pt -2.5 26.65))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.5 27.65)
+      (pt 56 27.65)
+      (pt 56 -7.35)
+      (pt -3.5 -7.35)
+      (pt -3.5 27.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3 0)
+      (arc (pt -3.000 0.000) (pt -3.100 -0.050) (pt -3.000 0.050) (start 180.0) (sweep .0))
+      (pt -3.1 0)
+      (arc (pt -3.100 0.000) (pt -3.100 -0.050) (pt -3.000 0.050) (start 180.0) (sweep -180.0))
+      (pt -3 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 52.500 0.000) (padstack 0))
+   (leg 3 (pt 0.000 20.300) (padstack 0))
+   (leg 4 (pt 52.500 20.300) (padstack 0))
+   (padstack 0
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (round 2.100))
+    (pad (layer INNER) (round 2.100))
+    (pad (layer BCOP) (round 2.100))
+   )
+   (padstack 1
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (square 2.100))
+    (pad (layer INNER) (round 2.100))
+    (pad (layer BCOP) (square 2.100))
+   )
+   (model "MKP1848S61010JY5B.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

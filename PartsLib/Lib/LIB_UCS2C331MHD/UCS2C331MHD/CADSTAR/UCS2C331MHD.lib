@@ -1,0 +1,16 @@
+.UCS2C331MHD :1 ;Aluminum Electrolytic Capacitors - Radial Leaded 160VOLTS 330uf 18X31.5 20%
+CAPPRD750W80D1825H3200
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN UCS2C331MHD
+~!Mouser Part Number (647-UCS2C331MHD)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nichicon/UCS2C331MHD?qs=Im7Ui%252B8riBXnrXQfoAgrfg%3D%3D)
+~!Manufacturer_Name (Nichicon)
+~!Manufacturer_Part_Number (UCS2C331MHD)
+~!Link Datasheet (http://nichicon-us.com/english/products/pdfs/e-ucs.pdf)
+~!Height (32mm)
+~!3D_Model (UCS2C331MHD)
+UCS2C331MHD
+1.1!U 2.1!U 

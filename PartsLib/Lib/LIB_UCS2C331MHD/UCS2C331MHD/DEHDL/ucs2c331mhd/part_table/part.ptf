@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'UCS2C331MHD'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nichicon", "UCS2C331MHD" (!) = "", "CAPPRD750W80D1825H3200", "Capacitor, Polarized Radial Diameter", "647-UCS2C331MHD", "https://www.mouser.co.uk/ProductDetail/Nichicon/UCS2C331MHD?qs=Im7Ui%252B8riBXnrXQfoAgrfg%3D%3D", "Aluminum Electrolytic Capacitors - Radial Leaded 160VOLTS 330uf 18X31.5 20%", "http://nichicon-us.com/english/products/pdfs/e-ucs.pdf", "32 mm"
+END_PART
+
+END.

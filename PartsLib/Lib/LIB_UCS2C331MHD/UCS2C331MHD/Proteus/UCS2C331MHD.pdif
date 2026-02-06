@@ -1,0 +1,110 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "UCS2C331MHD"
+   (description "Aluminum Electrolytic Capacitors - Radial Leaded 160VOLTS 330uf 18X31.5 20%")
+   (family "CAP")
+   (package "CAPPRD750W80D1825H3200")
+   (attribute "Datasheet Link" "http://nichicon-us.com/english/products/pdfs/e-ucs.pdf")
+   (attribute "Geometry.Height" "32mm")
+   (attribute "Mouser Part Number" "647-UCS2C331MHD")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCS2C331MHD?qs=Im7Ui%252B8riBXnrXQfoAgrfg%3D%3D")
+   (attribute "Manufacturer_Name" "Nichicon")
+   (attribute "Manufacturer_Part_Number" "UCS2C331MHD")
+   (gate
+    (symbol "UCS2C331MHD")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "UCS2C331MHD"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CAPPRD750W80D1825H3200"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (circle
+      (pt 13.375 0) (pt -5.875 0)
+     )
+    )
+   )
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt 12.875 0) (pt -5.375 0)
+     )
+    )
+   )
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (circle
+      (pt 12.875 0) (pt -5.375 0)
+     )
+    )
+   )
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 7.5 0) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.5))
+    (pad (layer INNER) (round 1.5))
+    (pad (layer BCOP) (round 1.5))
+   )
+   (padstack 1
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.5))
+    (pad (layer INNER) (round 1.5))
+    (pad (layer BCOP) (square 1.5))
+   )
+   (model "UCS2C331MHD.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

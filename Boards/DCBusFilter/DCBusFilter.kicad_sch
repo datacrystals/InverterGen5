@@ -5,15 +5,12 @@
 	(uuid "2365f093-f079-4cf2-9926-0ba7dd4b2726")
 	(paper "A4")
 	(lib_symbols
-		(symbol "InverterCom:B32774X0205K000"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "InverterCom:MKP1848S61010JY5B"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 8.89 6.35 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +18,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "B32774X0205K000"
-				(at 8.89 3.81 0)
+			(property "Value" "MKP1848S61010JY5B"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,18 +27,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "B32774X_(31.5_x_12.5)"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf"
-				(at 8.89 -196.19 0)
+			(property "Footprint" "MKP1848S61010JY5B"
+				(at 16.51 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -50,7 +37,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 2uF, 1000V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)"
+			(property "Datasheet" "http://www.vishay.com/docs/26010/mkp1848sdclink.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "10 F Film Capacitor 1000V (1kV) Polypropylene (PP), Metallized Radial - 4 Leads"
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,8 +56,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" ""
-				(at 8.89 -396.19 0)
+			(property "Height" "15"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -69,8 +66,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "871-B32774X0205K000"
-				(at 8.89 -496.19 0)
+			(property "Mouser Part Number" "75-MKP1848S61010JY5B"
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -79,8 +76,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X0205K000?qs=RcG8xmE7yp3ZVC860hBcuA%3D%3D"
-				(at 8.89 -596.19 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Roederstein/MKP1848S61010JY5B?qs=KOdD7VNvzR%2F1kfZ42yGaMQ%3D%3D"
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -89,8 +86,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "TDK"
-				(at 8.89 -696.19 0)
+			(property "Manufacturer_Name" "Vishay"
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -99,8 +96,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "B32774X0205K000"
-				(at 8.89 -796.19 0)
+			(property "Manufacturer_Part_Number" "MKP1848S61010JY5B"
+				(at 16.51 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -109,292 +106,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "B32774X0205K000_1_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.588 0)
-					)
+			(symbol "MKP1848S61010JY5B_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "InverterCom:C4AQNBW5200M3LJ"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 8.89 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "C4AQNBW5200M3LJ"
-				(at 8.89 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "C4AQNBW5200M3LJ"
-				(at 8.89 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ"
-				(at 8.89 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "45.2"
-				(at 8.89 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "80-C4AQNBW5200M3LJ"
-				(at 8.89 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D"
-				(at 8.89 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "KEMET"
-				(at 8.89 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "C4AQNBW5200M3LJ"
-				(at 8.89 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "C4AQNBW5200M3LJ_1_1"
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.588 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 1.27) (xy 10.16 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 7.112 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 1.27 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -1.27 0)
-					(length 2.54)
 					(name "3"
 						(effects
 							(font
@@ -411,16 +137,16 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 1.27 180)
-					(length 2.54)
-					(name "2"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -429,8 +155,8 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -1.27 180)
-					(length 2.54)
+					(at 20.32 0 180)
+					(length 5.08)
 					(name "4"
 						(effects
 							(font
@@ -439,6 +165,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -938,48 +682,48 @@
 		)
 	)
 	(no_connect
-		(at 91.44 83.82)
-		(uuid "914a746d-21fa-41be-8e43-2698a747f900")
+		(at 95.25 85.09)
+		(uuid "90c258f7-5a6a-431e-8c4a-aacfa19235d3")
 	)
 	(wire
 		(pts
-			(xy 102.87 45.72) (xy 105.41 45.72)
+			(xy 156.21 53.34) (xy 156.21 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "548fc0b4-c2da-4a35-9285-0fd061a2ae0a")
+		(uuid "2d86a476-f662-48d8-bef1-a00040be023e")
 	)
 	(wire
 		(pts
-			(xy 102.87 58.42) (xy 105.41 58.42)
+			(xy 135.89 53.34) (xy 135.89 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d32fc9d-dd78-4ecc-b6a1-5c0f1fbd5890")
+		(uuid "56fe1d24-fd80-4c57-88f6-cb069806c7d7")
 	)
 	(wire
 		(pts
-			(xy 130.81 58.42) (xy 133.35 58.42)
+			(xy 114.3 46.99) (xy 114.3 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "607770e6-649b-47f5-aa02-ac0155844abc")
+		(uuid "a5591be9-361f-4cef-8907-2b03890e9a80")
 	)
 	(wire
 		(pts
-			(xy 130.81 45.72) (xy 133.35 45.72)
+			(xy 93.98 46.99) (xy 93.98 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a138826b-0937-4849-aa8a-9eefc99c1c2c")
+		(uuid "eb2aa37a-1e1d-4d18-ba1a-d636caf7a075")
 	)
 	(label "DC_LINK_+"
 		(at 190.5 17.78 180)
@@ -992,6 +736,16 @@
 		(uuid "0c6af07f-499d-4095-9d7e-a6df4f262780")
 	)
 	(label "DC_LINK_-"
+		(at 95.25 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "265236c1-2d27-4b25-af16-e104a14cfd4d")
+	)
+	(label "DC_LINK_-"
 		(at 190.5 30.48 180)
 		(effects
 			(font
@@ -1002,24 +756,34 @@
 		(uuid "277f00eb-df63-492b-84eb-779abd5f0d1b")
 	)
 	(label "DC_LINK_+"
-		(at 91.44 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f04daaf-95a1-4258-839f-aaa697a1bc5a")
-	)
-	(label "DC_LINK_-"
-		(at 76.2 57.15 180)
+		(at 93.98 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "32b1e81a-1b3e-4e84-af1c-4264a12f27c6")
+		(uuid "3144cfbc-5102-4ab7-b483-715bde802c17")
+	)
+	(label "DC_LINK_-"
+		(at 156.21 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "376dfea6-359b-4104-a7fc-872898bb1ef1")
+	)
+	(label "DC_LINK_-"
+		(at 135.89 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38b23e5f-6f5a-4eae-addf-dcf1902e5040")
 	)
 	(label "PHASE_LEG"
 		(at 38.1 88.9 0)
@@ -1031,35 +795,65 @@
 		)
 		(uuid "3b0cf612-5b30-4580-bdcc-1844b3f2fec8")
 	)
-	(label "DC_LINK_+"
-		(at 76.2 44.45 180)
+	(label "PHASE_LEG"
+		(at 95.25 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "3daaf89f-e299-494e-b776-cff3d494830e")
+		(uuid "565d15c8-9105-4793-aaf4-d52814708f23")
 	)
 	(label "DC_LINK_+"
-		(at 130.81 45.72 180)
+		(at 223.52 19.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "46ee3a3e-2d86-4329-a756-505e1b5dc258")
+		(uuid "589648a1-1306-4ace-87ff-69718e06d8b1")
+	)
+	(label "CHASSIS_GND"
+		(at 168.91 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66f1acdf-d15f-41bc-8900-def2f0def92e")
+	)
+	(label "CHASSIS_GND"
+		(at 135.89 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6779fdd3-1ba0-450f-bb15-de7f6e86f0c9")
+	)
+	(label "DC_LINK_+"
+		(at 95.25 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68cb6eb0-2f18-41a3-a423-7eae0750d532")
 	)
 	(label "DC_LINK_-"
-		(at 102.87 58.42 180)
+		(at 223.52 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "6aed375d-25e2-4ea4-866e-5a624020c616")
+		(uuid "6dcc30c6-1c2b-4e58-866d-a02a8ec61523")
 	)
 	(label "PHASE_LEG"
 		(at 154.94 16.51 180)
@@ -1081,26 +875,6 @@
 		)
 		(uuid "77dae3c2-06c5-42a0-acc4-a9ae5f0798cf")
 	)
-	(label "DC_LINK_+"
-		(at 102.87 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8829aad5-33d7-4f21-bbbf-5461f6837412")
-	)
-	(label "DC_LINK_-"
-		(at 91.44 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ade3fb5-3887-4f30-8067-0efcb4c4cdbd")
-	)
 	(label "DC_LINK_-"
 		(at 38.1 63.5 0)
 		(effects
@@ -1121,16 +895,6 @@
 		)
 		(uuid "9668ca7c-422c-446b-932a-8194e7eb8e82")
 	)
-	(label "PHASE_LEG"
-		(at 91.44 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e173e7a-9ffb-4295-92cc-c2b09a4714f3")
-	)
 	(label "DC_LINK_+"
 		(at 38.1 38.1 0)
 		(effects
@@ -1141,25 +905,25 @@
 		)
 		(uuid "9fd1d66b-d943-48b3-b570-239bdce9aebf")
 	)
-	(label "DC_LINK_+"
-		(at 76.2 17.78 180)
+	(label "CHASSIS_GND_1"
+		(at 38.1 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "bc19c58c-7148-48a7-a32e-9fe0bc1f1a94")
+		(uuid "bc7e2488-719b-436a-82ae-b4f51ee03e48")
 	)
-	(label "DC_LINK_-"
-		(at 76.2 30.48 180)
+	(label "CHASSIS_GND_1"
+		(at 96.52 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "bf247cef-c3cb-41af-8c8e-27eb5643747d")
+		(uuid "c5cd59ea-10ed-478a-be94-25ecaa66568c")
 	)
 	(label "PHASE_LEG"
 		(at 114.3 31.75 180)
@@ -1171,15 +935,55 @@
 		)
 		(uuid "d4ff3c5a-f066-4985-aff4-5b158c6170b0")
 	)
+	(label "CHASSIS_GND"
+		(at 36.83 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d93f28b8-f345-47d0-94ee-331da25c51a6")
+	)
 	(label "DC_LINK_-"
-		(at 130.81 58.42 180)
+		(at 114.3 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db084f5c-9774-4ff2-b5e3-ac2d07f1be08")
+	)
+	(label "DC_LINK_+"
+		(at 96.52 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "fd143d63-3f90-4a37-841a-e5efa5b04882")
+		(uuid "db4dbe0b-6a6a-46f2-9f52-b3261e7e591f")
+	)
+	(label "PHASE_LEG"
+		(at 168.91 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4986194-c83b-4303-9fc6-e1a3c88631d2")
+	)
+	(label "DC_LINK_+"
+		(at 135.89 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb6529a2-ce12-4072-831a-00284ec8f7c4")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -1247,17 +1051,82 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:C4AQNBW5200M3LJ")
-		(at 104.14 58.42 90)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 35.56 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1824b2e2-40ba-4149-b4be-f25a5522228c")
+		(property "Reference" "H5"
+			(at 34.29 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 34.29 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 35.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 35.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae669975-de48-4e40-a981-52433cc9e10d")
+		)
+		(instances
+			(project "DCBusFilter"
+				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:VY1222M47Y5UQ6TV0")
+		(at 135.89 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "47d68a6f-a3fb-44f7-9117-250b3af4dcb8")
-		(property "Reference" "C4"
-			(at 107.95 50.7999 90)
+		(uuid "317956ef-6296-4aa5-9ec4-4c07beadf777")
+		(property "Reference" "C10"
+			(at 139.7 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,8 +1134,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C4AQNBW5200M3LJ"
-			(at 107.95 53.3399 90)
+		(property "Value" "VY1222M47Y5UQ6TV0"
+			(at 139.7 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,8 +1143,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "C4AQNBW5200M3LJ"
-			(at 199.06 49.53 0)
+		(property "Footprint" "InverterCom:VY1222M47Y5UQ6TV0"
+			(at 232.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,8 +1153,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ"
-			(at 299.06 49.53 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf"
+			(at 332.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,8 +1163,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm"
-			(at 104.14 58.42 0)
+		(property "Description" "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole"
+			(at 135.89 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,18 +1172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "45.2"
-			(at 499.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-C4AQNBW5200M3LJ"
-			(at 599.06 49.53 0)
+		(property "Height" "16"
+			(at 532.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,8 +1182,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D"
-			(at 699.06 49.53 0)
+		(property "Mouser Part Number" "72-VY1222M47Y5UQ6TV0"
+			(at 632.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,8 +1192,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 799.06 49.53 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D"
+			(at 732.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,8 +1202,138 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C4AQNBW5200M3LJ"
-			(at 899.06 49.53 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 832.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VY1222M47Y5UQ6TV0"
+			(at 932.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91e1d8c2-267e-4df2-a529-c732915abcad")
+		)
+		(pin "1"
+			(uuid "e88a5046-612b-4f95-b3c3-98c6a0b99ab0")
+		)
+		(instances
+			(project "DCBusFilter"
+				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:MKP1848S61010JY5B")
+		(at 93.98 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e7250c7-931d-451c-8550-e99f3dbb4d42")
+		(property "Reference" "C1"
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MKP1848S61010JY5B"
+			(at 104.14 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "InverterCom:MKP1848S61010JY5B"
+			(at 110.49 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/26010/mkp1848sdclink.pdf"
+			(at 110.49 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 F Film Capacitor 1000V (1kV) Polypropylene (PP), Metallized Radial - 4 Leads"
+			(at 93.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "15"
+			(at 110.49 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "75-MKP1848S61010JY5B"
+			(at 110.49 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Roederstein/MKP1848S61010JY5B?qs=KOdD7VNvzR%2F1kfZ42yGaMQ%3D%3D"
+			(at 110.49 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 110.49 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MKP1848S61010JY5B"
+			(at 110.49 841.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,21 +1343,143 @@
 			)
 		)
 		(pin "3"
-			(uuid "b678f2c2-9a17-4d4c-b6c1-f4e533111b61")
+			(uuid "e5b77c6b-07e0-48bf-be8f-e2a098e58e80")
 		)
 		(pin "1"
-			(uuid "7fe86eab-24df-47cf-b338-720811ce7c1a")
-		)
-		(pin "2"
-			(uuid "cb1f09f9-bc4e-4055-a0be-36790390ff3b")
+			(uuid "05233e57-6dbb-4469-9cb6-0b6c670f8c15")
 		)
 		(pin "4"
-			(uuid "8aa9b016-b24d-43fb-985c-224d3d18e1fe")
+			(uuid "540bbe30-40a5-4dcd-895f-d850c9c9df9b")
+		)
+		(pin "2"
+			(uuid "2558423a-431f-4944-acc8-4bae4d4e41da")
+		)
+		(instances
+			(project ""
+				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:VY1222M47Y5UQ6TV0")
+		(at 223.52 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "571a8d62-edc9-408a-bc37-24551ee3da00")
+		(property "Reference" "C9"
+			(at 227.33 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VY1222M47Y5UQ6TV0"
+			(at 227.33 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:VY1222M47Y5UQ6TV0"
+			(at 319.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf"
+			(at 419.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole"
+			(at 223.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "16"
+			(at 619.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "72-VY1222M47Y5UQ6TV0"
+			(at 719.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D"
+			(at 819.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 919.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VY1222M47Y5UQ6TV0"
+			(at 1019.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48324795-1fa4-44e2-ad53-39a7c872b94f")
+		)
+		(pin "1"
+			(uuid "b8931333-fcb6-48e9-9862-96a30c40f549")
 		)
 		(instances
 			(project "DCBusFilter"
 				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
-					(reference "C4")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1402,7 +1513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "VY1222M47Y5UQ6TV0"
+		(property "Footprint" "InverterCom:VY1222M47Y5UQ6TV0"
 			(at 286.69 21.59 0)
 			(effects
 				(font
@@ -1524,7 +1635,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "VY1222M47Y5UQ6TV0"
+		(property "Footprint" "InverterCom:VY1222M47Y5UQ6TV0"
 			(at 251.13 20.32 0)
 			(effects
 				(font
@@ -1619,45 +1730,33 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:VY1222M47Y5UQ6TV0")
-		(at 76.2 30.48 90)
+		(lib_id "InverterCom:MKP1848S61010JY5B")
+		(at 135.89 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "82bfd8d0-3dc0-4188-b01c-14e7564b04d3")
+		(uuid "74fc8168-f997-408c-9ca0-8b18c4ca05f9")
 		(property "Reference" "C2"
-			(at 80.01 22.8599 90)
+			(at 146.05 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "VY1222M47Y5UQ6TV0"
-			(at 80.01 25.3999 90)
+		(property "Value" "MKP1848S61010JY5B"
+			(at 146.05 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "VY1222M47Y5UQ6TV0"
-			(at 172.39 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf"
-			(at 272.39 21.59 0)
+		(property "Footprint" "InverterCom:MKP1848S61010JY5B"
+			(at 152.4 148.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,17 +1765,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole"
-			(at 76.2 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "16"
-			(at 472.39 21.59 0)
+		(property "Datasheet" "http://www.vishay.com/docs/26010/mkp1848sdclink.pdf"
+			(at 152.4 248.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,8 +1775,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "72-VY1222M47Y5UQ6TV0"
-			(at 572.39 21.59 0)
+		(property "Description" "10 F Film Capacitor 1000V (1kV) Polypropylene (PP), Metallized Radial - 4 Leads"
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "15"
+			(at 152.4 448.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,8 +1794,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D"
-			(at 672.39 21.59 0)
+		(property "Mouser Part Number" "75-MKP1848S61010JY5B"
+			(at 152.4 548.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Roederstein/MKP1848S61010JY5B?qs=KOdD7VNvzR%2F1kfZ42yGaMQ%3D%3D"
+			(at 152.4 648.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1815,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 772.39 21.59 0)
+			(at 152.4 748.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,130 +1824,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "VY1222M47Y5UQ6TV0"
-			(at 872.39 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "695e2675-15de-4391-aa7c-f22019eed1fb")
-		)
-		(pin "1"
-			(uuid "e0955f78-c416-4ab3-9e98-079d23a522b6")
-		)
-		(instances
-			(project ""
-				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "InverterCom:C4AQNBW5200M3LJ")
-		(at 132.08 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d9bff0a-73e3-4b92-9c8f-92bc4d37d3ee")
-		(property "Reference" "C3"
-			(at 135.89 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C4AQNBW5200M3LJ"
-			(at 135.89 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "C4AQNBW5200M3LJ"
-			(at 227 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C4AQNBW5200M3LJ"
-			(at 327 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "C4AQ-M, Film, Metallized Polypropylene, Automotive DC Link, 20 uF, 5%, 1000 VDC, 85C, Lead Spacing = 37.5mm"
-			(at 132.08 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "45.2"
-			(at 527 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "80-C4AQNBW5200M3LJ"
-			(at 627 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQNBW5200M3LJ?qs=81r%252BiQLm7BTexTL%252BFIaRbw%3D%3D"
-			(at 727 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 827 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C4AQNBW5200M3LJ"
-			(at 927 49.53 0)
+		(property "Manufacturer_Part_Number" "MKP1848S61010JY5B"
+			(at 152.4 848.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,21 +1835,86 @@
 			)
 		)
 		(pin "3"
-			(uuid "cba32aa0-c514-429d-8be4-2ea83ae108d2")
+			(uuid "48cd43ea-c8b9-4082-8b0f-182559d3caaa")
 		)
 		(pin "1"
-			(uuid "b5628b93-9c0f-486e-9937-8d6e213266b8")
-		)
-		(pin "2"
-			(uuid "ffcf4ebd-2be0-4150-898f-eef074610a9b")
+			(uuid "19c5311b-4cab-4899-b324-0f9c2e028968")
 		)
 		(pin "4"
-			(uuid "b7e0a6ff-c81d-4216-ae6c-fc76c8085b59")
+			(uuid "1d3d8329-23d6-4436-977d-b011b92b22f8")
+		)
+		(pin "2"
+			(uuid "8857aa34-4726-4d93-82ec-0abfca9beee6")
 		)
 		(instances
-			(project ""
+			(project "DCBusFilter"
 				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
-					(reference "C3")
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 34.29 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "845ad597-f4b3-4a9a-8eda-347757a44f75")
+		(property "Reference" "H4"
+			(at 33.02 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 33.02 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+			(at 34.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f3758ce-3027-4bfd-86b9-8930b24ec79a")
+		)
+		(instances
+			(project "DCBusFilter"
+				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -1935,6 +1987,128 @@
 	)
 	(symbol
 		(lib_id "InverterCom:VY1222M47Y5UQ6TV0")
+		(at 96.52 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6671fba-4d64-46ed-938b-55ffd81a3d36")
+		(property "Reference" "C7"
+			(at 100.33 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "VY1222M47Y5UQ6TV0"
+			(at 100.33 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "InverterCom:VY1222M47Y5UQ6TV0"
+			(at 192.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf"
+			(at 292.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole"
+			(at 96.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "16"
+			(at 492.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "72-VY1222M47Y5UQ6TV0"
+			(at 592.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D"
+			(at 692.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 792.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VY1222M47Y5UQ6TV0"
+			(at 892.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9a94968-cae8-4906-b0f1-f0e3c7654848")
+		)
+		(pin "1"
+			(uuid "7655a87b-98e3-4611-8343-1185f653be64")
+		)
+		(instances
+			(project "DCBusFilter"
+				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "InverterCom:VY1222M47Y5UQ6TV0")
 		(at 114.3 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1961,7 +2135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "VY1222M47Y5UQ6TV0"
+		(property "Footprint" "InverterCom:VY1222M47Y5UQ6TV0"
 			(at 210.49 22.86 0)
 			(effects
 				(font
@@ -2056,45 +2230,33 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:B32774X0205K000")
-		(at 76.2 57.15 90)
+		(lib_id "InverterCom:TBP01R2-508-04BE")
+		(at 95.25 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c03fce43-c981-4c09-961c-78c2ae31cd1f")
-		(property "Reference" "C1"
-			(at 80.01 49.5299 90)
+		(uuid "cbce9fd3-b92e-46e9-bdbb-36a905c5459b")
+		(property "Reference" "J1"
+			(at 85.09 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "B32774X0205K000"
-			(at 80.01 52.0699 90)
+		(property "Value" "TBP01R2-508-04BE"
+			(at 85.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "InverterCom:B32774X__31.5_x_12.5_"
-			(at 172.39 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/ds/mkp_b32774xyz_778xyz.pdf"
-			(at 272.39 48.26 0)
+		(property "Footprint" "InverterCom:SHDR4W100P0X508_1X4_2192X850X1200P"
+			(at 78.74 -7.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,17 +2265,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 2uF, 1000V DC, 12.5mm(W) x 21.5mm(H) x 31.5mm(L)"
-			(at 76.2 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 472.39 48.26 0)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp01r2-508.pdf"
+			(at 78.74 -107.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,8 +2275,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "871-B32774X0205K000"
-			(at 572.39 48.26 0)
+		(property "Description" "TBP01R2-508 Series - 2~24 Poles, Pluggable, Receptacle, Vertical, 5.08 Pitch, Terminal Block Connector"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12"
+			(at 78.74 -307.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,8 +2294,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32774X0205K000?qs=RcG8xmE7yp3ZVC860hBcuA%3D%3D"
-			(at 672.39 48.26 0)
+		(property "Mouser Part Number" "490-TBP01R2-508-04BE"
+			(at 78.74 -407.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,8 +2304,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
-			(at 772.39 48.26 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R2-508-04BE?qs=PzGy0jfpSMt81U9Qkgbf1g%3D%3D"
+			(at 78.74 -507.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,8 +2314,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "B32774X0205K000"
-			(at 872.39 48.26 0)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 78.74 -607.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TBP01R2-508-04BE"
+			(at 78.74 -707.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,15 +2335,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "098158c7-d814-4a5e-a263-2c3a4c49f94d")
+			(uuid "2dedb350-d8f8-4b9c-88c6-1dd67627e090")
+		)
+		(pin "3"
+			(uuid "6eff0b8a-3339-46be-9b16-26ae77fccdcb")
+		)
+		(pin "4"
+			(uuid "4d693bf3-5e84-4b27-9bb3-2208a9aa07dd")
 		)
 		(pin "2"
-			(uuid "0b9fd8be-9720-4047-819b-6744e3769caa")
+			(uuid "88e475b9-3963-497c-9319-11bc4c78cf1d")
 		)
 		(instances
 			(project ""
 				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
-					(reference "C1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2243,43 +2421,35 @@
 		)
 	)
 	(symbol
-		(lib_id "InverterCom:TBP01R2-508-04BE")
-		(at 91.44 86.36 180)
+		(lib_id "InverterCom:VY1222M47Y5UQ6TV0")
+		(at 168.91 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e7b23e6e-b56d-450d-82f6-0f969a46dc2c")
-		(property "Reference" "J1"
-			(at 81.28 71.12 0)
+		(uuid "f30395de-e417-4296-96ca-961fb0b17ab1")
+		(property "Reference" "C11"
+			(at 172.72 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "TBP01R2-508-04BE"
-			(at 81.28 73.66 0)
+		(property "Value" "VY1222M47Y5UQ6TV0"
+			(at 172.72 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "SHDR4W100P0X508_1X4_2192X850X1200P"
-			(at 74.93 -8.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tbp01r2-508.pdf"
-			(at 74.93 -108.56 0)
+		(property "Footprint" "InverterCom:VY1222M47Y5UQ6TV0"
+			(at 265.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,17 +2458,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TBP01R2-508 Series - 2~24 Poles, Pluggable, Receptacle, Vertical, 5.08 Pitch, Terminal Block Connector"
-			(at 91.44 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "12"
-			(at 74.93 -308.56 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/VY1222M47Y5UQ6TV0.pdf"
+			(at 365.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,8 +2468,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "490-TBP01R2-508-04BE"
-			(at 74.93 -408.56 0)
+		(property "Description" "Vishay Single Layer Ceramic Capacitor SLCC 2.2nF 500V ac +/-20% Y5U Dielectric VY1 Series Through Hole"
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "16"
+			(at 565.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,8 +2487,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TBP01R2-508-04BE?qs=PzGy0jfpSMt81U9Qkgbf1g%3D%3D"
-			(at 74.93 -508.56 0)
+		(property "Mouser Part Number" "72-VY1222M47Y5UQ6TV0"
+			(at 665.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,8 +2497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Same Sky"
-			(at 74.93 -608.56 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/VY1222M47Y5UQ6TV0?qs=YhDfSRCt1jT9mH%2FY2rJQ9g%3D%3D"
+			(at 765.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,8 +2507,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TBP01R2-508-04BE"
-			(at 74.93 -708.56 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 865.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VY1222M47Y5UQ6TV0"
+			(at 965.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,21 +2528,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e74a3cc0-7ecf-4bf8-ba63-bea6a609cfb7")
+			(uuid "3109d7ac-18de-40f1-9c9c-7c467d93eb18")
 		)
 		(pin "1"
-			(uuid "f8681711-295f-48e7-b216-2c4155ccea47")
-		)
-		(pin "3"
-			(uuid "d53ba787-f9f5-4761-9e3b-8122831d995b")
-		)
-		(pin "4"
-			(uuid "061d6d48-6dd1-4a18-aa07-89f044ba9388")
+			(uuid "3cc36457-bae3-415a-8c01-cb2441daa04d")
 		)
 		(instances
-			(project ""
+			(project "DCBusFilter"
 				(path "/2365f093-f079-4cf2-9926-0ba7dd4b2726"
-					(reference "J1")
+					(reference "C11")
 					(unit 1)
 				)
 			)

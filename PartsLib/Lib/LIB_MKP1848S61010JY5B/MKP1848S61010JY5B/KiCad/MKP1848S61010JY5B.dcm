@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MKP1848S61010JY5B
+D 10 F Film Capacitor 1000V (1kV) Polypropylene (PP), Metallized Radial - 4 Leads
+K
+F http://www.vishay.com/docs/26010/mkp1848sdclink.pdf
+$ENDCMP
+#
+#End Doc Library

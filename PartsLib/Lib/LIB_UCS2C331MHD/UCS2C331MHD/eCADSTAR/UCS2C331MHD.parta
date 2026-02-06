@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_169584"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-02-04-09:45:38)
+    (utime 2025-02-04-09:45:38)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "UCS2C331MHD")
+)
+
+
+(pinAssign "ECS_169584"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-02-04-09:45:38)
+    (utime 2025-02-04-09:45:38)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_169584")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "UCS2C331MHD")
+)
+
+
+(part "UCS2C331MHD"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-02-04-09:45:38)
+    (utime 2025-02-04-09:45:38)
+    (packageRef "UCS2C331MHD")
+    (pinAssignRef "ECS_169584")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Aluminum Electrolytic Capacitors - Radial Leaded 160VOLTS 330uf 18X31.5 20%")
+    (property "Mouser_Part_Number" "647-UCS2C331MHD")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCS2C331MHD?qs=Im7Ui%252B8riBXnrXQfoAgrfg%3D%3D")
+    (property "Manufacturer_Name" "Nichicon")
+    (property "Manufacturer_Part_Number" "UCS2C331MHD")
+    (property "Datasheet_Link" "http://nichicon-us.com/english/products/pdfs/e-ucs.pdf")
+    (property "compAreaTopHeight" 32)
+)
+
+

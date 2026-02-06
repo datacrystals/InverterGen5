@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MKP1848S61010JY5B"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MKP1848S61010JY5B")
+        (spec "default")
+    )
+)

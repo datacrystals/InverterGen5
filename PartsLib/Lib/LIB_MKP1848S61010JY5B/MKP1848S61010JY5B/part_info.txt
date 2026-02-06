@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=MKP1848S61010JY5B
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2025-03-15 08:13:08
+Downloaded=2026-02-05 19:08:16
+3D=Y
